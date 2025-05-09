@@ -1,629 +1,1797 @@
 {
-"skeleton": { "hash": "0z78b+OFBhLSfaB91obEMn30Lnk", "spine": "3.0.09", "width": 218.97, "height": 223.99, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "center", "parent": "root" },
-	{ "name": "karula_child_r_leg2", "parent": "center", "length": 47.23, "x": 42.13, "y": -133.29, "rotation": 102.91 },
-	{ "name": "karula_child_l_leg3", "parent": "center", "length": 32, "x": -9.69, "y": -126.47, "rotation": 75.75 },
-	{ "name": "karula_child_body", "parent": "center", "length": 112.37, "x": 15.19, "y": -93.4, "rotation": 93.3 },
-	{ "name": "karula_child_tail", "parent": "karula_child_body", "length": 88.21, "x": 22.9, "y": 0.38, "rotation": -105.4 },
-	{ "name": "karula_child_r_leg1", "parent": "karula_child_body", "length": 43.97, "x": 28.7, "y": -5.75, "rotation": -159.41 },
-	{ "name": "karula_child_r_arm0", "parent": "karula_child_body", "x": 79.54, "y": -6.64 },
-	{ "name": "karula_child_r_arm1", "parent": "karula_child_r_arm0", "length": 30.03, "x": -6.45, "y": -11.24, "rotation": -143.56 },
-	{ "name": "karula_child_r_amr2", "parent": "karula_child_r_arm1", "length": 31.03, "x": 24.62, "y": 0.8, "rotation": -38.72 },
-	{ "name": "karula_child_r_arm3", "parent": "karula_child_r_amr2", "length": 16.42, "x": 26.96, "y": 0.86, "rotation": -5.82 },
-	{ "name": "karula_child_sword2", "parent": "karula_child_r_arm3", "length": 123.1, "x": 16.93, "y": -26.65, "rotation": -77.89 },
-	{ "name": "karula_child_l_leg1", "parent": "karula_child_body", "length": 50, "x": 28.98, "y": 10.96, "rotation": 138.27 },
-	{ "name": "karula_child_l_leg2", "parent": "karula_child_l_leg1", "length": 28.99, "x": 43.79, "y": 5.15, "rotation": 129.94 },
-	{ "name": "karula_child_l_arm1", "parent": "karula_child_body", "length": 39.99, "x": 76.82, "y": 23.22, "rotation": 172.77 },
-	{ "name": "karula_child_l_arm2", "parent": "karula_child_l_arm1", "length": 24.79, "x": 35.99, "y": 3.48, "rotation": -54.31 },
-	{ "name": "karula_child_l_arm3", "parent": "karula_child_l_arm2", "length": 25.8, "x": 24.22, "y": 0.23, "rotation": -2.51 },
-	{ "name": "karula_child_l_arm0", "parent": "karula_child_body", "x": 79.5, "y": 34 },
-	{ "name": "karula_child_head", "parent": "karula_child_body", "length": 55.7, "x": 99.36, "y": -0.61, "rotation": 8.35 },
-	{ "name": "karula_child_hair", "parent": "karula_child_head", "length": 111.51, "x": 19.66, "y": 10.91, "rotation": -61.01 },
-	{ "name": "karula_child_eye1", "parent": "karula_child_head", "x": 12.71, "y": 12.69 },
-	{ "name": "bone", "parent": "karula_child_body", "length": 71.66, "x": 194.06, "y": -7.17, "rotation": -94.64 },
-	{ "name": "karula_child_r_wing", "parent": "bone", "length": 92.2, "x": 18.89, "y": -129.07, "rotation": 52.89 },
-	{ "name": "karula_child_l_wing", "parent": "bone", "length": 85.34, "x": -21.62, "y": -134.61, "rotation": 115.55 }
-],
-"slots": [
-	{ "name": "karula_child_l_wing", "bone": "karula_child_l_wing", "attachment": "karula_child_l_wing" },
-	{ "name": "karula_child_tail", "bone": "karula_child_tail", "attachment": "karula_child_tail" },
-	{ "name": "karula_child_hair", "bone": "karula_child_hair", "attachment": "karula_child_hair" },
-	{ "name": "karula_child_r_wing", "bone": "karula_child_r_wing", "attachment": "karula_child_r_wing" },
-	{ "name": "karula_child_l_arm1", "bone": "karula_child_l_arm1", "attachment": "karula_child_l_arm1" },
-	{ "name": "karula_child_l_arm2", "bone": "karula_child_l_arm2", "attachment": "karula_child_l_arm2" },
-	{ "name": "karula_child_l_arm3", "bone": "karula_child_l_arm3", "attachment": "karula_child_l_arm3" },
-	{ "name": "karula_child_l_leg3", "bone": "karula_child_l_leg3", "attachment": "karula_child_l_leg3" },
-	{ "name": "karula_child_l_leg2", "bone": "karula_child_l_leg2", "attachment": "karula_child_l_leg2" },
-	{ "name": "karula_child_l_leg1", "bone": "karula_child_l_leg1", "attachment": "karula_child_l_leg1" },
-	{ "name": "karula_child_l_arm0", "bone": "karula_child_l_arm0", "attachment": "karula_child_l_arm0" },
-	{ "name": "karula_child_body", "bone": "karula_child_body", "attachment": "karula_child_body" },
-	{ "name": "karula_child_r_leg2", "bone": "karula_child_r_leg2", "attachment": "karula_child_r_leg2" },
-	{ "name": "karula_child_r_leg1", "bone": "karula_child_r_leg1", "attachment": "karula_child_r_leg1" },
-	{ "name": "karula_child_head", "bone": "karula_child_head", "attachment": "karula_child_head" },
-	{ "name": "karula_child_eye1", "bone": "karula_child_eye1", "attachment": "karula_child_eye2" },
-	{ "name": "karula_child_r_arm0", "bone": "karula_child_r_arm0", "attachment": "karula_child_r_arm0" },
-	{ "name": "karula_child_r_arm1", "bone": "karula_child_r_arm1", "attachment": "karula_child_r_arm1" },
-	{ "name": "karula_child_sword2", "bone": "karula_child_sword2", "attachment": "karula_child_sword2" },
-	{ "name": "karula_child_r_arm3", "bone": "karula_child_r_arm3", "attachment": "karula_child_r_arm3" },
-	{ "name": "karula_child_r_amr2", "bone": "karula_child_r_amr2", "attachment": "karula_child_r_amr2" }
-],
-"skins": {
-	"default": {
-		"karula_child_body": {
-			"karula_child_body": { "x": 60.42, "y": 5.75, "rotation": -93.3, "width": 65, "height": 129 }
-		},
-		"karula_child_eye1": {
-			"karula_child_eye1": { "x": 0.39, "y": 0.03, "rotation": -101.66, "width": 21, "height": 16 },
-			"karula_child_eye2": { "x": 0.39, "y": 0.03, "rotation": -101.66, "width": 21, "height": 16 }
-		},
-		"karula_child_hair": {
-			"karula_child_hair": { "x": 21.28, "y": -35.14, "rotation": -40.66, "width": 104, "height": 152 }
-		},
-		"karula_child_head": {
-			"karula_child_head": { "x": 22.95, "y": 3.55, "rotation": -101.66, "width": 67, "height": 69 }
-		},
-		"karula_child_l_arm0": {
-			"karula_child_l_arm0": { "x": -14.36, "y": -7.48, "rotation": -93.3, "width": 39, "height": 72 }
-		},
-		"karula_child_l_arm1": {
-			"karula_child_l_arm1": { "x": 20.39, "y": 0.27, "rotation": 93.91, "width": 28, "height": 49 }
-		},
-		"karula_child_l_arm2": {
-			"karula_child_l_arm2": { "x": 12.48, "y": -1, "rotation": 148.2, "width": 38, "height": 32 }
-		},
-		"karula_child_l_arm3": {
-			"karula_child_l_arm3": { "x": 11.2, "y": -0.82, "rotation": 150.7, "width": 29, "height": 32 }
-		},
-		"karula_child_l_leg1": {
-			"karula_child_l_leg1": { "x": 22.65, "y": 2.5, "rotation": 128.43, "width": 48, "height": 47 }
-		},
-		"karula_child_l_leg2": {
-			"karula_child_l_leg2": { "x": 12.16, "y": 3.38, "rotation": -1.52, "width": 36, "height": 22 }
-		},
-		"karula_child_l_leg3": {
-			"karula_child_l_leg3": { "x": 11.48, "y": 5.84, "rotation": -75.76, "width": 48, "height": 42 }
-		},
-		"karula_child_l_wing": {
-			"karula_child_l_wing": { "x": 44.13, "y": 8.06, "rotation": -114.24, "width": 65, "height": 79 }
-		},
-		"karula_child_r_amr2": {
-			"karula_child_r_amr2": { "x": 14.05, "y": -2, "rotation": 88.94, "width": 22, "height": 38 }
-		},
-		"karula_child_r_arm0": {
-			"karula_child_r_arm0": { "x": -16.24, "y": -7.29, "rotation": -93.3, "width": 42, "height": 73 }
-		},
-		"karula_child_r_arm1": {
-			"karula_child_r_arm1": { "x": 14.55, "y": -2.83, "rotation": 50.22, "width": 33, "height": 37 }
-		},
-		"karula_child_r_arm3": {
-			"karula_child_r_arm3": { "x": 13.19, "y": -6.03, "rotation": 94.75, "width": 94, "height": 41 }
-		},
-		"karula_child_r_leg1": {
-			"karula_child_r_leg1": { "x": 22.19, "y": 0.73, "rotation": 66.07, "width": 33, "height": 49 }
-		},
-		"karula_child_r_leg2": {
-			"karula_child_r_leg2": { "x": 19.8, "y": -4.87, "rotation": -102.9, "width": 36, "height": 50 }
-		},
-		"karula_child_r_wing": {
-			"karula_child_r_wing": { "x": 42.54, "y": -5.66, "rotation": -51.58, "width": 89, "height": 74 }
-		},
-		"karula_child_sword2": {
-			"karula_child_sword2": { "x": 60.86, "y": -2.31, "rotation": 172.65, "width": 149, "height": 62 }
-		},
-		"karula_child_tail": {
-			"karula_child_tail": { "x": 40.44, "y": -7.54, "rotation": 12.08, "width": 96, "height": 55 }
-		}
-	}
-},
-"animations": {
-	"wait": {
-		"slots": {
-			"karula_child_body": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_body" },
-					{ "time": 2.3333, "name": "karula_child_body" }
-				]
-			},
-			"karula_child_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_eye2" },
-					{ "time": 1.4, "name": "karula_child_eye1" },
-					{ "time": 1.5333, "name": "karula_child_eye2" },
-					{ "time": 2.3333, "name": "karula_child_eye2" }
-				]
-			},
-			"karula_child_hair": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_hair" },
-					{ "time": 2.3333, "name": "karula_child_hair" }
-				]
-			},
-			"karula_child_head": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_head" },
-					{ "time": 2.3333, "name": "karula_child_head" }
-				]
-			},
-			"karula_child_l_arm0": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_l_arm0" },
-					{ "time": 2.3333, "name": "karula_child_l_arm0" }
-				]
-			},
-			"karula_child_l_arm1": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_l_arm1" },
-					{ "time": 2.3333, "name": "karula_child_l_arm1" }
-				]
-			},
-			"karula_child_l_arm2": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_l_arm2" },
-					{ "time": 2.3333, "name": "karula_child_l_arm2" }
-				]
-			},
-			"karula_child_l_arm3": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_l_arm3" },
-					{ "time": 2.3333, "name": "karula_child_l_arm3" }
-				]
-			},
-			"karula_child_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_l_leg1" },
-					{ "time": 2.3333, "name": "karula_child_l_leg1" }
-				]
-			},
-			"karula_child_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_l_leg2" },
-					{ "time": 2.3333, "name": "karula_child_l_leg2" }
-				]
-			},
-			"karula_child_l_leg3": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_l_leg3" },
-					{ "time": 2.3333, "name": "karula_child_l_leg3" }
-				]
-			},
-			"karula_child_l_wing": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_l_wing" },
-					{ "time": 2.3333, "name": "karula_child_l_wing" }
-				]
-			},
-			"karula_child_r_amr2": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_r_amr2" },
-					{ "time": 2.3333, "name": "karula_child_r_amr2" }
-				]
-			},
-			"karula_child_r_arm0": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_r_arm0" },
-					{ "time": 2.3333, "name": "karula_child_r_arm0" }
-				]
-			},
-			"karula_child_r_arm1": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_r_arm1" },
-					{ "time": 2.3333, "name": "karula_child_r_arm1" }
-				]
-			},
-			"karula_child_r_arm3": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_r_arm3" },
-					{ "time": 2.3333, "name": "karula_child_r_arm3" }
-				]
-			},
-			"karula_child_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_r_leg1" },
-					{ "time": 2.3333, "name": "karula_child_r_leg1" }
-				]
-			},
-			"karula_child_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_r_leg2" },
-					{ "time": 2.3333, "name": "karula_child_r_leg2" }
-				]
-			},
-			"karula_child_r_wing": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_r_wing" },
-					{ "time": 2.3333, "name": "karula_child_r_wing" }
-				]
-			},
-			"karula_child_sword2": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_sword2" },
-					{ "time": 2.3333, "name": "karula_child_sword2" }
-				]
-			},
-			"karula_child_tail": {
-				"attachment": [
-					{ "time": 0, "name": "karula_child_tail" },
-					{ "time": 2.3333, "name": "karula_child_tail" }
-				]
-			}
-		},
-		"bones": {
-			"karula_child_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.1666, "angle": -1.51 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1.1666, "x": 0, "y": -1.67 },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_l_wing": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_r_wing": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.2666, "angle": 5.31 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_eye1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_hair": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.4, "angle": 1.61 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1.4, "x": -0.22, "y": -1.23 },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.4, "x": 0.978, "y": 0.962 },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_l_arm0": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1.1666, "x": -0.02, "y": -0.83 },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_l_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.1666, "angle": 1.98 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_l_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.1666, "angle": 4.51 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_l_arm3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.1666, "angle": -4.3 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.1666, "angle": -3.07 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.1666, "angle": 4.05 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_l_leg3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.1666, "angle": 0.98 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_r_arm0": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1.1666, "x": 0.02, "y": 0.83 },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_r_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3, "angle": -5.19 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1.3, "x": 0.01, "y": 0.41 },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_r_amr2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3, "angle": -3.41 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_r_arm3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": 1.42 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_sword2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.1666, "angle": -0.77 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.1666, "x": 0.931, "y": 1 },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"karula_child_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": 9.52 },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.3333, "x": 0.941, "y": 1 },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"bone": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"x": 5.5,
-						"y": -2.19,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"center": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2.3333 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "0z78b+OFBhLSfaB91obEMn30Lnk",
+        "spine": "3.0.09",
+        "width": 218.97,
+        "height": 223.99,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "center",
+            "parent": "root"
+        },
+        {
+            "name": "karula_child_r_leg2",
+            "parent": "center",
+            "length": 47.23,
+            "x": 42.13,
+            "y": -133.29,
+            "rotation": 102.91
+        },
+        {
+            "name": "karula_child_l_leg3",
+            "parent": "center",
+            "length": 32,
+            "x": -9.69,
+            "y": -126.47,
+            "rotation": 75.75
+        },
+        {
+            "name": "karula_child_body",
+            "parent": "center",
+            "length": 112.37,
+            "x": 15.19,
+            "y": -93.4,
+            "rotation": 93.3
+        },
+        {
+            "name": "karula_child_tail",
+            "parent": "karula_child_body",
+            "length": 88.21,
+            "x": 22.9,
+            "y": 0.38,
+            "rotation": -105.4
+        },
+        {
+            "name": "karula_child_r_leg1",
+            "parent": "karula_child_body",
+            "length": 43.97,
+            "x": 28.7,
+            "y": -5.75,
+            "rotation": -159.41
+        },
+        {
+            "name": "karula_child_r_arm0",
+            "parent": "karula_child_body",
+            "x": 79.54,
+            "y": -6.64
+        },
+        {
+            "name": "karula_child_r_arm1",
+            "parent": "karula_child_r_arm0",
+            "length": 30.03,
+            "x": -6.45,
+            "y": -11.24,
+            "rotation": -143.56
+        },
+        {
+            "name": "karula_child_r_amr2",
+            "parent": "karula_child_r_arm1",
+            "length": 31.03,
+            "x": 24.62,
+            "y": 0.8,
+            "rotation": -38.72
+        },
+        {
+            "name": "karula_child_r_arm3",
+            "parent": "karula_child_r_amr2",
+            "length": 16.42,
+            "x": 26.96,
+            "y": 0.86,
+            "rotation": -5.82
+        },
+        {
+            "name": "karula_child_sword2",
+            "parent": "karula_child_r_arm3",
+            "length": 123.1,
+            "x": 16.93,
+            "y": -26.65,
+            "rotation": -77.89
+        },
+        {
+            "name": "karula_child_l_leg1",
+            "parent": "karula_child_body",
+            "length": 50,
+            "x": 28.98,
+            "y": 10.96,
+            "rotation": 138.27
+        },
+        {
+            "name": "karula_child_l_leg2",
+            "parent": "karula_child_l_leg1",
+            "length": 28.99,
+            "x": 43.79,
+            "y": 5.15,
+            "rotation": 129.94
+        },
+        {
+            "name": "karula_child_l_arm1",
+            "parent": "karula_child_body",
+            "length": 39.99,
+            "x": 76.82,
+            "y": 23.22,
+            "rotation": 172.77
+        },
+        {
+            "name": "karula_child_l_arm2",
+            "parent": "karula_child_l_arm1",
+            "length": 24.79,
+            "x": 35.99,
+            "y": 3.48,
+            "rotation": -54.31
+        },
+        {
+            "name": "karula_child_l_arm3",
+            "parent": "karula_child_l_arm2",
+            "length": 25.8,
+            "x": 24.22,
+            "y": 0.23,
+            "rotation": -2.51
+        },
+        {
+            "name": "karula_child_l_arm0",
+            "parent": "karula_child_body",
+            "x": 79.5,
+            "y": 34
+        },
+        {
+            "name": "karula_child_head",
+            "parent": "karula_child_body",
+            "length": 55.7,
+            "x": 99.36,
+            "y": -0.61,
+            "rotation": 8.35
+        },
+        {
+            "name": "karula_child_hair",
+            "parent": "karula_child_head",
+            "length": 111.51,
+            "x": 19.66,
+            "y": 10.91,
+            "rotation": -61.01
+        },
+        {
+            "name": "karula_child_eye1",
+            "parent": "karula_child_head",
+            "x": 12.71,
+            "y": 12.69
+        },
+        {
+            "name": "bone",
+            "parent": "karula_child_body",
+            "length": 71.66,
+            "x": 194.06,
+            "y": -7.17,
+            "rotation": -94.64
+        },
+        {
+            "name": "karula_child_r_wing",
+            "parent": "bone",
+            "length": 92.2,
+            "x": 18.89,
+            "y": -129.07,
+            "rotation": 52.89
+        },
+        {
+            "name": "karula_child_l_wing",
+            "parent": "bone",
+            "length": 85.34,
+            "x": -21.62,
+            "y": -134.61,
+            "rotation": 115.55
+        }
+    ],
+    "slots": [
+        {
+            "name": "karula_child_l_wing",
+            "bone": "karula_child_l_wing",
+            "attachment": "karula_child_l_wing"
+        },
+        {
+            "name": "karula_child_tail",
+            "bone": "karula_child_tail",
+            "attachment": "karula_child_tail"
+        },
+        {
+            "name": "karula_child_hair",
+            "bone": "karula_child_hair",
+            "attachment": "karula_child_hair"
+        },
+        {
+            "name": "karula_child_r_wing",
+            "bone": "karula_child_r_wing",
+            "attachment": "karula_child_r_wing"
+        },
+        {
+            "name": "karula_child_l_arm1",
+            "bone": "karula_child_l_arm1",
+            "attachment": "karula_child_l_arm1"
+        },
+        {
+            "name": "karula_child_l_arm2",
+            "bone": "karula_child_l_arm2",
+            "attachment": "karula_child_l_arm2"
+        },
+        {
+            "name": "karula_child_l_arm3",
+            "bone": "karula_child_l_arm3",
+            "attachment": "karula_child_l_arm3"
+        },
+        {
+            "name": "karula_child_l_leg3",
+            "bone": "karula_child_l_leg3",
+            "attachment": "karula_child_l_leg3"
+        },
+        {
+            "name": "karula_child_l_leg2",
+            "bone": "karula_child_l_leg2",
+            "attachment": "karula_child_l_leg2"
+        },
+        {
+            "name": "karula_child_l_leg1",
+            "bone": "karula_child_l_leg1",
+            "attachment": "karula_child_l_leg1"
+        },
+        {
+            "name": "karula_child_l_arm0",
+            "bone": "karula_child_l_arm0",
+            "attachment": "karula_child_l_arm0"
+        },
+        {
+            "name": "karula_child_body",
+            "bone": "karula_child_body",
+            "attachment": "karula_child_body"
+        },
+        {
+            "name": "karula_child_r_leg2",
+            "bone": "karula_child_r_leg2",
+            "attachment": "karula_child_r_leg2"
+        },
+        {
+            "name": "karula_child_r_leg1",
+            "bone": "karula_child_r_leg1",
+            "attachment": "karula_child_r_leg1"
+        },
+        {
+            "name": "karula_child_head",
+            "bone": "karula_child_head",
+            "attachment": "karula_child_head"
+        },
+        {
+            "name": "karula_child_eye1",
+            "bone": "karula_child_eye1",
+            "attachment": "karula_child_eye2"
+        },
+        {
+            "name": "karula_child_r_arm0",
+            "bone": "karula_child_r_arm0",
+            "attachment": "karula_child_r_arm0"
+        },
+        {
+            "name": "karula_child_r_arm1",
+            "bone": "karula_child_r_arm1",
+            "attachment": "karula_child_r_arm1"
+        },
+        {
+            "name": "karula_child_sword2",
+            "bone": "karula_child_sword2",
+            "attachment": "karula_child_sword2"
+        },
+        {
+            "name": "karula_child_r_arm3",
+            "bone": "karula_child_r_arm3",
+            "attachment": "karula_child_r_arm3"
+        },
+        {
+            "name": "karula_child_r_amr2",
+            "bone": "karula_child_r_amr2",
+            "attachment": "karula_child_r_amr2"
+        }
+    ],
+    "skins": {
+        "default": {
+            "karula_child_body": {
+                "karula_child_body": {
+                    "x": 60.42,
+                    "y": 5.75,
+                    "rotation": -93.3,
+                    "width": 65,
+                    "height": 129
+                }
+            },
+            "karula_child_eye1": {
+                "karula_child_eye1": {
+                    "x": 0.39,
+                    "y": 0.03,
+                    "rotation": -101.66,
+                    "width": 21,
+                    "height": 16
+                },
+                "karula_child_eye2": {
+                    "x": 0.39,
+                    "y": 0.03,
+                    "rotation": -101.66,
+                    "width": 21,
+                    "height": 16
+                }
+            },
+            "karula_child_hair": {
+                "karula_child_hair": {
+                    "x": 21.28,
+                    "y": -35.14,
+                    "rotation": -40.66,
+                    "width": 104,
+                    "height": 152
+                }
+            },
+            "karula_child_head": {
+                "karula_child_head": {
+                    "x": 22.95,
+                    "y": 3.55,
+                    "rotation": -101.66,
+                    "width": 67,
+                    "height": 69
+                }
+            },
+            "karula_child_l_arm0": {
+                "karula_child_l_arm0": {
+                    "x": -14.36,
+                    "y": -7.48,
+                    "rotation": -93.3,
+                    "width": 39,
+                    "height": 72
+                }
+            },
+            "karula_child_l_arm1": {
+                "karula_child_l_arm1": {
+                    "x": 20.39,
+                    "y": 0.27,
+                    "rotation": 93.91,
+                    "width": 28,
+                    "height": 49
+                }
+            },
+            "karula_child_l_arm2": {
+                "karula_child_l_arm2": {
+                    "x": 12.48,
+                    "y": -1,
+                    "rotation": 148.2,
+                    "width": 38,
+                    "height": 32
+                }
+            },
+            "karula_child_l_arm3": {
+                "karula_child_l_arm3": {
+                    "x": 11.2,
+                    "y": -0.82,
+                    "rotation": 150.7,
+                    "width": 29,
+                    "height": 32
+                }
+            },
+            "karula_child_l_leg1": {
+                "karula_child_l_leg1": {
+                    "x": 22.65,
+                    "y": 2.5,
+                    "rotation": 128.43,
+                    "width": 48,
+                    "height": 47
+                }
+            },
+            "karula_child_l_leg2": {
+                "karula_child_l_leg2": {
+                    "x": 12.16,
+                    "y": 3.38,
+                    "rotation": -1.52,
+                    "width": 36,
+                    "height": 22
+                }
+            },
+            "karula_child_l_leg3": {
+                "karula_child_l_leg3": {
+                    "x": 11.48,
+                    "y": 5.84,
+                    "rotation": -75.76,
+                    "width": 48,
+                    "height": 42
+                }
+            },
+            "karula_child_l_wing": {
+                "karula_child_l_wing": {
+                    "x": 44.13,
+                    "y": 8.06,
+                    "rotation": -114.24,
+                    "width": 65,
+                    "height": 79
+                }
+            },
+            "karula_child_r_amr2": {
+                "karula_child_r_amr2": {
+                    "x": 14.05,
+                    "y": -2,
+                    "rotation": 88.94,
+                    "width": 22,
+                    "height": 38
+                }
+            },
+            "karula_child_r_arm0": {
+                "karula_child_r_arm0": {
+                    "x": -16.24,
+                    "y": -7.29,
+                    "rotation": -93.3,
+                    "width": 42,
+                    "height": 73
+                }
+            },
+            "karula_child_r_arm1": {
+                "karula_child_r_arm1": {
+                    "x": 14.55,
+                    "y": -2.83,
+                    "rotation": 50.22,
+                    "width": 33,
+                    "height": 37
+                }
+            },
+            "karula_child_r_arm3": {
+                "karula_child_r_arm3": {
+                    "x": 13.19,
+                    "y": -6.03,
+                    "rotation": 94.75,
+                    "width": 94,
+                    "height": 41
+                }
+            },
+            "karula_child_r_leg1": {
+                "karula_child_r_leg1": {
+                    "x": 22.19,
+                    "y": 0.73,
+                    "rotation": 66.07,
+                    "width": 33,
+                    "height": 49
+                }
+            },
+            "karula_child_r_leg2": {
+                "karula_child_r_leg2": {
+                    "x": 19.8,
+                    "y": -4.87,
+                    "rotation": -102.9,
+                    "width": 36,
+                    "height": 50
+                }
+            },
+            "karula_child_r_wing": {
+                "karula_child_r_wing": {
+                    "x": 42.54,
+                    "y": -5.66,
+                    "rotation": -51.58,
+                    "width": 89,
+                    "height": 74
+                }
+            },
+            "karula_child_sword2": {
+                "karula_child_sword2": {
+                    "x": 60.86,
+                    "y": -2.31,
+                    "rotation": 172.65,
+                    "width": 149,
+                    "height": 62
+                }
+            },
+            "karula_child_tail": {
+                "karula_child_tail": {
+                    "x": 40.44,
+                    "y": -7.54,
+                    "rotation": 12.08,
+                    "width": 96,
+                    "height": 55
+                }
+            }
+        }
+    },
+    "animations": {
+        "wait": {
+            "slots": {
+                "karula_child_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_body"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_body"
+                        }
+                    ]
+                },
+                "karula_child_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_eye2"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "karula_child_eye1"
+                        },
+                        {
+                            "time": 1.5333,
+                            "name": "karula_child_eye2"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_eye2"
+                        }
+                    ]
+                },
+                "karula_child_hair": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_hair"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_hair"
+                        }
+                    ]
+                },
+                "karula_child_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_head"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_head"
+                        }
+                    ]
+                },
+                "karula_child_l_arm0": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_l_arm0"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_l_arm0"
+                        }
+                    ]
+                },
+                "karula_child_l_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_l_arm1"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_l_arm1"
+                        }
+                    ]
+                },
+                "karula_child_l_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_l_arm2"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_l_arm2"
+                        }
+                    ]
+                },
+                "karula_child_l_arm3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_l_arm3"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_l_arm3"
+                        }
+                    ]
+                },
+                "karula_child_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_l_leg1"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_l_leg1"
+                        }
+                    ]
+                },
+                "karula_child_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_l_leg2"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_l_leg2"
+                        }
+                    ]
+                },
+                "karula_child_l_leg3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_l_leg3"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_l_leg3"
+                        }
+                    ]
+                },
+                "karula_child_l_wing": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_l_wing"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_l_wing"
+                        }
+                    ]
+                },
+                "karula_child_r_amr2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_r_amr2"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_r_amr2"
+                        }
+                    ]
+                },
+                "karula_child_r_arm0": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_r_arm0"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_r_arm0"
+                        }
+                    ]
+                },
+                "karula_child_r_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_r_arm1"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_r_arm1"
+                        }
+                    ]
+                },
+                "karula_child_r_arm3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_r_arm3"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_r_arm3"
+                        }
+                    ]
+                },
+                "karula_child_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_r_leg1"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_r_leg1"
+                        }
+                    ]
+                },
+                "karula_child_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_r_leg2"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_r_leg2"
+                        }
+                    ]
+                },
+                "karula_child_r_wing": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_r_wing"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_r_wing"
+                        }
+                    ]
+                },
+                "karula_child_sword2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_sword2"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_sword2"
+                        }
+                    ]
+                },
+                "karula_child_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "karula_child_tail"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "karula_child_tail"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "karula_child_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": -1.51
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0,
+                            "y": -1.67
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_l_wing": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_r_wing": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.2666,
+                            "angle": 5.31
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_eye1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_hair": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.4,
+                            "angle": 1.61
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.4,
+                            "x": -0.22,
+                            "y": -1.23
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.978,
+                            "y": 0.962
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_l_arm0": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": -0.02,
+                            "y": -0.83
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_l_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 1.98
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_l_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 4.51
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_l_arm3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": -4.3
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": -3.07
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 4.05
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_l_leg3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 0.98
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_r_arm0": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0.02,
+                            "y": 0.83
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_r_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3,
+                            "angle": -5.19
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 0.01,
+                            "y": 0.41
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_r_amr2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3,
+                            "angle": -3.41
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_r_arm3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 1.42
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_sword2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": -0.77
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0.931,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "karula_child_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 9.52
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0.941,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bone": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 5.5,
+                            "y": -2.19,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2.3333
+                }
+            ]
+        }
+    }
 }

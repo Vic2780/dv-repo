@@ -1,818 +1,1944 @@
 {
-"skeleton": { "hash": "AcIGZIFWkS+ud+MEY7xOPy1cP1w", "spine": "3.0.09", "width": 252.11, "height": 315.99, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "sullivan_child_body1", "parent": "root", "length": 126.05, "x": -21.17, "y": -36.25, "rotation": 69.82 },
-	{ "name": "sullivan_child_body2", "parent": "sullivan_child_body1", "length": 80.94, "x": 3.24, "y": -15.48, "rotation": -33.3 },
-	{ "name": "sullivan_child_body3", "parent": "sullivan_child_body2", "length": 61.72, "x": 72.29, "y": -7.4, "rotation": -160.04 },
-	{ "name": "sullivan_child_head", "parent": "sullivan_child_body1", "length": 37.37, "x": 123.99, "y": 5.56, "rotation": 154.03 },
-	{ "name": "sullivan_child_head1", "parent": "sullivan_child_head", "length": 27.94, "x": -5.86, "y": -6.1, "rotation": 162.09 },
-	{ "name": "sullivan_child_head2", "parent": "sullivan_child_head", "length": 30.82, "x": -10.04, "y": -14.24, "rotation": 177.68 },
-	{ "name": "sullivan_child_head3", "parent": "sullivan_child_head", "length": 33.94, "x": -2.87, "y": -21.53, "rotation": -169.03 },
-	{ "name": "sullivan_child_head4", "parent": "sullivan_child_head", "length": 34.85, "x": 3.5, "y": -30.9, "rotation": -165.1 },
-	{ "name": "sullivan_child_leg_l", "parent": "sullivan_child_body1", "length": 18.53, "x": 6.95, "y": -4.3, "rotation": 144.63 },
-	{ "name": "sullivan_child_leg_r", "parent": "sullivan_child_body3", "length": 21.57, "x": 39.34, "y": 12.57, "rotation": -146.93 },
-	{ "name": "sullivan_child_neck1", "parent": "sullivan_child_body1", "x": 75.68, "y": 8.34 },
-	{ "name": "sullivan_child_tail1", "parent": "sullivan_child_body3", "length": 27.07, "x": 146.93, "y": -32.31, "rotation": 73.29 },
-	{ "name": "sullivan_child_tail2", "parent": "sullivan_child_tail1", "length": 24.6, "x": 26.1, "y": 2.55, "rotation": 60.41 },
-	{ "name": "sullivan_child_tail3", "parent": "sullivan_child_tail1", "length": 24.94, "x": 27.21, "y": 0.6, "rotation": 36.42 },
-	{ "name": "sullivan_child_tail4", "parent": "sullivan_child_tail1", "length": 20.46, "x": 28.93, "y": 0.2, "rotation": 4.15 },
-	{ "name": "sullivan_child_tail5", "parent": "sullivan_child_tail1", "length": 23.79, "x": 21.68, "y": -2.32, "rotation": -21.9 },
-	{
-		"name": "sullivan_child_wing_l",
-		"parent": "sullivan_child_body1",
-		"length": 76.93,
-		"x": 72.71,
-		"y": 1.26,
-		"scaleX": 0.948,
-		"rotation": 140.32
-	},
-	{ "name": "sullivan_child_wing_r", "parent": "sullivan_child_body1", "length": 66.03, "x": 85.73, "y": -25.78, "rotation": -92.29 }
-],
-"slots": [
-	{ "name": "sullivan_child_wing_l", "bone": "sullivan_child_wing_l", "attachment": "sullivan_child_wing_l" },
-	{ "name": "sullivan_child_leg_l", "bone": "sullivan_child_leg_l", "attachment": "sullivan_child_leg_l" },
-	{ "name": "sullivan_child_body3", "bone": "sullivan_child_body3", "attachment": "sullivan_child_body3" },
-	{ "name": "sullivan_child_tail5", "bone": "sullivan_child_tail5", "attachment": "sullivan_child_tail5" },
-	{ "name": "sullivan_child_tail4", "bone": "sullivan_child_tail4", "attachment": "sullivan_child_tail4" },
-	{ "name": "sullivan_child_tail3", "bone": "sullivan_child_tail3", "attachment": "sullivan_child_tail3" },
-	{ "name": "sullivan_child_tail2", "bone": "sullivan_child_tail2", "attachment": "sullivan_child_tail2" },
-	{ "name": "sullivan_child_tail1", "bone": "sullivan_child_tail1", "attachment": "sullivan_child_tail1" },
-	{ "name": "sullivan_child_body2", "bone": "sullivan_child_body2", "attachment": "sullivan_child_body2" },
-	{ "name": "sullivan_child_body1", "bone": "sullivan_child_body1", "attachment": "sullivan_child_body1" },
-	{ "name": "sullivan_child_leg_r", "bone": "sullivan_child_leg_r", "attachment": "sullivan_child_leg_r" },
-	{ "name": "sullivan_child_neck2", "bone": "sullivan_child_neck1", "attachment": "sullivan_child_neck2" },
-	{ "name": "sullivan_child_neck", "bone": "sullivan_child_body1", "attachment": "sullivan_child_neck" },
-	{ "name": "sullivan_child_neck1", "bone": "sullivan_child_neck1", "attachment": "sullivan_child_neck1" },
-	{ "name": "sullivan_child_head4", "bone": "sullivan_child_head4", "attachment": "sullivan_child_head4" },
-	{ "name": "sullivan_child_head3", "bone": "sullivan_child_head3", "attachment": "sullivan_child_head3" },
-	{ "name": "sullivan_child_head2", "bone": "sullivan_child_head2", "attachment": "sullivan_child_head2" },
-	{ "name": "sullivan_child_head1", "bone": "sullivan_child_head1", "attachment": "sullivan_child_head1" },
-	{ "name": "sullivan_child_head", "bone": "sullivan_child_head", "attachment": "sullivan_child_head" },
-	{ "name": "sullivan_child_wing_r", "bone": "sullivan_child_wing_r", "attachment": "sullivan_child_wing_r" }
-],
-"skins": {
-	"default": {
-		"sullivan_child_body1": {
-			"sullivan_child_body1": { "x": 70.08, "y": -0.1, "rotation": -69.81, "width": 83, "height": 149 }
-		},
-		"sullivan_child_body2": {
-			"sullivan_child_body2": { "x": 44.07, "y": 15.44, "rotation": -36.53, "width": 103, "height": 97 }
-		},
-		"sullivan_child_body3": {
-			"sullivan_child_body3": { "x": 65.79, "y": -14.36, "rotation": 123.48, "width": 127, "height": 144 }
-		},
-		"sullivan_child_head": {
-			"sullivan_child_head": { "x": -5.57, "y": -10.1, "rotation": 136.14, "width": 74, "height": 84 }
-		},
-		"sullivan_child_head1": {
-			"sullivan_child_head1": { "x": 32.94, "y": -2.48, "rotation": -25.94, "width": 69, "height": 23 }
-		},
-		"sullivan_child_head2": {
-			"sullivan_child_head2": { "x": 33.43, "y": -9.68, "rotation": -41.53, "width": 74, "height": 38 }
-		},
-		"sullivan_child_head3": {
-			"sullivan_child_head3": { "x": 33.82, "y": -8.55, "rotation": -54.85, "width": 58, "height": 49 }
-		},
-		"sullivan_child_head4": {
-			"sullivan_child_head4": { "x": 31.85, "y": -8.01, "rotation": -58.78, "width": 38, "height": 46 }
-		},
-		"sullivan_child_leg_l": {
-			"sullivan_child_leg_l": { "x": 10.5, "y": -0.54, "rotation": 145.53, "width": 47, "height": 47 }
-		},
-		"sullivan_child_leg_r": {
-			"sullivan_child_leg_r": { "x": 13.15, "y": 7.44, "rotation": -89.59, "width": 44, "height": 48 }
-		},
-		"sullivan_child_neck": {
-			"sullivan_child_neck": { "x": 102.94, "y": -4.85, "rotation": -69.81, "width": 51, "height": 91 }
-		},
-		"sullivan_child_neck1": {
-			"sullivan_child_neck1": { "x": 42.34, "y": -26.4, "rotation": -69.81, "width": 85, "height": 73 }
-		},
-		"sullivan_child_neck2": {
-			"sullivan_child_neck2": { "x": 48.34, "y": -24.19, "rotation": -69.81, "width": 83, "height": 61 }
-		},
-		"sullivan_child_tail1": {
-			"sullivan_child_tail1": { "x": 31.26, "y": 4.18, "rotation": 50.19, "width": 52, "height": 49 }
-		},
-		"sullivan_child_tail2": {
-			"sullivan_child_tail2": { "x": 32.22, "y": 4.22, "rotation": -10.22, "width": 46, "height": 19 }
-		},
-		"sullivan_child_tail3": {
-			"sullivan_child_tail3": { "x": 33.48, "y": 2.21, "rotation": 13.77, "width": 53, "height": 19 }
-		},
-		"sullivan_child_tail4": {
-			"sullivan_child_tail4": { "x": 25.8, "y": 4.65, "rotation": 46.05, "width": 43, "height": 36 }
-		},
-		"sullivan_child_tail5": {
-			"sullivan_child_tail5": { "x": 27.76, "y": 7.24, "rotation": 72.09, "width": 25, "height": 39 }
-		},
-		"sullivan_child_wing_l": {
-			"sullivan_child_wing_l": { "x": 67.3, "y": -17.82, "rotation": 161.65, "width": 149, "height": 80 }
-		},
-		"sullivan_child_wing_r": {
-			"sullivan_child_wing_r": { "x": 49.68, "y": -24.4, "rotation": 22.45, "width": 86, "height": 128 }
-		}
-	}
-},
-"animations": {
-	"wait": {
-		"slots": {
-			"sullivan_child_body1": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_body1" },
-					{ "time": 2, "name": "sullivan_child_body1" }
-				]
-			},
-			"sullivan_child_body2": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_body2" },
-					{ "time": 2, "name": "sullivan_child_body2" }
-				]
-			},
-			"sullivan_child_body3": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_body3" },
-					{ "time": 2, "name": "sullivan_child_body3" }
-				]
-			},
-			"sullivan_child_head": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_head" },
-					{ "time": 2, "name": "sullivan_child_head" }
-				]
-			},
-			"sullivan_child_head1": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_head1" },
-					{ "time": 2, "name": "sullivan_child_head1" }
-				]
-			},
-			"sullivan_child_head2": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_head2" },
-					{ "time": 2, "name": "sullivan_child_head2" }
-				]
-			},
-			"sullivan_child_head3": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_head3" },
-					{ "time": 2, "name": "sullivan_child_head3" }
-				]
-			},
-			"sullivan_child_head4": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_head4" },
-					{ "time": 2, "name": "sullivan_child_head4" }
-				]
-			},
-			"sullivan_child_leg_l": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_leg_l" },
-					{ "time": 2, "name": "sullivan_child_leg_l" }
-				]
-			},
-			"sullivan_child_leg_r": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_leg_r" },
-					{ "time": 2, "name": "sullivan_child_leg_r" }
-				]
-			},
-			"sullivan_child_neck": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_neck" },
-					{ "time": 2, "name": "sullivan_child_neck" }
-				]
-			},
-			"sullivan_child_neck1": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_neck1" },
-					{ "time": 2, "name": "sullivan_child_neck1" }
-				]
-			},
-			"sullivan_child_neck2": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_neck2" },
-					{ "time": 2, "name": "sullivan_child_neck2" }
-				]
-			},
-			"sullivan_child_tail1": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_tail1" },
-					{ "time": 2, "name": "sullivan_child_tail1" }
-				]
-			},
-			"sullivan_child_tail2": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_tail2" },
-					{ "time": 2, "name": "sullivan_child_tail2" }
-				]
-			},
-			"sullivan_child_tail3": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_tail3" },
-					{ "time": 2, "name": "sullivan_child_tail3" }
-				]
-			},
-			"sullivan_child_tail4": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_tail4" },
-					{ "time": 2, "name": "sullivan_child_tail4" }
-				]
-			},
-			"sullivan_child_tail5": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_tail5" },
-					{ "time": 2, "name": "sullivan_child_tail5" }
-				]
-			},
-			"sullivan_child_wing_l": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_wing_l" },
-					{ "time": 2, "name": "sullivan_child_wing_l" }
-				]
-			},
-			"sullivan_child_wing_r": {
-				"attachment": [
-					{ "time": 0, "name": "sullivan_child_wing_r" },
-					{ "time": 2, "name": "sullivan_child_wing_r" }
-				]
-			}
-		},
-		"bones": {
-			"sullivan_child_wing_l": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 12.33,
-						"curve": [ 0.396, 0.41, 0.872, 0.91 ]
-					},
-					{
-						"time": 0.5,
-						"angle": -9.9,
-						"curve": [ 0.396, 0.41, 0.872, 0.91 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": 23.01,
-						"curve": [ 0.396, 0.41, 0.872, 0.91 ]
-					},
-					{ "time": 2, "angle": 12.33 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.396, 0.41, 0.872, 0.91 ]
-					},
-					{
-						"time": 0.5,
-						"x": 1.73,
-						"y": -4.23,
-						"curve": [ 0.396, 0.41, 0.872, 0.91 ]
-					},
-					{
-						"time": 1.1666,
-						"x": 2.92,
-						"y": -3.99,
-						"curve": [ 0.396, 0.41, 0.872, 0.91 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_body1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -4.11,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"x": 0,
-						"y": -7.26,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_body2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 4.66,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_body3": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 3.2,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_leg_l": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -10.81,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_leg_r": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1333,
-						"angle": 15.66,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_tail1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 6.68,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 10.74,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 6.68 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"x": 1,
-						"y": 0.922,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_tail2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 15.05,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": 4,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": -10.64,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 15.05 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"x": 1,
-						"y": 0.805,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_tail3": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 15.05,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": 4,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": -6.32,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 15.05 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"x": 1,
-						"y": 0.805,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_tail4": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 15.05,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": 4,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": 4.9,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 15.05 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"x": 1,
-						"y": 0.805,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_tail5": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 15.05,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": 4,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": 13.7,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 15.05 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"x": 1,
-						"y": 0.805,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_head1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": 16.15,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": -11.27,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_head2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": -343.84,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.2666,
-						"angle": -12.72,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_head3": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": 16.15,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3666,
-						"angle": 347.81,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_head4": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": 16.15,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.4666,
-						"angle": -8.29,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_neck1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.297, 0, 0.634, 0.36 ]
-					},
-					{
-						"time": 0.1666,
-						"angle": 3.92,
-						"curve": [ 0.299, 0.2, 0.755, 1 ]
-					},
-					{
-						"time": 1.2666,
-						"angle": -12.06,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.2666,
-						"x": 0.36,
-						"y": 2.03,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"sullivan_child_wing_r": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.396, 0.41, 0.872, 0.91 ]
-					},
-					{
-						"time": 0.5,
-						"angle": 29.9,
-						"curve": [ 0.396, 0.41, 0.872, 0.91 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": -15.09,
-						"curve": [ 0.396, 0.41, 0.872, 0.91 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "AcIGZIFWkS+ud+MEY7xOPy1cP1w",
+        "spine": "3.0.09",
+        "width": 252.11,
+        "height": 315.99,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "sullivan_child_body1",
+            "parent": "root",
+            "length": 126.05,
+            "x": -21.17,
+            "y": -36.25,
+            "rotation": 69.82
+        },
+        {
+            "name": "sullivan_child_body2",
+            "parent": "sullivan_child_body1",
+            "length": 80.94,
+            "x": 3.24,
+            "y": -15.48,
+            "rotation": -33.3
+        },
+        {
+            "name": "sullivan_child_body3",
+            "parent": "sullivan_child_body2",
+            "length": 61.72,
+            "x": 72.29,
+            "y": -7.4,
+            "rotation": -160.04
+        },
+        {
+            "name": "sullivan_child_head",
+            "parent": "sullivan_child_body1",
+            "length": 37.37,
+            "x": 123.99,
+            "y": 5.56,
+            "rotation": 154.03
+        },
+        {
+            "name": "sullivan_child_head1",
+            "parent": "sullivan_child_head",
+            "length": 27.94,
+            "x": -5.86,
+            "y": -6.1,
+            "rotation": 162.09
+        },
+        {
+            "name": "sullivan_child_head2",
+            "parent": "sullivan_child_head",
+            "length": 30.82,
+            "x": -10.04,
+            "y": -14.24,
+            "rotation": 177.68
+        },
+        {
+            "name": "sullivan_child_head3",
+            "parent": "sullivan_child_head",
+            "length": 33.94,
+            "x": -2.87,
+            "y": -21.53,
+            "rotation": -169.03
+        },
+        {
+            "name": "sullivan_child_head4",
+            "parent": "sullivan_child_head",
+            "length": 34.85,
+            "x": 3.5,
+            "y": -30.9,
+            "rotation": -165.1
+        },
+        {
+            "name": "sullivan_child_leg_l",
+            "parent": "sullivan_child_body1",
+            "length": 18.53,
+            "x": 6.95,
+            "y": -4.3,
+            "rotation": 144.63
+        },
+        {
+            "name": "sullivan_child_leg_r",
+            "parent": "sullivan_child_body3",
+            "length": 21.57,
+            "x": 39.34,
+            "y": 12.57,
+            "rotation": -146.93
+        },
+        {
+            "name": "sullivan_child_neck1",
+            "parent": "sullivan_child_body1",
+            "x": 75.68,
+            "y": 8.34
+        },
+        {
+            "name": "sullivan_child_tail1",
+            "parent": "sullivan_child_body3",
+            "length": 27.07,
+            "x": 146.93,
+            "y": -32.31,
+            "rotation": 73.29
+        },
+        {
+            "name": "sullivan_child_tail2",
+            "parent": "sullivan_child_tail1",
+            "length": 24.6,
+            "x": 26.1,
+            "y": 2.55,
+            "rotation": 60.41
+        },
+        {
+            "name": "sullivan_child_tail3",
+            "parent": "sullivan_child_tail1",
+            "length": 24.94,
+            "x": 27.21,
+            "y": 0.6,
+            "rotation": 36.42
+        },
+        {
+            "name": "sullivan_child_tail4",
+            "parent": "sullivan_child_tail1",
+            "length": 20.46,
+            "x": 28.93,
+            "y": 0.2,
+            "rotation": 4.15
+        },
+        {
+            "name": "sullivan_child_tail5",
+            "parent": "sullivan_child_tail1",
+            "length": 23.79,
+            "x": 21.68,
+            "y": -2.32,
+            "rotation": -21.9
+        },
+        {
+            "name": "sullivan_child_wing_l",
+            "parent": "sullivan_child_body1",
+            "length": 76.93,
+            "x": 72.71,
+            "y": 1.26,
+            "scaleX": 0.948,
+            "rotation": 140.32
+        },
+        {
+            "name": "sullivan_child_wing_r",
+            "parent": "sullivan_child_body1",
+            "length": 66.03,
+            "x": 85.73,
+            "y": -25.78,
+            "rotation": -92.29
+        }
+    ],
+    "slots": [
+        {
+            "name": "sullivan_child_wing_l",
+            "bone": "sullivan_child_wing_l",
+            "attachment": "sullivan_child_wing_l"
+        },
+        {
+            "name": "sullivan_child_leg_l",
+            "bone": "sullivan_child_leg_l",
+            "attachment": "sullivan_child_leg_l"
+        },
+        {
+            "name": "sullivan_child_body3",
+            "bone": "sullivan_child_body3",
+            "attachment": "sullivan_child_body3"
+        },
+        {
+            "name": "sullivan_child_tail5",
+            "bone": "sullivan_child_tail5",
+            "attachment": "sullivan_child_tail5"
+        },
+        {
+            "name": "sullivan_child_tail4",
+            "bone": "sullivan_child_tail4",
+            "attachment": "sullivan_child_tail4"
+        },
+        {
+            "name": "sullivan_child_tail3",
+            "bone": "sullivan_child_tail3",
+            "attachment": "sullivan_child_tail3"
+        },
+        {
+            "name": "sullivan_child_tail2",
+            "bone": "sullivan_child_tail2",
+            "attachment": "sullivan_child_tail2"
+        },
+        {
+            "name": "sullivan_child_tail1",
+            "bone": "sullivan_child_tail1",
+            "attachment": "sullivan_child_tail1"
+        },
+        {
+            "name": "sullivan_child_body2",
+            "bone": "sullivan_child_body2",
+            "attachment": "sullivan_child_body2"
+        },
+        {
+            "name": "sullivan_child_body1",
+            "bone": "sullivan_child_body1",
+            "attachment": "sullivan_child_body1"
+        },
+        {
+            "name": "sullivan_child_leg_r",
+            "bone": "sullivan_child_leg_r",
+            "attachment": "sullivan_child_leg_r"
+        },
+        {
+            "name": "sullivan_child_neck2",
+            "bone": "sullivan_child_neck1",
+            "attachment": "sullivan_child_neck2"
+        },
+        {
+            "name": "sullivan_child_neck",
+            "bone": "sullivan_child_body1",
+            "attachment": "sullivan_child_neck"
+        },
+        {
+            "name": "sullivan_child_neck1",
+            "bone": "sullivan_child_neck1",
+            "attachment": "sullivan_child_neck1"
+        },
+        {
+            "name": "sullivan_child_head4",
+            "bone": "sullivan_child_head4",
+            "attachment": "sullivan_child_head4"
+        },
+        {
+            "name": "sullivan_child_head3",
+            "bone": "sullivan_child_head3",
+            "attachment": "sullivan_child_head3"
+        },
+        {
+            "name": "sullivan_child_head2",
+            "bone": "sullivan_child_head2",
+            "attachment": "sullivan_child_head2"
+        },
+        {
+            "name": "sullivan_child_head1",
+            "bone": "sullivan_child_head1",
+            "attachment": "sullivan_child_head1"
+        },
+        {
+            "name": "sullivan_child_head",
+            "bone": "sullivan_child_head",
+            "attachment": "sullivan_child_head"
+        },
+        {
+            "name": "sullivan_child_wing_r",
+            "bone": "sullivan_child_wing_r",
+            "attachment": "sullivan_child_wing_r"
+        }
+    ],
+    "skins": {
+        "default": {
+            "sullivan_child_body1": {
+                "sullivan_child_body1": {
+                    "x": 70.08,
+                    "y": -0.1,
+                    "rotation": -69.81,
+                    "width": 83,
+                    "height": 149
+                }
+            },
+            "sullivan_child_body2": {
+                "sullivan_child_body2": {
+                    "x": 44.07,
+                    "y": 15.44,
+                    "rotation": -36.53,
+                    "width": 103,
+                    "height": 97
+                }
+            },
+            "sullivan_child_body3": {
+                "sullivan_child_body3": {
+                    "x": 65.79,
+                    "y": -14.36,
+                    "rotation": 123.48,
+                    "width": 127,
+                    "height": 144
+                }
+            },
+            "sullivan_child_head": {
+                "sullivan_child_head": {
+                    "x": -5.57,
+                    "y": -10.1,
+                    "rotation": 136.14,
+                    "width": 74,
+                    "height": 84
+                }
+            },
+            "sullivan_child_head1": {
+                "sullivan_child_head1": {
+                    "x": 32.94,
+                    "y": -2.48,
+                    "rotation": -25.94,
+                    "width": 69,
+                    "height": 23
+                }
+            },
+            "sullivan_child_head2": {
+                "sullivan_child_head2": {
+                    "x": 33.43,
+                    "y": -9.68,
+                    "rotation": -41.53,
+                    "width": 74,
+                    "height": 38
+                }
+            },
+            "sullivan_child_head3": {
+                "sullivan_child_head3": {
+                    "x": 33.82,
+                    "y": -8.55,
+                    "rotation": -54.85,
+                    "width": 58,
+                    "height": 49
+                }
+            },
+            "sullivan_child_head4": {
+                "sullivan_child_head4": {
+                    "x": 31.85,
+                    "y": -8.01,
+                    "rotation": -58.78,
+                    "width": 38,
+                    "height": 46
+                }
+            },
+            "sullivan_child_leg_l": {
+                "sullivan_child_leg_l": {
+                    "x": 10.5,
+                    "y": -0.54,
+                    "rotation": 145.53,
+                    "width": 47,
+                    "height": 47
+                }
+            },
+            "sullivan_child_leg_r": {
+                "sullivan_child_leg_r": {
+                    "x": 13.15,
+                    "y": 7.44,
+                    "rotation": -89.59,
+                    "width": 44,
+                    "height": 48
+                }
+            },
+            "sullivan_child_neck": {
+                "sullivan_child_neck": {
+                    "x": 102.94,
+                    "y": -4.85,
+                    "rotation": -69.81,
+                    "width": 51,
+                    "height": 91
+                }
+            },
+            "sullivan_child_neck1": {
+                "sullivan_child_neck1": {
+                    "x": 42.34,
+                    "y": -26.4,
+                    "rotation": -69.81,
+                    "width": 85,
+                    "height": 73
+                }
+            },
+            "sullivan_child_neck2": {
+                "sullivan_child_neck2": {
+                    "x": 48.34,
+                    "y": -24.19,
+                    "rotation": -69.81,
+                    "width": 83,
+                    "height": 61
+                }
+            },
+            "sullivan_child_tail1": {
+                "sullivan_child_tail1": {
+                    "x": 31.26,
+                    "y": 4.18,
+                    "rotation": 50.19,
+                    "width": 52,
+                    "height": 49
+                }
+            },
+            "sullivan_child_tail2": {
+                "sullivan_child_tail2": {
+                    "x": 32.22,
+                    "y": 4.22,
+                    "rotation": -10.22,
+                    "width": 46,
+                    "height": 19
+                }
+            },
+            "sullivan_child_tail3": {
+                "sullivan_child_tail3": {
+                    "x": 33.48,
+                    "y": 2.21,
+                    "rotation": 13.77,
+                    "width": 53,
+                    "height": 19
+                }
+            },
+            "sullivan_child_tail4": {
+                "sullivan_child_tail4": {
+                    "x": 25.8,
+                    "y": 4.65,
+                    "rotation": 46.05,
+                    "width": 43,
+                    "height": 36
+                }
+            },
+            "sullivan_child_tail5": {
+                "sullivan_child_tail5": {
+                    "x": 27.76,
+                    "y": 7.24,
+                    "rotation": 72.09,
+                    "width": 25,
+                    "height": 39
+                }
+            },
+            "sullivan_child_wing_l": {
+                "sullivan_child_wing_l": {
+                    "x": 67.3,
+                    "y": -17.82,
+                    "rotation": 161.65,
+                    "width": 149,
+                    "height": 80
+                }
+            },
+            "sullivan_child_wing_r": {
+                "sullivan_child_wing_r": {
+                    "x": 49.68,
+                    "y": -24.4,
+                    "rotation": 22.45,
+                    "width": 86,
+                    "height": 128
+                }
+            }
+        }
+    },
+    "animations": {
+        "wait": {
+            "slots": {
+                "sullivan_child_body1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_body1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_body1"
+                        }
+                    ]
+                },
+                "sullivan_child_body2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_body2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_body2"
+                        }
+                    ]
+                },
+                "sullivan_child_body3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_body3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_body3"
+                        }
+                    ]
+                },
+                "sullivan_child_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_head"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_head"
+                        }
+                    ]
+                },
+                "sullivan_child_head1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_head1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_head1"
+                        }
+                    ]
+                },
+                "sullivan_child_head2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_head2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_head2"
+                        }
+                    ]
+                },
+                "sullivan_child_head3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_head3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_head3"
+                        }
+                    ]
+                },
+                "sullivan_child_head4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_head4"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_head4"
+                        }
+                    ]
+                },
+                "sullivan_child_leg_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_leg_l"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_leg_l"
+                        }
+                    ]
+                },
+                "sullivan_child_leg_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_leg_r"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_leg_r"
+                        }
+                    ]
+                },
+                "sullivan_child_neck": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_neck"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_neck"
+                        }
+                    ]
+                },
+                "sullivan_child_neck1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_neck1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_neck1"
+                        }
+                    ]
+                },
+                "sullivan_child_neck2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_neck2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_neck2"
+                        }
+                    ]
+                },
+                "sullivan_child_tail1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_tail1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_tail1"
+                        }
+                    ]
+                },
+                "sullivan_child_tail2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_tail2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_tail2"
+                        }
+                    ]
+                },
+                "sullivan_child_tail3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_tail3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_tail3"
+                        }
+                    ]
+                },
+                "sullivan_child_tail4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_tail4"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_tail4"
+                        }
+                    ]
+                },
+                "sullivan_child_tail5": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_tail5"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_tail5"
+                        }
+                    ]
+                },
+                "sullivan_child_wing_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_wing_l"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_wing_l"
+                        }
+                    ]
+                },
+                "sullivan_child_wing_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "sullivan_child_wing_r"
+                        },
+                        {
+                            "time": 2,
+                            "name": "sullivan_child_wing_r"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "sullivan_child_wing_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 12.33,
+                            "curve": [
+                                0.396,
+                                0.41,
+                                0.872,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": -9.9,
+                            "curve": [
+                                0.396,
+                                0.41,
+                                0.872,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 23.01,
+                            "curve": [
+                                0.396,
+                                0.41,
+                                0.872,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 12.33
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.396,
+                                0.41,
+                                0.872,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1.73,
+                            "y": -4.23,
+                            "curve": [
+                                0.396,
+                                0.41,
+                                0.872,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 2.92,
+                            "y": -3.99,
+                            "curve": [
+                                0.396,
+                                0.41,
+                                0.872,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_body1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -4.11,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 0,
+                            "y": -7.26,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_body2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 4.66,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_body3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 3.2,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_leg_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -10.81,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_leg_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1333,
+                            "angle": 15.66,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_tail1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 6.68,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 10.74,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 6.68
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1,
+                            "y": 0.922,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_tail2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 15.05,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -10.64,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 15.05
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 0.805,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_tail3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 15.05,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -6.32,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 15.05
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 0.805,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_tail4": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 15.05,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 4.9,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 15.05
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 0.805,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_tail5": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 15.05,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 13.7,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 15.05
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 0.805,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_head1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": 16.15,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": -11.27,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_head2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": -343.84,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2666,
+                            "angle": -12.72,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_head3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": 16.15,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3666,
+                            "angle": 347.81,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_head4": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": 16.15,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.4666,
+                            "angle": -8.29,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_neck1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.297,
+                                0,
+                                0.634,
+                                0.36
+                            ]
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": 3.92,
+                            "curve": [
+                                0.299,
+                                0.2,
+                                0.755,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2666,
+                            "angle": -12.06,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2666,
+                            "x": 0.36,
+                            "y": 2.03,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "sullivan_child_wing_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.396,
+                                0.41,
+                                0.872,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": 29.9,
+                            "curve": [
+                                0.396,
+                                0.41,
+                                0.872,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": -15.09,
+                            "curve": [
+                                0.396,
+                                0.41,
+                                0.872,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2
+                }
+            ]
+        }
+    }
 }

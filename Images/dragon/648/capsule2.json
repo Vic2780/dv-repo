@@ -1,1292 +1,3132 @@
 {
-"skeleton": { "hash": "Vz6ScehAssZSpum4nmhocfOQORc", "spine": "3.0.09", "width": 188.99, "height": 226.04, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "center", "parent": "root" },
-	{ "name": "zephyros_cap2_body", "parent": "center", "length": 51.56, "x": 11.05, "y": -49.5, "rotation": 102.29 },
-	{ "name": "zephyros_cap2_body_white", "parent": "zephyros_cap2_body", "x": 35.05, "y": 3.57 },
-	{ "name": "zephyros_cap2_head", "parent": "zephyros_cap2_body", "length": 74.52, "x": 53.82, "y": -4.36, "rotation": -10.62 },
-	{ "name": "zephyros_cap2_eye1", "parent": "zephyros_cap2_head", "x": 16.87, "y": 9.52 },
-	{ "name": "zephyros_cap2_head_white", "parent": "zephyros_cap2_head", "x": 64.05, "y": -4.7 },
-	{ "name": "zephyros_cap2_l_arm", "parent": "zephyros_cap2_body", "length": 36.37, "x": 43.95, "y": 17.97, "rotation": 130.2 },
-	{ "name": "zephyros_cap2_l_leg1", "parent": "zephyros_cap2_body", "length": 24.65, "x": 16.88, "y": 14.26, "rotation": 134.42 },
-	{ "name": "zephyros_cap2_l_leg2", "parent": "zephyros_cap2_l_leg1", "length": 25.47, "x": 9.32, "y": 4.62, "rotation": 27.87 },
-	{ "name": "zephyros_cap2_l_wing2", "parent": "zephyros_cap2_body", "length": 50.59, "x": 38.56, "y": 7.93, "rotation": 53.72 },
-	{ "name": "zephyros_cap2_l_wing1", "parent": "zephyros_cap2_l_wing2", "length": 90.15, "x": 48.65, "y": 0.73, "rotation": 114.94 },
-	{ "name": "zephyros_cap2_l_wing1_white", "parent": "zephyros_cap2_l_wing1", "x": 24.3, "y": -6.67 },
-	{ "name": "zephyros_cap2_l_wing2_white", "parent": "zephyros_cap2_l_wing2", "x": 2.89, "y": 5.05 },
-	{ "name": "zephyros_cap2_mouth", "parent": "zephyros_cap2_head", "length": 51.58, "x": 17.39, "y": -15.54, "rotation": 128.12 },
-	{ "name": "zephyros_cap2_r_arm", "parent": "zephyros_cap2_body", "length": 37.81, "x": 39.15, "y": -11.41, "rotation": -163.54 },
-	{ "name": "zephyros_cap2_r_arm_white", "parent": "zephyros_cap2_r_arm", "x": 3.71, "y": 5.46 },
-	{
-		"name": "zephyros_cap2_r_leg1",
-		"parent": "zephyros_cap2_body_white",
-		"length": 20.74,
-		"x": -21.96,
-		"y": -9.63,
-		"rotation": 156.23
-	},
-	{ "name": "zephyros_cap2_r_leg2", "parent": "zephyros_cap2_r_leg1", "length": 29.11, "x": 6.86, "y": 2.35, "rotation": 12.11 },
-	{ "name": "zephyros_cap2_r_wing2", "parent": "zephyros_cap2_body", "length": 54.65, "x": 40.51, "y": -11.07, "rotation": -85.3 },
-	{ "name": "zephyros_cap2_r_wing1", "parent": "zephyros_cap2_r_wing2", "length": 99.27, "x": 57.83, "y": -0.31, "rotation": -96.63 },
-	{ "name": "zephyros_cap2_r_wing1_white", "parent": "zephyros_cap2_r_wing1", "x": 4.43, "y": 6.82 },
-	{ "name": "zephyros_cap2_r_wing2_white", "parent": "zephyros_cap2_r_wing2", "x": 29.32, "y": -4.7 },
-	{ "name": "zephyros_cap2_tail", "parent": "zephyros_cap2_body", "length": 93.84, "x": 24.46, "y": -5.33, "rotation": -155.94 },
-	{ "name": "zephyros_cap2_tail_white", "parent": "zephyros_cap2_tail", "x": 59.66, "y": -8.17 }
-],
-"slots": [
-	{
-		"name": "zephyros_cap2_l_wing2_white",
-		"bone": "zephyros_cap2_l_wing2_white",
-		"color": "f0353eff",
-		"attachment": "zephyros_cap2_l_wing2_white"
-	},
-	{ "name": "zephyros_cap2_l_wing2", "bone": "zephyros_cap2_l_wing2", "attachment": "zephyros_cap2_l_wing2" },
-	{
-		"name": "zephyros_cap2_l_wing1_white",
-		"bone": "zephyros_cap2_l_wing1_white",
-		"color": "f0353eff",
-		"attachment": "zephyros_cap2_l_wing1_white"
-	},
-	{ "name": "zephyros_cap2_l_wing1", "bone": "zephyros_cap2_l_wing1", "attachment": "zephyros_cap2_l_wing1" },
-	{ "name": "zephyros_cap2_l_arm", "bone": "zephyros_cap2_l_arm", "attachment": "zephyros_cap2_l_arm" },
-	{ "name": "zephyros_cap2_l_leg2", "bone": "zephyros_cap2_l_leg2", "attachment": "zephyros_cap2_l_leg2" },
-	{ "name": "zephyros_cap2_l_leg1", "bone": "zephyros_cap2_l_leg1", "attachment": "zephyros_cap2_l_leg1" },
-	{
-		"name": "zephyros_cap2_tail_white",
-		"bone": "zephyros_cap2_tail_white",
-		"color": "f0353eff",
-		"attachment": "zephyros_cap2_tail_white"
-	},
-	{ "name": "zephyros_cap2_tail", "bone": "zephyros_cap2_tail", "attachment": "zephyros_cap2_tail" },
-	{
-		"name": "zephyros_cap2_r_wing2_white",
-		"bone": "zephyros_cap2_r_wing2_white",
-		"color": "f0353eff",
-		"attachment": "zephyros_cap2_r_wing2_white"
-	},
-	{ "name": "zephyros_cap2_r_wing2", "bone": "zephyros_cap2_r_wing2", "attachment": "zephyros_cap2_r_wing2" },
-	{
-		"name": "zephyros_cap2_body_white",
-		"bone": "zephyros_cap2_body_white",
-		"color": "f0353eff",
-		"attachment": "zephyros_cap2_body_white"
-	},
-	{ "name": "zephyros_cap2_body", "bone": "zephyros_cap2_body", "attachment": "zephyros_cap2_body" },
-	{ "name": "zephyros_cap2_r_leg2", "bone": "zephyros_cap2_r_leg2", "attachment": "zephyros_cap2_r_leg2" },
-	{ "name": "zephyros_cap2_r_leg1", "bone": "zephyros_cap2_r_leg1", "attachment": "zephyros_cap2_r_leg1" },
-	{
-		"name": "zephyros_cap2_r_arm_white",
-		"bone": "zephyros_cap2_r_arm_white",
-		"color": "f0353eff",
-		"attachment": "zephyros_cap2_r_arm_white"
-	},
-	{ "name": "zephyros_cap2_r_arm", "bone": "zephyros_cap2_r_arm", "attachment": "zephyros_cap2_r_arm" },
-	{ "name": "zephyros_cap2_mouth", "bone": "zephyros_cap2_mouth", "attachment": "zephyros_cap2_mouth" },
-	{
-		"name": "zephyros_cap2_head_white",
-		"bone": "zephyros_cap2_head_white",
-		"color": "f0353eff",
-		"attachment": "zephyros_cap2_head_white"
-	},
-	{ "name": "zephyros_cap2_head", "bone": "zephyros_cap2_head", "attachment": "zephyros_cap2_head" },
-	{ "name": "zephyros_cap2_eye1", "bone": "zephyros_cap2_eye1", "attachment": "zephyros_cap2_eye1" },
-	{
-		"name": "zephyros_cap2_r_wing1_white",
-		"bone": "zephyros_cap2_r_wing1_white",
-		"color": "f0353eff",
-		"attachment": "zephyros_cap2_r_wing1_white"
-	},
-	{ "name": "zephyros_cap2_r_wing1", "bone": "zephyros_cap2_r_wing1", "attachment": "zephyros_cap2_r_wing1" }
-],
-"skins": {
-	"default": {
-		"zephyros_cap2_body": {
-			"zephyros_cap2_body": { "x": 25.95, "y": 4.54, "rotation": -102.29, "width": 50, "height": 55 }
-		},
-		"zephyros_cap2_body_white": {
-			"zephyros_cap2_body_white": { "x": -10.04, "y": 8.34, "rotation": -102.29, "width": 36, "height": 48 }
-		},
-		"zephyros_cap2_eye1": {
-			"zephyros_cap2_eye1": { "x": 1.6, "y": 10.71, "rotation": -91.69, "width": 54, "height": 29 },
-			"zephyros_cap2_eye2": { "x": 1.6, "y": 10.71, "rotation": -91.69, "width": 54, "height": 29 }
-		},
-		"zephyros_cap2_head": {
-			"zephyros_cap2_head": { "x": 51.43, "y": -15.75, "rotation": -91.69, "width": 140, "height": 129 }
-		},
-		"zephyros_cap2_head_white": {
-			"zephyros_cap2_head_white": { "x": -19.94, "y": -4.82, "rotation": -91.69, "width": 110, "height": 94 }
-		},
-		"zephyros_cap2_l_arm": {
-			"zephyros_cap2_l_arm": { "x": 18.01, "y": -0.1, "rotation": 127.5, "width": 34, "height": 36 }
-		},
-		"zephyros_cap2_l_leg1": {
-			"zephyros_cap2_l_leg1": { "x": 10.7, "y": 1.11, "rotation": 123.28, "width": 27, "height": 28 }
-		},
-		"zephyros_cap2_l_leg2": {
-			"zephyros_cap2_l_leg2": { "x": 12.24, "y": 0.47, "rotation": 95.41, "width": 23, "height": 34 }
-		},
-		"zephyros_cap2_l_wing1": {
-			"zephyros_cap2_l_wing1": { "x": 40.63, "y": -3.43, "rotation": 89.02, "width": 51, "height": 121 }
-		},
-		"zephyros_cap2_l_wing1_white": {
-			"zephyros_cap2_l_wing1_white": { "x": 13.85, "y": 4.27, "rotation": 89.02, "width": 37, "height": 56 }
-		},
-		"zephyros_cap2_l_wing2": {
-			"zephyros_cap2_l_wing2": { "x": 19.91, "y": 10.6, "rotation": -156.02, "width": 57, "height": 59 }
-		},
-		"zephyros_cap2_l_wing2_white": {
-			"zephyros_cap2_l_wing2_white": { "x": 16.2, "y": 7.37, "rotation": -156.02, "width": 55, "height": 53 }
-		},
-		"zephyros_cap2_mouth": {
-			"zephyros_cap2_mouth": { "x": 24.21, "y": -2.65, "rotation": 140.17, "width": 63, "height": 46 }
-		},
-		"zephyros_cap2_r_arm": {
-			"zephyros_cap2_r_arm": { "x": 17.88, "y": 1.83, "rotation": 61.23, "width": 30, "height": 44 }
-		},
-		"zephyros_cap2_r_arm_white": {
-			"zephyros_cap2_r_arm_white": { "x": 0.13, "y": -2.19, "rotation": 61.23, "width": 13, "height": 12 }
-		},
-		"zephyros_cap2_r_leg1": {
-			"zephyros_cap2_r_leg1": { "x": 9.32, "y": 0.26, "rotation": 101.46, "width": 23, "height": 26 }
-		},
-		"zephyros_cap2_r_leg2": {
-			"zephyros_cap2_r_leg2": { "x": 15, "y": 0.79, "rotation": 89.35, "width": 22, "height": 36 }
-		},
-		"zephyros_cap2_r_wing1": {
-			"zephyros_cap2_r_wing1": { "x": 41.76, "y": 2.47, "rotation": 79.63, "width": 65, "height": 146 }
-		},
-		"zephyros_cap2_r_wing1_white": {
-			"zephyros_cap2_r_wing1_white": { "x": 43.37, "y": -1.9, "rotation": 79.63, "width": 44, "height": 61 }
-		},
-		"zephyros_cap2_r_wing2": {
-			"zephyros_cap2_r_wing2": { "x": 25.77, "y": -12.62, "rotation": -16.98, "width": 69, "height": 55 }
-		},
-		"zephyros_cap2_r_wing2_white": {
-			"zephyros_cap2_r_wing2_white": { "x": -3.65, "y": -9.98, "rotation": -16.98, "width": 66, "height": 49 }
-		},
-		"zephyros_cap2_tail": {
-			"zephyros_cap2_tail": { "x": 54.13, "y": 11.71, "rotation": 53.63, "width": 107, "height": 89 }
-		},
-		"zephyros_cap2_tail_white": {
-			"zephyros_cap2_tail_white": { "x": -14.82, "y": -3.69, "rotation": 53.63, "width": 46, "height": 72 }
-		}
-	}
-},
-"animations": {
-	"att": {
-		"slots": {
-			"zephyros_cap2_body": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_body" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_body_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_body_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_eye2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_head": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_head" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_head_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_head_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_l_arm": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_arm" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_leg1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_leg2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_wing1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_wing1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_wing2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_wing2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_wing1_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_wing1_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_l_wing2_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_wing2_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_mouth": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_mouth" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_arm": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_arm" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_arm_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_arm_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_leg1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_leg2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_wing1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_wing1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_wing2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_wing2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_wing1_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_wing1_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_r_wing2_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_wing2_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_tail": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_tail" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_tail_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_tail_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			}
-		},
-		"bones": {
-			"zephyros_cap2_body": {
-				"rotate": [
-					{ "time": 0, "angle": -9.64 }
-				],
-				"translate": [
-					{ "time": 0, "x": 5.29, "y": 7.41 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_body_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": -12.4 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0.12, "y": 1.58 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": -9.86 }
-				],
-				"translate": [
-					{ "time": 0, "x": 3.6, "y": 2.23 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_head": {
-				"rotate": [
-					{ "time": 0, "angle": -11.22 }
-				],
-				"translate": [
-					{ "time": 0, "x": 2.92, "y": 3.49 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_eye1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_head_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_mouth": {
-				"rotate": [
-					{ "time": 0, "angle": 7.03 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_arm": {
-				"rotate": [
-					{ "time": 0, "angle": 13.17 }
-				],
-				"translate": [
-					{ "time": 0, "x": -4.75, "y": 0.36 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 10.42 }
-				],
-				"translate": [
-					{ "time": 0, "x": -1.05, "y": 0.08 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 19.42 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0.44, "y": 1.52 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": -17.8 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 0.654 }
-				]
-			},
-			"zephyros_cap2_l_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_wing1_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 0.984, "y": 0.984 }
-				]
-			},
-			"zephyros_cap2_l_wing2_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_arm": {
-				"rotate": [
-					{ "time": 0, "angle": 264.32 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_arm_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 9.5 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 5.85 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1.236 }
-				]
-			},
-			"zephyros_cap2_r_wing1_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_wing2_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 20.68 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0.56, "y": 7.39 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_tail_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"center": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"wait": {
-		"slots": {
-			"zephyros_cap2_body": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_body" },
-					{ "time": 2.6666, "name": "zephyros_cap2_body" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_body_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_body_white" },
-					{ "time": 2.6666, "name": "zephyros_cap2_body_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" },
-					{ "time": 0.5, "color": "ffb41eff" },
-					{ "time": 1, "color": "4cbd4fff" },
-					{ "time": 1.5, "color": "2874d9ff" },
-					{ "time": 2, "color": "ab3aa3ff" },
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_eye1" },
-					{ "time": 1.5, "name": null },
-					{ "time": 1.7, "name": "zephyros_cap2_eye1" },
-					{ "time": 2.6666, "name": "zephyros_cap2_eye1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_head": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_head" },
-					{ "time": 2.6666, "name": "zephyros_cap2_head" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_head_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_head_white" },
-					{ "time": 2.6666, "name": "zephyros_cap2_head_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" },
-					{ "time": 0.5, "color": "ffb41eff" },
-					{ "time": 1, "color": "4cbd4fff" },
-					{ "time": 1.5, "color": "2874d9ff" },
-					{ "time": 2, "color": "ab3aa3ff" },
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_l_arm": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_arm" },
-					{ "time": 2.6666, "name": "zephyros_cap2_l_arm" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_leg1" },
-					{ "time": 2.6666, "name": "zephyros_cap2_l_leg1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_leg2" },
-					{ "time": 2.6666, "name": "zephyros_cap2_l_leg2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_wing1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_wing1" },
-					{ "time": 2.6666, "name": "zephyros_cap2_l_wing1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_wing2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_wing2" },
-					{ "time": 2.6666, "name": "zephyros_cap2_l_wing2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_l_wing1_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_wing1_white" },
-					{ "time": 2.6666, "name": "zephyros_cap2_l_wing1_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" },
-					{ "time": 0.5, "color": "ffb41eff" },
-					{ "time": 1, "color": "4cbd4fff" },
-					{ "time": 1.5, "color": "2874d9ff" },
-					{ "time": 2, "color": "ab3aa3ff" },
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_l_wing2_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_l_wing2_white" },
-					{ "time": 2.6666, "name": "zephyros_cap2_l_wing2_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" },
-					{ "time": 0.5, "color": "ffb41eff" },
-					{ "time": 1, "color": "4cbd4fff" },
-					{ "time": 1.5, "color": "2874d9ff" },
-					{ "time": 2, "color": "ab3aa3ff" },
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_mouth": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_mouth" },
-					{ "time": 2.6666, "name": "zephyros_cap2_mouth" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_arm": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_arm" },
-					{ "time": 2.6666, "name": "zephyros_cap2_r_arm" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_arm_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_arm_white" },
-					{ "time": 2.6666, "name": "zephyros_cap2_r_arm_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" },
-					{ "time": 0.5, "color": "ffb41eff" },
-					{ "time": 1, "color": "4cbd4fff" },
-					{ "time": 1.5, "color": "2874d9ff" },
-					{ "time": 2, "color": "ab3aa3ff" },
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_leg1" },
-					{ "time": 2.6666, "name": "zephyros_cap2_r_leg1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_leg2" },
-					{ "time": 2.6666, "name": "zephyros_cap2_r_leg2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_wing1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_wing1" },
-					{ "time": 2.6666, "name": "zephyros_cap2_r_wing1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_wing2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_wing2" },
-					{ "time": 2.6666, "name": "zephyros_cap2_r_wing2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_r_wing1_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_wing1_white" },
-					{ "time": 2.6666, "name": "zephyros_cap2_r_wing1_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" },
-					{ "time": 0.5, "color": "ffb41eff" },
-					{ "time": 1, "color": "4cbd4fff" },
-					{ "time": 1.5, "color": "2874d9ff" },
-					{ "time": 2, "color": "ab3aa3ff" },
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_r_wing2_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_r_wing2_white" },
-					{ "time": 2.6666, "name": "zephyros_cap2_r_wing2_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" },
-					{ "time": 0.5, "color": "ffb41eff" },
-					{ "time": 1, "color": "4cbd4fff" },
-					{ "time": 1.5, "color": "2874d9ff" },
-					{ "time": 2, "color": "ab3aa3ff" },
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap2_tail": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_tail" },
-					{ "time": 2.6666, "name": "zephyros_cap2_tail" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 2.6666, "color": "ffffffff" }
-				]
-			},
-			"zephyros_cap2_tail_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap2_tail_white" },
-					{ "time": 2.6666, "name": "zephyros_cap2_tail_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" },
-					{ "time": 0.5, "color": "ffb41eff" },
-					{ "time": 1, "color": "4cbd4fff" },
-					{ "time": 1.5, "color": "2874d9ff" },
-					{ "time": 2, "color": "ab3aa3ff" },
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			}
-		},
-		"bones": {
-			"zephyros_cap2_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": -0.61 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1.3333, "x": 0, "y": 15.5 },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_body_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": 8.07 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": 12.19 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_head": {
-				"rotate": [
-					{ "time": 0, "angle": 1.98 },
-					{ "time": 1.5, "angle": -2.15 },
-					{ "time": 2.6666, "angle": 1.98 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1.5, "x": -0.15, "y": 1.66 },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_eye1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_head_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_mouth": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": -3.01 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_arm": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": 10.72 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.4, "angle": 11.66 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.5333, "angle": 10.46 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": 25.82 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1.3333, "x": -0.96, "y": -4.12 },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.3333, "x": 0.964, "y": 0.724 },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": -9.67 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.3333, "x": 0.988, "y": 1 },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_wing1_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_l_wing2_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_arm": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": 7.5 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_arm_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": -21.6 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.3333, "x": 1, "y": 0.83 },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": 4.09 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.3333, "x": 0.904, "y": 1 },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_wing1_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_r_wing2_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.3333, "angle": -11.46 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.3333, "x": 0.94, "y": 0.942 },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap2_tail_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"center": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2.6666 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "Vz6ScehAssZSpum4nmhocfOQORc",
+        "spine": "3.0.09",
+        "width": 188.99,
+        "height": 226.04,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "center",
+            "parent": "root"
+        },
+        {
+            "name": "zephyros_cap2_body",
+            "parent": "center",
+            "length": 51.56,
+            "x": 11.05,
+            "y": -49.5,
+            "rotation": 102.29
+        },
+        {
+            "name": "zephyros_cap2_body_white",
+            "parent": "zephyros_cap2_body",
+            "x": 35.05,
+            "y": 3.57
+        },
+        {
+            "name": "zephyros_cap2_head",
+            "parent": "zephyros_cap2_body",
+            "length": 74.52,
+            "x": 53.82,
+            "y": -4.36,
+            "rotation": -10.62
+        },
+        {
+            "name": "zephyros_cap2_eye1",
+            "parent": "zephyros_cap2_head",
+            "x": 16.87,
+            "y": 9.52
+        },
+        {
+            "name": "zephyros_cap2_head_white",
+            "parent": "zephyros_cap2_head",
+            "x": 64.05,
+            "y": -4.7
+        },
+        {
+            "name": "zephyros_cap2_l_arm",
+            "parent": "zephyros_cap2_body",
+            "length": 36.37,
+            "x": 43.95,
+            "y": 17.97,
+            "rotation": 130.2
+        },
+        {
+            "name": "zephyros_cap2_l_leg1",
+            "parent": "zephyros_cap2_body",
+            "length": 24.65,
+            "x": 16.88,
+            "y": 14.26,
+            "rotation": 134.42
+        },
+        {
+            "name": "zephyros_cap2_l_leg2",
+            "parent": "zephyros_cap2_l_leg1",
+            "length": 25.47,
+            "x": 9.32,
+            "y": 4.62,
+            "rotation": 27.87
+        },
+        {
+            "name": "zephyros_cap2_l_wing2",
+            "parent": "zephyros_cap2_body",
+            "length": 50.59,
+            "x": 38.56,
+            "y": 7.93,
+            "rotation": 53.72
+        },
+        {
+            "name": "zephyros_cap2_l_wing1",
+            "parent": "zephyros_cap2_l_wing2",
+            "length": 90.15,
+            "x": 48.65,
+            "y": 0.73,
+            "rotation": 114.94
+        },
+        {
+            "name": "zephyros_cap2_l_wing1_white",
+            "parent": "zephyros_cap2_l_wing1",
+            "x": 24.3,
+            "y": -6.67
+        },
+        {
+            "name": "zephyros_cap2_l_wing2_white",
+            "parent": "zephyros_cap2_l_wing2",
+            "x": 2.89,
+            "y": 5.05
+        },
+        {
+            "name": "zephyros_cap2_mouth",
+            "parent": "zephyros_cap2_head",
+            "length": 51.58,
+            "x": 17.39,
+            "y": -15.54,
+            "rotation": 128.12
+        },
+        {
+            "name": "zephyros_cap2_r_arm",
+            "parent": "zephyros_cap2_body",
+            "length": 37.81,
+            "x": 39.15,
+            "y": -11.41,
+            "rotation": -163.54
+        },
+        {
+            "name": "zephyros_cap2_r_arm_white",
+            "parent": "zephyros_cap2_r_arm",
+            "x": 3.71,
+            "y": 5.46
+        },
+        {
+            "name": "zephyros_cap2_r_leg1",
+            "parent": "zephyros_cap2_body_white",
+            "length": 20.74,
+            "x": -21.96,
+            "y": -9.63,
+            "rotation": 156.23
+        },
+        {
+            "name": "zephyros_cap2_r_leg2",
+            "parent": "zephyros_cap2_r_leg1",
+            "length": 29.11,
+            "x": 6.86,
+            "y": 2.35,
+            "rotation": 12.11
+        },
+        {
+            "name": "zephyros_cap2_r_wing2",
+            "parent": "zephyros_cap2_body",
+            "length": 54.65,
+            "x": 40.51,
+            "y": -11.07,
+            "rotation": -85.3
+        },
+        {
+            "name": "zephyros_cap2_r_wing1",
+            "parent": "zephyros_cap2_r_wing2",
+            "length": 99.27,
+            "x": 57.83,
+            "y": -0.31,
+            "rotation": -96.63
+        },
+        {
+            "name": "zephyros_cap2_r_wing1_white",
+            "parent": "zephyros_cap2_r_wing1",
+            "x": 4.43,
+            "y": 6.82
+        },
+        {
+            "name": "zephyros_cap2_r_wing2_white",
+            "parent": "zephyros_cap2_r_wing2",
+            "x": 29.32,
+            "y": -4.7
+        },
+        {
+            "name": "zephyros_cap2_tail",
+            "parent": "zephyros_cap2_body",
+            "length": 93.84,
+            "x": 24.46,
+            "y": -5.33,
+            "rotation": -155.94
+        },
+        {
+            "name": "zephyros_cap2_tail_white",
+            "parent": "zephyros_cap2_tail",
+            "x": 59.66,
+            "y": -8.17
+        }
+    ],
+    "slots": [
+        {
+            "name": "zephyros_cap2_l_wing2_white",
+            "bone": "zephyros_cap2_l_wing2_white",
+            "color": "f0353eff",
+            "attachment": "zephyros_cap2_l_wing2_white"
+        },
+        {
+            "name": "zephyros_cap2_l_wing2",
+            "bone": "zephyros_cap2_l_wing2",
+            "attachment": "zephyros_cap2_l_wing2"
+        },
+        {
+            "name": "zephyros_cap2_l_wing1_white",
+            "bone": "zephyros_cap2_l_wing1_white",
+            "color": "f0353eff",
+            "attachment": "zephyros_cap2_l_wing1_white"
+        },
+        {
+            "name": "zephyros_cap2_l_wing1",
+            "bone": "zephyros_cap2_l_wing1",
+            "attachment": "zephyros_cap2_l_wing1"
+        },
+        {
+            "name": "zephyros_cap2_l_arm",
+            "bone": "zephyros_cap2_l_arm",
+            "attachment": "zephyros_cap2_l_arm"
+        },
+        {
+            "name": "zephyros_cap2_l_leg2",
+            "bone": "zephyros_cap2_l_leg2",
+            "attachment": "zephyros_cap2_l_leg2"
+        },
+        {
+            "name": "zephyros_cap2_l_leg1",
+            "bone": "zephyros_cap2_l_leg1",
+            "attachment": "zephyros_cap2_l_leg1"
+        },
+        {
+            "name": "zephyros_cap2_tail_white",
+            "bone": "zephyros_cap2_tail_white",
+            "color": "f0353eff",
+            "attachment": "zephyros_cap2_tail_white"
+        },
+        {
+            "name": "zephyros_cap2_tail",
+            "bone": "zephyros_cap2_tail",
+            "attachment": "zephyros_cap2_tail"
+        },
+        {
+            "name": "zephyros_cap2_r_wing2_white",
+            "bone": "zephyros_cap2_r_wing2_white",
+            "color": "f0353eff",
+            "attachment": "zephyros_cap2_r_wing2_white"
+        },
+        {
+            "name": "zephyros_cap2_r_wing2",
+            "bone": "zephyros_cap2_r_wing2",
+            "attachment": "zephyros_cap2_r_wing2"
+        },
+        {
+            "name": "zephyros_cap2_body_white",
+            "bone": "zephyros_cap2_body_white",
+            "color": "f0353eff",
+            "attachment": "zephyros_cap2_body_white"
+        },
+        {
+            "name": "zephyros_cap2_body",
+            "bone": "zephyros_cap2_body",
+            "attachment": "zephyros_cap2_body"
+        },
+        {
+            "name": "zephyros_cap2_r_leg2",
+            "bone": "zephyros_cap2_r_leg2",
+            "attachment": "zephyros_cap2_r_leg2"
+        },
+        {
+            "name": "zephyros_cap2_r_leg1",
+            "bone": "zephyros_cap2_r_leg1",
+            "attachment": "zephyros_cap2_r_leg1"
+        },
+        {
+            "name": "zephyros_cap2_r_arm_white",
+            "bone": "zephyros_cap2_r_arm_white",
+            "color": "f0353eff",
+            "attachment": "zephyros_cap2_r_arm_white"
+        },
+        {
+            "name": "zephyros_cap2_r_arm",
+            "bone": "zephyros_cap2_r_arm",
+            "attachment": "zephyros_cap2_r_arm"
+        },
+        {
+            "name": "zephyros_cap2_mouth",
+            "bone": "zephyros_cap2_mouth",
+            "attachment": "zephyros_cap2_mouth"
+        },
+        {
+            "name": "zephyros_cap2_head_white",
+            "bone": "zephyros_cap2_head_white",
+            "color": "f0353eff",
+            "attachment": "zephyros_cap2_head_white"
+        },
+        {
+            "name": "zephyros_cap2_head",
+            "bone": "zephyros_cap2_head",
+            "attachment": "zephyros_cap2_head"
+        },
+        {
+            "name": "zephyros_cap2_eye1",
+            "bone": "zephyros_cap2_eye1",
+            "attachment": "zephyros_cap2_eye1"
+        },
+        {
+            "name": "zephyros_cap2_r_wing1_white",
+            "bone": "zephyros_cap2_r_wing1_white",
+            "color": "f0353eff",
+            "attachment": "zephyros_cap2_r_wing1_white"
+        },
+        {
+            "name": "zephyros_cap2_r_wing1",
+            "bone": "zephyros_cap2_r_wing1",
+            "attachment": "zephyros_cap2_r_wing1"
+        }
+    ],
+    "skins": {
+        "default": {
+            "zephyros_cap2_body": {
+                "zephyros_cap2_body": {
+                    "x": 25.95,
+                    "y": 4.54,
+                    "rotation": -102.29,
+                    "width": 50,
+                    "height": 55
+                }
+            },
+            "zephyros_cap2_body_white": {
+                "zephyros_cap2_body_white": {
+                    "x": -10.04,
+                    "y": 8.34,
+                    "rotation": -102.29,
+                    "width": 36,
+                    "height": 48
+                }
+            },
+            "zephyros_cap2_eye1": {
+                "zephyros_cap2_eye1": {
+                    "x": 1.6,
+                    "y": 10.71,
+                    "rotation": -91.69,
+                    "width": 54,
+                    "height": 29
+                },
+                "zephyros_cap2_eye2": {
+                    "x": 1.6,
+                    "y": 10.71,
+                    "rotation": -91.69,
+                    "width": 54,
+                    "height": 29
+                }
+            },
+            "zephyros_cap2_head": {
+                "zephyros_cap2_head": {
+                    "x": 51.43,
+                    "y": -15.75,
+                    "rotation": -91.69,
+                    "width": 140,
+                    "height": 129
+                }
+            },
+            "zephyros_cap2_head_white": {
+                "zephyros_cap2_head_white": {
+                    "x": -19.94,
+                    "y": -4.82,
+                    "rotation": -91.69,
+                    "width": 110,
+                    "height": 94
+                }
+            },
+            "zephyros_cap2_l_arm": {
+                "zephyros_cap2_l_arm": {
+                    "x": 18.01,
+                    "y": -0.1,
+                    "rotation": 127.5,
+                    "width": 34,
+                    "height": 36
+                }
+            },
+            "zephyros_cap2_l_leg1": {
+                "zephyros_cap2_l_leg1": {
+                    "x": 10.7,
+                    "y": 1.11,
+                    "rotation": 123.28,
+                    "width": 27,
+                    "height": 28
+                }
+            },
+            "zephyros_cap2_l_leg2": {
+                "zephyros_cap2_l_leg2": {
+                    "x": 12.24,
+                    "y": 0.47,
+                    "rotation": 95.41,
+                    "width": 23,
+                    "height": 34
+                }
+            },
+            "zephyros_cap2_l_wing1": {
+                "zephyros_cap2_l_wing1": {
+                    "x": 40.63,
+                    "y": -3.43,
+                    "rotation": 89.02,
+                    "width": 51,
+                    "height": 121
+                }
+            },
+            "zephyros_cap2_l_wing1_white": {
+                "zephyros_cap2_l_wing1_white": {
+                    "x": 13.85,
+                    "y": 4.27,
+                    "rotation": 89.02,
+                    "width": 37,
+                    "height": 56
+                }
+            },
+            "zephyros_cap2_l_wing2": {
+                "zephyros_cap2_l_wing2": {
+                    "x": 19.91,
+                    "y": 10.6,
+                    "rotation": -156.02,
+                    "width": 57,
+                    "height": 59
+                }
+            },
+            "zephyros_cap2_l_wing2_white": {
+                "zephyros_cap2_l_wing2_white": {
+                    "x": 16.2,
+                    "y": 7.37,
+                    "rotation": -156.02,
+                    "width": 55,
+                    "height": 53
+                }
+            },
+            "zephyros_cap2_mouth": {
+                "zephyros_cap2_mouth": {
+                    "x": 24.21,
+                    "y": -2.65,
+                    "rotation": 140.17,
+                    "width": 63,
+                    "height": 46
+                }
+            },
+            "zephyros_cap2_r_arm": {
+                "zephyros_cap2_r_arm": {
+                    "x": 17.88,
+                    "y": 1.83,
+                    "rotation": 61.23,
+                    "width": 30,
+                    "height": 44
+                }
+            },
+            "zephyros_cap2_r_arm_white": {
+                "zephyros_cap2_r_arm_white": {
+                    "x": 0.13,
+                    "y": -2.19,
+                    "rotation": 61.23,
+                    "width": 13,
+                    "height": 12
+                }
+            },
+            "zephyros_cap2_r_leg1": {
+                "zephyros_cap2_r_leg1": {
+                    "x": 9.32,
+                    "y": 0.26,
+                    "rotation": 101.46,
+                    "width": 23,
+                    "height": 26
+                }
+            },
+            "zephyros_cap2_r_leg2": {
+                "zephyros_cap2_r_leg2": {
+                    "x": 15,
+                    "y": 0.79,
+                    "rotation": 89.35,
+                    "width": 22,
+                    "height": 36
+                }
+            },
+            "zephyros_cap2_r_wing1": {
+                "zephyros_cap2_r_wing1": {
+                    "x": 41.76,
+                    "y": 2.47,
+                    "rotation": 79.63,
+                    "width": 65,
+                    "height": 146
+                }
+            },
+            "zephyros_cap2_r_wing1_white": {
+                "zephyros_cap2_r_wing1_white": {
+                    "x": 43.37,
+                    "y": -1.9,
+                    "rotation": 79.63,
+                    "width": 44,
+                    "height": 61
+                }
+            },
+            "zephyros_cap2_r_wing2": {
+                "zephyros_cap2_r_wing2": {
+                    "x": 25.77,
+                    "y": -12.62,
+                    "rotation": -16.98,
+                    "width": 69,
+                    "height": 55
+                }
+            },
+            "zephyros_cap2_r_wing2_white": {
+                "zephyros_cap2_r_wing2_white": {
+                    "x": -3.65,
+                    "y": -9.98,
+                    "rotation": -16.98,
+                    "width": 66,
+                    "height": 49
+                }
+            },
+            "zephyros_cap2_tail": {
+                "zephyros_cap2_tail": {
+                    "x": 54.13,
+                    "y": 11.71,
+                    "rotation": 53.63,
+                    "width": 107,
+                    "height": 89
+                }
+            },
+            "zephyros_cap2_tail_white": {
+                "zephyros_cap2_tail_white": {
+                    "x": -14.82,
+                    "y": -3.69,
+                    "rotation": 53.63,
+                    "width": 46,
+                    "height": 72
+                }
+            }
+        }
+    },
+    "animations": {
+        "att": {
+            "slots": {
+                "zephyros_cap2_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_body"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_body_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_body_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_eye2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_head"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_head_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_head_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_arm"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_leg1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_leg2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_wing1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_wing2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing1_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_wing1_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing2_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_wing2_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_mouth": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_mouth"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_arm"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_arm_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_arm_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_leg1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_leg2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_wing1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_wing2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing1_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_wing1_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing2_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_wing2_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_tail"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_tail_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_tail_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "zephyros_cap2_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -9.64
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 5.29,
+                            "y": 7.41
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_body_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -12.4
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0.12,
+                            "y": 1.58
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -9.86
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 3.6,
+                            "y": 2.23
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -11.22
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 2.92,
+                            "y": 3.49
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_eye1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_head_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_mouth": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 7.03
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 13.17
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -4.75,
+                            "y": 0.36
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 10.42
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -1.05,
+                            "y": 0.08
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 19.42
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0.44,
+                            "y": 1.52
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -17.8
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 0.654
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing1_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 0.984,
+                            "y": 0.984
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing2_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 264.32
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_arm_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 9.5
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 5.85
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1.236
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing1_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing2_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 20.68
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0.56,
+                            "y": 7.39
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_tail_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "wait": {
+            "slots": {
+                "zephyros_cap2_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_body"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_body"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_body_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_body_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_body_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ab3aa3ff"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_eye1"
+                        },
+                        {
+                            "time": 1.5,
+                            "name": null
+                        },
+                        {
+                            "time": 1.7,
+                            "name": "zephyros_cap2_eye1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_eye1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_head"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_head"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_head_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_head_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_head_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ab3aa3ff"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_arm"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_l_arm"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_leg1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_l_leg1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_leg2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_l_leg2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_wing1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_l_wing1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_wing2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_l_wing2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing1_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_wing1_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_l_wing1_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ab3aa3ff"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing2_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_l_wing2_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_l_wing2_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ab3aa3ff"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_mouth": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_mouth"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_mouth"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_arm"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_r_arm"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_arm_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_arm_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_r_arm_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ab3aa3ff"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_leg1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_r_leg1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_leg2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_r_leg2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_wing1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_r_wing1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_wing2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_r_wing2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing1_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_wing1_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_r_wing1_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ab3aa3ff"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing2_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_r_wing2_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_r_wing2_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ab3aa3ff"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_tail"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_tail"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "zephyros_cap2_tail_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap2_tail_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap2_tail_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ab3aa3ff"
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "zephyros_cap2_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -0.61
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 15.5
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_body_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 8.07
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 12.19
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 1.98
+                        },
+                        {
+                            "time": 1.5,
+                            "angle": -2.15
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 1.98
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.5,
+                            "x": -0.15,
+                            "y": 1.66
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_eye1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_head_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_mouth": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -3.01
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 10.72
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.4,
+                            "angle": 11.66
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.5333,
+                            "angle": 10.46
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 25.82
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": -0.96,
+                            "y": -4.12
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0.964,
+                            "y": 0.724
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -9.67
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0.988,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing1_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_l_wing2_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 7.5
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_arm_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -21.6
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 0.83
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 4.09
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0.904,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing1_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_r_wing2_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -11.46
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0.94,
+                            "y": 0.942
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap2_tail_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2.6666
+                }
+            ]
+        }
+    }
 }

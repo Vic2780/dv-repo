@@ -1,1781 +1,4514 @@
 {
-"skeleton": { "hash": "1X/0X8Wk1N1vvVpWark3KKEE32s", "spine": "3.0.09", "width": 215.44, "height": 253.92, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "body_center", "parent": "root", "x": -0.44, "y": -42.7 },
-	{ "name": "insect_ev_body2", "parent": "body_center", "length": 33.53, "x": 30.83, "y": 2.95, "rotation": -174.21 },
-	{ "name": "insect_ev_r_leg2", "parent": "insect_ev_body2", "length": 33.85, "x": 12.5, "y": 10.19, "rotation": 80.59 },
-	{ "name": "insect_ev_l_leg2", "parent": "insect_ev_body2", "length": 30.87, "x": 31.29, "y": 15.49, "rotation": 81.04 },
-	{ "name": "insect_ev_body3", "parent": "insect_ev_body2", "length": 20.22, "x": -3.48, "y": -0.91, "rotation": -156.95 },
-	{ "name": "insect_ev_r_leg3", "parent": "insect_ev_body3", "length": 41.52, "x": 13.29, "y": -40.61, "rotation": -123.81 },
-	{ "name": "insect_ev_l_tail1", "parent": "insect_ev_body3", "length": 55.73, "x": 16.52, "y": 1.98, "rotation": 86.72 },
-	{ "name": "insect_ev_l_tail2", "parent": "insect_ev_l_tail1", "length": 33.25, "x": 64.5, "y": -5.13, "rotation": -75.17 },
-	{ "name": "insect_ev_l_leg3", "parent": "insect_ev_body3", "length": 51.68, "x": -19.48, "y": -0.34, "rotation": -130.33 },
-	{ "name": "insect_ev_body1", "parent": "insect_ev_body2", "length": 72.4, "x": 40.76, "y": 0.09, "rotation": -91.79 },
-	{ "name": "insect_ev_wing4", "parent": "insect_ev_body1", "length": 56.85, "x": 24.06, "y": 16.92, "rotation": 37.58 },
-	{ "name": "insect_ev_wing3", "parent": "insect_ev_body1", "length": 97.53, "x": 26.1, "y": 15.93, "rotation": 16.02 },
-	{ "name": "insect_ev_wing2", "parent": "insect_ev_body1", "length": 97.29, "x": 19.84, "y": -12.83, "rotation": -68.46 },
-	{ "name": "insect_ev_wing1", "parent": "insect_ev_body1", "length": 105.61, "x": 22.72, "y": -7.95, "rotation": -35.9 },
-	{ "name": "insect_ev_r_leg1", "parent": "insect_ev_body1", "length": 38.87, "x": 11.95, "y": -4.65, "rotation": 174.08 },
-	{ "name": "insect_ev_r_leg0", "parent": "insect_ev_r_leg1", "length": 29.19, "x": 37.49, "y": -9.33, "rotation": -163.82 },
-	{ "name": "insect_ev_r_hand", "parent": "insect_ev_r_leg0", "length": 27.58, "x": 33.11, "y": 5.05, "rotation": 153.99 },
-	{ "name": "insect_ev_l_leg1", "parent": "insect_ev_body1", "length": 31.08, "x": -19.04, "y": 30.13, "rotation": 38.96 },
-	{ "name": "insect_ev_l_hand", "parent": "insect_ev_l_leg1", "length": 31.01, "x": 39.11, "y": 1.05, "rotation": 130.85 },
-	{ "name": "insect_ev_head", "parent": "insect_ev_body1", "length": 30.17, "x": 80.94, "y": 1.05, "rotation": 2.38 },
-	{ "name": "insect_ev_eye", "parent": "insect_ev_head", "x": 13.09, "y": 21.9 }
-],
-"slots": [
-	{ "name": "insect_ev_l_tail2", "bone": "insect_ev_l_tail2", "attachment": "insect_ev_l_tail2" },
-	{ "name": "insect_ev_l_tail1", "bone": "insect_ev_l_tail1", "attachment": "insect_ev_l_tail1" },
-	{ "name": "insect_ev_l_leg3", "bone": "insect_ev_l_leg3", "attachment": "insect_ev_l_leg3_acc" },
-	{ "name": "insect_ev_l_leg2", "bone": "insect_ev_l_leg2", "attachment": "insect_ev_l_leg2_acc" },
-	{ "name": "insect_ev_l_leg1", "bone": "insect_ev_l_leg1", "attachment": "insect_ev_l_leg1_acc" },
-	{ "name": "insect_ev_l_hand", "bone": "insect_ev_l_hand", "attachment": "insect_ev_l_hand" },
-	{ "name": "insect_ev_r_leg3", "bone": "insect_ev_r_leg3", "attachment": "insect_ev_r_leg3_acc" },
-	{ "name": "insect_ev_wing4", "bone": "insect_ev_wing4", "attachment": "insect_ev_wing4" },
-	{ "name": "insect_ev_wing3", "bone": "insect_ev_wing3", "attachment": "insect_ev_wing3" },
-	{ "name": "insect_ev_body3", "bone": "insect_ev_body3", "attachment": "insect_ev_body3_acc" },
-	{ "name": "insect_ev_body2", "bone": "insect_ev_body2", "attachment": "insect_ev_body2_acc" },
-	{ "name": "insect_ev_wing2", "bone": "insect_ev_wing2", "attachment": "insect_ev_wing2" },
-	{ "name": "insect_ev_wing1", "bone": "insect_ev_wing1", "attachment": "insect_ev_wing1" },
-	{ "name": "insect_ev_body1", "bone": "insect_ev_body1", "attachment": "insect_ev_body1_acc" },
-	{ "name": "insect_ev_r_leg2", "bone": "insect_ev_r_leg2", "attachment": "insect_ev_r_leg2_acc" },
-	{ "name": "insect_ev_r_leg1", "bone": "insect_ev_r_leg1", "attachment": "insect_ev_r_leg1_acc" },
-	{ "name": "insect_ev_r_leg0", "bone": "insect_ev_r_leg0", "attachment": "insect_ev_r_leg0_acc" },
-	{ "name": "insect_ev_r_hand", "bone": "insect_ev_r_hand", "attachment": "insect_ev_r_hand" },
-	{ "name": "insect_ev_head", "bone": "insect_ev_head", "attachment": "insect_ev_head" },
-	{ "name": "insect_ev_eye", "bone": "insect_ev_eye" },
-	{ "name": "insect_ev_head_acc", "bone": "insect_ev_head", "attachment": "insect_ev_head_acc" },
-	{ "name": "insect_ev_att", "bone": "body_center", "attachment": "insect_ev_att_acc" }
-],
-"skins": {
-	"default": {
-		"insect_ev_att": {
-			"insect_ev_att": { "x": 21.94, "y": 40.81, "width": 212, "height": 252 },
-			"insect_ev_att_acc": { "x": 21.49, "y": 38.1, "width": 215, "height": 253 }
-		},
-		"insect_ev_body1": {
-			"insect_ev_body1": { "x": 37.42, "y": 10.74, "rotation": -94, "width": 69, "height": 140 },
-			"insect_ev_body1_acc": { "x": 38.48, "y": 11.38, "rotation": -94.04, "width": 70, "height": 140 }
-		},
-		"insect_ev_body2": {
-			"insect_ev_body2": { "x": 15.27, "y": 3.1, "rotation": 174.18, "width": 51, "height": 60 },
-			"insect_ev_body2_acc": { "x": 7.67, "y": 0.79, "rotation": 174.18, "width": 62, "height": 60 }
-		},
-		"insect_ev_body3": {
-			"insect_ev_body3": { "x": -0.81, "y": -15.42, "rotation": -28.87, "width": 53, "height": 78 },
-			"insect_ev_body3_acc": { "x": -0.5, "y": -15.17, "rotation": -28.87, "width": 53, "height": 77 }
-		},
-		"insect_ev_eye": {
-			"insect_ev_eye": { "x": 0.6, "y": -6.76, "rotation": -96.42, "width": 37, "height": 18 }
-		},
-		"insect_ev_head": {
-			"insect_ev_head": { "x": 15.39, "y": 7.9, "rotation": -96.42, "width": 52, "height": 54 }
-		},
-		"insect_ev_head_acc": {
-			"insect_ev_head_acc": { "x": 13.43, "y": 13.73, "rotation": -96.42, "width": 77, "height": 72 }
-		},
-		"insect_ev_l_hand": {
-			"insect_ev_l_hand": { "x": 22.77, "y": 0.27, "rotation": 96.13, "width": 23, "height": 51 }
-		},
-		"insect_ev_l_leg1": {
-			"insect_ev_l_leg1": { "x": 10.41, "y": 2.06, "rotation": -133.01, "width": 45, "height": 51 },
-			"insect_ev_l_leg1_acc": { "x": 9.91, "y": 1.91, "rotation": -133.01, "width": 45, "height": 49 }
-		},
-		"insect_ev_l_leg2": {
-			"insect_ev_l_leg2": { "x": 19.48, "y": 1.75, "rotation": 93.14, "width": 23, "height": 49 },
-			"insect_ev_l_leg2_acc": { "x": 19.36, "y": 0.25, "rotation": 93.14, "width": 23, "height": 50 }
-		},
-		"insect_ev_l_leg3": {
-			"insect_ev_l_leg3": { "x": 37.41, "y": 2.6, "rotation": 101.43, "width": 40, "height": 94 },
-			"insect_ev_l_leg3_acc": { "x": 37.67, "y": 2.06, "rotation": 101.43, "width": 40, "height": 93 }
-		},
-		"insect_ev_l_tail1": {
-			"insect_ev_l_tail1": { "x": 32.88, "y": 0.63, "rotation": -115.58, "width": 71, "height": 86 }
-		},
-		"insect_ev_l_tail2": {
-			"insect_ev_l_tail2": { "x": 7.25, "y": -42.31, "rotation": -40.4, "width": 94, "height": 109 }
-		},
-		"insect_ev_r_hand": {
-			"insect_ev_r_hand": { "x": 20.79, "y": 2.27, "rotation": 101.67, "width": 30, "height": 45 }
-		},
-		"insect_ev_r_leg0": {
-			"insect_ev_r_leg0": { "x": 14.68, "y": -3.15, "rotation": -104.32, "width": 31, "height": 41 },
-			"insect_ev_r_leg0_acc": { "x": 14.32, "y": -3.47, "rotation": -104.32, "width": 31, "height": 41 }
-		},
-		"insect_ev_r_leg1": {
-			"insect_ev_r_leg1": { "x": 19.78, "y": -3.49, "rotation": 91.87, "width": 31, "height": 66 },
-			"insect_ev_r_leg1_acc": { "x": 19.02, "y": -4.41, "rotation": 91.87, "width": 31, "height": 65 }
-		},
-		"insect_ev_r_leg2": {
-			"insect_ev_r_leg2": { "x": 25.77, "y": 0.13, "rotation": 93.58, "width": 29, "height": 65 },
-			"insect_ev_r_leg2_acc": { "x": 21.61, "y": -0.5, "rotation": 93.58, "width": 29, "height": 73 }
-		},
-		"insect_ev_r_leg3": {
-			"insect_ev_r_leg3": { "x": 14.38, "y": -0.78, "rotation": 94.93, "width": 32, "height": 97 },
-			"insect_ev_r_leg3_acc": { "x": 14.47, "y": -1.02, "rotation": 94.93, "width": 32, "height": 97 }
-		},
-		"insect_ev_wing1": {
-			"insect_ev_wing1": { "x": 83.24, "y": -11.06, "rotation": -58.14, "width": 115, "height": 145 }
-		},
-		"insect_ev_wing2": {
-			"insect_ev_wing2": { "x": 71.48, "y": 2.8, "rotation": -25.57, "width": 129, "height": 67 }
-		},
-		"insect_ev_wing3": {
-			"insect_ev_wing3": { "x": 66.48, "y": 0.82, "rotation": -110.07, "width": 57, "height": 135 }
-		},
-		"insect_ev_wing4": {
-			"insect_ev_wing4": { "x": 39.03, "y": -0.9, "rotation": -131.62, "width": 56, "height": 64 }
-		}
-	}
-},
-"animations": {
-	"acc": {
-		"slots": {
-			"insect_ev_att": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.6666, "name": null }
-				]
-			},
-			"insect_ev_body1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_body1_acc" },
-					{ "time": 1.6666, "name": "insect_ev_body1_acc" }
-				]
-			},
-			"insect_ev_body2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_body2_acc" },
-					{ "time": 1.6666, "name": "insect_ev_body2_acc" }
-				]
-			},
-			"insect_ev_body3": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_body3_acc" },
-					{ "time": 1.6666, "name": "insect_ev_body3_acc" }
-				]
-			},
-			"insect_ev_eye": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.1333, "name": "insect_ev_eye" },
-					{ "time": 1.2333, "name": null },
-					{ "time": 1.6666, "name": null }
-				]
-			},
-			"insect_ev_head": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_head" },
-					{ "time": 1.6666, "name": "insect_ev_head" }
-				]
-			},
-			"insect_ev_head_acc": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_head_acc" },
-					{ "time": 1.6666, "name": "insect_ev_head_acc" }
-				]
-			},
-			"insect_ev_l_hand": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_hand" },
-					{ "time": 1.6666, "name": "insect_ev_l_hand" }
-				]
-			},
-			"insect_ev_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_leg1_acc" },
-					{ "time": 1.6666, "name": "insect_ev_l_leg1_acc" }
-				]
-			},
-			"insect_ev_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_leg2_acc" },
-					{ "time": 1.6666, "name": "insect_ev_l_leg2_acc" }
-				]
-			},
-			"insect_ev_l_leg3": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_leg3_acc" },
-					{ "time": 1.6666, "name": "insect_ev_l_leg3_acc" }
-				]
-			},
-			"insect_ev_l_tail1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_tail1" },
-					{ "time": 1.6666, "name": "insect_ev_l_tail1" }
-				]
-			},
-			"insect_ev_l_tail2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_tail2" },
-					{ "time": 1.6666, "name": "insect_ev_l_tail2" }
-				]
-			},
-			"insect_ev_r_hand": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_hand" },
-					{ "time": 1.6666, "name": "insect_ev_r_hand" }
-				]
-			},
-			"insect_ev_r_leg0": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_leg0_acc" },
-					{ "time": 1.6666, "name": "insect_ev_r_leg0_acc" }
-				]
-			},
-			"insect_ev_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_leg1_acc" },
-					{ "time": 1.6666, "name": "insect_ev_r_leg1_acc" }
-				]
-			},
-			"insect_ev_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_leg2_acc" },
-					{ "time": 1.6666, "name": "insect_ev_r_leg2_acc" }
-				]
-			},
-			"insect_ev_r_leg3": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_leg3_acc" },
-					{ "time": 1.6666, "name": "insect_ev_r_leg3_acc" }
-				]
-			},
-			"insect_ev_wing1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_wing1" },
-					{ "time": 0.8333, "name": "insect_ev_wing1" },
-					{ "time": 1.6666, "name": "insect_ev_wing1" }
-				]
-			},
-			"insect_ev_wing2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_wing2" },
-					{ "time": 0.8333, "name": "insect_ev_wing2" },
-					{ "time": 1.6666, "name": "insect_ev_wing2" }
-				]
-			},
-			"insect_ev_wing3": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_wing3" },
-					{ "time": 0.8333, "name": "insect_ev_wing3" },
-					{ "time": 1.6666, "name": "insect_ev_wing3" }
-				]
-			},
-			"insect_ev_wing4": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_wing4" },
-					{ "time": 0.8333, "name": "insect_ev_wing4" },
-					{ "time": 1.6666, "name": "insect_ev_wing4" }
-				]
-			}
-		},
-		"bones": {
-			"insect_ev_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.1666, "angle": -8.56 },
-					{ "time": 0.6333, "angle": 9.67 },
-					{ "time": 0.8333, "angle": 0 },
-					{ "time": 1, "angle": -8.56 },
-					{ "time": 1.4666, "angle": 9.67 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1666, "x": 0.987, "y": 0.925 },
-					{ "time": 0.6333, "x": 1.015, "y": 0.791 },
-					{ "time": 0.8333, "x": 1, "y": 1 },
-					{ "time": 1, "x": 0.987, "y": 0.925 },
-					{ "time": 1.4666, "x": 1.015, "y": 0.791 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -14.08 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": -0.15, "y": -2.08 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.1666, "angle": 14.01 },
-					{ "time": 0.6333, "angle": -11.28 },
-					{ "time": 0.8333, "angle": 0 },
-					{ "time": 1, "angle": 14.01 },
-					{ "time": 1.4666, "angle": -11.28 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1666, "x": 0.987, "y": 0.925 },
-					{ "time": 0.6333, "x": 1.015, "y": 0.791 },
-					{ "time": 0.8333, "x": 1, "y": 1 },
-					{ "time": 1, "x": 0.987, "y": 0.925 },
-					{ "time": 1.4666, "x": 1.015, "y": 0.791 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -7.93 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 2.76, "y": -0.28 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing4": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.1666, "angle": -7.26 },
-					{ "time": 0.5666, "angle": 22.08 },
-					{ "time": 0.8333, "angle": 0 },
-					{ "time": 1, "angle": -7.26 },
-					{ "time": 1.4, "angle": 22.08 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1666, "x": 1, "y": 0.891 },
-					{ "time": 0.5666, "x": 0.903, "y": 1.275 },
-					{ "time": 0.8333, "x": 1, "y": 1 },
-					{ "time": 1, "x": 1, "y": 0.891 },
-					{ "time": 1.4, "x": 0.903, "y": 1.275 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 8.5 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 4.37, "y": 5.14 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_tail1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -15.46 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.1666, "angle": 12.33 },
-					{ "time": 0.5666, "angle": -8.87 },
-					{ "time": 0.8333, "angle": 0 },
-					{ "time": 1, "angle": 12.33 },
-					{ "time": 1.4, "angle": -8.87 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1666, "x": 1, "y": 0.891 },
-					{ "time": 0.5666, "x": 0.903, "y": 1.275 },
-					{ "time": 0.8333, "x": 1, "y": 1 },
-					{ "time": 1, "x": 1, "y": 0.891 },
-					{ "time": 1.4, "x": 0.903, "y": 1.275 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -353.45 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 2.75, "y": 0 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_head": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.275, 0, 0.728, 1 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": 0.64,
-						"curve": [ 0.286, 0, 0.699, 1 ]
-					},
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.275, 0, 0.728, 1 ]
-					},
-					{
-						"time": 0.8333,
-						"x": 0.35,
-						"y": -2.12,
-						"curve": [ 0.286, 0, 0.699, 1 ]
-					},
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_tail2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 7.19 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.5, "x": 1.065, "y": 0.948 },
-					{ "time": 1.1666, "x": 0.888, "y": 1.065 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 11.83 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": -1.94, "y": -0.73 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 17.06 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 3, "y": -2.71 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -16.88 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 0.99, "y": -1.13 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_body3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -4.43 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 0.12, "y": 1.22 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg0": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 17.59 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_body1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -3.86 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_leg3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 10 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 3.53, "y": 5.53 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_body2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.37, 0, 0.6, 0.99 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": -4.1,
-						"curve": [ 0.33, 0, 0.597, 1 ]
-					},
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"body_center": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.37, 0, 0.6, 0.99 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": 6.04,
-						"curve": [ 0.33, 0, 0.597, 1 ]
-					},
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": -4.68,
-						"curve": [ 0.37, 0, 0.6, 0.99 ]
-					},
-					{
-						"time": 0.8333,
-						"x": 0,
-						"y": 10.75,
-						"curve": [ 0.33, 0, 0.597, 1 ]
-					},
-					{ "time": 1.6666, "x": 0, "y": -4.68 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 0.8333 },
-			{ "time": 1.6666 }
-		]
-	},
-	"acc_att": {
-		"slots": {
-			"insect_ev_att": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_att_acc" }
-				]
-			},
-			"insect_ev_body1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_body2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_body3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_head": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_head_acc": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_hand": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_leg3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_tail1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_tail2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_hand": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_leg0": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_leg3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_wing1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_wing2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_wing3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_wing4": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			}
-		},
-		"bones": {
-			"body_center": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"att": {
-		"slots": {
-			"insect_ev_att": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_att" }
-				]
-			},
-			"insect_ev_body1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_body2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_body3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_eye": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_head": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_head_acc": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_hand": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_leg3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_tail1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_l_tail2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_hand": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_leg0": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_r_leg3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_wing1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_wing2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_wing3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"insect_ev_wing4": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			}
-		},
-		"bones": {
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_tail2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_tail1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_leg3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_body3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing4": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg0": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_body1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_body2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"body_center": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"wait": {
-		"slots": {
-			"insect_ev_att": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.6666, "name": null }
-				]
-			},
-			"insect_ev_body1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_body1" },
-					{ "time": 1.6666, "name": "insect_ev_body1" }
-				]
-			},
-			"insect_ev_body2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_body2" },
-					{ "time": 1.6666, "name": "insect_ev_body2" }
-				]
-			},
-			"insect_ev_body3": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_body3" },
-					{ "time": 1.6666, "name": "insect_ev_body3" }
-				]
-			},
-			"insect_ev_eye": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.1333, "name": "insect_ev_eye" },
-					{ "time": 1.2333, "name": null },
-					{ "time": 1.6666, "name": null }
-				]
-			},
-			"insect_ev_head": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_head" },
-					{ "time": 1.6666, "name": "insect_ev_head" }
-				]
-			},
-			"insect_ev_head_acc": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.6666, "name": null }
-				]
-			},
-			"insect_ev_l_hand": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_hand" },
-					{ "time": 1.6666, "name": "insect_ev_l_hand" }
-				]
-			},
-			"insect_ev_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_leg1" },
-					{ "time": 1.6666, "name": "insect_ev_l_leg1" }
-				]
-			},
-			"insect_ev_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_leg2" },
-					{ "time": 1.6666, "name": "insect_ev_l_leg2" }
-				]
-			},
-			"insect_ev_l_leg3": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_leg3" },
-					{ "time": 1.6666, "name": "insect_ev_l_leg3" }
-				]
-			},
-			"insect_ev_l_tail1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_tail1" },
-					{ "time": 1.6666, "name": "insect_ev_l_tail1" }
-				]
-			},
-			"insect_ev_l_tail2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_l_tail2" },
-					{ "time": 1.6666, "name": "insect_ev_l_tail2" }
-				]
-			},
-			"insect_ev_r_hand": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_hand" },
-					{ "time": 1.6666, "name": "insect_ev_r_hand" }
-				]
-			},
-			"insect_ev_r_leg0": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_leg0" },
-					{ "time": 1.6666, "name": "insect_ev_r_leg0" }
-				]
-			},
-			"insect_ev_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_leg1" },
-					{ "time": 1.6666, "name": "insect_ev_r_leg1" }
-				]
-			},
-			"insect_ev_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_leg2" },
-					{ "time": 1.6666, "name": "insect_ev_r_leg2" }
-				]
-			},
-			"insect_ev_r_leg3": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_r_leg3" },
-					{ "time": 1.6666, "name": "insect_ev_r_leg3" }
-				]
-			},
-			"insect_ev_wing1": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_wing1" },
-					{ "time": 0.8333, "name": "insect_ev_wing1" },
-					{ "time": 1.6666, "name": "insect_ev_wing1" }
-				]
-			},
-			"insect_ev_wing2": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_wing2" },
-					{ "time": 0.8333, "name": "insect_ev_wing2" },
-					{ "time": 1.6666, "name": "insect_ev_wing2" }
-				]
-			},
-			"insect_ev_wing3": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_wing3" },
-					{ "time": 0.8333, "name": "insect_ev_wing3" },
-					{ "time": 1.6666, "name": "insect_ev_wing3" }
-				]
-			},
-			"insect_ev_wing4": {
-				"attachment": [
-					{ "time": 0, "name": "insect_ev_wing4" },
-					{ "time": 0.8333, "name": "insect_ev_wing4" },
-					{ "time": 1.6666, "name": "insect_ev_wing4" }
-				]
-			}
-		},
-		"bones": {
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 11.83 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": -1.94, "y": -0.73 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -7.93 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 2.76, "y": -0.28 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 8.5 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 4.37, "y": 5.14 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_tail2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 7.19 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.5, "x": 1.065, "y": 0.948 },
-					{ "time": 1.1666, "x": 0.888, "y": 1.065 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_tail1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -15.46 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_leg3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 10 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 3.53, "y": 5.53 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_body3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -4.43 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 0.12, "y": 1.22 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing4": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.1666, "angle": -7.26 },
-					{ "time": 0.5666, "angle": 22.08 },
-					{ "time": 0.8333, "angle": 0 },
-					{ "time": 1, "angle": -7.26 },
-					{ "time": 1.4, "angle": 22.08 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1666, "x": 1, "y": 0.891 },
-					{ "time": 0.5666, "x": 0.903, "y": 1.275 },
-					{ "time": 0.8333, "x": 1, "y": 1 },
-					{ "time": 1, "x": 1, "y": 0.891 },
-					{ "time": 1.4, "x": 0.903, "y": 1.275 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.1666, "angle": 14.01 },
-					{ "time": 0.6333, "angle": -11.28 },
-					{ "time": 0.8333, "angle": 0 },
-					{ "time": 1, "angle": 14.01 },
-					{ "time": 1.4666, "angle": -11.28 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1666, "x": 0.987, "y": 0.925 },
-					{ "time": 0.6333, "x": 1.015, "y": 0.791 },
-					{ "time": 0.8333, "x": 1, "y": 1 },
-					{ "time": 1, "x": 0.987, "y": 0.925 },
-					{ "time": 1.4666, "x": 1.015, "y": 0.791 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.1666, "angle": 12.33 },
-					{ "time": 0.5666, "angle": -8.87 },
-					{ "time": 0.8333, "angle": 0 },
-					{ "time": 1, "angle": 12.33 },
-					{ "time": 1.4, "angle": -8.87 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1666, "x": 1, "y": 0.891 },
-					{ "time": 0.5666, "x": 0.903, "y": 1.275 },
-					{ "time": 0.8333, "x": 1, "y": 1 },
-					{ "time": 1, "x": 1, "y": 0.891 },
-					{ "time": 1.4, "x": 0.903, "y": 1.275 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.1666, "angle": -8.56 },
-					{ "time": 0.6333, "angle": 9.67 },
-					{ "time": 0.8333, "angle": 0 },
-					{ "time": 1, "angle": -8.56 },
-					{ "time": 1.4666, "angle": 9.67 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1666, "x": 0.987, "y": 0.925 },
-					{ "time": 0.6333, "x": 1.015, "y": 0.791 },
-					{ "time": 0.8333, "x": 1, "y": 1 },
-					{ "time": 1, "x": 0.987, "y": 0.925 },
-					{ "time": 1.4666, "x": 1.015, "y": 0.791 },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -16.88 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 0.99, "y": -1.13 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg0": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 17.59 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -353.45 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 2.75, "y": 0 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -14.08 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": -0.15, "y": -2.08 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": 17.06 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.8333, "x": 3, "y": -2.71 },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_head": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.275, 0, 0.728, 1 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": 0.64,
-						"curve": [ 0.286, 0, 0.699, 1 ]
-					},
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.275, 0, 0.728, 1 ]
-					},
-					{
-						"time": 0.8333,
-						"x": 0.35,
-						"y": -2.12,
-						"curve": [ 0.286, 0, 0.699, 1 ]
-					},
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_body1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8333, "angle": -3.86 },
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"insect_ev_body2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.37, 0, 0.6, 0.99 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": -4.1,
-						"curve": [ 0.33, 0, 0.597, 1 ]
-					},
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			},
-			"body_center": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.37, 0, 0.6, 0.99 ]
-					},
-					{
-						"time": 0.8333,
-						"angle": 6.04,
-						"curve": [ 0.33, 0, 0.597, 1 ]
-					},
-					{ "time": 1.6666, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": -4.68,
-						"curve": [ 0.37, 0, 0.6, 0.99 ]
-					},
-					{
-						"time": 0.8333,
-						"x": 0,
-						"y": 10.75,
-						"curve": [ 0.33, 0, 0.597, 1 ]
-					},
-					{ "time": 1.6666, "x": 0, "y": -4.68 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 0.8333 },
-			{ "time": 1.6666 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "1X/0X8Wk1N1vvVpWark3KKEE32s",
+        "spine": "3.0.09",
+        "width": 215.44,
+        "height": 253.92,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "body_center",
+            "parent": "root",
+            "x": -0.44,
+            "y": -42.7
+        },
+        {
+            "name": "insect_ev_body2",
+            "parent": "body_center",
+            "length": 33.53,
+            "x": 30.83,
+            "y": 2.95,
+            "rotation": -174.21
+        },
+        {
+            "name": "insect_ev_r_leg2",
+            "parent": "insect_ev_body2",
+            "length": 33.85,
+            "x": 12.5,
+            "y": 10.19,
+            "rotation": 80.59
+        },
+        {
+            "name": "insect_ev_l_leg2",
+            "parent": "insect_ev_body2",
+            "length": 30.87,
+            "x": 31.29,
+            "y": 15.49,
+            "rotation": 81.04
+        },
+        {
+            "name": "insect_ev_body3",
+            "parent": "insect_ev_body2",
+            "length": 20.22,
+            "x": -3.48,
+            "y": -0.91,
+            "rotation": -156.95
+        },
+        {
+            "name": "insect_ev_r_leg3",
+            "parent": "insect_ev_body3",
+            "length": 41.52,
+            "x": 13.29,
+            "y": -40.61,
+            "rotation": -123.81
+        },
+        {
+            "name": "insect_ev_l_tail1",
+            "parent": "insect_ev_body3",
+            "length": 55.73,
+            "x": 16.52,
+            "y": 1.98,
+            "rotation": 86.72
+        },
+        {
+            "name": "insect_ev_l_tail2",
+            "parent": "insect_ev_l_tail1",
+            "length": 33.25,
+            "x": 64.5,
+            "y": -5.13,
+            "rotation": -75.17
+        },
+        {
+            "name": "insect_ev_l_leg3",
+            "parent": "insect_ev_body3",
+            "length": 51.68,
+            "x": -19.48,
+            "y": -0.34,
+            "rotation": -130.33
+        },
+        {
+            "name": "insect_ev_body1",
+            "parent": "insect_ev_body2",
+            "length": 72.4,
+            "x": 40.76,
+            "y": 0.09,
+            "rotation": -91.79
+        },
+        {
+            "name": "insect_ev_wing4",
+            "parent": "insect_ev_body1",
+            "length": 56.85,
+            "x": 24.06,
+            "y": 16.92,
+            "rotation": 37.58
+        },
+        {
+            "name": "insect_ev_wing3",
+            "parent": "insect_ev_body1",
+            "length": 97.53,
+            "x": 26.1,
+            "y": 15.93,
+            "rotation": 16.02
+        },
+        {
+            "name": "insect_ev_wing2",
+            "parent": "insect_ev_body1",
+            "length": 97.29,
+            "x": 19.84,
+            "y": -12.83,
+            "rotation": -68.46
+        },
+        {
+            "name": "insect_ev_wing1",
+            "parent": "insect_ev_body1",
+            "length": 105.61,
+            "x": 22.72,
+            "y": -7.95,
+            "rotation": -35.9
+        },
+        {
+            "name": "insect_ev_r_leg1",
+            "parent": "insect_ev_body1",
+            "length": 38.87,
+            "x": 11.95,
+            "y": -4.65,
+            "rotation": 174.08
+        },
+        {
+            "name": "insect_ev_r_leg0",
+            "parent": "insect_ev_r_leg1",
+            "length": 29.19,
+            "x": 37.49,
+            "y": -9.33,
+            "rotation": -163.82
+        },
+        {
+            "name": "insect_ev_r_hand",
+            "parent": "insect_ev_r_leg0",
+            "length": 27.58,
+            "x": 33.11,
+            "y": 5.05,
+            "rotation": 153.99
+        },
+        {
+            "name": "insect_ev_l_leg1",
+            "parent": "insect_ev_body1",
+            "length": 31.08,
+            "x": -19.04,
+            "y": 30.13,
+            "rotation": 38.96
+        },
+        {
+            "name": "insect_ev_l_hand",
+            "parent": "insect_ev_l_leg1",
+            "length": 31.01,
+            "x": 39.11,
+            "y": 1.05,
+            "rotation": 130.85
+        },
+        {
+            "name": "insect_ev_head",
+            "parent": "insect_ev_body1",
+            "length": 30.17,
+            "x": 80.94,
+            "y": 1.05,
+            "rotation": 2.38
+        },
+        {
+            "name": "insect_ev_eye",
+            "parent": "insect_ev_head",
+            "x": 13.09,
+            "y": 21.9
+        }
+    ],
+    "slots": [
+        {
+            "name": "insect_ev_l_tail2",
+            "bone": "insect_ev_l_tail2",
+            "attachment": "insect_ev_l_tail2"
+        },
+        {
+            "name": "insect_ev_l_tail1",
+            "bone": "insect_ev_l_tail1",
+            "attachment": "insect_ev_l_tail1"
+        },
+        {
+            "name": "insect_ev_l_leg3",
+            "bone": "insect_ev_l_leg3",
+            "attachment": "insect_ev_l_leg3_acc"
+        },
+        {
+            "name": "insect_ev_l_leg2",
+            "bone": "insect_ev_l_leg2",
+            "attachment": "insect_ev_l_leg2_acc"
+        },
+        {
+            "name": "insect_ev_l_leg1",
+            "bone": "insect_ev_l_leg1",
+            "attachment": "insect_ev_l_leg1_acc"
+        },
+        {
+            "name": "insect_ev_l_hand",
+            "bone": "insect_ev_l_hand",
+            "attachment": "insect_ev_l_hand"
+        },
+        {
+            "name": "insect_ev_r_leg3",
+            "bone": "insect_ev_r_leg3",
+            "attachment": "insect_ev_r_leg3_acc"
+        },
+        {
+            "name": "insect_ev_wing4",
+            "bone": "insect_ev_wing4",
+            "attachment": "insect_ev_wing4"
+        },
+        {
+            "name": "insect_ev_wing3",
+            "bone": "insect_ev_wing3",
+            "attachment": "insect_ev_wing3"
+        },
+        {
+            "name": "insect_ev_body3",
+            "bone": "insect_ev_body3",
+            "attachment": "insect_ev_body3_acc"
+        },
+        {
+            "name": "insect_ev_body2",
+            "bone": "insect_ev_body2",
+            "attachment": "insect_ev_body2_acc"
+        },
+        {
+            "name": "insect_ev_wing2",
+            "bone": "insect_ev_wing2",
+            "attachment": "insect_ev_wing2"
+        },
+        {
+            "name": "insect_ev_wing1",
+            "bone": "insect_ev_wing1",
+            "attachment": "insect_ev_wing1"
+        },
+        {
+            "name": "insect_ev_body1",
+            "bone": "insect_ev_body1",
+            "attachment": "insect_ev_body1_acc"
+        },
+        {
+            "name": "insect_ev_r_leg2",
+            "bone": "insect_ev_r_leg2",
+            "attachment": "insect_ev_r_leg2_acc"
+        },
+        {
+            "name": "insect_ev_r_leg1",
+            "bone": "insect_ev_r_leg1",
+            "attachment": "insect_ev_r_leg1_acc"
+        },
+        {
+            "name": "insect_ev_r_leg0",
+            "bone": "insect_ev_r_leg0",
+            "attachment": "insect_ev_r_leg0_acc"
+        },
+        {
+            "name": "insect_ev_r_hand",
+            "bone": "insect_ev_r_hand",
+            "attachment": "insect_ev_r_hand"
+        },
+        {
+            "name": "insect_ev_head",
+            "bone": "insect_ev_head",
+            "attachment": "insect_ev_head"
+        },
+        {
+            "name": "insect_ev_eye",
+            "bone": "insect_ev_eye"
+        },
+        {
+            "name": "insect_ev_head_acc",
+            "bone": "insect_ev_head",
+            "attachment": "insect_ev_head_acc"
+        },
+        {
+            "name": "insect_ev_att",
+            "bone": "body_center",
+            "attachment": "insect_ev_att_acc"
+        }
+    ],
+    "skins": {
+        "default": {
+            "insect_ev_att": {
+                "insect_ev_att": {
+                    "x": 21.94,
+                    "y": 40.81,
+                    "width": 212,
+                    "height": 252
+                },
+                "insect_ev_att_acc": {
+                    "x": 21.49,
+                    "y": 38.1,
+                    "width": 215,
+                    "height": 253
+                }
+            },
+            "insect_ev_body1": {
+                "insect_ev_body1": {
+                    "x": 37.42,
+                    "y": 10.74,
+                    "rotation": -94,
+                    "width": 69,
+                    "height": 140
+                },
+                "insect_ev_body1_acc": {
+                    "x": 38.48,
+                    "y": 11.38,
+                    "rotation": -94.04,
+                    "width": 70,
+                    "height": 140
+                }
+            },
+            "insect_ev_body2": {
+                "insect_ev_body2": {
+                    "x": 15.27,
+                    "y": 3.1,
+                    "rotation": 174.18,
+                    "width": 51,
+                    "height": 60
+                },
+                "insect_ev_body2_acc": {
+                    "x": 7.67,
+                    "y": 0.79,
+                    "rotation": 174.18,
+                    "width": 62,
+                    "height": 60
+                }
+            },
+            "insect_ev_body3": {
+                "insect_ev_body3": {
+                    "x": -0.81,
+                    "y": -15.42,
+                    "rotation": -28.87,
+                    "width": 53,
+                    "height": 78
+                },
+                "insect_ev_body3_acc": {
+                    "x": -0.5,
+                    "y": -15.17,
+                    "rotation": -28.87,
+                    "width": 53,
+                    "height": 77
+                }
+            },
+            "insect_ev_eye": {
+                "insect_ev_eye": {
+                    "x": 0.6,
+                    "y": -6.76,
+                    "rotation": -96.42,
+                    "width": 37,
+                    "height": 18
+                }
+            },
+            "insect_ev_head": {
+                "insect_ev_head": {
+                    "x": 15.39,
+                    "y": 7.9,
+                    "rotation": -96.42,
+                    "width": 52,
+                    "height": 54
+                }
+            },
+            "insect_ev_head_acc": {
+                "insect_ev_head_acc": {
+                    "x": 13.43,
+                    "y": 13.73,
+                    "rotation": -96.42,
+                    "width": 77,
+                    "height": 72
+                }
+            },
+            "insect_ev_l_hand": {
+                "insect_ev_l_hand": {
+                    "x": 22.77,
+                    "y": 0.27,
+                    "rotation": 96.13,
+                    "width": 23,
+                    "height": 51
+                }
+            },
+            "insect_ev_l_leg1": {
+                "insect_ev_l_leg1": {
+                    "x": 10.41,
+                    "y": 2.06,
+                    "rotation": -133.01,
+                    "width": 45,
+                    "height": 51
+                },
+                "insect_ev_l_leg1_acc": {
+                    "x": 9.91,
+                    "y": 1.91,
+                    "rotation": -133.01,
+                    "width": 45,
+                    "height": 49
+                }
+            },
+            "insect_ev_l_leg2": {
+                "insect_ev_l_leg2": {
+                    "x": 19.48,
+                    "y": 1.75,
+                    "rotation": 93.14,
+                    "width": 23,
+                    "height": 49
+                },
+                "insect_ev_l_leg2_acc": {
+                    "x": 19.36,
+                    "y": 0.25,
+                    "rotation": 93.14,
+                    "width": 23,
+                    "height": 50
+                }
+            },
+            "insect_ev_l_leg3": {
+                "insect_ev_l_leg3": {
+                    "x": 37.41,
+                    "y": 2.6,
+                    "rotation": 101.43,
+                    "width": 40,
+                    "height": 94
+                },
+                "insect_ev_l_leg3_acc": {
+                    "x": 37.67,
+                    "y": 2.06,
+                    "rotation": 101.43,
+                    "width": 40,
+                    "height": 93
+                }
+            },
+            "insect_ev_l_tail1": {
+                "insect_ev_l_tail1": {
+                    "x": 32.88,
+                    "y": 0.63,
+                    "rotation": -115.58,
+                    "width": 71,
+                    "height": 86
+                }
+            },
+            "insect_ev_l_tail2": {
+                "insect_ev_l_tail2": {
+                    "x": 7.25,
+                    "y": -42.31,
+                    "rotation": -40.4,
+                    "width": 94,
+                    "height": 109
+                }
+            },
+            "insect_ev_r_hand": {
+                "insect_ev_r_hand": {
+                    "x": 20.79,
+                    "y": 2.27,
+                    "rotation": 101.67,
+                    "width": 30,
+                    "height": 45
+                }
+            },
+            "insect_ev_r_leg0": {
+                "insect_ev_r_leg0": {
+                    "x": 14.68,
+                    "y": -3.15,
+                    "rotation": -104.32,
+                    "width": 31,
+                    "height": 41
+                },
+                "insect_ev_r_leg0_acc": {
+                    "x": 14.32,
+                    "y": -3.47,
+                    "rotation": -104.32,
+                    "width": 31,
+                    "height": 41
+                }
+            },
+            "insect_ev_r_leg1": {
+                "insect_ev_r_leg1": {
+                    "x": 19.78,
+                    "y": -3.49,
+                    "rotation": 91.87,
+                    "width": 31,
+                    "height": 66
+                },
+                "insect_ev_r_leg1_acc": {
+                    "x": 19.02,
+                    "y": -4.41,
+                    "rotation": 91.87,
+                    "width": 31,
+                    "height": 65
+                }
+            },
+            "insect_ev_r_leg2": {
+                "insect_ev_r_leg2": {
+                    "x": 25.77,
+                    "y": 0.13,
+                    "rotation": 93.58,
+                    "width": 29,
+                    "height": 65
+                },
+                "insect_ev_r_leg2_acc": {
+                    "x": 21.61,
+                    "y": -0.5,
+                    "rotation": 93.58,
+                    "width": 29,
+                    "height": 73
+                }
+            },
+            "insect_ev_r_leg3": {
+                "insect_ev_r_leg3": {
+                    "x": 14.38,
+                    "y": -0.78,
+                    "rotation": 94.93,
+                    "width": 32,
+                    "height": 97
+                },
+                "insect_ev_r_leg3_acc": {
+                    "x": 14.47,
+                    "y": -1.02,
+                    "rotation": 94.93,
+                    "width": 32,
+                    "height": 97
+                }
+            },
+            "insect_ev_wing1": {
+                "insect_ev_wing1": {
+                    "x": 83.24,
+                    "y": -11.06,
+                    "rotation": -58.14,
+                    "width": 115,
+                    "height": 145
+                }
+            },
+            "insect_ev_wing2": {
+                "insect_ev_wing2": {
+                    "x": 71.48,
+                    "y": 2.8,
+                    "rotation": -25.57,
+                    "width": 129,
+                    "height": 67
+                }
+            },
+            "insect_ev_wing3": {
+                "insect_ev_wing3": {
+                    "x": 66.48,
+                    "y": 0.82,
+                    "rotation": -110.07,
+                    "width": 57,
+                    "height": 135
+                }
+            },
+            "insect_ev_wing4": {
+                "insect_ev_wing4": {
+                    "x": 39.03,
+                    "y": -0.9,
+                    "rotation": -131.62,
+                    "width": 56,
+                    "height": 64
+                }
+            }
+        }
+    },
+    "animations": {
+        "acc": {
+            "slots": {
+                "insect_ev_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_body1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_body1_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_body1_acc"
+                        }
+                    ]
+                },
+                "insect_ev_body2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_body2_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_body2_acc"
+                        }
+                    ]
+                },
+                "insect_ev_body3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_body3_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_body3_acc"
+                        }
+                    ]
+                },
+                "insect_ev_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "insect_ev_eye"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": null
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_head"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_head"
+                        }
+                    ]
+                },
+                "insect_ev_head_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_head_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_head_acc"
+                        }
+                    ]
+                },
+                "insect_ev_l_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_hand"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_hand"
+                        }
+                    ]
+                },
+                "insect_ev_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_leg1_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_leg1_acc"
+                        }
+                    ]
+                },
+                "insect_ev_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_leg2_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_leg2_acc"
+                        }
+                    ]
+                },
+                "insect_ev_l_leg3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_leg3_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_leg3_acc"
+                        }
+                    ]
+                },
+                "insect_ev_l_tail1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_tail1"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_tail1"
+                        }
+                    ]
+                },
+                "insect_ev_l_tail2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_tail2"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_tail2"
+                        }
+                    ]
+                },
+                "insect_ev_r_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_hand"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_hand"
+                        }
+                    ]
+                },
+                "insect_ev_r_leg0": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_leg0_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_leg0_acc"
+                        }
+                    ]
+                },
+                "insect_ev_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_leg1_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_leg1_acc"
+                        }
+                    ]
+                },
+                "insect_ev_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_leg2_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_leg2_acc"
+                        }
+                    ]
+                },
+                "insect_ev_r_leg3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_leg3_acc"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_leg3_acc"
+                        }
+                    ]
+                },
+                "insect_ev_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_wing1"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "insect_ev_wing1"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_wing1"
+                        }
+                    ]
+                },
+                "insect_ev_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_wing2"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "insect_ev_wing2"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_wing2"
+                        }
+                    ]
+                },
+                "insect_ev_wing3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_wing3"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "insect_ev_wing3"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_wing3"
+                        }
+                    ]
+                },
+                "insect_ev_wing4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_wing4"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "insect_ev_wing4"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_wing4"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "insect_ev_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": -8.56
+                        },
+                        {
+                            "time": 0.6333,
+                            "angle": 9.67
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": -8.56
+                        },
+                        {
+                            "time": 1.4666,
+                            "angle": 9.67
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 0.987,
+                            "y": 0.925
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 1.015,
+                            "y": 0.791
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.987,
+                            "y": 0.925
+                        },
+                        {
+                            "time": 1.4666,
+                            "x": 1.015,
+                            "y": 0.791
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -14.08
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": -0.15,
+                            "y": -2.08
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": 14.01
+                        },
+                        {
+                            "time": 0.6333,
+                            "angle": -11.28
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": 14.01
+                        },
+                        {
+                            "time": 1.4666,
+                            "angle": -11.28
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 0.987,
+                            "y": 0.925
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 1.015,
+                            "y": 0.791
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.987,
+                            "y": 0.925
+                        },
+                        {
+                            "time": 1.4666,
+                            "x": 1.015,
+                            "y": 0.791
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -7.93
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 2.76,
+                            "y": -0.28
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing4": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": -7.26
+                        },
+                        {
+                            "time": 0.5666,
+                            "angle": 22.08
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": -7.26
+                        },
+                        {
+                            "time": 1.4,
+                            "angle": 22.08
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 1,
+                            "y": 0.891
+                        },
+                        {
+                            "time": 0.5666,
+                            "x": 0.903,
+                            "y": 1.275
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 1,
+                            "y": 0.891
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.903,
+                            "y": 1.275
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 8.5
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 4.37,
+                            "y": 5.14
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_tail1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -15.46
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": 12.33
+                        },
+                        {
+                            "time": 0.5666,
+                            "angle": -8.87
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": 12.33
+                        },
+                        {
+                            "time": 1.4,
+                            "angle": -8.87
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 1,
+                            "y": 0.891
+                        },
+                        {
+                            "time": 0.5666,
+                            "x": 0.903,
+                            "y": 1.275
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 1,
+                            "y": 0.891
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.903,
+                            "y": 1.275
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -353.45
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 2.75,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.275,
+                                0,
+                                0.728,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0.64,
+                            "curve": [
+                                0.286,
+                                0,
+                                0.699,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.275,
+                                0,
+                                0.728,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.35,
+                            "y": -2.12,
+                            "curve": [
+                                0.286,
+                                0,
+                                0.699,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_tail2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 7.19
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1.065,
+                            "y": 0.948
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0.888,
+                            "y": 1.065
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 11.83
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": -1.94,
+                            "y": -0.73
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 17.06
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 3,
+                            "y": -2.71
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -16.88
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.99,
+                            "y": -1.13
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_body3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -4.43
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.12,
+                            "y": 1.22
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg0": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 17.59
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_body1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -3.86
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_leg3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 10
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 3.53,
+                            "y": 5.53
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_body2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.37,
+                                0,
+                                0.6,
+                                0.99
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -4.1,
+                            "curve": [
+                                0.33,
+                                0,
+                                0.597,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "body_center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.37,
+                                0,
+                                0.6,
+                                0.99
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 6.04,
+                            "curve": [
+                                0.33,
+                                0,
+                                0.597,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": -4.68,
+                            "curve": [
+                                0.37,
+                                0,
+                                0.6,
+                                0.99
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 10.75,
+                            "curve": [
+                                0.33,
+                                0,
+                                0.597,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": -4.68
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 0.8333
+                },
+                {
+                    "time": 1.6666
+                }
+            ]
+        },
+        "acc_att": {
+            "slots": {
+                "insect_ev_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_att_acc"
+                        }
+                    ]
+                },
+                "insect_ev_body1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_body2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_body3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_head_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_leg3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_tail1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_tail2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_leg0": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_leg3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_wing3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_wing4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "body_center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "att": {
+            "slots": {
+                "insect_ev_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_att"
+                        }
+                    ]
+                },
+                "insect_ev_body1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_body2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_body3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_head_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_leg3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_tail1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_tail2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_leg0": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_r_leg3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_wing3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_wing4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_tail2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_tail1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_leg3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_body3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing4": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg0": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_body1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_body2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "body_center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "wait": {
+            "slots": {
+                "insect_ev_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_body1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_body1"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_body1"
+                        }
+                    ]
+                },
+                "insect_ev_body2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_body2"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_body2"
+                        }
+                    ]
+                },
+                "insect_ev_body3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_body3"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_body3"
+                        }
+                    ]
+                },
+                "insect_ev_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "insect_ev_eye"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": null
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_head"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_head"
+                        }
+                    ]
+                },
+                "insect_ev_head_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "insect_ev_l_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_hand"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_hand"
+                        }
+                    ]
+                },
+                "insect_ev_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_leg1"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_leg1"
+                        }
+                    ]
+                },
+                "insect_ev_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_leg2"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_leg2"
+                        }
+                    ]
+                },
+                "insect_ev_l_leg3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_leg3"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_leg3"
+                        }
+                    ]
+                },
+                "insect_ev_l_tail1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_tail1"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_tail1"
+                        }
+                    ]
+                },
+                "insect_ev_l_tail2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_l_tail2"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_l_tail2"
+                        }
+                    ]
+                },
+                "insect_ev_r_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_hand"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_hand"
+                        }
+                    ]
+                },
+                "insect_ev_r_leg0": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_leg0"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_leg0"
+                        }
+                    ]
+                },
+                "insect_ev_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_leg1"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_leg1"
+                        }
+                    ]
+                },
+                "insect_ev_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_leg2"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_leg2"
+                        }
+                    ]
+                },
+                "insect_ev_r_leg3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_r_leg3"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_r_leg3"
+                        }
+                    ]
+                },
+                "insect_ev_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_wing1"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "insect_ev_wing1"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_wing1"
+                        }
+                    ]
+                },
+                "insect_ev_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_wing2"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "insect_ev_wing2"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_wing2"
+                        }
+                    ]
+                },
+                "insect_ev_wing3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_wing3"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "insect_ev_wing3"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_wing3"
+                        }
+                    ]
+                },
+                "insect_ev_wing4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "insect_ev_wing4"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "insect_ev_wing4"
+                        },
+                        {
+                            "time": 1.6666,
+                            "name": "insect_ev_wing4"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 11.83
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": -1.94,
+                            "y": -0.73
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -7.93
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 2.76,
+                            "y": -0.28
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 8.5
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 4.37,
+                            "y": 5.14
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_tail2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 7.19
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1.065,
+                            "y": 0.948
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0.888,
+                            "y": 1.065
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_tail1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -15.46
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_leg3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 10
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 3.53,
+                            "y": 5.53
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_body3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -4.43
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.12,
+                            "y": 1.22
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing4": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": -7.26
+                        },
+                        {
+                            "time": 0.5666,
+                            "angle": 22.08
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": -7.26
+                        },
+                        {
+                            "time": 1.4,
+                            "angle": 22.08
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 1,
+                            "y": 0.891
+                        },
+                        {
+                            "time": 0.5666,
+                            "x": 0.903,
+                            "y": 1.275
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 1,
+                            "y": 0.891
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.903,
+                            "y": 1.275
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": 14.01
+                        },
+                        {
+                            "time": 0.6333,
+                            "angle": -11.28
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": 14.01
+                        },
+                        {
+                            "time": 1.4666,
+                            "angle": -11.28
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 0.987,
+                            "y": 0.925
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 1.015,
+                            "y": 0.791
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.987,
+                            "y": 0.925
+                        },
+                        {
+                            "time": 1.4666,
+                            "x": 1.015,
+                            "y": 0.791
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": 12.33
+                        },
+                        {
+                            "time": 0.5666,
+                            "angle": -8.87
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": 12.33
+                        },
+                        {
+                            "time": 1.4,
+                            "angle": -8.87
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 1,
+                            "y": 0.891
+                        },
+                        {
+                            "time": 0.5666,
+                            "x": 0.903,
+                            "y": 1.275
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 1,
+                            "y": 0.891
+                        },
+                        {
+                            "time": 1.4,
+                            "x": 0.903,
+                            "y": 1.275
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": -8.56
+                        },
+                        {
+                            "time": 0.6333,
+                            "angle": 9.67
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": -8.56
+                        },
+                        {
+                            "time": 1.4666,
+                            "angle": 9.67
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 0.987,
+                            "y": 0.925
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 1.015,
+                            "y": 0.791
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.987,
+                            "y": 0.925
+                        },
+                        {
+                            "time": 1.4666,
+                            "x": 1.015,
+                            "y": 0.791
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -16.88
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.99,
+                            "y": -1.13
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg0": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 17.59
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -353.45
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 2.75,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -14.08
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": -0.15,
+                            "y": -2.08
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 17.06
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 3,
+                            "y": -2.71
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.275,
+                                0,
+                                0.728,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0.64,
+                            "curve": [
+                                0.286,
+                                0,
+                                0.699,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.275,
+                                0,
+                                0.728,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0.35,
+                            "y": -2.12,
+                            "curve": [
+                                0.286,
+                                0,
+                                0.699,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_body1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -3.86
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "insect_ev_body2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.37,
+                                0,
+                                0.6,
+                                0.99
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": -4.1,
+                            "curve": [
+                                0.33,
+                                0,
+                                0.597,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "body_center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.37,
+                                0,
+                                0.6,
+                                0.99
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 6.04,
+                            "curve": [
+                                0.33,
+                                0,
+                                0.597,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": -4.68,
+                            "curve": [
+                                0.37,
+                                0,
+                                0.6,
+                                0.99
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 10.75,
+                            "curve": [
+                                0.33,
+                                0,
+                                0.597,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": -4.68
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 0.8333
+                },
+                {
+                    "time": 1.6666
+                }
+            ]
+        }
+    }
 }

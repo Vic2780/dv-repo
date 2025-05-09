@@ -1,921 +1,2030 @@
 {
-"skeleton": { "hash": "QvMkOfgiB9pvzd04YdqvQS7AWdA", "spine": "3.0.09", "width": 181.53, "height": 239.61, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "artemis_capsule2_body", "parent": "root", "length": 46.96, "x": 0.16, "y": -74.88, "rotation": 102.59 },
-	{
-		"name": "artemis_capsule2_wing_r3",
-		"parent": "artemis_capsule2_body",
-		"length": 45.35,
-		"x": 35.19,
-		"y": -16.54,
-		"rotation": -131.55
-	},
-	{
-		"name": "artemis_capsule2_wing_r1",
-		"parent": "artemis_capsule2_body",
-		"length": 45.79,
-		"x": 35.55,
-		"y": -10.94,
-		"rotation": -64.66
-	},
-	{ "name": "artemis_capsule2_twinkle3", "parent": "artemis_capsule2_wing_r1", "x": 27.16, "y": -12.65 },
-	{
-		"name": "artemis_capsule2_wing_l2",
-		"parent": "artemis_capsule2_body",
-		"length": 57.81,
-		"x": 36.61,
-		"y": 0.49,
-		"rotation": 122.26
-	},
-	{
-		"name": "artemis_capsule2_wing_l1",
-		"parent": "artemis_capsule2_body",
-		"length": 56.55,
-		"x": 35.75,
-		"y": -2,
-		"scaleX": 0.934,
-		"scaleY": 1.06,
-		"rotation": 66.36
-	},
-	{ "name": "artemis_capsule2_twinkle1", "parent": "artemis_capsule2_wing_l1", "x": 36.2, "y": 1.99, "rotation": -14.57 },
-	{
-		"name": "artemis_capsule2_tail",
-		"parent": "artemis_capsule2_body",
-		"length": 38.25,
-		"x": 18.48,
-		"y": -5.62,
-		"rotation": -103.07
-	},
-	{
-		"name": "artemis_capsule2_leg_r",
-		"parent": "artemis_capsule2_body",
-		"length": 26.48,
-		"x": 12.66,
-		"y": -4.92,
-		"rotation": -178.56
-	},
-	{
-		"name": "artemis_capsule2_leg_l",
-		"parent": "artemis_capsule2_body",
-		"length": 23.95,
-		"x": 20.06,
-		"y": 10.77,
-		"rotation": 158.14
-	},
-	{ "name": "artemis_capsule2_head", "parent": "artemis_capsule2_body", "length": 70.66, "x": 47.4, "y": -3.41, "rotation": -13.1 },
-	{ "name": "artemis_capsule2_eye1", "parent": "artemis_capsule2_head", "x": 19.16, "y": 12.42 },
-	{
-		"name": "artemis_capsule2_arm_r",
-		"parent": "artemis_capsule2_body",
-		"length": 30.97,
-		"x": 42.55,
-		"y": -7.71,
-		"rotation": 169.54
-	},
-	{
-		"name": "artemis_capsule2_arm_l",
-		"parent": "artemis_capsule2_body",
-		"length": 27.31,
-		"x": 42.23,
-		"y": 13.59,
-		"rotation": 138.55
-	}
-],
-"slots": [
-	{ "name": "artemis_capsule2_arm_r", "bone": "artemis_capsule2_arm_r", "attachment": "artemis_capsule2_arm_r" },
-	{ "name": "artemis_capsule2_leg_r", "bone": "artemis_capsule2_leg_r", "attachment": "artemis_capsule2_leg_r" },
-	{ "name": "artemis_capsule2_body", "bone": "artemis_capsule2_body", "attachment": "artemis_capsule2_body" },
-	{ "name": "artemis_capsule2_head", "bone": "artemis_capsule2_head", "attachment": "artemis_capsule2_head" },
-	{ "name": "artemis_capsule2_eye1", "bone": "artemis_capsule2_eye1", "attachment": "artemis_capsule2_att" },
-	{ "name": "artemis_capsule2_leg_l", "bone": "artemis_capsule2_leg_l", "attachment": "artemis_capsule2_leg_l" },
-	{ "name": "artemis_capsule2_arm_l", "bone": "artemis_capsule2_arm_l", "attachment": "artemis_capsule2_arm_l" },
-	{ "name": "artemis_capsule2_wing_r3", "bone": "artemis_capsule2_wing_r3", "attachment": "artemis_capsule2_wing_r3" },
-	{ "name": "artemis_capsule2_wing_r2", "bone": "artemis_capsule2_wing_r1", "attachment": "artemis_capsule2_wing_r2" },
-	{ "name": "artemis_capsule2_wing_r1", "bone": "artemis_capsule2_wing_r1", "attachment": "artemis_capsule2_wing_r1" },
-	{ "name": "artemis_capsule2_twinkle4", "bone": "artemis_capsule2_twinkle3", "attachment": "artemis_capsule2_twinkle4" },
-	{ "name": "artemis_capsule2_twinkle3", "bone": "artemis_capsule2_twinkle3", "attachment": "artemis_capsule2_twinkle3" },
-	{ "name": "artemis_capsule2_tail", "bone": "artemis_capsule2_tail", "attachment": "artemis_capsule2_tail" },
-	{ "name": "artemis_capsule2_wing_l3", "bone": "artemis_capsule2_wing_l1", "attachment": "artemis_capsule2_wing_l3" },
-	{ "name": "artemis_capsule2_wing_l2", "bone": "artemis_capsule2_wing_l2", "attachment": "artemis_capsule2_wing_l2" },
-	{ "name": "artemis_capsule2_wing_l1", "bone": "artemis_capsule2_wing_l1", "attachment": "artemis_capsule2_wing_l1" },
-	{ "name": "artemis_capsule2_twinkle2", "bone": "artemis_capsule2_twinkle1", "attachment": "artemis_capsule2_twinkle2" },
-	{ "name": "artemis_capsule2_twinkle1", "bone": "artemis_capsule2_twinkle1", "attachment": "artemis_capsule2_twinkle1" }
-],
-"skins": {
-	"default": {
-		"artemis_capsule2_arm_l": {
-			"artemis_capsule2_arm_l": { "x": 13.44, "y": 0.8, "rotation": 118.85, "width": 35, "height": 46 }
-		},
-		"artemis_capsule2_arm_r": {
-			"artemis_capsule2_arm_r": { "x": 14.02, "y": -0.33, "rotation": 87.84, "width": 22, "height": 45 }
-		},
-		"artemis_capsule2_body": {
-			"artemis_capsule2_body": { "x": 26.18, "y": 0.77, "rotation": -102.6, "width": 47, "height": 57 }
-		},
-		"artemis_capsule2_eye1": {
-			"artemis_capsule2_att": { "x": -4.13, "y": 4.55, "rotation": -89.51, "width": 47, "height": 39 },
-			"artemis_capsule2_eye1": { "x": 2.02, "y": -3.19, "rotation": -89.51, "width": 31, "height": 24 },
-			"artemis_capsule2_eye2": { "x": 2.02, "y": -3.19, "rotation": -89.51, "width": 31, "height": 22 }
-		},
-		"artemis_capsule2_head": {
-			"artemis_capsule2_head": { "x": 61.5, "y": -14.52, "rotation": -89.51, "width": 158, "height": 133 }
-		},
-		"artemis_capsule2_leg_l": {
-			"artemis_capsule2_leg_l": { "x": 22.5, "y": 7.03, "rotation": 99.25, "width": 48, "height": 58 }
-		},
-		"artemis_capsule2_leg_r": {
-			"artemis_capsule2_leg_r": { "x": 15.59, "y": 4.84, "rotation": 75.93, "width": 35, "height": 58 }
-		},
-		"artemis_capsule2_tail": {
-			"artemis_capsule2_tail": { "x": 17.5, "y": -3.35, "rotation": 0.43, "width": 51, "height": 29 }
-		},
-		"artemis_capsule2_twinkle1": {
-			"artemis_capsule2_twinkle1": { "x": 15.7, "y": 0.1, "rotation": -154.4, "width": 88, "height": 45 }
-		},
-		"artemis_capsule2_twinkle2": {
-			"artemis_capsule2_twinkle2": { "x": 0.1, "y": 0.5, "rotation": -154.4, "width": 103, "height": 40 }
-		},
-		"artemis_capsule2_twinkle3": {
-			"artemis_capsule2_twinkle3": { "x": 7.7, "y": -3.48, "rotation": -37.92, "width": 81, "height": 39 }
-		},
-		"artemis_capsule2_twinkle4": {
-			"artemis_capsule2_twinkle4": { "x": 10.57, "y": -0.77, "rotation": -37.92, "width": 65, "height": 36 }
-		},
-		"artemis_capsule2_wing_l1": {
-			"artemis_capsule2_wing_l1": { "x": 45.13, "y": 2.21, "rotation": -168.97, "width": 84, "height": 39 }
-		},
-		"artemis_capsule2_wing_l2": {
-			"artemis_capsule2_wing_l2": { "x": 50.68, "y": 16.33, "rotation": 135.13, "width": 53, "height": 106 }
-		},
-		"artemis_capsule2_wing_l3": {
-			"artemis_capsule2_wing_l3": { "x": 25.87, "y": -5.6, "rotation": -168.97, "width": 64, "height": 33 }
-		},
-		"artemis_capsule2_wing_r1": {
-			"artemis_capsule2_wing_r1": { "x": 21.51, "y": -1.54, "rotation": -37.92, "width": 42, "height": 38 }
-		},
-		"artemis_capsule2_wing_r2": {
-			"artemis_capsule2_wing_r2": { "x": 35.13, "y": -14.32, "rotation": -37.92, "width": 62, "height": 39 }
-		},
-		"artemis_capsule2_wing_r3": {
-			"artemis_capsule2_wing_r3": { "x": 48.2, "y": -17.19, "rotation": 28.93, "width": 73, "height": 79 }
-		}
-	}
-},
-"animations": {
-	"att": {
-		"slots": {
-			"artemis_capsule2_arm_l": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_arm_l" }
-				]
-			},
-			"artemis_capsule2_arm_r": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_arm_r" }
-				]
-			},
-			"artemis_capsule2_body": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_body" }
-				]
-			},
-			"artemis_capsule2_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_att" }
-				]
-			},
-			"artemis_capsule2_head": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_head" }
-				]
-			},
-			"artemis_capsule2_leg_l": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_leg_l" }
-				]
-			},
-			"artemis_capsule2_leg_r": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_leg_r" }
-				]
-			},
-			"artemis_capsule2_tail": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_tail" }
-				]
-			},
-			"artemis_capsule2_twinkle1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_twinkle1" }
-				]
-			},
-			"artemis_capsule2_twinkle2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_twinkle2" }
-				]
-			},
-			"artemis_capsule2_twinkle3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_twinkle3" }
-				]
-			},
-			"artemis_capsule2_twinkle4": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_twinkle4" }
-				]
-			},
-			"artemis_capsule2_wing_l1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_l1" }
-				]
-			},
-			"artemis_capsule2_wing_l2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_l2" }
-				]
-			},
-			"artemis_capsule2_wing_l3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_l3" }
-				]
-			},
-			"artemis_capsule2_wing_r1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_r1" }
-				]
-			},
-			"artemis_capsule2_wing_r2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_r2" }
-				]
-			},
-			"artemis_capsule2_wing_r3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_r3" }
-				]
-			}
-		},
-		"bones": {
-			"artemis_capsule2_wing_l1": {
-				"rotate": [
-					{ "time": 0, "angle": 9.15 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 0.938, "y": 1.046 }
-				]
-			},
-			"artemis_capsule2_wing_r1": {
-				"rotate": [
-					{ "time": 0, "angle": -15.46 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1.05, "y": 1.005 }
-				]
-			},
-			"artemis_capsule2_arm_l": {
-				"rotate": [
-					{ "time": 0, "angle": 2.63 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_leg_l": {
-				"rotate": [
-					{ "time": 0, "angle": -12.71 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_leg_r": {
-				"rotate": [
-					{ "time": 0, "angle": 4.59 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 19.36 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_wing_l2": {
-				"rotate": [
-					{ "time": 0, "angle": 19.81 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_head": {
-				"rotate": [
-					{ "time": 0, "angle": -10.71 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_eye1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_arm_r": {
-				"rotate": [
-					{ "time": 0, "angle": 25.61 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_body": {
-				"rotate": [
-					{ "time": 0, "angle": 10.55 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 6.96 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_twinkle1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_twinkle3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_wing_r3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"wait": {
-		"slots": {
-			"artemis_capsule2_arm_l": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_arm_l" },
-					{ "time": 2, "name": "artemis_capsule2_arm_l" }
-				]
-			},
-			"artemis_capsule2_arm_r": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_arm_r" },
-					{ "time": 2, "name": "artemis_capsule2_arm_r" }
-				]
-			},
-			"artemis_capsule2_body": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_body" },
-					{ "time": 2, "name": "artemis_capsule2_body" }
-				]
-			},
-			"artemis_capsule2_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_eye1" },
-					{ "time": 0.1333, "name": "artemis_capsule2_eye2" },
-					{ "time": 0.3, "name": "artemis_capsule2_eye1" },
-					{ "time": 1.4, "name": "artemis_capsule2_eye2" },
-					{ "time": 1.5, "name": "artemis_capsule2_eye1" },
-					{ "time": 2, "name": "artemis_capsule2_eye1" }
-				]
-			},
-			"artemis_capsule2_head": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_head" },
-					{ "time": 2, "name": "artemis_capsule2_head" }
-				]
-			},
-			"artemis_capsule2_leg_l": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_leg_l" },
-					{ "time": 2, "name": "artemis_capsule2_leg_l" }
-				]
-			},
-			"artemis_capsule2_leg_r": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_leg_r" },
-					{ "time": 2, "name": "artemis_capsule2_leg_r" }
-				]
-			},
-			"artemis_capsule2_tail": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_tail" },
-					{ "time": 2, "name": "artemis_capsule2_tail" }
-				]
-			},
-			"artemis_capsule2_twinkle1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_twinkle1" },
-					{ "time": 2, "name": "artemis_capsule2_twinkle1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" },
-					{ "time": 0.5, "color": "ffffff00" },
-					{ "time": 1, "color": "ffffffff" },
-					{ "time": 1.5, "color": "ffffff00" },
-					{ "time": 2, "color": "ffffffff" }
-				]
-			},
-			"artemis_capsule2_twinkle2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_twinkle2" },
-					{ "time": 2, "name": "artemis_capsule2_twinkle2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffff00" },
-					{ "time": 0.5, "color": "ffffffff" },
-					{ "time": 1, "color": "ffffff00" },
-					{ "time": 1.5, "color": "ffffffff" },
-					{ "time": 2, "color": "ffffff00" }
-				]
-			},
-			"artemis_capsule2_twinkle3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_twinkle3" },
-					{ "time": 2, "name": "artemis_capsule2_twinkle3" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" },
-					{ "time": 0.5, "color": "ffffff00" },
-					{ "time": 1, "color": "ffffffff" },
-					{ "time": 1.5, "color": "ffffff00" },
-					{ "time": 2, "color": "ffffffff" }
-				]
-			},
-			"artemis_capsule2_twinkle4": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_twinkle4" },
-					{ "time": 2, "name": "artemis_capsule2_twinkle4" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffff00" },
-					{ "time": 0.5, "color": "ffffffff" },
-					{ "time": 1, "color": "ffffff00" },
-					{ "time": 1.5, "color": "ffffffff" },
-					{ "time": 2, "color": "ffffff00" }
-				]
-			},
-			"artemis_capsule2_wing_l1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_l1" },
-					{ "time": 2, "name": "artemis_capsule2_wing_l1" }
-				]
-			},
-			"artemis_capsule2_wing_l2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_l2" },
-					{ "time": 2, "name": "artemis_capsule2_wing_l2" }
-				]
-			},
-			"artemis_capsule2_wing_l3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_l3" },
-					{ "time": 2, "name": "artemis_capsule2_wing_l3" }
-				]
-			},
-			"artemis_capsule2_wing_r1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_r1" },
-					{ "time": 2, "name": "artemis_capsule2_wing_r1" }
-				]
-			},
-			"artemis_capsule2_wing_r2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_r2" },
-					{ "time": 2, "name": "artemis_capsule2_wing_r2" }
-				]
-			},
-			"artemis_capsule2_wing_r3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_capsule2_wing_r3" },
-					{ "time": 2, "name": "artemis_capsule2_wing_r3" }
-				]
-			}
-		},
-		"bones": {
-			"artemis_capsule2_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1, "x": 0, "y": 6.96 },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_arm_l": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1, "angle": 25.99 },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_arm_r": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.0666, "angle": -344.56 },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1, "angle": 5.11 },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_eye1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_leg_l": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.9, "angle": -16.85 },
-					{ "time": 1.0666, "angle": -19.37 },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1666, "x": 1.005, "y": 1.005 },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_leg_r": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.7666, "angle": 348.97 },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_tail": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 18.96,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_wing_l1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.1666,
-						"angle": -18.06,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.6666,
-						"angle": 47.54,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.1666,
-						"x": 1.16,
-						"y": 0.28,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.6666,
-						"x": -2.09,
-						"y": 0.46,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.1666,
-						"x": 0.85,
-						"y": 1.279,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.6666,
-						"x": 0.788,
-						"y": 1.119,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_twinkle1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_wing_l2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 23.55,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"x": 0.975,
-						"y": 0.818,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_wing_r1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.1666,
-						"angle": 18.28,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.6666,
-						"angle": -36.89,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.1666,
-						"x": 1.098,
-						"y": 1.095,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.6666,
-						"x": 0.872,
-						"y": 0.835,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_twinkle3": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_capsule2_wing_r3": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.274, 0, 0.62, 0.4 ]
-					},
-					{
-						"time": 0.3,
-						"angle": -6.52,
-						"curve": [ 0.335, 0.33, 0.757, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": 12.83,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "QvMkOfgiB9pvzd04YdqvQS7AWdA",
+        "spine": "3.0.09",
+        "width": 181.53,
+        "height": 239.61,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "artemis_capsule2_body",
+            "parent": "root",
+            "length": 46.96,
+            "x": 0.16,
+            "y": -74.88,
+            "rotation": 102.59
+        },
+        {
+            "name": "artemis_capsule2_wing_r3",
+            "parent": "artemis_capsule2_body",
+            "length": 45.35,
+            "x": 35.19,
+            "y": -16.54,
+            "rotation": -131.55
+        },
+        {
+            "name": "artemis_capsule2_wing_r1",
+            "parent": "artemis_capsule2_body",
+            "length": 45.79,
+            "x": 35.55,
+            "y": -10.94,
+            "rotation": -64.66
+        },
+        {
+            "name": "artemis_capsule2_twinkle3",
+            "parent": "artemis_capsule2_wing_r1",
+            "x": 27.16,
+            "y": -12.65
+        },
+        {
+            "name": "artemis_capsule2_wing_l2",
+            "parent": "artemis_capsule2_body",
+            "length": 57.81,
+            "x": 36.61,
+            "y": 0.49,
+            "rotation": 122.26
+        },
+        {
+            "name": "artemis_capsule2_wing_l1",
+            "parent": "artemis_capsule2_body",
+            "length": 56.55,
+            "x": 35.75,
+            "y": -2,
+            "scaleX": 0.934,
+            "scaleY": 1.06,
+            "rotation": 66.36
+        },
+        {
+            "name": "artemis_capsule2_twinkle1",
+            "parent": "artemis_capsule2_wing_l1",
+            "x": 36.2,
+            "y": 1.99,
+            "rotation": -14.57
+        },
+        {
+            "name": "artemis_capsule2_tail",
+            "parent": "artemis_capsule2_body",
+            "length": 38.25,
+            "x": 18.48,
+            "y": -5.62,
+            "rotation": -103.07
+        },
+        {
+            "name": "artemis_capsule2_leg_r",
+            "parent": "artemis_capsule2_body",
+            "length": 26.48,
+            "x": 12.66,
+            "y": -4.92,
+            "rotation": -178.56
+        },
+        {
+            "name": "artemis_capsule2_leg_l",
+            "parent": "artemis_capsule2_body",
+            "length": 23.95,
+            "x": 20.06,
+            "y": 10.77,
+            "rotation": 158.14
+        },
+        {
+            "name": "artemis_capsule2_head",
+            "parent": "artemis_capsule2_body",
+            "length": 70.66,
+            "x": 47.4,
+            "y": -3.41,
+            "rotation": -13.1
+        },
+        {
+            "name": "artemis_capsule2_eye1",
+            "parent": "artemis_capsule2_head",
+            "x": 19.16,
+            "y": 12.42
+        },
+        {
+            "name": "artemis_capsule2_arm_r",
+            "parent": "artemis_capsule2_body",
+            "length": 30.97,
+            "x": 42.55,
+            "y": -7.71,
+            "rotation": 169.54
+        },
+        {
+            "name": "artemis_capsule2_arm_l",
+            "parent": "artemis_capsule2_body",
+            "length": 27.31,
+            "x": 42.23,
+            "y": 13.59,
+            "rotation": 138.55
+        }
+    ],
+    "slots": [
+        {
+            "name": "artemis_capsule2_arm_r",
+            "bone": "artemis_capsule2_arm_r",
+            "attachment": "artemis_capsule2_arm_r"
+        },
+        {
+            "name": "artemis_capsule2_leg_r",
+            "bone": "artemis_capsule2_leg_r",
+            "attachment": "artemis_capsule2_leg_r"
+        },
+        {
+            "name": "artemis_capsule2_body",
+            "bone": "artemis_capsule2_body",
+            "attachment": "artemis_capsule2_body"
+        },
+        {
+            "name": "artemis_capsule2_head",
+            "bone": "artemis_capsule2_head",
+            "attachment": "artemis_capsule2_head"
+        },
+        {
+            "name": "artemis_capsule2_eye1",
+            "bone": "artemis_capsule2_eye1",
+            "attachment": "artemis_capsule2_att"
+        },
+        {
+            "name": "artemis_capsule2_leg_l",
+            "bone": "artemis_capsule2_leg_l",
+            "attachment": "artemis_capsule2_leg_l"
+        },
+        {
+            "name": "artemis_capsule2_arm_l",
+            "bone": "artemis_capsule2_arm_l",
+            "attachment": "artemis_capsule2_arm_l"
+        },
+        {
+            "name": "artemis_capsule2_wing_r3",
+            "bone": "artemis_capsule2_wing_r3",
+            "attachment": "artemis_capsule2_wing_r3"
+        },
+        {
+            "name": "artemis_capsule2_wing_r2",
+            "bone": "artemis_capsule2_wing_r1",
+            "attachment": "artemis_capsule2_wing_r2"
+        },
+        {
+            "name": "artemis_capsule2_wing_r1",
+            "bone": "artemis_capsule2_wing_r1",
+            "attachment": "artemis_capsule2_wing_r1"
+        },
+        {
+            "name": "artemis_capsule2_twinkle4",
+            "bone": "artemis_capsule2_twinkle3",
+            "attachment": "artemis_capsule2_twinkle4"
+        },
+        {
+            "name": "artemis_capsule2_twinkle3",
+            "bone": "artemis_capsule2_twinkle3",
+            "attachment": "artemis_capsule2_twinkle3"
+        },
+        {
+            "name": "artemis_capsule2_tail",
+            "bone": "artemis_capsule2_tail",
+            "attachment": "artemis_capsule2_tail"
+        },
+        {
+            "name": "artemis_capsule2_wing_l3",
+            "bone": "artemis_capsule2_wing_l1",
+            "attachment": "artemis_capsule2_wing_l3"
+        },
+        {
+            "name": "artemis_capsule2_wing_l2",
+            "bone": "artemis_capsule2_wing_l2",
+            "attachment": "artemis_capsule2_wing_l2"
+        },
+        {
+            "name": "artemis_capsule2_wing_l1",
+            "bone": "artemis_capsule2_wing_l1",
+            "attachment": "artemis_capsule2_wing_l1"
+        },
+        {
+            "name": "artemis_capsule2_twinkle2",
+            "bone": "artemis_capsule2_twinkle1",
+            "attachment": "artemis_capsule2_twinkle2"
+        },
+        {
+            "name": "artemis_capsule2_twinkle1",
+            "bone": "artemis_capsule2_twinkle1",
+            "attachment": "artemis_capsule2_twinkle1"
+        }
+    ],
+    "skins": {
+        "default": {
+            "artemis_capsule2_arm_l": {
+                "artemis_capsule2_arm_l": {
+                    "x": 13.44,
+                    "y": 0.8,
+                    "rotation": 118.85,
+                    "width": 35,
+                    "height": 46
+                }
+            },
+            "artemis_capsule2_arm_r": {
+                "artemis_capsule2_arm_r": {
+                    "x": 14.02,
+                    "y": -0.33,
+                    "rotation": 87.84,
+                    "width": 22,
+                    "height": 45
+                }
+            },
+            "artemis_capsule2_body": {
+                "artemis_capsule2_body": {
+                    "x": 26.18,
+                    "y": 0.77,
+                    "rotation": -102.6,
+                    "width": 47,
+                    "height": 57
+                }
+            },
+            "artemis_capsule2_eye1": {
+                "artemis_capsule2_att": {
+                    "x": -4.13,
+                    "y": 4.55,
+                    "rotation": -89.51,
+                    "width": 47,
+                    "height": 39
+                },
+                "artemis_capsule2_eye1": {
+                    "x": 2.02,
+                    "y": -3.19,
+                    "rotation": -89.51,
+                    "width": 31,
+                    "height": 24
+                },
+                "artemis_capsule2_eye2": {
+                    "x": 2.02,
+                    "y": -3.19,
+                    "rotation": -89.51,
+                    "width": 31,
+                    "height": 22
+                }
+            },
+            "artemis_capsule2_head": {
+                "artemis_capsule2_head": {
+                    "x": 61.5,
+                    "y": -14.52,
+                    "rotation": -89.51,
+                    "width": 158,
+                    "height": 133
+                }
+            },
+            "artemis_capsule2_leg_l": {
+                "artemis_capsule2_leg_l": {
+                    "x": 22.5,
+                    "y": 7.03,
+                    "rotation": 99.25,
+                    "width": 48,
+                    "height": 58
+                }
+            },
+            "artemis_capsule2_leg_r": {
+                "artemis_capsule2_leg_r": {
+                    "x": 15.59,
+                    "y": 4.84,
+                    "rotation": 75.93,
+                    "width": 35,
+                    "height": 58
+                }
+            },
+            "artemis_capsule2_tail": {
+                "artemis_capsule2_tail": {
+                    "x": 17.5,
+                    "y": -3.35,
+                    "rotation": 0.43,
+                    "width": 51,
+                    "height": 29
+                }
+            },
+            "artemis_capsule2_twinkle1": {
+                "artemis_capsule2_twinkle1": {
+                    "x": 15.7,
+                    "y": 0.1,
+                    "rotation": -154.4,
+                    "width": 88,
+                    "height": 45
+                }
+            },
+            "artemis_capsule2_twinkle2": {
+                "artemis_capsule2_twinkle2": {
+                    "x": 0.1,
+                    "y": 0.5,
+                    "rotation": -154.4,
+                    "width": 103,
+                    "height": 40
+                }
+            },
+            "artemis_capsule2_twinkle3": {
+                "artemis_capsule2_twinkle3": {
+                    "x": 7.7,
+                    "y": -3.48,
+                    "rotation": -37.92,
+                    "width": 81,
+                    "height": 39
+                }
+            },
+            "artemis_capsule2_twinkle4": {
+                "artemis_capsule2_twinkle4": {
+                    "x": 10.57,
+                    "y": -0.77,
+                    "rotation": -37.92,
+                    "width": 65,
+                    "height": 36
+                }
+            },
+            "artemis_capsule2_wing_l1": {
+                "artemis_capsule2_wing_l1": {
+                    "x": 45.13,
+                    "y": 2.21,
+                    "rotation": -168.97,
+                    "width": 84,
+                    "height": 39
+                }
+            },
+            "artemis_capsule2_wing_l2": {
+                "artemis_capsule2_wing_l2": {
+                    "x": 50.68,
+                    "y": 16.33,
+                    "rotation": 135.13,
+                    "width": 53,
+                    "height": 106
+                }
+            },
+            "artemis_capsule2_wing_l3": {
+                "artemis_capsule2_wing_l3": {
+                    "x": 25.87,
+                    "y": -5.6,
+                    "rotation": -168.97,
+                    "width": 64,
+                    "height": 33
+                }
+            },
+            "artemis_capsule2_wing_r1": {
+                "artemis_capsule2_wing_r1": {
+                    "x": 21.51,
+                    "y": -1.54,
+                    "rotation": -37.92,
+                    "width": 42,
+                    "height": 38
+                }
+            },
+            "artemis_capsule2_wing_r2": {
+                "artemis_capsule2_wing_r2": {
+                    "x": 35.13,
+                    "y": -14.32,
+                    "rotation": -37.92,
+                    "width": 62,
+                    "height": 39
+                }
+            },
+            "artemis_capsule2_wing_r3": {
+                "artemis_capsule2_wing_r3": {
+                    "x": 48.2,
+                    "y": -17.19,
+                    "rotation": 28.93,
+                    "width": 73,
+                    "height": 79
+                }
+            }
+        }
+    },
+    "animations": {
+        "att": {
+            "slots": {
+                "artemis_capsule2_arm_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_arm_l"
+                        }
+                    ]
+                },
+                "artemis_capsule2_arm_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_arm_r"
+                        }
+                    ]
+                },
+                "artemis_capsule2_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_body"
+                        }
+                    ]
+                },
+                "artemis_capsule2_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_att"
+                        }
+                    ]
+                },
+                "artemis_capsule2_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_head"
+                        }
+                    ]
+                },
+                "artemis_capsule2_leg_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_leg_l"
+                        }
+                    ]
+                },
+                "artemis_capsule2_leg_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_leg_r"
+                        }
+                    ]
+                },
+                "artemis_capsule2_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_tail"
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_twinkle1"
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_twinkle2"
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_twinkle3"
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_twinkle4"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_l1"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_l2"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_l3"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_r1"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_r2"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_r3"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "artemis_capsule2_wing_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 9.15
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 0.938,
+                            "y": 1.046
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -15.46
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1.05,
+                            "y": 1.005
+                        }
+                    ]
+                },
+                "artemis_capsule2_arm_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 2.63
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_leg_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -12.71
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_leg_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 4.59
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 19.36
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 19.81
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -10.71
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_eye1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_arm_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 25.61
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 10.55
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 6.96
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "wait": {
+            "slots": {
+                "artemis_capsule2_arm_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_arm_l"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_arm_l"
+                        }
+                    ]
+                },
+                "artemis_capsule2_arm_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_arm_r"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_arm_r"
+                        }
+                    ]
+                },
+                "artemis_capsule2_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_body"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_body"
+                        }
+                    ]
+                },
+                "artemis_capsule2_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_eye1"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "artemis_capsule2_eye2"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "artemis_capsule2_eye1"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "artemis_capsule2_eye2"
+                        },
+                        {
+                            "time": 1.5,
+                            "name": "artemis_capsule2_eye1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_eye1"
+                        }
+                    ]
+                },
+                "artemis_capsule2_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_head"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_head"
+                        }
+                    ]
+                },
+                "artemis_capsule2_leg_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_leg_l"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_leg_l"
+                        }
+                    ]
+                },
+                "artemis_capsule2_leg_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_leg_r"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_leg_r"
+                        }
+                    ]
+                },
+                "artemis_capsule2_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_tail"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_tail"
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_twinkle1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_twinkle1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_twinkle2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_twinkle2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_twinkle3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_twinkle3"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_twinkle4"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_twinkle4"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_l1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_wing_l1"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_l2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_wing_l2"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_l3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_wing_l3"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_r1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_wing_r1"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_r2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_wing_r2"
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_capsule2_wing_r3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_capsule2_wing_r3"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "artemis_capsule2_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1,
+                            "x": 0,
+                            "y": 6.96
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_arm_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": 25.99
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_arm_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.0666,
+                            "angle": -344.56
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": 5.11
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_eye1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_leg_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.9,
+                            "angle": -16.85
+                        },
+                        {
+                            "time": 1.0666,
+                            "angle": -19.37
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 1.005,
+                            "y": 1.005
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_leg_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.7666,
+                            "angle": 348.97
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 18.96,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": -18.06,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": 47.54,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 1.16,
+                            "y": 0.28,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": -2.09,
+                            "y": 0.46,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 0.85,
+                            "y": 1.279,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": 0.788,
+                            "y": 1.119,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 23.55,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0.975,
+                            "y": 0.818,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": 18.28,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": -36.89,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 1.098,
+                            "y": 1.095,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": 0.872,
+                            "y": 0.835,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_twinkle3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_capsule2_wing_r3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.274,
+                                0,
+                                0.62,
+                                0.4
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "angle": -6.52,
+                            "curve": [
+                                0.335,
+                                0.33,
+                                0.757,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 12.83,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2
+                }
+            ]
+        }
+    }
 }

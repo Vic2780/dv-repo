@@ -1,1499 +1,3654 @@
 {
-"skeleton": { "hash": "YRPR/4y4IwPqBzrX6IeJj0jrunE", "spine": "3.0.09", "width": 332.62, "height": 310.43, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "azak_evolution_leg_r", "parent": "root", "length": 60.66, "x": 119.11, "y": -121.63, "rotation": 88.7 },
-	{ "name": "azak_evolution_leg_l", "parent": "root", "length": 55.63, "x": 25.17, "y": -129.38, "rotation": 75.23 },
-	{ "name": "azak_evolution_body", "parent": "root", "length": 145.21, "x": 72.59, "y": -29.97, "rotation": 137.29 },
-	{
-		"name": "azak_evolution_wing_r3",
-		"parent": "azak_evolution_body",
-		"length": 133.96,
-		"x": 112.06,
-		"y": -21.91,
-		"rotation": -155.37
-	},
-	{
-		"name": "azak_evolution_wing_r",
-		"parent": "azak_evolution_body",
-		"length": 186.85,
-		"x": 121.88,
-		"y": -26.5,
-		"rotation": -162.34
-	},
-	{
-		"name": "azak_evolution_wing_l3",
-		"parent": "azak_evolution_body",
-		"length": 141.64,
-		"x": 114.02,
-		"y": -5.21,
-		"rotation": -173.38
-	},
-	{ "name": "azak_evolution_wing_l", "parent": "azak_evolution_body", "length": 185.69, "x": 117.06, "y": -9.85, "rotation": -173.4 },
-	{ "name": "azak_evolution_tail", "parent": "azak_evolution_body", "length": 82.13, "x": -10.82, "y": -4.4, "rotation": 138.96 },
-	{ "name": "azak_evolution_tail3", "parent": "azak_evolution_tail", "length": 30.26, "x": 41.19, "y": -188.93, "rotation": 167.65 },
-	{ "name": "azak_evolution_tail2", "parent": "azak_evolution_tail", "length": 19.74, "x": 43.28, "y": -203.38, "rotation": -102.92 },
-	{ "name": "azak_evolution_head", "parent": "azak_evolution_body", "length": 57.26, "x": 161.22, "y": 4.83, "rotation": 62.5 },
-	{ "name": "azak_evolution_head4", "parent": "azak_evolution_head", "length": 18.03, "x": 37.41, "y": -3.77, "rotation": -36.2 },
-	{ "name": "azak_evolution_head3", "parent": "azak_evolution_head", "length": 27.56, "x": 6.62, "y": 11.67, "rotation": 143.6 },
-	{ "name": "azak_evolution_head2", "parent": "azak_evolution_head", "length": 42.77, "x": 11.97, "y": 6.35, "rotation": 11.71 },
-	{ "name": "azak_evolution_eye", "parent": "azak_evolution_head", "x": 30.61, "y": 1.57 },
-	{ "name": "azak_evolution_body2", "parent": "azak_evolution_body", "x": 120.44, "y": -22.25 },
-	{ "name": "azak_evolution_arm_l1", "parent": "azak_evolution_body", "length": 67.68, "x": 125.24, "y": 41.12, "rotation": 146.46 },
-	{ "name": "azak_evolution_arm_r", "parent": "root", "length": 65.28, "x": -3.09, "y": -86.52, "rotation": 65.04 },
-	{ "name": "azak_evolution_arm_l2", "parent": "root", "length": 62.07, "x": -52.34, "y": -101.56, "rotation": 68.77 }
-],
-"slots": [
-	{ "name": "azak_evolution_arm_r", "bone": "azak_evolution_arm_r", "attachment": "azak_evolution_arm_r" },
-	{ "name": "azak_evolution_body", "bone": "azak_evolution_body", "attachment": "azak_evolution_body" },
-	{ "name": "azak_evolution_leg_r", "bone": "azak_evolution_leg_r", "attachment": "azak_evolution_leg_r" },
-	{ "name": "azak_evolution_arm_l1", "bone": "azak_evolution_arm_l1", "attachment": "azak_evolution_arm_l1" },
-	{ "name": "azak_evolution_arm_l3", "bone": "azak_evolution_arm_l1", "attachment": "azak_evolution_arm_l3" },
-	{ "name": "azak_evolution_arm_l2", "bone": "azak_evolution_arm_l2", "attachment": "azak_evolution_arm_l2" },
-	{ "name": "azak_evolution_leg_l", "bone": "azak_evolution_leg_l", "attachment": "azak_evolution_leg_l" },
-	{ "name": "azak_evolution_wing_r3", "bone": "azak_evolution_wing_r3", "attachment": "azak_evolution_wing_r3" },
-	{ "name": "azak_evolution_wing_r", "bone": "azak_evolution_wing_r", "attachment": "azak_evolution_wing_r" },
-	{ "name": "azak_evolution_wing_r2", "bone": "azak_evolution_wing_r", "attachment": "azak_evolution_wing_r2" },
-	{ "name": "azak_evolution_tail3", "bone": "azak_evolution_tail3", "attachment": "azak_evolution_tail3" },
-	{ "name": "azak_evolution_tail", "bone": "azak_evolution_tail", "attachment": "azak_evolution_tail" },
-	{ "name": "azak_evolution_tail4", "bone": "azak_evolution_tail", "attachment": "azak_evolution_tail4" },
-	{ "name": "azak_evolution_tail2", "bone": "azak_evolution_tail2", "attachment": "azak_evolution_tail2" },
-	{ "name": "azak_evolution_wing_l3", "bone": "azak_evolution_wing_l3", "attachment": "azak_evolution_wing_l3" },
-	{ "name": "azak_evolution_wing_l", "bone": "azak_evolution_wing_l", "attachment": "azak_evolution_wing_l" },
-	{ "name": "azak_evolution_wing_l2", "bone": "azak_evolution_wing_l", "attachment": "azak_evolution_wing_l2" },
-	{ "name": "azak_evolution_body2", "bone": "azak_evolution_body2", "attachment": "azak_evolution_body2" },
-	{ "name": "azak_evolution_body3", "bone": "azak_evolution_body2", "attachment": "azak_evolution_body3" },
-	{ "name": "azak_evolution_head4", "bone": "azak_evolution_head4", "attachment": "azak_evolution_head4" },
-	{ "name": "azak_evolution_head2", "bone": "azak_evolution_head2", "attachment": "azak_evolution_head2" },
-	{ "name": "azak_evolution_head", "bone": "azak_evolution_head", "attachment": "azak_evolution_head" },
-	{ "name": "azak_evolution_head1", "bone": "azak_evolution_head", "attachment": "azak_evolution_head1" },
-	{ "name": "azak_evolution_eye", "bone": "azak_evolution_eye", "attachment": "azak_evolution_eye" },
-	{ "name": "azak_evolution_head3", "bone": "azak_evolution_head3", "attachment": "azak_evolution_head3" },
-	{ "name": "azak_evolution_eye_att", "bone": "azak_evolution_eye", "attachment": "azak_evolution_eye_att" }
-],
-"skins": {
-	"default": {
-		"azak_evolution_arm_l1": {
-			"azak_evolution_arm_l1": { "x": 31.97, "y": -10.07, "rotation": 76.24, "width": 67, "height": 79 }
-		},
-		"azak_evolution_arm_l2": {
-			"azak_evolution_arm_l2": { "x": 27.4, "y": 25.73, "rotation": -68.78, "width": 106, "height": 81 }
-		},
-		"azak_evolution_arm_l3": {
-			"azak_evolution_arm_l3": { "x": 31.97, "y": -10.07, "rotation": 76.24, "width": 67, "height": 79 }
-		},
-		"azak_evolution_arm_r": {
-			"azak_evolution_arm_r": { "x": 27.43, "y": 9.8, "rotation": -65.05, "width": 90, "height": 71 }
-		},
-		"azak_evolution_body": {
-			"azak_evolution_body": { "x": 61.2, "y": 24.82, "rotation": -137.29, "width": 188, "height": 181 }
-		},
-		"azak_evolution_body2": {
-			"azak_evolution_body2": { "x": 3.3, "y": 27.23, "rotation": -137.29, "width": 101, "height": 77 }
-		},
-		"azak_evolution_body3": {
-			"azak_evolution_body3": { "x": 3.3, "y": 27.23, "rotation": -137.29, "width": 101, "height": 77 }
-		},
-		"azak_evolution_eye": {
-			"azak_evolution_eye": { "x": 2.36, "y": -0.78, "rotation": 160.2, "width": 17, "height": 11 }
-		},
-		"azak_evolution_eye_att": {
-			"azak_evolution_eye_att": { "x": -13.82, "y": 2.92, "scaleX": 0.521, "scaleY": 0.521, "rotation": 160.2, "width": 67, "height": 26 }
-		},
-		"azak_evolution_head": {
-			"azak_evolution_head": { "x": 5.59, "y": -14.74, "rotation": 160.2, "width": 98, "height": 92 }
-		},
-		"azak_evolution_head1": {
-			"azak_evolution_head1": { "x": 5.59, "y": -14.74, "rotation": 160.2, "width": 98, "height": 92 }
-		},
-		"azak_evolution_head2": {
-			"azak_evolution_head2": { "x": 21.11, "y": 0.29, "rotation": 148.48, "width": 51, "height": 29 }
-		},
-		"azak_evolution_head3": {
-			"azak_evolution_head3": { "x": -0.97, "y": -20.11, "rotation": 16.6, "width": 87, "height": 46 }
-		},
-		"azak_evolution_head4": {
-			"azak_evolution_head4": { "x": 10.13, "y": 19.35, "rotation": -163.61, "width": 50, "height": 52 }
-		},
-		"azak_evolution_leg_l": {
-			"azak_evolution_leg_l": { "x": 50.36, "y": 24.23, "rotation": -75.22, "width": 92, "height": 121 }
-		},
-		"azak_evolution_leg_r": {
-			"azak_evolution_leg_r": { "x": 28.11, "y": 14.06, "rotation": -88.71, "width": 67, "height": 70 }
-		},
-		"azak_evolution_tail": {
-			"azak_evolution_tail": { "x": 49, "y": -99.09, "rotation": 83.73, "width": 246, "height": 166 }
-		},
-		"azak_evolution_tail2": {
-			"azak_evolution_tail2": { "x": 28.35, "y": -33.32, "rotation": -173.35, "width": 48, "height": 95 }
-		},
-		"azak_evolution_tail3": {
-			"azak_evolution_tail3": { "x": 29.73, "y": 9.14, "rotation": -83.92, "width": 37, "height": 59 }
-		},
-		"azak_evolution_tail4": {
-			"azak_evolution_tail4": { "x": 49, "y": -99.09, "rotation": 83.73, "width": 246, "height": 166 }
-		},
-		"azak_evolution_wing_l": {
-			"azak_evolution_wing_l": { "x": 81.11, "y": -8.53, "rotation": 36.07, "width": 188, "height": 126 }
-		},
-		"azak_evolution_wing_l2": {
-			"azak_evolution_wing_l2": { "x": 81.11, "y": -8.53, "rotation": 36.07, "width": 188, "height": 126 }
-		},
-		"azak_evolution_wing_l3": {
-			"azak_evolution_wing_l3": { "x": 82.11, "y": 1.3, "rotation": 36.07, "width": 145, "height": 116 }
-		},
-		"azak_evolution_wing_r": {
-			"azak_evolution_wing_r": { "x": 90.71, "y": 3.97, "rotation": 25.02, "width": 171, "height": 94 }
-		},
-		"azak_evolution_wing_r2": {
-			"azak_evolution_wing_r2": { "x": 90.71, "y": 3.97, "rotation": 25.02, "width": 171, "height": 94 }
-		},
-		"azak_evolution_wing_r3": {
-			"azak_evolution_wing_r3": { "x": 90.21, "y": 6.61, "rotation": 18.06, "width": 127, "height": 84 }
-		}
-	}
-},
-"animations": {
-	"att": {
-		"slots": {
-			"azak_evolution_arm_l1": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_arm_l1" }
-				]
-			},
-			"azak_evolution_arm_l2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_arm_l2" }
-				]
-			},
-			"azak_evolution_arm_l3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"azak_evolution_arm_r": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_arm_r" }
-				]
-			},
-			"azak_evolution_body": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_body" }
-				]
-			},
-			"azak_evolution_body2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_body2" }
-				]
-			},
-			"azak_evolution_body3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"azak_evolution_eye": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"azak_evolution_eye_att": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_eye_att" }
-				]
-			},
-			"azak_evolution_head": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_head" }
-				]
-			},
-			"azak_evolution_head1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"azak_evolution_head2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_head2" }
-				]
-			},
-			"azak_evolution_head3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_head3" }
-				]
-			},
-			"azak_evolution_head4": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_head4" }
-				]
-			},
-			"azak_evolution_leg_l": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_leg_l" }
-				]
-			},
-			"azak_evolution_leg_r": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_leg_r" }
-				]
-			},
-			"azak_evolution_tail": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_tail" }
-				]
-			},
-			"azak_evolution_tail2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_tail2" }
-				]
-			},
-			"azak_evolution_tail3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_tail3" }
-				]
-			},
-			"azak_evolution_tail4": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"azak_evolution_wing_l": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_l" }
-				]
-			},
-			"azak_evolution_wing_l2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"azak_evolution_wing_l3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_l3" }
-				]
-			},
-			"azak_evolution_wing_r": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_r" }
-				]
-			},
-			"azak_evolution_wing_r2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"azak_evolution_wing_r3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_r3" }
-				]
-			}
-		},
-		"bones": {
-			"azak_evolution_arm_l2": {
-				"rotate": [
-					{ "time": 0, "angle": -3.58 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_arm_r": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_body": {
-				"rotate": [
-					{ "time": 0, "angle": 4.3 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_arm_l1": {
-				"rotate": [
-					{ "time": 0, "angle": 6.8 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_body2": {
-				"rotate": [
-					{ "time": 0, "angle": 9.5 }
-				],
-				"translate": [
-					{ "time": 0, "x": 5.61, "y": -0.46 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_head": {
-				"rotate": [
-					{ "time": 0, "angle": -6.22 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0.11, "y": 0.31 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_head2": {
-				"rotate": [
-					{ "time": 0, "angle": 17.92 }
-				],
-				"translate": [
-					{ "time": 0, "x": -0.59, "y": -1.44 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_head3": {
-				"rotate": [
-					{ "time": 0, "angle": 11.31 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_head4": {
-				"rotate": [
-					{ "time": 0, "angle": -5.1 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_tail": {
-				"rotate": [
-					{ "time": 0, "angle": -13.25 }
-				],
-				"translate": [
-					{ "time": 0, "x": -1.72, "y": -1.46 }
-				],
-				"scale": [
-					{ "time": 0, "x": 0.955, "y": 1.051 }
-				]
-			},
-			"azak_evolution_tail2": {
-				"rotate": [
-					{ "time": 0, "angle": 15.51 }
-				],
-				"translate": [
-					{ "time": 0, "x": -2.37, "y": -0.18 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_tail3": {
-				"rotate": [
-					{ "time": 0, "angle": -13.81 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_wing_l": {
-				"rotate": [
-					{ "time": 0, "angle": 16.84 }
-				],
-				"translate": [
-					{ "time": 0, "x": 1.12, "y": -6.61 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_wing_l3": {
-				"rotate": [
-					{ "time": 0, "angle": 0.77 }
-				],
-				"translate": [
-					{ "time": 0, "x": -14.54, "y": -5.78 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_wing_r": {
-				"rotate": [
-					{ "time": 0, "angle": 26.32 }
-				],
-				"translate": [
-					{ "time": 0, "x": -2.11, "y": -2.77 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_wing_r3": {
-				"rotate": [
-					{ "time": 0, "angle": 17.39 }
-				],
-				"translate": [
-					{ "time": 0, "x": -10.79, "y": -12.29 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_leg_l": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_leg_r": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"wait": {
-		"slots": {
-			"azak_evolution_arm_l1": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_arm_l1" },
-					{ "time": 2, "name": "azak_evolution_arm_l1" },
-					{ "time": 4, "name": "azak_evolution_arm_l1" }
-				]
-			},
-			"azak_evolution_arm_l2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_arm_l2" },
-					{ "time": 2, "name": "azak_evolution_arm_l2" },
-					{ "time": 4, "name": "azak_evolution_arm_l2" }
-				]
-			},
-			"azak_evolution_arm_l3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_arm_l3" },
-					{ "time": 2, "name": "azak_evolution_arm_l3" },
-					{ "time": 4, "name": "azak_evolution_arm_l3" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 1.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 3.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffffff" }
-				]
-			},
-			"azak_evolution_arm_r": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_arm_r" },
-					{ "time": 2, "name": "azak_evolution_arm_r" },
-					{ "time": 4, "name": "azak_evolution_arm_r" }
-				]
-			},
-			"azak_evolution_body": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_body" },
-					{ "time": 2, "name": "azak_evolution_body" },
-					{ "time": 4, "name": "azak_evolution_body" }
-				]
-			},
-			"azak_evolution_body2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_body2" },
-					{ "time": 2, "name": "azak_evolution_body2" },
-					{ "time": 4, "name": "azak_evolution_body2" }
-				]
-			},
-			"azak_evolution_body3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_body3" },
-					{ "time": 2, "name": "azak_evolution_body3" },
-					{ "time": 4, "name": "azak_evolution_body3" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 1.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 3.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffffff" }
-				]
-			},
-			"azak_evolution_eye": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.7333, "name": "azak_evolution_eye" },
-					{ "time": 2, "name": null },
-					{ "time": 4, "name": null }
-				]
-			},
-			"azak_evolution_eye_att": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 2, "name": null },
-					{ "time": 4, "name": null }
-				]
-			},
-			"azak_evolution_head": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_head" },
-					{ "time": 2, "name": "azak_evolution_head" },
-					{ "time": 4, "name": "azak_evolution_head" }
-				]
-			},
-			"azak_evolution_head1": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_head1" },
-					{ "time": 2, "name": "azak_evolution_head1" },
-					{ "time": 4, "name": "azak_evolution_head1" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 1.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 3.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffffff" }
-				]
-			},
-			"azak_evolution_head2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_head2" },
-					{ "time": 2, "name": "azak_evolution_head2" },
-					{ "time": 4, "name": "azak_evolution_head2" }
-				]
-			},
-			"azak_evolution_head3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_head3" },
-					{ "time": 0.3333, "name": "azak_evolution_head3" },
-					{ "time": 2, "name": "azak_evolution_head3" },
-					{ "time": 2.3333, "name": "azak_evolution_head3" },
-					{ "time": 4, "name": "azak_evolution_head3" }
-				]
-			},
-			"azak_evolution_head4": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_head4" },
-					{ "time": 0.3333, "name": "azak_evolution_head4" },
-					{ "time": 2, "name": "azak_evolution_head4" },
-					{ "time": 2.3333, "name": "azak_evolution_head4" },
-					{ "time": 4, "name": "azak_evolution_head4" }
-				]
-			},
-			"azak_evolution_leg_l": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_leg_l" },
-					{ "time": 2, "name": "azak_evolution_leg_l" },
-					{ "time": 4, "name": "azak_evolution_leg_l" }
-				]
-			},
-			"azak_evolution_leg_r": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_leg_r" },
-					{ "time": 2, "name": "azak_evolution_leg_r" },
-					{ "time": 4, "name": "azak_evolution_leg_r" }
-				]
-			},
-			"azak_evolution_tail": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_tail" },
-					{ "time": 2, "name": "azak_evolution_tail" },
-					{ "time": 4, "name": "azak_evolution_tail" }
-				]
-			},
-			"azak_evolution_tail2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_tail2" },
-					{ "time": 2, "name": "azak_evolution_tail2" },
-					{ "time": 4, "name": "azak_evolution_tail2" }
-				]
-			},
-			"azak_evolution_tail3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_tail3" },
-					{ "time": 2, "name": "azak_evolution_tail3" },
-					{ "time": 4, "name": "azak_evolution_tail3" }
-				]
-			},
-			"azak_evolution_tail4": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_tail4" },
-					{ "time": 2, "name": "azak_evolution_tail4" },
-					{ "time": 4, "name": "azak_evolution_tail4" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 1.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 3.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffffff" }
-				]
-			},
-			"azak_evolution_wing_l": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_l" },
-					{ "time": 2, "name": "azak_evolution_wing_l" },
-					{ "time": 4, "name": "azak_evolution_wing_l" }
-				]
-			},
-			"azak_evolution_wing_l2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_l2" },
-					{ "time": 2, "name": "azak_evolution_wing_l2" },
-					{ "time": 4, "name": "azak_evolution_wing_l2" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 1.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 3.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffffff" }
-				]
-			},
-			"azak_evolution_wing_l3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_l3" },
-					{ "time": 2, "name": "azak_evolution_wing_l3" },
-					{ "time": 4, "name": "azak_evolution_wing_l3" }
-				]
-			},
-			"azak_evolution_wing_r": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_r" },
-					{ "time": 2, "name": "azak_evolution_wing_r" },
-					{ "time": 4, "name": "azak_evolution_wing_r" }
-				]
-			},
-			"azak_evolution_wing_r2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_r2" },
-					{ "time": 2, "name": "azak_evolution_wing_r2" },
-					{ "time": 4, "name": "azak_evolution_wing_r2" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 1.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.8333, "color": "ffffff00", "curve": "stepped" },
-					{
-						"time": 3.1666,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffffff" }
-				]
-			},
-			"azak_evolution_wing_r3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_evolution_wing_r3" },
-					{ "time": 2, "name": "azak_evolution_wing_r3" },
-					{ "time": 4, "name": "azak_evolution_wing_r3" }
-				]
-			}
-		},
-		"bones": {
-			"azak_evolution_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_arm_l2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -1.81,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": -1.81,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_arm_r": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_body": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 3.19,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": 3.19,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_arm_l1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 1.66,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": 1.66,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_body2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_head": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.0333,
-						"angle": 2.08,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3.0333,
-						"angle": 2.08,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_head2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{
-						"time": 0.8333,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.4,
-						"angle": 3.01,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{
-						"time": 2.8333,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3.4,
-						"angle": 3.01,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_head3": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{
-						"time": 0.3333,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": 9.99,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{
-						"time": 2.3333,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3.1666,
-						"angle": 9.99,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_head4": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{
-						"time": 0.3333,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": -8.36,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{
-						"time": 2.3333,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3.1666,
-						"angle": -8.36,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{
-						"time": 0.3333,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"x": 1.044,
-						"y": 1.03,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{
-						"time": 2.3333,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3.1666,
-						"x": 1.044,
-						"y": 1.03,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_tail": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -12.01,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": -12.01,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_tail2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{
-						"time": 1.3333,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.4666,
-						"angle": 16.74,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5666,
-						"angle": -5.44,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 1.6666, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_tail3": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{
-						"time": 1.3333,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.4666,
-						"angle": -15.96,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5666,
-						"angle": -344.88,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 1.6666, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_wing_l": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": 346.97,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3.1666,
-						"angle": 346.97,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_wing_l3": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_wing_r": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": 4.3,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3.1666,
-						"angle": 4.3,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_wing_r3": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_leg_l": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"x": 0.981,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"x": 0.981,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_evolution_leg_r": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"x": 0.994,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"x": 0.994,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 0.3333 },
-			{ "time": 2 },
-			{ "time": 2.3333 },
-			{ "time": 4 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "YRPR/4y4IwPqBzrX6IeJj0jrunE",
+        "spine": "3.0.09",
+        "width": 332.62,
+        "height": 310.43,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "azak_evolution_leg_r",
+            "parent": "root",
+            "length": 60.66,
+            "x": 119.11,
+            "y": -121.63,
+            "rotation": 88.7
+        },
+        {
+            "name": "azak_evolution_leg_l",
+            "parent": "root",
+            "length": 55.63,
+            "x": 25.17,
+            "y": -129.38,
+            "rotation": 75.23
+        },
+        {
+            "name": "azak_evolution_body",
+            "parent": "root",
+            "length": 145.21,
+            "x": 72.59,
+            "y": -29.97,
+            "rotation": 137.29
+        },
+        {
+            "name": "azak_evolution_wing_r3",
+            "parent": "azak_evolution_body",
+            "length": 133.96,
+            "x": 112.06,
+            "y": -21.91,
+            "rotation": -155.37
+        },
+        {
+            "name": "azak_evolution_wing_r",
+            "parent": "azak_evolution_body",
+            "length": 186.85,
+            "x": 121.88,
+            "y": -26.5,
+            "rotation": -162.34
+        },
+        {
+            "name": "azak_evolution_wing_l3",
+            "parent": "azak_evolution_body",
+            "length": 141.64,
+            "x": 114.02,
+            "y": -5.21,
+            "rotation": -173.38
+        },
+        {
+            "name": "azak_evolution_wing_l",
+            "parent": "azak_evolution_body",
+            "length": 185.69,
+            "x": 117.06,
+            "y": -9.85,
+            "rotation": -173.4
+        },
+        {
+            "name": "azak_evolution_tail",
+            "parent": "azak_evolution_body",
+            "length": 82.13,
+            "x": -10.82,
+            "y": -4.4,
+            "rotation": 138.96
+        },
+        {
+            "name": "azak_evolution_tail3",
+            "parent": "azak_evolution_tail",
+            "length": 30.26,
+            "x": 41.19,
+            "y": -188.93,
+            "rotation": 167.65
+        },
+        {
+            "name": "azak_evolution_tail2",
+            "parent": "azak_evolution_tail",
+            "length": 19.74,
+            "x": 43.28,
+            "y": -203.38,
+            "rotation": -102.92
+        },
+        {
+            "name": "azak_evolution_head",
+            "parent": "azak_evolution_body",
+            "length": 57.26,
+            "x": 161.22,
+            "y": 4.83,
+            "rotation": 62.5
+        },
+        {
+            "name": "azak_evolution_head4",
+            "parent": "azak_evolution_head",
+            "length": 18.03,
+            "x": 37.41,
+            "y": -3.77,
+            "rotation": -36.2
+        },
+        {
+            "name": "azak_evolution_head3",
+            "parent": "azak_evolution_head",
+            "length": 27.56,
+            "x": 6.62,
+            "y": 11.67,
+            "rotation": 143.6
+        },
+        {
+            "name": "azak_evolution_head2",
+            "parent": "azak_evolution_head",
+            "length": 42.77,
+            "x": 11.97,
+            "y": 6.35,
+            "rotation": 11.71
+        },
+        {
+            "name": "azak_evolution_eye",
+            "parent": "azak_evolution_head",
+            "x": 30.61,
+            "y": 1.57
+        },
+        {
+            "name": "azak_evolution_body2",
+            "parent": "azak_evolution_body",
+            "x": 120.44,
+            "y": -22.25
+        },
+        {
+            "name": "azak_evolution_arm_l1",
+            "parent": "azak_evolution_body",
+            "length": 67.68,
+            "x": 125.24,
+            "y": 41.12,
+            "rotation": 146.46
+        },
+        {
+            "name": "azak_evolution_arm_r",
+            "parent": "root",
+            "length": 65.28,
+            "x": -3.09,
+            "y": -86.52,
+            "rotation": 65.04
+        },
+        {
+            "name": "azak_evolution_arm_l2",
+            "parent": "root",
+            "length": 62.07,
+            "x": -52.34,
+            "y": -101.56,
+            "rotation": 68.77
+        }
+    ],
+    "slots": [
+        {
+            "name": "azak_evolution_arm_r",
+            "bone": "azak_evolution_arm_r",
+            "attachment": "azak_evolution_arm_r"
+        },
+        {
+            "name": "azak_evolution_body",
+            "bone": "azak_evolution_body",
+            "attachment": "azak_evolution_body"
+        },
+        {
+            "name": "azak_evolution_leg_r",
+            "bone": "azak_evolution_leg_r",
+            "attachment": "azak_evolution_leg_r"
+        },
+        {
+            "name": "azak_evolution_arm_l1",
+            "bone": "azak_evolution_arm_l1",
+            "attachment": "azak_evolution_arm_l1"
+        },
+        {
+            "name": "azak_evolution_arm_l3",
+            "bone": "azak_evolution_arm_l1",
+            "attachment": "azak_evolution_arm_l3"
+        },
+        {
+            "name": "azak_evolution_arm_l2",
+            "bone": "azak_evolution_arm_l2",
+            "attachment": "azak_evolution_arm_l2"
+        },
+        {
+            "name": "azak_evolution_leg_l",
+            "bone": "azak_evolution_leg_l",
+            "attachment": "azak_evolution_leg_l"
+        },
+        {
+            "name": "azak_evolution_wing_r3",
+            "bone": "azak_evolution_wing_r3",
+            "attachment": "azak_evolution_wing_r3"
+        },
+        {
+            "name": "azak_evolution_wing_r",
+            "bone": "azak_evolution_wing_r",
+            "attachment": "azak_evolution_wing_r"
+        },
+        {
+            "name": "azak_evolution_wing_r2",
+            "bone": "azak_evolution_wing_r",
+            "attachment": "azak_evolution_wing_r2"
+        },
+        {
+            "name": "azak_evolution_tail3",
+            "bone": "azak_evolution_tail3",
+            "attachment": "azak_evolution_tail3"
+        },
+        {
+            "name": "azak_evolution_tail",
+            "bone": "azak_evolution_tail",
+            "attachment": "azak_evolution_tail"
+        },
+        {
+            "name": "azak_evolution_tail4",
+            "bone": "azak_evolution_tail",
+            "attachment": "azak_evolution_tail4"
+        },
+        {
+            "name": "azak_evolution_tail2",
+            "bone": "azak_evolution_tail2",
+            "attachment": "azak_evolution_tail2"
+        },
+        {
+            "name": "azak_evolution_wing_l3",
+            "bone": "azak_evolution_wing_l3",
+            "attachment": "azak_evolution_wing_l3"
+        },
+        {
+            "name": "azak_evolution_wing_l",
+            "bone": "azak_evolution_wing_l",
+            "attachment": "azak_evolution_wing_l"
+        },
+        {
+            "name": "azak_evolution_wing_l2",
+            "bone": "azak_evolution_wing_l",
+            "attachment": "azak_evolution_wing_l2"
+        },
+        {
+            "name": "azak_evolution_body2",
+            "bone": "azak_evolution_body2",
+            "attachment": "azak_evolution_body2"
+        },
+        {
+            "name": "azak_evolution_body3",
+            "bone": "azak_evolution_body2",
+            "attachment": "azak_evolution_body3"
+        },
+        {
+            "name": "azak_evolution_head4",
+            "bone": "azak_evolution_head4",
+            "attachment": "azak_evolution_head4"
+        },
+        {
+            "name": "azak_evolution_head2",
+            "bone": "azak_evolution_head2",
+            "attachment": "azak_evolution_head2"
+        },
+        {
+            "name": "azak_evolution_head",
+            "bone": "azak_evolution_head",
+            "attachment": "azak_evolution_head"
+        },
+        {
+            "name": "azak_evolution_head1",
+            "bone": "azak_evolution_head",
+            "attachment": "azak_evolution_head1"
+        },
+        {
+            "name": "azak_evolution_eye",
+            "bone": "azak_evolution_eye",
+            "attachment": "azak_evolution_eye"
+        },
+        {
+            "name": "azak_evolution_head3",
+            "bone": "azak_evolution_head3",
+            "attachment": "azak_evolution_head3"
+        },
+        {
+            "name": "azak_evolution_eye_att",
+            "bone": "azak_evolution_eye",
+            "attachment": "azak_evolution_eye_att"
+        }
+    ],
+    "skins": {
+        "default": {
+            "azak_evolution_arm_l1": {
+                "azak_evolution_arm_l1": {
+                    "x": 31.97,
+                    "y": -10.07,
+                    "rotation": 76.24,
+                    "width": 67,
+                    "height": 79
+                }
+            },
+            "azak_evolution_arm_l2": {
+                "azak_evolution_arm_l2": {
+                    "x": 27.4,
+                    "y": 25.73,
+                    "rotation": -68.78,
+                    "width": 106,
+                    "height": 81
+                }
+            },
+            "azak_evolution_arm_l3": {
+                "azak_evolution_arm_l3": {
+                    "x": 31.97,
+                    "y": -10.07,
+                    "rotation": 76.24,
+                    "width": 67,
+                    "height": 79
+                }
+            },
+            "azak_evolution_arm_r": {
+                "azak_evolution_arm_r": {
+                    "x": 27.43,
+                    "y": 9.8,
+                    "rotation": -65.05,
+                    "width": 90,
+                    "height": 71
+                }
+            },
+            "azak_evolution_body": {
+                "azak_evolution_body": {
+                    "x": 61.2,
+                    "y": 24.82,
+                    "rotation": -137.29,
+                    "width": 188,
+                    "height": 181
+                }
+            },
+            "azak_evolution_body2": {
+                "azak_evolution_body2": {
+                    "x": 3.3,
+                    "y": 27.23,
+                    "rotation": -137.29,
+                    "width": 101,
+                    "height": 77
+                }
+            },
+            "azak_evolution_body3": {
+                "azak_evolution_body3": {
+                    "x": 3.3,
+                    "y": 27.23,
+                    "rotation": -137.29,
+                    "width": 101,
+                    "height": 77
+                }
+            },
+            "azak_evolution_eye": {
+                "azak_evolution_eye": {
+                    "x": 2.36,
+                    "y": -0.78,
+                    "rotation": 160.2,
+                    "width": 17,
+                    "height": 11
+                }
+            },
+            "azak_evolution_eye_att": {
+                "azak_evolution_eye_att": {
+                    "x": -13.82,
+                    "y": 2.92,
+                    "scaleX": 0.521,
+                    "scaleY": 0.521,
+                    "rotation": 160.2,
+                    "width": 67,
+                    "height": 26
+                }
+            },
+            "azak_evolution_head": {
+                "azak_evolution_head": {
+                    "x": 5.59,
+                    "y": -14.74,
+                    "rotation": 160.2,
+                    "width": 98,
+                    "height": 92
+                }
+            },
+            "azak_evolution_head1": {
+                "azak_evolution_head1": {
+                    "x": 5.59,
+                    "y": -14.74,
+                    "rotation": 160.2,
+                    "width": 98,
+                    "height": 92
+                }
+            },
+            "azak_evolution_head2": {
+                "azak_evolution_head2": {
+                    "x": 21.11,
+                    "y": 0.29,
+                    "rotation": 148.48,
+                    "width": 51,
+                    "height": 29
+                }
+            },
+            "azak_evolution_head3": {
+                "azak_evolution_head3": {
+                    "x": -0.97,
+                    "y": -20.11,
+                    "rotation": 16.6,
+                    "width": 87,
+                    "height": 46
+                }
+            },
+            "azak_evolution_head4": {
+                "azak_evolution_head4": {
+                    "x": 10.13,
+                    "y": 19.35,
+                    "rotation": -163.61,
+                    "width": 50,
+                    "height": 52
+                }
+            },
+            "azak_evolution_leg_l": {
+                "azak_evolution_leg_l": {
+                    "x": 50.36,
+                    "y": 24.23,
+                    "rotation": -75.22,
+                    "width": 92,
+                    "height": 121
+                }
+            },
+            "azak_evolution_leg_r": {
+                "azak_evolution_leg_r": {
+                    "x": 28.11,
+                    "y": 14.06,
+                    "rotation": -88.71,
+                    "width": 67,
+                    "height": 70
+                }
+            },
+            "azak_evolution_tail": {
+                "azak_evolution_tail": {
+                    "x": 49,
+                    "y": -99.09,
+                    "rotation": 83.73,
+                    "width": 246,
+                    "height": 166
+                }
+            },
+            "azak_evolution_tail2": {
+                "azak_evolution_tail2": {
+                    "x": 28.35,
+                    "y": -33.32,
+                    "rotation": -173.35,
+                    "width": 48,
+                    "height": 95
+                }
+            },
+            "azak_evolution_tail3": {
+                "azak_evolution_tail3": {
+                    "x": 29.73,
+                    "y": 9.14,
+                    "rotation": -83.92,
+                    "width": 37,
+                    "height": 59
+                }
+            },
+            "azak_evolution_tail4": {
+                "azak_evolution_tail4": {
+                    "x": 49,
+                    "y": -99.09,
+                    "rotation": 83.73,
+                    "width": 246,
+                    "height": 166
+                }
+            },
+            "azak_evolution_wing_l": {
+                "azak_evolution_wing_l": {
+                    "x": 81.11,
+                    "y": -8.53,
+                    "rotation": 36.07,
+                    "width": 188,
+                    "height": 126
+                }
+            },
+            "azak_evolution_wing_l2": {
+                "azak_evolution_wing_l2": {
+                    "x": 81.11,
+                    "y": -8.53,
+                    "rotation": 36.07,
+                    "width": 188,
+                    "height": 126
+                }
+            },
+            "azak_evolution_wing_l3": {
+                "azak_evolution_wing_l3": {
+                    "x": 82.11,
+                    "y": 1.3,
+                    "rotation": 36.07,
+                    "width": 145,
+                    "height": 116
+                }
+            },
+            "azak_evolution_wing_r": {
+                "azak_evolution_wing_r": {
+                    "x": 90.71,
+                    "y": 3.97,
+                    "rotation": 25.02,
+                    "width": 171,
+                    "height": 94
+                }
+            },
+            "azak_evolution_wing_r2": {
+                "azak_evolution_wing_r2": {
+                    "x": 90.71,
+                    "y": 3.97,
+                    "rotation": 25.02,
+                    "width": 171,
+                    "height": 94
+                }
+            },
+            "azak_evolution_wing_r3": {
+                "azak_evolution_wing_r3": {
+                    "x": 90.21,
+                    "y": 6.61,
+                    "rotation": 18.06,
+                    "width": 127,
+                    "height": 84
+                }
+            }
+        }
+    },
+    "animations": {
+        "att": {
+            "slots": {
+                "azak_evolution_arm_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_arm_l1"
+                        }
+                    ]
+                },
+                "azak_evolution_arm_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_arm_l2"
+                        }
+                    ]
+                },
+                "azak_evolution_arm_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_evolution_arm_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_arm_r"
+                        }
+                    ]
+                },
+                "azak_evolution_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_body"
+                        }
+                    ]
+                },
+                "azak_evolution_body2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_body2"
+                        }
+                    ]
+                },
+                "azak_evolution_body3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_evolution_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_evolution_eye_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_eye_att"
+                        }
+                    ]
+                },
+                "azak_evolution_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_head"
+                        }
+                    ]
+                },
+                "azak_evolution_head1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_evolution_head2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_head2"
+                        }
+                    ]
+                },
+                "azak_evolution_head3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_head3"
+                        }
+                    ]
+                },
+                "azak_evolution_head4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_head4"
+                        }
+                    ]
+                },
+                "azak_evolution_leg_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_leg_l"
+                        }
+                    ]
+                },
+                "azak_evolution_leg_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_leg_r"
+                        }
+                    ]
+                },
+                "azak_evolution_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_tail"
+                        }
+                    ]
+                },
+                "azak_evolution_tail2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_tail2"
+                        }
+                    ]
+                },
+                "azak_evolution_tail3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_tail3"
+                        }
+                    ]
+                },
+                "azak_evolution_tail4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_l"
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_l3"
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_r"
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_r3"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "azak_evolution_arm_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -3.58
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_arm_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 4.3
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_arm_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 6.8
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_body2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 9.5
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 5.61,
+                            "y": -0.46
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -6.22
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0.11,
+                            "y": 0.31
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_head2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 17.92
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -0.59,
+                            "y": -1.44
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_head3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 11.31
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_head4": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -5.1
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -13.25
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -1.72,
+                            "y": -1.46
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 0.955,
+                            "y": 1.051
+                        }
+                    ]
+                },
+                "azak_evolution_tail2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 15.51
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -2.37,
+                            "y": -0.18
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_tail3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -13.81
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 16.84
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 1.12,
+                            "y": -6.61
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0.77
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -14.54,
+                            "y": -5.78
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 26.32
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -2.11,
+                            "y": -2.77
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 17.39
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -10.79,
+                            "y": -12.29
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_leg_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_leg_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "wait": {
+            "slots": {
+                "azak_evolution_arm_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_arm_l1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_arm_l1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_arm_l1"
+                        }
+                    ]
+                },
+                "azak_evolution_arm_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_arm_l2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_arm_l2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_arm_l2"
+                        }
+                    ]
+                },
+                "azak_evolution_arm_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_arm_l3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_arm_l3"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_arm_l3"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "azak_evolution_arm_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_arm_r"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_arm_r"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_arm_r"
+                        }
+                    ]
+                },
+                "azak_evolution_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_body"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_body"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_body"
+                        }
+                    ]
+                },
+                "azak_evolution_body2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_body2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_body2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_body2"
+                        }
+                    ]
+                },
+                "azak_evolution_body3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_body3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_body3"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_body3"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "azak_evolution_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.7333,
+                            "name": "azak_evolution_eye"
+                        },
+                        {
+                            "time": 2,
+                            "name": null
+                        },
+                        {
+                            "time": 4,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_evolution_eye_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 2,
+                            "name": null
+                        },
+                        {
+                            "time": 4,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_evolution_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_head"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_head"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_head"
+                        }
+                    ]
+                },
+                "azak_evolution_head1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_head1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_head1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_head1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "azak_evolution_head2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_head2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_head2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_head2"
+                        }
+                    ]
+                },
+                "azak_evolution_head3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_head3"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "azak_evolution_head3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_head3"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "azak_evolution_head3"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_head3"
+                        }
+                    ]
+                },
+                "azak_evolution_head4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_head4"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "azak_evolution_head4"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_head4"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "azak_evolution_head4"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_head4"
+                        }
+                    ]
+                },
+                "azak_evolution_leg_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_leg_l"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_leg_l"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_leg_l"
+                        }
+                    ]
+                },
+                "azak_evolution_leg_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_leg_r"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_leg_r"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_leg_r"
+                        }
+                    ]
+                },
+                "azak_evolution_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_tail"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_tail"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_tail"
+                        }
+                    ]
+                },
+                "azak_evolution_tail2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_tail2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_tail2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_tail2"
+                        }
+                    ]
+                },
+                "azak_evolution_tail3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_tail3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_tail3"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_tail3"
+                        }
+                    ]
+                },
+                "azak_evolution_tail4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_tail4"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_tail4"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_tail4"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_l"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_wing_l"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_wing_l"
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_l2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_wing_l2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_wing_l2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_l3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_wing_l3"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_wing_l3"
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_r"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_wing_r"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_wing_r"
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_r2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_wing_r2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_wing_r2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3.1666,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_evolution_wing_r3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_evolution_wing_r3"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_evolution_wing_r3"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "azak_evolution_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_arm_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -1.81,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": -1.81,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_arm_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 3.19,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": 3.19,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_arm_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 1.66,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": 1.66,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_body2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.0333,
+                            "angle": 2.08,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3.0333,
+                            "angle": 2.08,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_head2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.4,
+                            "angle": 3.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.8333,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3.4,
+                            "angle": 3.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_head3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 9.99,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3.1666,
+                            "angle": 9.99,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_head4": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": -8.36,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3.1666,
+                            "angle": -8.36,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 1.044,
+                            "y": 1.03,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3.1666,
+                            "x": 1.044,
+                            "y": 1.03,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -12.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": -12.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_tail2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.4666,
+                            "angle": 16.74,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5666,
+                            "angle": -5.44,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_tail3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.4666,
+                            "angle": -15.96,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5666,
+                            "angle": -344.88,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 346.97,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3.1666,
+                            "angle": 346.97,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_wing_l3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 4.3,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3.1666,
+                            "angle": 4.3,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_wing_r3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_leg_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.981,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.981,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_evolution_leg_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.994,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "x": 0.994,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 0.3333
+                },
+                {
+                    "time": 2
+                },
+                {
+                    "time": 2.3333
+                },
+                {
+                    "time": 4
+                }
+            ]
+        }
+    }
 }

@@ -1,1416 +1,3003 @@
 {
-"skeleton": { "hash": "8blR8NtRQ0iiwkWuDYHKQYOYyeE", "spine": "3.0.09", "width": 265.99, "height": 242.6, "images": "" },
-"bones": [
-	{ "name": "root", "x": 4.74, "y": 10.82 },
-	{ "name": "artemis_evolution_body", "parent": "root", "length": 81.81, "x": 21.47, "y": 7.02, "rotation": -137.36 },
-	{
-		"name": "artemis_evolution_wing_r2",
-		"parent": "artemis_evolution_body",
-		"length": 107.39,
-		"x": 40.94,
-		"y": -23.26,
-		"rotation": 125.38
-	},
-	{
-		"name": "artemis_evolution_wing_r1",
-		"parent": "artemis_evolution_body",
-		"length": 107.84,
-		"x": 45.46,
-		"y": -19.43,
-		"rotation": -155.73
-	},
-	{ "name": "artemis_evolution_twinkle1", "parent": "artemis_evolution_wing_r1", "x": 71.74, "y": -23.31 },
-	{
-		"name": "artemis_evolution_wing_l2",
-		"parent": "artemis_evolution_body",
-		"length": 54.8,
-		"x": 71.51,
-		"y": -40.45,
-		"rotation": 4.78
-	},
-	{
-		"name": "artemis_evolution_wing_l1",
-		"parent": "artemis_evolution_body",
-		"length": 110.06,
-		"x": 71.11,
-		"y": -24.1,
-		"rotation": -120.59
-	},
-	{ "name": "artemis_evolution_twinkle3", "parent": "artemis_evolution_wing_l1", "x": 85.48, "y": -12.67 },
-	{ "name": "artemis_evolution_tail", "parent": "artemis_evolution_body", "length": 72.96, "x": 2.28, "y": 1.39, "rotation": 113.77 },
-	{
-		"name": "artemis_evolution_neck",
-		"parent": "artemis_evolution_body",
-		"length": 63.84,
-		"x": 64.56,
-		"y": -10.08,
-		"rotation": -86.72
-	},
-	{
-		"name": "artemis_evolution_head",
-		"parent": "artemis_evolution_neck",
-		"length": 35.48,
-		"x": 60.47,
-		"y": -0.19,
-		"rotation": 54.53
-	},
-	{ "name": "artemis_evolution_eye", "parent": "artemis_evolution_head", "x": 20.23, "y": -5.59 },
-	{
-		"name": "artemis_evolution_leg_r1",
-		"parent": "artemis_evolution_body",
-		"length": 56.52,
-		"x": -3.94,
-		"y": 7.63,
-		"rotation": 46.66
-	},
-	{
-		"name": "artemis_evolution_leg_r2",
-		"parent": "artemis_evolution_leg_r1",
-		"length": 17.2,
-		"x": 51.01,
-		"y": 0.23,
-		"rotation": 124.65
-	},
-	{
-		"name": "artemis_evolution_leg_r3",
-		"parent": "artemis_evolution_leg_r2",
-		"length": 46.75,
-		"x": 18.84,
-		"y": 2.35,
-		"rotation": -119.7
-	},
-	{
-		"name": "artemis_evolution_leg_l1",
-		"parent": "artemis_evolution_body",
-		"length": 39.65,
-		"x": 26.73,
-		"y": 6.8,
-		"rotation": 39.54
-	},
-	{ "name": "bone16", "parent": "artemis_evolution_leg_l1", "length": 42.03, "x": 26.72, "y": -0.41, "rotation": 2.28 },
-	{
-		"name": "artemis_evolution_arm_r",
-		"parent": "artemis_evolution_body",
-		"length": 47.98,
-		"x": 48.25,
-		"y": -5.04,
-		"rotation": 68.27
-	},
-	{
-		"name": "artemis_evolution_arm_r2",
-		"parent": "artemis_evolution_arm_r",
-		"length": 26.27,
-		"x": 44.24,
-		"y": -0.42,
-		"rotation": -49.17
-	},
-	{
-		"name": "artemis_evolution_arm_r1",
-		"parent": "artemis_evolution_arm_r2",
-		"length": 23.12,
-		"x": 24.66,
-		"y": -0.93,
-		"rotation": 27.52
-	},
-	{
-		"name": "artemis_evolution_arm_l",
-		"parent": "artemis_evolution_body",
-		"length": 44.19,
-		"x": 94.93,
-		"y": -16.11,
-		"rotation": 82.87
-	},
-	{
-		"name": "artemis_evolution_arm_l2",
-		"parent": "artemis_evolution_arm_l",
-		"length": 34.46,
-		"x": 37.07,
-		"y": 0.13,
-		"rotation": -8.97
-	},
-	{
-		"name": "artemis_evolution_arm_l1",
-		"parent": "artemis_evolution_arm_l2",
-		"length": 15.41,
-		"x": 36.93,
-		"y": 1.63,
-		"rotation": 11.68
-	}
-],
-"slots": [
-	{ "name": "artemis_evolution_wing_l2", "bone": "artemis_evolution_wing_l2", "attachment": "artemis_evolution_wing_l2" },
-	{ "name": "artemis_evolution_wing_l1", "bone": "artemis_evolution_wing_l1", "attachment": "artemis_evolution_wing_l1" },
-	{ "name": "artemis_evolution_twinkle4", "bone": "artemis_evolution_twinkle3", "attachment": "artemis_evolution_twinkle4" },
-	{ "name": "artemis_evolution_twinkle3", "bone": "artemis_evolution_twinkle3", "attachment": "artemis_evolution_twinkle3" },
-	{ "name": "artemis_evolution_tail", "bone": "artemis_evolution_tail", "attachment": "artemis_evolution_tail" },
-	{ "name": "artemis_evolution_leg_l2", "bone": "bone16", "attachment": "artemis_evolution_leg_l2" },
-	{ "name": "artemis_evolution_leg_l1", "bone": "artemis_evolution_leg_l1", "attachment": "artemis_evolution_leg_l1" },
-	{ "name": "artemis_evolution_arm_l3", "bone": "artemis_evolution_arm_l", "attachment": "artemis_evolution_arm_l3" },
-	{ "name": "artemis_evolution_arm_l2", "bone": "artemis_evolution_arm_l2", "attachment": "artemis_evolution_arm_l2" },
-	{ "name": "artemis_evolution_arm_l1", "bone": "artemis_evolution_arm_l1", "attachment": "artemis_evolution_arm_l1" },
-	{ "name": "artemis_evolution_body", "bone": "artemis_evolution_body", "attachment": "artemis_evolution_body" },
-	{ "name": "artemis_evolution_leg_r3", "bone": "artemis_evolution_leg_r3", "attachment": "artemis_evolution_leg_r3" },
-	{ "name": "artemis_evolution_leg_r2", "bone": "artemis_evolution_leg_r2", "attachment": "artemis_evolution_leg_r2" },
-	{ "name": "artemis_evolution_leg_r1", "bone": "artemis_evolution_leg_r1", "attachment": "artemis_evolution_leg_r1" },
-	{ "name": "artemis_evolution_wing_r2", "bone": "artemis_evolution_wing_r1", "attachment": "artemis_evolution_wing_r2" },
-	{ "name": "artemis_evolution_twinkle2", "bone": "artemis_evolution_twinkle1", "attachment": "artemis_evolution_twinkle2" },
-	{ "name": "artemis_evolution_twinkle1", "bone": "artemis_evolution_twinkle1", "attachment": "artemis_evolution_twinkle1" },
-	{ "name": "artemis_evolution_neck", "bone": "artemis_evolution_neck", "attachment": "artemis_evolution_neck" },
-	{ "name": "artemis_evolution_arm_r3", "bone": "artemis_evolution_arm_r", "attachment": "artemis_evolution_arm_r3" },
-	{ "name": "artemis_evolution_arm_r2", "bone": "artemis_evolution_arm_r2", "attachment": "artemis_evolution_arm_r2" },
-	{ "name": "artemis_evolution_arm_r1", "bone": "artemis_evolution_arm_r1", "attachment": "artemis_evolution_arm_r1" },
-	{ "name": "artemis_evolution_wing_r1", "bone": "artemis_evolution_wing_r2", "attachment": "artemis_evolution_wing_r1" },
-	{ "name": "artemis_evolution_head", "bone": "artemis_evolution_head", "attachment": "artemis_evolution_head" },
-	{ "name": "artemis_evolution_eye1", "bone": "artemis_evolution_eye", "attachment": "artemis_evolution_eye1" }
-],
-"skins": {
-	"default": {
-		"artemis_evolution_arm_l1": {
-			"artemis_evolution_arm_l1": { "x": 8.55, "y": 0.42, "rotation": 51.74, "width": 26, "height": 29 }
-		},
-		"artemis_evolution_arm_l2": {
-			"artemis_evolution_arm_l2": { "x": 18.83, "y": 0.2, "rotation": 63.42, "width": 30, "height": 45 }
-		},
-		"artemis_evolution_arm_l3": {
-			"artemis_evolution_arm_l3": { "x": 19.72, "y": -1.35, "rotation": 54.47, "width": 47, "height": 49 }
-		},
-		"artemis_evolution_arm_r1": {
-			"artemis_evolution_arm_r1": { "x": 12.25, "y": 2.13, "rotation": 90.69, "width": 25, "height": 34 }
-		},
-		"artemis_evolution_arm_r2": {
-			"artemis_evolution_arm_r2": { "x": 13.79, "y": 1.28, "rotation": 118.21, "width": 30, "height": 36 }
-		},
-		"artemis_evolution_arm_r3": {
-			"artemis_evolution_arm_r3": { "x": 16.6, "y": -3.97, "rotation": 69.06, "width": 46, "height": 61 }
-		},
-		"artemis_evolution_body": {
-			"artemis_evolution_body": { "x": 45.96, "y": -0.84, "rotation": 137.34, "width": 113, "height": 85 }
-		},
-		"artemis_evolution_eye1": {
-			"artemis_evolution_att": { "x": 4.05, "y": 4.16, "rotation": 169.55, "width": 29, "height": 23 },
-			"artemis_evolution_eye1": { "x": -1.18, "y": 0.55, "rotation": 169.55, "width": 20, "height": 14 },
-			"artemis_evolution_eye2": { "x": -1.18, "y": 0.55, "rotation": 169.55, "width": 18, "height": 14 }
-		},
-		"artemis_evolution_head": {
-			"artemis_evolution_head": { "x": -16.44, "y": -23.31, "rotation": 169.55, "width": 112, "height": 86 }
-		},
-		"artemis_evolution_leg_l1": {
-			"artemis_evolution_leg_l1": { "x": 10.05, "y": -0.46, "rotation": 97.8, "width": 36, "height": 66 }
-		},
-		"artemis_evolution_leg_l2": {
-			"artemis_evolution_leg_l2": { "x": 24.98, "y": -3.01, "rotation": 95.5, "width": 34, "height": 65 }
-		},
-		"artemis_evolution_leg_r1": {
-			"artemis_evolution_leg_r1": { "x": 26.84, "y": 3.66, "rotation": 90.68, "width": 43, "height": 74 }
-		},
-		"artemis_evolution_leg_r2": {
-			"artemis_evolution_leg_r2": { "x": 3.79, "y": -1.19, "rotation": -33.95, "width": 28, "height": 28 }
-		},
-		"artemis_evolution_leg_r3": {
-			"artemis_evolution_leg_r3": { "x": 31.33, "y": 3.97, "rotation": 85.71, "width": 30, "height": 70 }
-		},
-		"artemis_evolution_neck": {
-			"artemis_evolution_neck": { "x": 33.51, "y": 5.01, "rotation": -135.92, "width": 74, "height": 78 }
-		},
-		"artemis_evolution_tail": {
-			"artemis_evolution_tail": { "x": 45.58, "y": -18.56, "rotation": 23.57, "width": 95, "height": 98 }
-		},
-		"artemis_evolution_twinkle1": {
-			"artemis_evolution_twinkle1": { "x": 7.77, "y": -5.48, "rotation": -66.95, "width": 103, "height": 96 }
-		},
-		"artemis_evolution_twinkle2": {
-			"artemis_evolution_twinkle2": { "x": 6.65, "y": -1.06, "rotation": -66.95, "width": 106, "height": 115 }
-		},
-		"artemis_evolution_twinkle3": {
-			"artemis_evolution_twinkle3": { "x": -1.41, "y": -8.95, "rotation": -102.08, "width": 64, "height": 91 }
-		},
-		"artemis_evolution_twinkle4": {
-			"artemis_evolution_twinkle4": { "x": 4.76, "y": -1.58, "rotation": -102.08, "width": 63, "height": 92 }
-		},
-		"artemis_evolution_wing_l1": {
-			"artemis_evolution_wing_l1": { "x": 68.69, "y": -14.65, "rotation": -102.08, "width": 76, "height": 120 }
-		},
-		"artemis_evolution_wing_l2": {
-			"artemis_evolution_wing_l2": { "x": -12.63, "y": 17.76, "rotation": 132.56, "width": 131, "height": 114 }
-		},
-		"artemis_evolution_wing_r1": {
-			"artemis_evolution_wing_r1": { "x": 84.43, "y": 7.67, "rotation": 11.95, "width": 172, "height": 60 }
-		},
-		"artemis_evolution_wing_r2": {
-			"artemis_evolution_wing_r2": { "x": 74.78, "y": -34.28, "rotation": -66.95, "width": 133, "height": 117 }
-		}
-	}
-},
-"animations": {
-	"att": {
-		"slots": {
-			"artemis_evolution_arm_l1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_l1" }
-				]
-			},
-			"artemis_evolution_arm_l2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_l2" }
-				]
-			},
-			"artemis_evolution_arm_l3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_l3" }
-				]
-			},
-			"artemis_evolution_arm_r1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_r1" }
-				]
-			},
-			"artemis_evolution_arm_r2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_r2" }
-				]
-			},
-			"artemis_evolution_arm_r3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_r3" }
-				]
-			},
-			"artemis_evolution_body": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_body" }
-				]
-			},
-			"artemis_evolution_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_att" }
-				]
-			},
-			"artemis_evolution_head": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_head" }
-				]
-			},
-			"artemis_evolution_leg_l1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_l1" }
-				]
-			},
-			"artemis_evolution_leg_l2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_l2" }
-				]
-			},
-			"artemis_evolution_leg_r1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_r1" }
-				]
-			},
-			"artemis_evolution_leg_r2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_r2" }
-				]
-			},
-			"artemis_evolution_leg_r3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_r3" }
-				]
-			},
-			"artemis_evolution_neck": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_neck" }
-				]
-			},
-			"artemis_evolution_tail": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_tail" }
-				]
-			},
-			"artemis_evolution_twinkle1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_twinkle1" }
-				]
-			},
-			"artemis_evolution_twinkle2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_twinkle2" }
-				]
-			},
-			"artemis_evolution_twinkle3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_twinkle3" }
-				]
-			},
-			"artemis_evolution_twinkle4": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_twinkle4" }
-				]
-			},
-			"artemis_evolution_wing_l1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_wing_l1" }
-				]
-			},
-			"artemis_evolution_wing_l2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_wing_l2" }
-				]
-			},
-			"artemis_evolution_wing_r1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_wing_r1" }
-				]
-			},
-			"artemis_evolution_wing_r2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_wing_r2" }
-				]
-			}
-		},
-		"bones": {
-			"artemis_evolution_arm_l": {
-				"rotate": [
-					{ "time": 0, "angle": 3.42 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_r": {
-				"rotate": [
-					{ "time": 0, "angle": 2.72 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_r2": {
-				"rotate": [
-					{ "time": 0, "angle": -18.14 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_r1": {
-				"rotate": [
-					{ "time": 0, "angle": 14.37 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": -0.39, "y": 10.19 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_neck": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_l2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_l1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_leg_r1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_leg_r2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_leg_r3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_leg_l1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bone16": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_wing_r1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_twinkle1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_wing_r2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_wing_l1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_twinkle3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_wing_l2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"wait": {
-		"slots": {
-			"artemis_evolution_arm_l1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_l1" },
-					{ "time": 2, "name": "artemis_evolution_arm_l1" }
-				]
-			},
-			"artemis_evolution_arm_l2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_l2" },
-					{ "time": 2, "name": "artemis_evolution_arm_l2" }
-				]
-			},
-			"artemis_evolution_arm_l3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_l3" },
-					{ "time": 2, "name": "artemis_evolution_arm_l3" }
-				]
-			},
-			"artemis_evolution_arm_r1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_r1" },
-					{ "time": 2, "name": "artemis_evolution_arm_r1" }
-				]
-			},
-			"artemis_evolution_arm_r2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_r2" },
-					{ "time": 2, "name": "artemis_evolution_arm_r2" }
-				]
-			},
-			"artemis_evolution_arm_r3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_arm_r3" },
-					{ "time": 2, "name": "artemis_evolution_arm_r3" }
-				]
-			},
-			"artemis_evolution_body": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_body" },
-					{ "time": 2, "name": "artemis_evolution_body" }
-				]
-			},
-			"artemis_evolution_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_eye1" },
-					{ "time": 0.5666, "name": "artemis_evolution_eye2" },
-					{ "time": 0.7666, "name": "artemis_evolution_eye1" },
-					{ "time": 2, "name": "artemis_evolution_eye1" }
-				]
-			},
-			"artemis_evolution_head": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_head" },
-					{ "time": 2, "name": "artemis_evolution_head" }
-				]
-			},
-			"artemis_evolution_leg_l1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_l1" },
-					{ "time": 2, "name": "artemis_evolution_leg_l1" }
-				]
-			},
-			"artemis_evolution_leg_l2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_l2" },
-					{ "time": 2, "name": "artemis_evolution_leg_l2" }
-				]
-			},
-			"artemis_evolution_leg_r1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_r1" },
-					{ "time": 2, "name": "artemis_evolution_leg_r1" }
-				]
-			},
-			"artemis_evolution_leg_r2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_r2" },
-					{ "time": 2, "name": "artemis_evolution_leg_r2" }
-				]
-			},
-			"artemis_evolution_leg_r3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_leg_r3" },
-					{ "time": 2, "name": "artemis_evolution_leg_r3" }
-				]
-			},
-			"artemis_evolution_neck": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_neck" },
-					{ "time": 2, "name": "artemis_evolution_neck" }
-				]
-			},
-			"artemis_evolution_tail": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_tail" },
-					{ "time": 2, "name": "artemis_evolution_tail" }
-				]
-			},
-			"artemis_evolution_twinkle1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_twinkle1" },
-					{ "time": 2, "name": "artemis_evolution_twinkle1" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" },
-					{ "time": 0.5, "color": "ffffff00" },
-					{ "time": 1, "color": "ffffffff" },
-					{ "time": 1.5, "color": "ffffff00" },
-					{ "time": 2, "color": "ffffffff" }
-				]
-			},
-			"artemis_evolution_twinkle2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_twinkle2" },
-					{ "time": 2, "name": "artemis_evolution_twinkle2" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffff00" },
-					{ "time": 0.5, "color": "ffffffff" },
-					{ "time": 1, "color": "ffffff00" },
-					{ "time": 1.5, "color": "ffffffff" },
-					{ "time": 2, "color": "ffffff00" }
-				]
-			},
-			"artemis_evolution_twinkle3": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_twinkle3" },
-					{ "time": 2, "name": "artemis_evolution_twinkle3" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffffff" },
-					{ "time": 0.5, "color": "ffffff00" },
-					{ "time": 1, "color": "ffffffff" },
-					{ "time": 1.5, "color": "ffffff00" },
-					{ "time": 2, "color": "ffffffff" }
-				]
-			},
-			"artemis_evolution_twinkle4": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_twinkle4" },
-					{ "time": 2, "name": "artemis_evolution_twinkle4" }
-				],
-				"color": [
-					{ "time": 0, "color": "ffffff00" },
-					{ "time": 0.5, "color": "ffffffff" },
-					{ "time": 1, "color": "ffffff00" },
-					{ "time": 1.5, "color": "ffffffff" },
-					{ "time": 2, "color": "ffffff00" }
-				]
-			},
-			"artemis_evolution_wing_l1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_wing_l1" },
-					{ "time": 2, "name": "artemis_evolution_wing_l1" }
-				]
-			},
-			"artemis_evolution_wing_l2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_wing_l2" },
-					{ "time": 2, "name": "artemis_evolution_wing_l2" }
-				]
-			},
-			"artemis_evolution_wing_r1": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_wing_r1" },
-					{ "time": 2, "name": "artemis_evolution_wing_r1" }
-				]
-			},
-			"artemis_evolution_wing_r2": {
-				"attachment": [
-					{ "time": 0, "name": "artemis_evolution_wing_r2" },
-					{ "time": 2, "name": "artemis_evolution_wing_r2" }
-				]
-			}
-		},
-		"bones": {
-			"artemis_evolution_body": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -11.55,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"x": -9.4,
-						"y": 12.93,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_l": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 9.99,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_l2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -11.85,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_l1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -14.99,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"x": -0.17,
-						"y": -0.76,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_r": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 20.64,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_r2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -34.6,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_arm_r1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 34.29,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"x": 1.26,
-						"y": -0.92,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_leg_l1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 24.69,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"bone16": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.0666,
-						"angle": 19.64,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_leg_r1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 2.25,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_leg_r2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_leg_r3": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 26.73,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_neck": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -1.93,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_head": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 5.19,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -0.33,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 5.19 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"x": 2.06,
-						"y": 1.23,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_tail": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": 37.76,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"angle": -2.16,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_wing_l1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.1666,
-						"angle": 13.17,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.6,
-						"angle": -27.64,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.6,
-						"x": 0.701,
-						"y": 0.956,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_twinkle3": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_wing_l2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.9,
-						"angle": 9.46,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.9,
-						"x": 1.25,
-						"y": 10.79,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.9,
-						"x": 0.823,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_wing_r1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.1666,
-						"angle": 14.98,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.6,
-						"angle": -17.4,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.1666,
-						"x": 1,
-						"y": 0.904,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.6,
-						"x": 0.721,
-						"y": 1.408,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_twinkle1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"artemis_evolution_wing_r2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.8666,
-						"angle": 11.97,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.8666,
-						"x": 1.126,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "8blR8NtRQ0iiwkWuDYHKQYOYyeE",
+        "spine": "3.0.09",
+        "width": 265.99,
+        "height": 242.6,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": 4.74,
+            "y": 10.82
+        },
+        {
+            "name": "artemis_evolution_body",
+            "parent": "root",
+            "length": 81.81,
+            "x": 21.47,
+            "y": 7.02,
+            "rotation": -137.36
+        },
+        {
+            "name": "artemis_evolution_wing_r2",
+            "parent": "artemis_evolution_body",
+            "length": 107.39,
+            "x": 40.94,
+            "y": -23.26,
+            "rotation": 125.38
+        },
+        {
+            "name": "artemis_evolution_wing_r1",
+            "parent": "artemis_evolution_body",
+            "length": 107.84,
+            "x": 45.46,
+            "y": -19.43,
+            "rotation": -155.73
+        },
+        {
+            "name": "artemis_evolution_twinkle1",
+            "parent": "artemis_evolution_wing_r1",
+            "x": 71.74,
+            "y": -23.31
+        },
+        {
+            "name": "artemis_evolution_wing_l2",
+            "parent": "artemis_evolution_body",
+            "length": 54.8,
+            "x": 71.51,
+            "y": -40.45,
+            "rotation": 4.78
+        },
+        {
+            "name": "artemis_evolution_wing_l1",
+            "parent": "artemis_evolution_body",
+            "length": 110.06,
+            "x": 71.11,
+            "y": -24.1,
+            "rotation": -120.59
+        },
+        {
+            "name": "artemis_evolution_twinkle3",
+            "parent": "artemis_evolution_wing_l1",
+            "x": 85.48,
+            "y": -12.67
+        },
+        {
+            "name": "artemis_evolution_tail",
+            "parent": "artemis_evolution_body",
+            "length": 72.96,
+            "x": 2.28,
+            "y": 1.39,
+            "rotation": 113.77
+        },
+        {
+            "name": "artemis_evolution_neck",
+            "parent": "artemis_evolution_body",
+            "length": 63.84,
+            "x": 64.56,
+            "y": -10.08,
+            "rotation": -86.72
+        },
+        {
+            "name": "artemis_evolution_head",
+            "parent": "artemis_evolution_neck",
+            "length": 35.48,
+            "x": 60.47,
+            "y": -0.19,
+            "rotation": 54.53
+        },
+        {
+            "name": "artemis_evolution_eye",
+            "parent": "artemis_evolution_head",
+            "x": 20.23,
+            "y": -5.59
+        },
+        {
+            "name": "artemis_evolution_leg_r1",
+            "parent": "artemis_evolution_body",
+            "length": 56.52,
+            "x": -3.94,
+            "y": 7.63,
+            "rotation": 46.66
+        },
+        {
+            "name": "artemis_evolution_leg_r2",
+            "parent": "artemis_evolution_leg_r1",
+            "length": 17.2,
+            "x": 51.01,
+            "y": 0.23,
+            "rotation": 124.65
+        },
+        {
+            "name": "artemis_evolution_leg_r3",
+            "parent": "artemis_evolution_leg_r2",
+            "length": 46.75,
+            "x": 18.84,
+            "y": 2.35,
+            "rotation": -119.7
+        },
+        {
+            "name": "artemis_evolution_leg_l1",
+            "parent": "artemis_evolution_body",
+            "length": 39.65,
+            "x": 26.73,
+            "y": 6.8,
+            "rotation": 39.54
+        },
+        {
+            "name": "bone16",
+            "parent": "artemis_evolution_leg_l1",
+            "length": 42.03,
+            "x": 26.72,
+            "y": -0.41,
+            "rotation": 2.28
+        },
+        {
+            "name": "artemis_evolution_arm_r",
+            "parent": "artemis_evolution_body",
+            "length": 47.98,
+            "x": 48.25,
+            "y": -5.04,
+            "rotation": 68.27
+        },
+        {
+            "name": "artemis_evolution_arm_r2",
+            "parent": "artemis_evolution_arm_r",
+            "length": 26.27,
+            "x": 44.24,
+            "y": -0.42,
+            "rotation": -49.17
+        },
+        {
+            "name": "artemis_evolution_arm_r1",
+            "parent": "artemis_evolution_arm_r2",
+            "length": 23.12,
+            "x": 24.66,
+            "y": -0.93,
+            "rotation": 27.52
+        },
+        {
+            "name": "artemis_evolution_arm_l",
+            "parent": "artemis_evolution_body",
+            "length": 44.19,
+            "x": 94.93,
+            "y": -16.11,
+            "rotation": 82.87
+        },
+        {
+            "name": "artemis_evolution_arm_l2",
+            "parent": "artemis_evolution_arm_l",
+            "length": 34.46,
+            "x": 37.07,
+            "y": 0.13,
+            "rotation": -8.97
+        },
+        {
+            "name": "artemis_evolution_arm_l1",
+            "parent": "artemis_evolution_arm_l2",
+            "length": 15.41,
+            "x": 36.93,
+            "y": 1.63,
+            "rotation": 11.68
+        }
+    ],
+    "slots": [
+        {
+            "name": "artemis_evolution_wing_l2",
+            "bone": "artemis_evolution_wing_l2",
+            "attachment": "artemis_evolution_wing_l2"
+        },
+        {
+            "name": "artemis_evolution_wing_l1",
+            "bone": "artemis_evolution_wing_l1",
+            "attachment": "artemis_evolution_wing_l1"
+        },
+        {
+            "name": "artemis_evolution_twinkle4",
+            "bone": "artemis_evolution_twinkle3",
+            "attachment": "artemis_evolution_twinkle4"
+        },
+        {
+            "name": "artemis_evolution_twinkle3",
+            "bone": "artemis_evolution_twinkle3",
+            "attachment": "artemis_evolution_twinkle3"
+        },
+        {
+            "name": "artemis_evolution_tail",
+            "bone": "artemis_evolution_tail",
+            "attachment": "artemis_evolution_tail"
+        },
+        {
+            "name": "artemis_evolution_leg_l2",
+            "bone": "bone16",
+            "attachment": "artemis_evolution_leg_l2"
+        },
+        {
+            "name": "artemis_evolution_leg_l1",
+            "bone": "artemis_evolution_leg_l1",
+            "attachment": "artemis_evolution_leg_l1"
+        },
+        {
+            "name": "artemis_evolution_arm_l3",
+            "bone": "artemis_evolution_arm_l",
+            "attachment": "artemis_evolution_arm_l3"
+        },
+        {
+            "name": "artemis_evolution_arm_l2",
+            "bone": "artemis_evolution_arm_l2",
+            "attachment": "artemis_evolution_arm_l2"
+        },
+        {
+            "name": "artemis_evolution_arm_l1",
+            "bone": "artemis_evolution_arm_l1",
+            "attachment": "artemis_evolution_arm_l1"
+        },
+        {
+            "name": "artemis_evolution_body",
+            "bone": "artemis_evolution_body",
+            "attachment": "artemis_evolution_body"
+        },
+        {
+            "name": "artemis_evolution_leg_r3",
+            "bone": "artemis_evolution_leg_r3",
+            "attachment": "artemis_evolution_leg_r3"
+        },
+        {
+            "name": "artemis_evolution_leg_r2",
+            "bone": "artemis_evolution_leg_r2",
+            "attachment": "artemis_evolution_leg_r2"
+        },
+        {
+            "name": "artemis_evolution_leg_r1",
+            "bone": "artemis_evolution_leg_r1",
+            "attachment": "artemis_evolution_leg_r1"
+        },
+        {
+            "name": "artemis_evolution_wing_r2",
+            "bone": "artemis_evolution_wing_r1",
+            "attachment": "artemis_evolution_wing_r2"
+        },
+        {
+            "name": "artemis_evolution_twinkle2",
+            "bone": "artemis_evolution_twinkle1",
+            "attachment": "artemis_evolution_twinkle2"
+        },
+        {
+            "name": "artemis_evolution_twinkle1",
+            "bone": "artemis_evolution_twinkle1",
+            "attachment": "artemis_evolution_twinkle1"
+        },
+        {
+            "name": "artemis_evolution_neck",
+            "bone": "artemis_evolution_neck",
+            "attachment": "artemis_evolution_neck"
+        },
+        {
+            "name": "artemis_evolution_arm_r3",
+            "bone": "artemis_evolution_arm_r",
+            "attachment": "artemis_evolution_arm_r3"
+        },
+        {
+            "name": "artemis_evolution_arm_r2",
+            "bone": "artemis_evolution_arm_r2",
+            "attachment": "artemis_evolution_arm_r2"
+        },
+        {
+            "name": "artemis_evolution_arm_r1",
+            "bone": "artemis_evolution_arm_r1",
+            "attachment": "artemis_evolution_arm_r1"
+        },
+        {
+            "name": "artemis_evolution_wing_r1",
+            "bone": "artemis_evolution_wing_r2",
+            "attachment": "artemis_evolution_wing_r1"
+        },
+        {
+            "name": "artemis_evolution_head",
+            "bone": "artemis_evolution_head",
+            "attachment": "artemis_evolution_head"
+        },
+        {
+            "name": "artemis_evolution_eye1",
+            "bone": "artemis_evolution_eye",
+            "attachment": "artemis_evolution_eye1"
+        }
+    ],
+    "skins": {
+        "default": {
+            "artemis_evolution_arm_l1": {
+                "artemis_evolution_arm_l1": {
+                    "x": 8.55,
+                    "y": 0.42,
+                    "rotation": 51.74,
+                    "width": 26,
+                    "height": 29
+                }
+            },
+            "artemis_evolution_arm_l2": {
+                "artemis_evolution_arm_l2": {
+                    "x": 18.83,
+                    "y": 0.2,
+                    "rotation": 63.42,
+                    "width": 30,
+                    "height": 45
+                }
+            },
+            "artemis_evolution_arm_l3": {
+                "artemis_evolution_arm_l3": {
+                    "x": 19.72,
+                    "y": -1.35,
+                    "rotation": 54.47,
+                    "width": 47,
+                    "height": 49
+                }
+            },
+            "artemis_evolution_arm_r1": {
+                "artemis_evolution_arm_r1": {
+                    "x": 12.25,
+                    "y": 2.13,
+                    "rotation": 90.69,
+                    "width": 25,
+                    "height": 34
+                }
+            },
+            "artemis_evolution_arm_r2": {
+                "artemis_evolution_arm_r2": {
+                    "x": 13.79,
+                    "y": 1.28,
+                    "rotation": 118.21,
+                    "width": 30,
+                    "height": 36
+                }
+            },
+            "artemis_evolution_arm_r3": {
+                "artemis_evolution_arm_r3": {
+                    "x": 16.6,
+                    "y": -3.97,
+                    "rotation": 69.06,
+                    "width": 46,
+                    "height": 61
+                }
+            },
+            "artemis_evolution_body": {
+                "artemis_evolution_body": {
+                    "x": 45.96,
+                    "y": -0.84,
+                    "rotation": 137.34,
+                    "width": 113,
+                    "height": 85
+                }
+            },
+            "artemis_evolution_eye1": {
+                "artemis_evolution_att": {
+                    "x": 4.05,
+                    "y": 4.16,
+                    "rotation": 169.55,
+                    "width": 29,
+                    "height": 23
+                },
+                "artemis_evolution_eye1": {
+                    "x": -1.18,
+                    "y": 0.55,
+                    "rotation": 169.55,
+                    "width": 20,
+                    "height": 14
+                },
+                "artemis_evolution_eye2": {
+                    "x": -1.18,
+                    "y": 0.55,
+                    "rotation": 169.55,
+                    "width": 18,
+                    "height": 14
+                }
+            },
+            "artemis_evolution_head": {
+                "artemis_evolution_head": {
+                    "x": -16.44,
+                    "y": -23.31,
+                    "rotation": 169.55,
+                    "width": 112,
+                    "height": 86
+                }
+            },
+            "artemis_evolution_leg_l1": {
+                "artemis_evolution_leg_l1": {
+                    "x": 10.05,
+                    "y": -0.46,
+                    "rotation": 97.8,
+                    "width": 36,
+                    "height": 66
+                }
+            },
+            "artemis_evolution_leg_l2": {
+                "artemis_evolution_leg_l2": {
+                    "x": 24.98,
+                    "y": -3.01,
+                    "rotation": 95.5,
+                    "width": 34,
+                    "height": 65
+                }
+            },
+            "artemis_evolution_leg_r1": {
+                "artemis_evolution_leg_r1": {
+                    "x": 26.84,
+                    "y": 3.66,
+                    "rotation": 90.68,
+                    "width": 43,
+                    "height": 74
+                }
+            },
+            "artemis_evolution_leg_r2": {
+                "artemis_evolution_leg_r2": {
+                    "x": 3.79,
+                    "y": -1.19,
+                    "rotation": -33.95,
+                    "width": 28,
+                    "height": 28
+                }
+            },
+            "artemis_evolution_leg_r3": {
+                "artemis_evolution_leg_r3": {
+                    "x": 31.33,
+                    "y": 3.97,
+                    "rotation": 85.71,
+                    "width": 30,
+                    "height": 70
+                }
+            },
+            "artemis_evolution_neck": {
+                "artemis_evolution_neck": {
+                    "x": 33.51,
+                    "y": 5.01,
+                    "rotation": -135.92,
+                    "width": 74,
+                    "height": 78
+                }
+            },
+            "artemis_evolution_tail": {
+                "artemis_evolution_tail": {
+                    "x": 45.58,
+                    "y": -18.56,
+                    "rotation": 23.57,
+                    "width": 95,
+                    "height": 98
+                }
+            },
+            "artemis_evolution_twinkle1": {
+                "artemis_evolution_twinkle1": {
+                    "x": 7.77,
+                    "y": -5.48,
+                    "rotation": -66.95,
+                    "width": 103,
+                    "height": 96
+                }
+            },
+            "artemis_evolution_twinkle2": {
+                "artemis_evolution_twinkle2": {
+                    "x": 6.65,
+                    "y": -1.06,
+                    "rotation": -66.95,
+                    "width": 106,
+                    "height": 115
+                }
+            },
+            "artemis_evolution_twinkle3": {
+                "artemis_evolution_twinkle3": {
+                    "x": -1.41,
+                    "y": -8.95,
+                    "rotation": -102.08,
+                    "width": 64,
+                    "height": 91
+                }
+            },
+            "artemis_evolution_twinkle4": {
+                "artemis_evolution_twinkle4": {
+                    "x": 4.76,
+                    "y": -1.58,
+                    "rotation": -102.08,
+                    "width": 63,
+                    "height": 92
+                }
+            },
+            "artemis_evolution_wing_l1": {
+                "artemis_evolution_wing_l1": {
+                    "x": 68.69,
+                    "y": -14.65,
+                    "rotation": -102.08,
+                    "width": 76,
+                    "height": 120
+                }
+            },
+            "artemis_evolution_wing_l2": {
+                "artemis_evolution_wing_l2": {
+                    "x": -12.63,
+                    "y": 17.76,
+                    "rotation": 132.56,
+                    "width": 131,
+                    "height": 114
+                }
+            },
+            "artemis_evolution_wing_r1": {
+                "artemis_evolution_wing_r1": {
+                    "x": 84.43,
+                    "y": 7.67,
+                    "rotation": 11.95,
+                    "width": 172,
+                    "height": 60
+                }
+            },
+            "artemis_evolution_wing_r2": {
+                "artemis_evolution_wing_r2": {
+                    "x": 74.78,
+                    "y": -34.28,
+                    "rotation": -66.95,
+                    "width": 133,
+                    "height": 117
+                }
+            }
+        }
+    },
+    "animations": {
+        "att": {
+            "slots": {
+                "artemis_evolution_arm_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_l1"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_l2"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_l3"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_r1"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_r2"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_r3"
+                        }
+                    ]
+                },
+                "artemis_evolution_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_body"
+                        }
+                    ]
+                },
+                "artemis_evolution_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_att"
+                        }
+                    ]
+                },
+                "artemis_evolution_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_head"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_l1"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_l2"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_r1"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_r2"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_r3"
+                        }
+                    ]
+                },
+                "artemis_evolution_neck": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_neck"
+                        }
+                    ]
+                },
+                "artemis_evolution_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_tail"
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_twinkle1"
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_twinkle2"
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_twinkle3"
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_twinkle4"
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_wing_l1"
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_wing_l2"
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_wing_r1"
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_wing_r2"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "artemis_evolution_arm_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 3.42
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 2.72
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -18.14
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 14.37
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -0.39,
+                            "y": 10.19
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_neck": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bone16": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "wait": {
+            "slots": {
+                "artemis_evolution_arm_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_l1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_arm_l1"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_l2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_arm_l2"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_l3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_arm_l3"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_r1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_arm_r1"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_r2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_arm_r2"
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_arm_r3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_arm_r3"
+                        }
+                    ]
+                },
+                "artemis_evolution_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_body"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_body"
+                        }
+                    ]
+                },
+                "artemis_evolution_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_eye1"
+                        },
+                        {
+                            "time": 0.5666,
+                            "name": "artemis_evolution_eye2"
+                        },
+                        {
+                            "time": 0.7666,
+                            "name": "artemis_evolution_eye1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_eye1"
+                        }
+                    ]
+                },
+                "artemis_evolution_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_head"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_head"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_l1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_leg_l1"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_l2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_leg_l2"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_r1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_leg_r1"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_r2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_leg_r2"
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_leg_r3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_leg_r3"
+                        }
+                    ]
+                },
+                "artemis_evolution_neck": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_neck"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_neck"
+                        }
+                    ]
+                },
+                "artemis_evolution_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_tail"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_tail"
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_twinkle1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_twinkle1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_twinkle2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_twinkle2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_twinkle3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_twinkle3"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_twinkle4"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_twinkle4"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_wing_l1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_wing_l1"
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_wing_l2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_wing_l2"
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_wing_r1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_wing_r1"
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "artemis_evolution_wing_r2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "artemis_evolution_wing_r2"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "artemis_evolution_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -11.55,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": -9.4,
+                            "y": 12.93,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 9.99,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -11.85,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -14.99,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": -0.17,
+                            "y": -0.76,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 20.64,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -34.6,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_arm_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 34.29,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.26,
+                            "y": -0.92,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 24.69,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bone16": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.0666,
+                            "angle": 19.64,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 2.25,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_leg_r3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 26.73,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_neck": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -1.93,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 5.19,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -0.33,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 5.19
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 2.06,
+                            "y": 1.23,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": 37.76,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "angle": -2.16,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": 13.17,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "angle": -27.64,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 0.701,
+                            "y": 0.956,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "angle": 9.46,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "x": 1.25,
+                            "y": 10.79,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9,
+                            "x": 0.823,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1666,
+                            "angle": 14.98,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "angle": -17.4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1666,
+                            "x": 1,
+                            "y": 0.904,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "x": 0.721,
+                            "y": 1.408,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_twinkle1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "artemis_evolution_wing_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8666,
+                            "angle": 11.97,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8666,
+                            "x": 1.126,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2
+                }
+            ]
+        }
+    }
 }

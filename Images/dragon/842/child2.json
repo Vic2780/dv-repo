@@ -1,822 +1,2107 @@
 {
-"skeleton": { "hash": "H1AM1Scta6xDJuH8VWFhxR5IpQ8", "spine": "3.0.09", "width": 265.01, "height": 209.99, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "hades_child_leg_l3", "parent": "root", "length": 50.34, "x": -65.56, "y": -109.36, "rotation": 97.33 },
-	{ "name": "hades_child_leg_l2", "parent": "hades_child_leg_l3", "length": 34.89, "x": 50.34, "rotation": -143.08 },
-	{ "name": "hades_child_leg_l1", "parent": "hades_child_leg_l2", "length": 52.11, "x": 36.36, "y": -1.59, "rotation": 131.64 },
-	{ "name": "hades_child_body", "parent": "hades_child_leg_l1", "length": 72.27, "x": 50.07, "y": -0.21, "rotation": -101.87 },
-	{ "name": "hades_child_wing_r", "parent": "hades_child_body", "length": 87.44, "x": 59.15, "y": 25.71, "rotation": 94.98 },
-	{ "name": "hades_child_wing_l", "parent": "hades_child_body", "length": 89.81, "x": 29.59, "y": 15.44, "rotation": 126.76 },
-	{ "name": "hades_child_tail", "parent": "hades_child_body", "length": 77.18, "x": 8.94, "y": 3.77, "rotation": -130.15 },
-	{ "name": "hades_child_neck", "parent": "hades_child_body", "length": 54.92, "x": 63.49, "y": 8.43, "rotation": 118.14 },
-	{ "name": "hades_child_head", "parent": "hades_child_neck", "length": 39.41, "x": 54.68, "y": -4.06, "rotation": 137.07 },
-	{ "name": "hades_child_mouth2", "parent": "hades_child_head", "length": 25.11, "x": 14.05, "y": 8.35, "rotation": -4.82 },
-	{ "name": "hades_child_mouth1", "parent": "hades_child_mouth2", "x": 7.5, "y": 1.04 },
-	{ "name": "hades_child_hair2", "parent": "hades_child_head", "length": 21.79, "x": 19.5, "y": -28.82, "rotation": 12.79 },
-	{ "name": "hades_child_hair1", "parent": "hades_child_head", "length": 24.23, "x": 8.14, "y": -16.56, "rotation": 98.79 },
-	{ "name": "hades_child_eye1", "parent": "hades_child_head", "x": 18.57, "y": -1.53 },
-	{ "name": "hades_child_leg_r1", "parent": "hades_child_body", "length": 41.51, "x": 25.06, "y": 2.61, "rotation": -58.27 },
-	{ "name": "hades_child_leg_r2", "parent": "hades_child_leg_r1", "length": 24.59, "x": 38.34, "y": 0.39, "rotation": -148.09 },
-	{ "name": "hades_child_leg_r3", "parent": "hades_child_leg_r2", "length": 44.61, "x": 25.12, "y": -2.01, "rotation": 142.97 },
-	{ "name": "hades_child_arm_r1", "parent": "hades_child_body", "length": 47.82, "x": 81.9, "y": 19.46, "rotation": -84.6 },
-	{ "name": "hades_child_arm_r2", "parent": "hades_child_arm_r1", "length": 34.77, "x": 41.77, "y": -2.61, "rotation": 34.6 },
-	{ "name": "hades_child_arm_r3", "parent": "hades_child_arm_r2", "length": 16.47, "x": 32.13, "y": -2.5, "rotation": 36.48 },
-	{ "name": "hades_child_arm_l1", "parent": "hades_child_body", "length": 57.18, "x": 34.37, "y": 6.18, "rotation": -79.3 },
-	{ "name": "hades_child_arm_l2", "parent": "hades_child_arm_l1", "length": 35.79, "x": 47.27, "y": -3.85, "rotation": 27.01 },
-	{ "name": "hades_child_arm_l3", "parent": "hades_child_arm_l2", "length": 15.82, "x": 34.92, "y": -2.3, "rotation": 31 }
-],
-"slots": [
-	{ "name": "hades_child_wing_r", "bone": "hades_child_wing_r", "attachment": "hades_child_wing_r" },
-	{ "name": "hades_child_tail", "bone": "hades_child_tail", "attachment": "hades_child_tail" },
-	{ "name": "hades_child_leg_r3", "bone": "hades_child_leg_r3", "attachment": "hades_child_leg_r3" },
-	{ "name": "hades_child_leg_r2", "bone": "hades_child_leg_r2", "attachment": "hades_child_leg_r2" },
-	{ "name": "hades_child_leg_r1", "bone": "hades_child_leg_r1", "attachment": "hades_child_leg_r1" },
-	{ "name": "hades_child_arm_r3", "bone": "hades_child_arm_r3", "attachment": "hades_child_arm_r3" },
-	{ "name": "hades_child_arm_r2", "bone": "hades_child_arm_r2", "attachment": "hades_child_arm_r2" },
-	{ "name": "hades_child_arm_r1", "bone": "hades_child_arm_r1", "attachment": "hades_child_arm_r1" },
-	{ "name": "hades_child_body", "bone": "hades_child_body", "attachment": "hades_child_body" },
-	{ "name": "hades_child_leg_l3", "bone": "hades_child_leg_l3", "attachment": "hades_child_leg_l3" },
-	{ "name": "hades_child_leg_l2", "bone": "hades_child_leg_l2", "attachment": "hades_child_leg_l2" },
-	{ "name": "hades_child_leg_l1", "bone": "hades_child_leg_l1", "attachment": "hades_child_leg_l1" },
-	{ "name": "hades_child_wing_l", "bone": "hades_child_wing_l", "attachment": "hades_child_wing_l" },
-	{ "name": "hades_child_neck", "bone": "hades_child_neck", "attachment": "hades_child_neck" },
-	{ "name": "hades_child_arm_l3", "bone": "hades_child_arm_l3", "attachment": "hades_child_arm_l3" },
-	{ "name": "hades_child_arm_l2", "bone": "hades_child_arm_l2", "attachment": "hades_child_arm_l2" },
-	{ "name": "hades_child_arm_l1", "bone": "hades_child_arm_l1", "attachment": "hades_child_arm_l1" },
-	{ "name": "hades_child_hair2", "bone": "hades_child_hair2", "attachment": "hades_child_hair2" },
-	{ "name": "hades_child_mouth2", "bone": "hades_child_mouth2", "attachment": "hades_child_mouth2" },
-	{ "name": "hades_child_head", "bone": "hades_child_head", "attachment": "hades_child_head" },
-	{ "name": "hades_child_mouth1", "bone": "hades_child_mouth1", "attachment": "hades_child_mouth1" },
-	{ "name": "hades_child_eye1", "bone": "hades_child_eye1", "attachment": "hades_child_eye1" },
-	{ "name": "hades_child_hair1", "bone": "hades_child_hair1", "attachment": "hades_child_hair1" }
-],
-"skins": {
-	"default": {
-		"hades_child_arm_l1": {
-			"hades_child_arm_l1": { "x": 27.8, "y": 2.27, "rotation": 95.26, "width": 29, "height": 65 }
-		},
-		"hades_child_arm_l2": {
-			"hades_child_arm_l2": { "x": 16.28, "y": -2.84, "rotation": 68.24, "width": 28, "height": 41 }
-		},
-		"hades_child_arm_l3": {
-			"hades_child_arm_l3": { "x": 12.51, "y": -2.28, "rotation": 37.23, "width": 34, "height": 28 }
-		},
-		"hades_child_arm_r1": {
-			"hades_child_arm_r1": { "x": 21.41, "y": 0.29, "rotation": 100.55, "width": 25, "height": 60 }
-		},
-		"hades_child_arm_r2": {
-			"hades_child_arm_r2": { "x": 13.39, "y": -3.14, "rotation": 65.96, "width": 31, "height": 44 }
-		},
-		"hades_child_arm_r3": {
-			"hades_child_arm_r3": { "x": 14.13, "y": -3.09, "rotation": 29.47, "width": 33, "height": 27 }
-		},
-		"hades_child_body": {
-			"hades_child_body": { "x": 36.54, "y": 1.18, "rotation": 15.95, "width": 107, "height": 64 }
-		},
-		"hades_child_eye1": {
-			"hades_child_eye1": { "x": -0.18, "y": -1.28, "rotation": 120.71, "width": 16, "height": 17 },
-			"hades_child_eye2": { "x": -0.18, "y": -1.28, "rotation": 120.71, "width": 16, "height": 17 }
-		},
-		"hades_child_hair1": {
-			"hades_child_hair1": { "x": 13.38, "y": 1.79, "rotation": 21.91, "width": 33, "height": 28 }
-		},
-		"hades_child_hair2": {
-			"hades_child_hair2": { "x": 10.27, "y": -1.47, "rotation": 107.91, "width": 25, "height": 31 }
-		},
-		"hades_child_head": {
-			"hades_child_head": { "x": -0.93, "y": -8.47, "rotation": 120.71, "width": 84, "height": 82 }
-		},
-		"hades_child_leg_l1": {
-			"hades_child_leg_l1": { "x": 25.23, "y": -1.95, "rotation": -85.9, "width": 28, "height": 62 }
-		},
-		"hades_child_leg_l2": {
-			"hades_child_leg_l2": { "x": 18.12, "y": -0.91, "rotation": 45.74, "width": 32, "height": 33 }
-		},
-		"hades_child_leg_l3": {
-			"hades_child_leg_l3": { "x": 18.88, "y": -4.51, "rotation": -97.32, "width": 47, "height": 71 }
-		},
-		"hades_child_leg_r1": {
-			"hades_child_leg_r1": { "x": 21.28, "y": -0.14, "rotation": 74.22, "width": 27, "height": 52 }
-		},
-		"hades_child_leg_r2": {
-			"hades_child_leg_r2": { "x": 9.28, "y": 2.67, "rotation": -137.7, "width": 24, "height": 28 }
-		},
-		"hades_child_leg_r3": {
-			"hades_child_leg_r3": { "x": 28.43, "y": 4.36, "rotation": 79.3, "width": 42, "height": 60 }
-		},
-		"hades_child_mouth1": {
-			"hades_child_mouth1": { "x": 2.86, "y": -2.63, "rotation": 125.51, "width": 25, "height": 28 }
-		},
-		"hades_child_mouth2": {
-			"hades_child_mouth2": { "x": 12.68, "y": -4.84, "rotation": 125.51, "width": 33, "height": 30 }
-		},
-		"hades_child_neck": {
-			"hades_child_neck": { "x": 26.24, "y": -3.72, "rotation": -102.2, "width": 45, "height": 72 }
-		},
-		"hades_child_tail": {
-			"hades_child_tail": { "x": 47.96, "y": -15.89, "rotation": 146.08, "width": 116, "height": 73 }
-		},
-		"hades_child_wing_l": {
-			"hades_child_wing_l": { "x": 64.38, "y": 45.85, "rotation": -110.81, "width": 144, "height": 101 }
-		},
-		"hades_child_wing_r": {
-			"hades_child_wing_r": { "x": 50.23, "y": -35.09, "rotation": -79.02, "width": 104, "height": 104 }
-		}
-	}
-},
-"animations": {
-	"wait": {
-		"slots": {
-			"hades_child_arm_l1": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_arm_l1" },
-					{ "time": 2, "name": "hades_child_arm_l1" }
-				]
-			},
-			"hades_child_arm_l2": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_arm_l2" },
-					{ "time": 2, "name": "hades_child_arm_l2" }
-				]
-			},
-			"hades_child_arm_l3": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_arm_l3" },
-					{ "time": 2, "name": "hades_child_arm_l3" }
-				]
-			},
-			"hades_child_arm_r1": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_arm_r1" },
-					{ "time": 2, "name": "hades_child_arm_r1" }
-				]
-			},
-			"hades_child_arm_r2": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_arm_r2" },
-					{ "time": 2, "name": "hades_child_arm_r2" }
-				]
-			},
-			"hades_child_arm_r3": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_arm_r3" },
-					{ "time": 2, "name": "hades_child_arm_r3" }
-				]
-			},
-			"hades_child_body": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_body" },
-					{ "time": 2, "name": "hades_child_body" }
-				]
-			},
-			"hades_child_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_eye1" },
-					{ "time": 1.1666, "name": "hades_child_eye2" },
-					{ "time": 1.2666, "name": "hades_child_eye1" },
-					{ "time": 2, "name": "hades_child_eye1" }
-				]
-			},
-			"hades_child_hair1": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_hair1" },
-					{ "time": 2, "name": "hades_child_hair1" }
-				]
-			},
-			"hades_child_hair2": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_hair2" },
-					{ "time": 2, "name": "hades_child_hair2" }
-				]
-			},
-			"hades_child_head": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_head" },
-					{ "time": 2, "name": "hades_child_head" }
-				]
-			},
-			"hades_child_leg_l1": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_leg_l1" },
-					{ "time": 2, "name": "hades_child_leg_l1" }
-				]
-			},
-			"hades_child_leg_l2": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_leg_l2" },
-					{ "time": 2, "name": "hades_child_leg_l2" }
-				]
-			},
-			"hades_child_leg_l3": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_leg_l3" },
-					{ "time": 2, "name": "hades_child_leg_l3" }
-				]
-			},
-			"hades_child_leg_r1": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_leg_r1" },
-					{ "time": 2, "name": "hades_child_leg_r1" }
-				]
-			},
-			"hades_child_leg_r2": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_leg_r2" },
-					{ "time": 2, "name": "hades_child_leg_r2" }
-				]
-			},
-			"hades_child_leg_r3": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_leg_r3" },
-					{ "time": 2, "name": "hades_child_leg_r3" }
-				]
-			},
-			"hades_child_mouth1": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_mouth1" },
-					{ "time": 2, "name": "hades_child_mouth1" }
-				]
-			},
-			"hades_child_mouth2": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_mouth2" },
-					{ "time": 2, "name": "hades_child_mouth2" }
-				]
-			},
-			"hades_child_neck": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_neck" },
-					{ "time": 2, "name": "hades_child_neck" }
-				]
-			},
-			"hades_child_tail": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_tail" },
-					{ "time": 2, "name": "hades_child_tail" }
-				]
-			},
-			"hades_child_wing_l": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_wing_l" },
-					{ "time": 2, "name": "hades_child_wing_l" }
-				]
-			},
-			"hades_child_wing_r": {
-				"attachment": [
-					{ "time": 0, "name": "hades_child_wing_r" },
-					{ "time": 2, "name": "hades_child_wing_r" }
-				]
-			}
-		},
-		"bones": {
-			"hades_child_leg_l3": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_leg_l2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -3.6,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_leg_l1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 2.59,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_arm_l1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -4.14,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_arm_l2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 11.58,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_arm_l3": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_arm_r1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -3.87,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_arm_r2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 12.36,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_arm_r3": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_leg_r1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 2.26,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_leg_r2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -5.31,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_leg_r3": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 0.91,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_neck": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -1.61,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_head": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -0.93,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_eye1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_hair1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": -3.4,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1.2,
-						"angle": 4.4,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_hair2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": -3.47,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1.2,
-						"angle": -12.4,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_mouth2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 5.35,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_mouth1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_tail": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": -5.47,
-						"curve": [ 0.674, 0.16, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_wing_l": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.406, 0.41, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": 29.61,
-						"curve": [ 0.406, 0.41, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": -4.51,
-						"curve": [ 0.406, 0.41, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.406, 0.41, 0.739, 0.55 ]
-					},
-					{
-						"time": 0.5,
-						"x": 1,
-						"y": 1.059,
-						"curve": [ 0.406, 0.41, 0.684, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"hades_child_wing_r": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.406, 0.41, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"angle": -21.78,
-						"curve": [ 0.406, 0.41, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": 4.83,
-						"curve": [ 0.406, 0.41, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.406, 0.41, 0.739, 0.55 ]
-					},
-					{
-						"time": 0.5,
-						"x": 0.79,
-						"y": -2.73,
-						"curve": [ 0.406, 0.41, 0.684, 1 ]
-					},
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.406, 0.41, 0.739, 0.55 ]
-					},
-					{
-						"time": 0.5,
-						"x": 0.982,
-						"y": 1.211,
-						"curve": [ 0.406, 0.41, 0.684, 1 ]
-					},
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "H1AM1Scta6xDJuH8VWFhxR5IpQ8",
+        "spine": "3.0.09",
+        "width": 265.01,
+        "height": 209.99,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "hades_child_leg_l3",
+            "parent": "root",
+            "length": 50.34,
+            "x": -65.56,
+            "y": -109.36,
+            "rotation": 97.33
+        },
+        {
+            "name": "hades_child_leg_l2",
+            "parent": "hades_child_leg_l3",
+            "length": 34.89,
+            "x": 50.34,
+            "rotation": -143.08
+        },
+        {
+            "name": "hades_child_leg_l1",
+            "parent": "hades_child_leg_l2",
+            "length": 52.11,
+            "x": 36.36,
+            "y": -1.59,
+            "rotation": 131.64
+        },
+        {
+            "name": "hades_child_body",
+            "parent": "hades_child_leg_l1",
+            "length": 72.27,
+            "x": 50.07,
+            "y": -0.21,
+            "rotation": -101.87
+        },
+        {
+            "name": "hades_child_wing_r",
+            "parent": "hades_child_body",
+            "length": 87.44,
+            "x": 59.15,
+            "y": 25.71,
+            "rotation": 94.98
+        },
+        {
+            "name": "hades_child_wing_l",
+            "parent": "hades_child_body",
+            "length": 89.81,
+            "x": 29.59,
+            "y": 15.44,
+            "rotation": 126.76
+        },
+        {
+            "name": "hades_child_tail",
+            "parent": "hades_child_body",
+            "length": 77.18,
+            "x": 8.94,
+            "y": 3.77,
+            "rotation": -130.15
+        },
+        {
+            "name": "hades_child_neck",
+            "parent": "hades_child_body",
+            "length": 54.92,
+            "x": 63.49,
+            "y": 8.43,
+            "rotation": 118.14
+        },
+        {
+            "name": "hades_child_head",
+            "parent": "hades_child_neck",
+            "length": 39.41,
+            "x": 54.68,
+            "y": -4.06,
+            "rotation": 137.07
+        },
+        {
+            "name": "hades_child_mouth2",
+            "parent": "hades_child_head",
+            "length": 25.11,
+            "x": 14.05,
+            "y": 8.35,
+            "rotation": -4.82
+        },
+        {
+            "name": "hades_child_mouth1",
+            "parent": "hades_child_mouth2",
+            "x": 7.5,
+            "y": 1.04
+        },
+        {
+            "name": "hades_child_hair2",
+            "parent": "hades_child_head",
+            "length": 21.79,
+            "x": 19.5,
+            "y": -28.82,
+            "rotation": 12.79
+        },
+        {
+            "name": "hades_child_hair1",
+            "parent": "hades_child_head",
+            "length": 24.23,
+            "x": 8.14,
+            "y": -16.56,
+            "rotation": 98.79
+        },
+        {
+            "name": "hades_child_eye1",
+            "parent": "hades_child_head",
+            "x": 18.57,
+            "y": -1.53
+        },
+        {
+            "name": "hades_child_leg_r1",
+            "parent": "hades_child_body",
+            "length": 41.51,
+            "x": 25.06,
+            "y": 2.61,
+            "rotation": -58.27
+        },
+        {
+            "name": "hades_child_leg_r2",
+            "parent": "hades_child_leg_r1",
+            "length": 24.59,
+            "x": 38.34,
+            "y": 0.39,
+            "rotation": -148.09
+        },
+        {
+            "name": "hades_child_leg_r3",
+            "parent": "hades_child_leg_r2",
+            "length": 44.61,
+            "x": 25.12,
+            "y": -2.01,
+            "rotation": 142.97
+        },
+        {
+            "name": "hades_child_arm_r1",
+            "parent": "hades_child_body",
+            "length": 47.82,
+            "x": 81.9,
+            "y": 19.46,
+            "rotation": -84.6
+        },
+        {
+            "name": "hades_child_arm_r2",
+            "parent": "hades_child_arm_r1",
+            "length": 34.77,
+            "x": 41.77,
+            "y": -2.61,
+            "rotation": 34.6
+        },
+        {
+            "name": "hades_child_arm_r3",
+            "parent": "hades_child_arm_r2",
+            "length": 16.47,
+            "x": 32.13,
+            "y": -2.5,
+            "rotation": 36.48
+        },
+        {
+            "name": "hades_child_arm_l1",
+            "parent": "hades_child_body",
+            "length": 57.18,
+            "x": 34.37,
+            "y": 6.18,
+            "rotation": -79.3
+        },
+        {
+            "name": "hades_child_arm_l2",
+            "parent": "hades_child_arm_l1",
+            "length": 35.79,
+            "x": 47.27,
+            "y": -3.85,
+            "rotation": 27.01
+        },
+        {
+            "name": "hades_child_arm_l3",
+            "parent": "hades_child_arm_l2",
+            "length": 15.82,
+            "x": 34.92,
+            "y": -2.3,
+            "rotation": 31
+        }
+    ],
+    "slots": [
+        {
+            "name": "hades_child_wing_r",
+            "bone": "hades_child_wing_r",
+            "attachment": "hades_child_wing_r"
+        },
+        {
+            "name": "hades_child_tail",
+            "bone": "hades_child_tail",
+            "attachment": "hades_child_tail"
+        },
+        {
+            "name": "hades_child_leg_r3",
+            "bone": "hades_child_leg_r3",
+            "attachment": "hades_child_leg_r3"
+        },
+        {
+            "name": "hades_child_leg_r2",
+            "bone": "hades_child_leg_r2",
+            "attachment": "hades_child_leg_r2"
+        },
+        {
+            "name": "hades_child_leg_r1",
+            "bone": "hades_child_leg_r1",
+            "attachment": "hades_child_leg_r1"
+        },
+        {
+            "name": "hades_child_arm_r3",
+            "bone": "hades_child_arm_r3",
+            "attachment": "hades_child_arm_r3"
+        },
+        {
+            "name": "hades_child_arm_r2",
+            "bone": "hades_child_arm_r2",
+            "attachment": "hades_child_arm_r2"
+        },
+        {
+            "name": "hades_child_arm_r1",
+            "bone": "hades_child_arm_r1",
+            "attachment": "hades_child_arm_r1"
+        },
+        {
+            "name": "hades_child_body",
+            "bone": "hades_child_body",
+            "attachment": "hades_child_body"
+        },
+        {
+            "name": "hades_child_leg_l3",
+            "bone": "hades_child_leg_l3",
+            "attachment": "hades_child_leg_l3"
+        },
+        {
+            "name": "hades_child_leg_l2",
+            "bone": "hades_child_leg_l2",
+            "attachment": "hades_child_leg_l2"
+        },
+        {
+            "name": "hades_child_leg_l1",
+            "bone": "hades_child_leg_l1",
+            "attachment": "hades_child_leg_l1"
+        },
+        {
+            "name": "hades_child_wing_l",
+            "bone": "hades_child_wing_l",
+            "attachment": "hades_child_wing_l"
+        },
+        {
+            "name": "hades_child_neck",
+            "bone": "hades_child_neck",
+            "attachment": "hades_child_neck"
+        },
+        {
+            "name": "hades_child_arm_l3",
+            "bone": "hades_child_arm_l3",
+            "attachment": "hades_child_arm_l3"
+        },
+        {
+            "name": "hades_child_arm_l2",
+            "bone": "hades_child_arm_l2",
+            "attachment": "hades_child_arm_l2"
+        },
+        {
+            "name": "hades_child_arm_l1",
+            "bone": "hades_child_arm_l1",
+            "attachment": "hades_child_arm_l1"
+        },
+        {
+            "name": "hades_child_hair2",
+            "bone": "hades_child_hair2",
+            "attachment": "hades_child_hair2"
+        },
+        {
+            "name": "hades_child_mouth2",
+            "bone": "hades_child_mouth2",
+            "attachment": "hades_child_mouth2"
+        },
+        {
+            "name": "hades_child_head",
+            "bone": "hades_child_head",
+            "attachment": "hades_child_head"
+        },
+        {
+            "name": "hades_child_mouth1",
+            "bone": "hades_child_mouth1",
+            "attachment": "hades_child_mouth1"
+        },
+        {
+            "name": "hades_child_eye1",
+            "bone": "hades_child_eye1",
+            "attachment": "hades_child_eye1"
+        },
+        {
+            "name": "hades_child_hair1",
+            "bone": "hades_child_hair1",
+            "attachment": "hades_child_hair1"
+        }
+    ],
+    "skins": {
+        "default": {
+            "hades_child_arm_l1": {
+                "hades_child_arm_l1": {
+                    "x": 27.8,
+                    "y": 2.27,
+                    "rotation": 95.26,
+                    "width": 29,
+                    "height": 65
+                }
+            },
+            "hades_child_arm_l2": {
+                "hades_child_arm_l2": {
+                    "x": 16.28,
+                    "y": -2.84,
+                    "rotation": 68.24,
+                    "width": 28,
+                    "height": 41
+                }
+            },
+            "hades_child_arm_l3": {
+                "hades_child_arm_l3": {
+                    "x": 12.51,
+                    "y": -2.28,
+                    "rotation": 37.23,
+                    "width": 34,
+                    "height": 28
+                }
+            },
+            "hades_child_arm_r1": {
+                "hades_child_arm_r1": {
+                    "x": 21.41,
+                    "y": 0.29,
+                    "rotation": 100.55,
+                    "width": 25,
+                    "height": 60
+                }
+            },
+            "hades_child_arm_r2": {
+                "hades_child_arm_r2": {
+                    "x": 13.39,
+                    "y": -3.14,
+                    "rotation": 65.96,
+                    "width": 31,
+                    "height": 44
+                }
+            },
+            "hades_child_arm_r3": {
+                "hades_child_arm_r3": {
+                    "x": 14.13,
+                    "y": -3.09,
+                    "rotation": 29.47,
+                    "width": 33,
+                    "height": 27
+                }
+            },
+            "hades_child_body": {
+                "hades_child_body": {
+                    "x": 36.54,
+                    "y": 1.18,
+                    "rotation": 15.95,
+                    "width": 107,
+                    "height": 64
+                }
+            },
+            "hades_child_eye1": {
+                "hades_child_eye1": {
+                    "x": -0.18,
+                    "y": -1.28,
+                    "rotation": 120.71,
+                    "width": 16,
+                    "height": 17
+                },
+                "hades_child_eye2": {
+                    "x": -0.18,
+                    "y": -1.28,
+                    "rotation": 120.71,
+                    "width": 16,
+                    "height": 17
+                }
+            },
+            "hades_child_hair1": {
+                "hades_child_hair1": {
+                    "x": 13.38,
+                    "y": 1.79,
+                    "rotation": 21.91,
+                    "width": 33,
+                    "height": 28
+                }
+            },
+            "hades_child_hair2": {
+                "hades_child_hair2": {
+                    "x": 10.27,
+                    "y": -1.47,
+                    "rotation": 107.91,
+                    "width": 25,
+                    "height": 31
+                }
+            },
+            "hades_child_head": {
+                "hades_child_head": {
+                    "x": -0.93,
+                    "y": -8.47,
+                    "rotation": 120.71,
+                    "width": 84,
+                    "height": 82
+                }
+            },
+            "hades_child_leg_l1": {
+                "hades_child_leg_l1": {
+                    "x": 25.23,
+                    "y": -1.95,
+                    "rotation": -85.9,
+                    "width": 28,
+                    "height": 62
+                }
+            },
+            "hades_child_leg_l2": {
+                "hades_child_leg_l2": {
+                    "x": 18.12,
+                    "y": -0.91,
+                    "rotation": 45.74,
+                    "width": 32,
+                    "height": 33
+                }
+            },
+            "hades_child_leg_l3": {
+                "hades_child_leg_l3": {
+                    "x": 18.88,
+                    "y": -4.51,
+                    "rotation": -97.32,
+                    "width": 47,
+                    "height": 71
+                }
+            },
+            "hades_child_leg_r1": {
+                "hades_child_leg_r1": {
+                    "x": 21.28,
+                    "y": -0.14,
+                    "rotation": 74.22,
+                    "width": 27,
+                    "height": 52
+                }
+            },
+            "hades_child_leg_r2": {
+                "hades_child_leg_r2": {
+                    "x": 9.28,
+                    "y": 2.67,
+                    "rotation": -137.7,
+                    "width": 24,
+                    "height": 28
+                }
+            },
+            "hades_child_leg_r3": {
+                "hades_child_leg_r3": {
+                    "x": 28.43,
+                    "y": 4.36,
+                    "rotation": 79.3,
+                    "width": 42,
+                    "height": 60
+                }
+            },
+            "hades_child_mouth1": {
+                "hades_child_mouth1": {
+                    "x": 2.86,
+                    "y": -2.63,
+                    "rotation": 125.51,
+                    "width": 25,
+                    "height": 28
+                }
+            },
+            "hades_child_mouth2": {
+                "hades_child_mouth2": {
+                    "x": 12.68,
+                    "y": -4.84,
+                    "rotation": 125.51,
+                    "width": 33,
+                    "height": 30
+                }
+            },
+            "hades_child_neck": {
+                "hades_child_neck": {
+                    "x": 26.24,
+                    "y": -3.72,
+                    "rotation": -102.2,
+                    "width": 45,
+                    "height": 72
+                }
+            },
+            "hades_child_tail": {
+                "hades_child_tail": {
+                    "x": 47.96,
+                    "y": -15.89,
+                    "rotation": 146.08,
+                    "width": 116,
+                    "height": 73
+                }
+            },
+            "hades_child_wing_l": {
+                "hades_child_wing_l": {
+                    "x": 64.38,
+                    "y": 45.85,
+                    "rotation": -110.81,
+                    "width": 144,
+                    "height": 101
+                }
+            },
+            "hades_child_wing_r": {
+                "hades_child_wing_r": {
+                    "x": 50.23,
+                    "y": -35.09,
+                    "rotation": -79.02,
+                    "width": 104,
+                    "height": 104
+                }
+            }
+        }
+    },
+    "animations": {
+        "wait": {
+            "slots": {
+                "hades_child_arm_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_arm_l1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_arm_l1"
+                        }
+                    ]
+                },
+                "hades_child_arm_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_arm_l2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_arm_l2"
+                        }
+                    ]
+                },
+                "hades_child_arm_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_arm_l3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_arm_l3"
+                        }
+                    ]
+                },
+                "hades_child_arm_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_arm_r1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_arm_r1"
+                        }
+                    ]
+                },
+                "hades_child_arm_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_arm_r2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_arm_r2"
+                        }
+                    ]
+                },
+                "hades_child_arm_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_arm_r3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_arm_r3"
+                        }
+                    ]
+                },
+                "hades_child_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_body"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_body"
+                        }
+                    ]
+                },
+                "hades_child_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_eye1"
+                        },
+                        {
+                            "time": 1.1666,
+                            "name": "hades_child_eye2"
+                        },
+                        {
+                            "time": 1.2666,
+                            "name": "hades_child_eye1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_eye1"
+                        }
+                    ]
+                },
+                "hades_child_hair1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_hair1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_hair1"
+                        }
+                    ]
+                },
+                "hades_child_hair2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_hair2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_hair2"
+                        }
+                    ]
+                },
+                "hades_child_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_head"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_head"
+                        }
+                    ]
+                },
+                "hades_child_leg_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_leg_l1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_leg_l1"
+                        }
+                    ]
+                },
+                "hades_child_leg_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_leg_l2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_leg_l2"
+                        }
+                    ]
+                },
+                "hades_child_leg_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_leg_l3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_leg_l3"
+                        }
+                    ]
+                },
+                "hades_child_leg_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_leg_r1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_leg_r1"
+                        }
+                    ]
+                },
+                "hades_child_leg_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_leg_r2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_leg_r2"
+                        }
+                    ]
+                },
+                "hades_child_leg_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_leg_r3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_leg_r3"
+                        }
+                    ]
+                },
+                "hades_child_mouth1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_mouth1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_mouth1"
+                        }
+                    ]
+                },
+                "hades_child_mouth2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_mouth2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_mouth2"
+                        }
+                    ]
+                },
+                "hades_child_neck": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_neck"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_neck"
+                        }
+                    ]
+                },
+                "hades_child_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_tail"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_tail"
+                        }
+                    ]
+                },
+                "hades_child_wing_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_wing_l"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_wing_l"
+                        }
+                    ]
+                },
+                "hades_child_wing_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hades_child_wing_r"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hades_child_wing_r"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "hades_child_leg_l3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_leg_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -3.6,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_leg_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 2.59,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_arm_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -4.14,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_arm_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 11.58,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_arm_l3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_arm_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -3.87,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_arm_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 12.36,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_arm_r3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_leg_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 2.26,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_leg_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -5.31,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_leg_r3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 0.91,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_neck": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -1.61,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -0.93,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_eye1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_hair1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": -3.4,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "angle": 4.4,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_hair2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": -3.47,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2,
+                            "angle": -12.4,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_mouth2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 5.35,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_mouth1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": -5.47,
+                            "curve": [
+                                0.674,
+                                0.16,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_wing_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": 29.61,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -4.51,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.739,
+                                0.55
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1,
+                            "y": 1.059,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.684,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hades_child_wing_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "angle": -21.78,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 4.83,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.739,
+                                0.55
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.79,
+                            "y": -2.73,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.684,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.739,
+                                0.55
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0.982,
+                            "y": 1.211,
+                            "curve": [
+                                0.406,
+                                0.41,
+                                0.684,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2
+                }
+            ]
+        }
+    }
 }

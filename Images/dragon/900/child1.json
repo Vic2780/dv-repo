@@ -1,668 +1,1809 @@
 {
-"skeleton": { "hash": "qabBNUOcmpNTTKCI4VBb8EHOF9Q", "spine": "3.0.09", "width": 119.8, "height": 116.71, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "azak_baby_body", "parent": "root", "length": 42.66, "x": -5.89, "y": -85.03, "rotation": 95.06 },
-	{ "name": "azak_baby_tail", "parent": "azak_baby_body", "length": 24.59, "x": 11.66, "y": -20.74, "rotation": -89.41 },
-	{ "name": "azak_baby_ler_r", "parent": "azak_baby_body", "length": 19.5, "x": 13.55, "y": -17.67, "rotation": -160.52 },
-	{ "name": "azak_baby_ler_l", "parent": "azak_baby_body", "length": 22.01, "x": 15.86, "y": 17.49, "rotation": 120.24 },
-	{ "name": "azak_baby_head", "parent": "azak_baby_body", "length": 35.02, "x": 40.38, "y": -4.38, "rotation": 48.59 },
-	{ "name": "azak_baby_head2", "parent": "azak_baby_head", "length": 10.27, "x": 0.59, "y": -11.25, "rotation": 169.2 },
-	{ "name": "azak_baby_eye", "parent": "azak_baby_head", "x": 6.3, "y": 7.31 },
-	{ "name": "azak_baby_arm_r1", "parent": "azak_baby_body", "length": 23.83, "x": 34, "y": -15.43, "rotation": 158.41 },
-	{ "name": "azak_baby_arm_r2", "parent": "azak_baby_arm_r1", "length": 37.53, "x": 21.07, "y": -1.04, "rotation": -18.04 },
-	{ "name": "azak_baby_arm_l1", "parent": "azak_baby_body", "length": 26.26, "x": 37.82, "y": 21.49, "rotation": -178.59 },
-	{ "name": "azak_baby_arm_l2", "parent": "azak_baby_arm_l1", "length": 35.26, "x": 16.81, "y": 0.25, "rotation": -13.97 }
-],
-"slots": [
-	{ "name": "azak_baby_tail", "bone": "azak_baby_tail", "attachment": "azak_baby_tail" },
-	{ "name": "azak_baby_tail2", "bone": "azak_baby_tail", "attachment": "azak_baby_tail2" },
-	{ "name": "azak_baby_ler_l", "bone": "azak_baby_ler_l", "attachment": "azak_baby_ler_l" },
-	{ "name": "azak_baby_arm_l1", "bone": "azak_baby_arm_l1", "attachment": "azak_baby_arm_l1" },
-	{ "name": "azak_baby_arm_l3", "bone": "azak_baby_arm_l1", "attachment": "azak_baby_arm_l3" },
-	{ "name": "azak_baby_body", "bone": "azak_baby_body", "attachment": "azak_baby_body" },
-	{ "name": "azak_baby_ler_r", "bone": "azak_baby_ler_r", "attachment": "azak_baby_ler_r" },
-	{ "name": "azak_baby_head", "bone": "azak_baby_head", "attachment": "azak_baby_head" },
-	{ "name": "azak_baby_head1", "bone": "azak_baby_head", "attachment": "azak_baby_head1" },
-	{ "name": "azak_baby_eye", "bone": "azak_baby_eye" },
-	{ "name": "azak_baby_arm_r1", "bone": "azak_baby_arm_r1", "attachment": "azak_baby_arm_r1" },
-	{ "name": "azak_baby_arm_r3", "bone": "azak_baby_arm_r1", "attachment": "azak_baby_arm_r3" },
-	{ "name": "azak_baby_arm_l2", "bone": "azak_baby_arm_l2", "attachment": "azak_baby_arm_l2" },
-	{ "name": "azak_baby_arm_r2", "bone": "azak_baby_arm_r2", "attachment": "azak_baby_arm_r2" },
-	{ "name": "azak_baby_head2", "bone": "azak_baby_head2", "attachment": "azak_baby_head2" }
-],
-"skins": {
-	"default": {
-		"azak_baby_arm_l1": {
-			"azak_baby_arm_l1": { "x": 11.16, "y": -0.46, "rotation": 83.51, "width": 24, "height": 33 }
-		},
-		"azak_baby_arm_l2": {
-			"azak_baby_arm_l2": { "x": 20.85, "y": -4.68, "rotation": 97.46, "width": 36, "height": 39 }
-		},
-		"azak_baby_arm_l3": {
-			"azak_baby_arm_l3": { "x": 11.16, "y": -0.46, "rotation": 83.51, "width": 24, "height": 33 }
-		},
-		"azak_baby_arm_r1": {
-			"azak_baby_arm_r1": { "x": 11.66, "y": 1.14, "rotation": 106.52, "width": 27, "height": 36 }
-		},
-		"azak_baby_arm_r2": {
-			"azak_baby_arm_r2": { "x": 21.43, "y": -0.08, "rotation": 124.55, "width": 43, "height": 40 }
-		},
-		"azak_baby_arm_r3": {
-			"azak_baby_arm_r3": { "x": 11.51, "y": 1.62, "rotation": 106.52, "width": 26, "height": 36 }
-		},
-		"azak_baby_body": {
-			"azak_baby_body": { "x": 29.17, "y": -3.04, "rotation": -95.06, "width": 64, "height": 80 }
-		},
-		"azak_baby_eye": {
-			"azak_baby_eye": { "x": 0.81, "y": 3, "rotation": -143.65, "width": 17, "height": 18 }
-		},
-		"azak_baby_head": {
-			"azak_baby_head": { "x": 23.15, "y": -4.21, "rotation": -143.65, "width": 58, "height": 70 }
-		},
-		"azak_baby_head1": {
-			"azak_baby_head1": { "x": 23.15, "y": -4.21, "rotation": -143.65, "width": 58, "height": 71 }
-		},
-		"azak_baby_head2": {
-			"azak_baby_head2": { "x": 7.88, "y": -1.64, "rotation": 47.14, "width": 17, "height": 22 }
-		},
-		"azak_baby_ler_l": {
-			"azak_baby_ler_l": { "x": 18.57, "y": 0.59, "rotation": 144.68, "width": 43, "height": 39 }
-		},
-		"azak_baby_ler_r": {
-			"azak_baby_ler_r": { "x": 15.56, "y": 4.15, "rotation": 65.43, "width": 42, "height": 41 }
-		},
-		"azak_baby_tail": {
-			"azak_baby_tail": { "x": 16.5, "y": -11.09, "rotation": -5.64, "width": 55, "height": 55 }
-		},
-		"azak_baby_tail2": {
-			"azak_baby_tail2": { "x": 16.5, "y": -11.09, "rotation": -5.64, "width": 55, "height": 55 }
-		}
-	}
-},
-"animations": {
-	"wait": {
-		"slots": {
-			"azak_baby_arm_l1": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_arm_l1" },
-					{ "time": 1, "name": "azak_baby_arm_l1" },
-					{ "time": 2, "name": "azak_baby_arm_l1" },
-					{ "time": 3, "name": "azak_baby_arm_l1" },
-					{ "time": 4, "name": "azak_baby_arm_l1" }
-				]
-			},
-			"azak_baby_arm_l2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_arm_l2" },
-					{ "time": 1, "name": "azak_baby_arm_l2" },
-					{ "time": 2, "name": "azak_baby_arm_l2" },
-					{ "time": 3, "name": "azak_baby_arm_l2" },
-					{ "time": 4, "name": "azak_baby_arm_l2" }
-				]
-			},
-			"azak_baby_arm_l3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_arm_l3" },
-					{ "time": 1, "name": "azak_baby_arm_l3" },
-					{ "time": 2, "name": "azak_baby_arm_l3" },
-					{ "time": 3, "name": "azak_baby_arm_l3" },
-					{ "time": 4, "name": "azak_baby_arm_l3" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffff00" }
-				]
-			},
-			"azak_baby_arm_r1": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_arm_r1" },
-					{ "time": 1, "name": "azak_baby_arm_r1" },
-					{ "time": 2, "name": "azak_baby_arm_r1" },
-					{ "time": 3, "name": "azak_baby_arm_r1" },
-					{ "time": 4, "name": "azak_baby_arm_r1" }
-				]
-			},
-			"azak_baby_arm_r2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_arm_r2" },
-					{ "time": 1, "name": "azak_baby_arm_r2" },
-					{ "time": 2, "name": "azak_baby_arm_r2" },
-					{ "time": 3, "name": "azak_baby_arm_r2" },
-					{ "time": 4, "name": "azak_baby_arm_r2" }
-				]
-			},
-			"azak_baby_arm_r3": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_arm_r3" },
-					{ "time": 1, "name": "azak_baby_arm_r3" },
-					{ "time": 2, "name": "azak_baby_arm_r3" },
-					{ "time": 3, "name": "azak_baby_arm_r3" },
-					{ "time": 4, "name": "azak_baby_arm_r3" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffff00" }
-				]
-			},
-			"azak_baby_body": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_body" },
-					{ "time": 1, "name": "azak_baby_body" },
-					{ "time": 2, "name": "azak_baby_body" },
-					{ "time": 4, "name": "azak_baby_body" }
-				]
-			},
-			"azak_baby_eye": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 0.9, "name": "azak_baby_eye" },
-					{ "time": 1, "name": "azak_baby_eye" },
-					{ "time": 1.1, "name": null },
-					{ "time": 2, "name": null },
-					{ "time": 4, "name": null }
-				]
-			},
-			"azak_baby_head": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_head" },
-					{ "time": 1, "name": "azak_baby_head" },
-					{ "time": 2, "name": "azak_baby_head" },
-					{ "time": 3, "name": "azak_baby_head" },
-					{ "time": 4, "name": "azak_baby_head" }
-				]
-			},
-			"azak_baby_head1": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_head1" },
-					{ "time": 1, "name": "azak_baby_head1" },
-					{ "time": 2, "name": "azak_baby_head1" },
-					{ "time": 3, "name": "azak_baby_head1" },
-					{ "time": 4, "name": "azak_baby_head1" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffffff" }
-				]
-			},
-			"azak_baby_head2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_head2" },
-					{ "time": 1, "name": "azak_baby_head2" },
-					{ "time": 2, "name": "azak_baby_head2" },
-					{ "time": 3, "name": "azak_baby_head2" },
-					{ "time": 4, "name": "azak_baby_head2" }
-				]
-			},
-			"azak_baby_ler_l": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_ler_l" },
-					{ "time": 1, "name": "azak_baby_ler_l" },
-					{ "time": 2, "name": "azak_baby_ler_l" },
-					{ "time": 3, "name": "azak_baby_ler_l" },
-					{ "time": 4, "name": "azak_baby_ler_l" }
-				]
-			},
-			"azak_baby_ler_r": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_ler_r" },
-					{ "time": 1, "name": "azak_baby_ler_r" },
-					{ "time": 2, "name": "azak_baby_ler_r" },
-					{ "time": 3, "name": "azak_baby_ler_r" },
-					{ "time": 4, "name": "azak_baby_ler_r" }
-				]
-			},
-			"azak_baby_tail": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_tail" },
-					{ "time": 1, "name": "azak_baby_tail" },
-					{ "time": 2, "name": "azak_baby_tail" },
-					{ "time": 3, "name": "azak_baby_tail" },
-					{ "time": 4, "name": "azak_baby_tail" }
-				]
-			},
-			"azak_baby_tail2": {
-				"attachment": [
-					{ "time": 0, "name": "azak_baby_tail2" },
-					{ "time": 1, "name": "azak_baby_tail2" },
-					{ "time": 2, "name": "azak_baby_tail2" },
-					{ "time": 3, "name": "azak_baby_tail2" },
-					{ "time": 4, "name": "azak_baby_tail2" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "ffffff00",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"color": "ffffffff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "color": "ffffff00" }
-				]
-			}
-		},
-		"bones": {
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 3, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 3, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_head": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 6.44,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": 6.44,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_head2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_arm_r1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 3.66,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": 3.66,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_arm_r2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -6.84,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": -6.84,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_arm_l1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 3.29,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": 3.29,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_arm_l2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -3.61,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": -3.61,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_ler_r": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": -3.43,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": -3.43,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_ler_l": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"angle": 4.27,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 3,
-						"angle": 4.27,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"azak_baby_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{
-						"time": 1,
-						"angle": 0,
-						"curve": [ 0.231, 0.58, 0.198, 0.95 ]
-					},
-					{
-						"time": 2.3333,
-						"angle": 14.89,
-						"curve": [ 0.231, 0.58, 0.198, 0.95 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2 },
-			{ "time": 4 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "qabBNUOcmpNTTKCI4VBb8EHOF9Q",
+        "spine": "3.0.09",
+        "width": 119.8,
+        "height": 116.71,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "azak_baby_body",
+            "parent": "root",
+            "length": 42.66,
+            "x": -5.89,
+            "y": -85.03,
+            "rotation": 95.06
+        },
+        {
+            "name": "azak_baby_tail",
+            "parent": "azak_baby_body",
+            "length": 24.59,
+            "x": 11.66,
+            "y": -20.74,
+            "rotation": -89.41
+        },
+        {
+            "name": "azak_baby_ler_r",
+            "parent": "azak_baby_body",
+            "length": 19.5,
+            "x": 13.55,
+            "y": -17.67,
+            "rotation": -160.52
+        },
+        {
+            "name": "azak_baby_ler_l",
+            "parent": "azak_baby_body",
+            "length": 22.01,
+            "x": 15.86,
+            "y": 17.49,
+            "rotation": 120.24
+        },
+        {
+            "name": "azak_baby_head",
+            "parent": "azak_baby_body",
+            "length": 35.02,
+            "x": 40.38,
+            "y": -4.38,
+            "rotation": 48.59
+        },
+        {
+            "name": "azak_baby_head2",
+            "parent": "azak_baby_head",
+            "length": 10.27,
+            "x": 0.59,
+            "y": -11.25,
+            "rotation": 169.2
+        },
+        {
+            "name": "azak_baby_eye",
+            "parent": "azak_baby_head",
+            "x": 6.3,
+            "y": 7.31
+        },
+        {
+            "name": "azak_baby_arm_r1",
+            "parent": "azak_baby_body",
+            "length": 23.83,
+            "x": 34,
+            "y": -15.43,
+            "rotation": 158.41
+        },
+        {
+            "name": "azak_baby_arm_r2",
+            "parent": "azak_baby_arm_r1",
+            "length": 37.53,
+            "x": 21.07,
+            "y": -1.04,
+            "rotation": -18.04
+        },
+        {
+            "name": "azak_baby_arm_l1",
+            "parent": "azak_baby_body",
+            "length": 26.26,
+            "x": 37.82,
+            "y": 21.49,
+            "rotation": -178.59
+        },
+        {
+            "name": "azak_baby_arm_l2",
+            "parent": "azak_baby_arm_l1",
+            "length": 35.26,
+            "x": 16.81,
+            "y": 0.25,
+            "rotation": -13.97
+        }
+    ],
+    "slots": [
+        {
+            "name": "azak_baby_tail",
+            "bone": "azak_baby_tail",
+            "attachment": "azak_baby_tail"
+        },
+        {
+            "name": "azak_baby_tail2",
+            "bone": "azak_baby_tail",
+            "attachment": "azak_baby_tail2"
+        },
+        {
+            "name": "azak_baby_ler_l",
+            "bone": "azak_baby_ler_l",
+            "attachment": "azak_baby_ler_l"
+        },
+        {
+            "name": "azak_baby_arm_l1",
+            "bone": "azak_baby_arm_l1",
+            "attachment": "azak_baby_arm_l1"
+        },
+        {
+            "name": "azak_baby_arm_l3",
+            "bone": "azak_baby_arm_l1",
+            "attachment": "azak_baby_arm_l3"
+        },
+        {
+            "name": "azak_baby_body",
+            "bone": "azak_baby_body",
+            "attachment": "azak_baby_body"
+        },
+        {
+            "name": "azak_baby_ler_r",
+            "bone": "azak_baby_ler_r",
+            "attachment": "azak_baby_ler_r"
+        },
+        {
+            "name": "azak_baby_head",
+            "bone": "azak_baby_head",
+            "attachment": "azak_baby_head"
+        },
+        {
+            "name": "azak_baby_head1",
+            "bone": "azak_baby_head",
+            "attachment": "azak_baby_head1"
+        },
+        {
+            "name": "azak_baby_eye",
+            "bone": "azak_baby_eye"
+        },
+        {
+            "name": "azak_baby_arm_r1",
+            "bone": "azak_baby_arm_r1",
+            "attachment": "azak_baby_arm_r1"
+        },
+        {
+            "name": "azak_baby_arm_r3",
+            "bone": "azak_baby_arm_r1",
+            "attachment": "azak_baby_arm_r3"
+        },
+        {
+            "name": "azak_baby_arm_l2",
+            "bone": "azak_baby_arm_l2",
+            "attachment": "azak_baby_arm_l2"
+        },
+        {
+            "name": "azak_baby_arm_r2",
+            "bone": "azak_baby_arm_r2",
+            "attachment": "azak_baby_arm_r2"
+        },
+        {
+            "name": "azak_baby_head2",
+            "bone": "azak_baby_head2",
+            "attachment": "azak_baby_head2"
+        }
+    ],
+    "skins": {
+        "default": {
+            "azak_baby_arm_l1": {
+                "azak_baby_arm_l1": {
+                    "x": 11.16,
+                    "y": -0.46,
+                    "rotation": 83.51,
+                    "width": 24,
+                    "height": 33
+                }
+            },
+            "azak_baby_arm_l2": {
+                "azak_baby_arm_l2": {
+                    "x": 20.85,
+                    "y": -4.68,
+                    "rotation": 97.46,
+                    "width": 36,
+                    "height": 39
+                }
+            },
+            "azak_baby_arm_l3": {
+                "azak_baby_arm_l3": {
+                    "x": 11.16,
+                    "y": -0.46,
+                    "rotation": 83.51,
+                    "width": 24,
+                    "height": 33
+                }
+            },
+            "azak_baby_arm_r1": {
+                "azak_baby_arm_r1": {
+                    "x": 11.66,
+                    "y": 1.14,
+                    "rotation": 106.52,
+                    "width": 27,
+                    "height": 36
+                }
+            },
+            "azak_baby_arm_r2": {
+                "azak_baby_arm_r2": {
+                    "x": 21.43,
+                    "y": -0.08,
+                    "rotation": 124.55,
+                    "width": 43,
+                    "height": 40
+                }
+            },
+            "azak_baby_arm_r3": {
+                "azak_baby_arm_r3": {
+                    "x": 11.51,
+                    "y": 1.62,
+                    "rotation": 106.52,
+                    "width": 26,
+                    "height": 36
+                }
+            },
+            "azak_baby_body": {
+                "azak_baby_body": {
+                    "x": 29.17,
+                    "y": -3.04,
+                    "rotation": -95.06,
+                    "width": 64,
+                    "height": 80
+                }
+            },
+            "azak_baby_eye": {
+                "azak_baby_eye": {
+                    "x": 0.81,
+                    "y": 3,
+                    "rotation": -143.65,
+                    "width": 17,
+                    "height": 18
+                }
+            },
+            "azak_baby_head": {
+                "azak_baby_head": {
+                    "x": 23.15,
+                    "y": -4.21,
+                    "rotation": -143.65,
+                    "width": 58,
+                    "height": 70
+                }
+            },
+            "azak_baby_head1": {
+                "azak_baby_head1": {
+                    "x": 23.15,
+                    "y": -4.21,
+                    "rotation": -143.65,
+                    "width": 58,
+                    "height": 71
+                }
+            },
+            "azak_baby_head2": {
+                "azak_baby_head2": {
+                    "x": 7.88,
+                    "y": -1.64,
+                    "rotation": 47.14,
+                    "width": 17,
+                    "height": 22
+                }
+            },
+            "azak_baby_ler_l": {
+                "azak_baby_ler_l": {
+                    "x": 18.57,
+                    "y": 0.59,
+                    "rotation": 144.68,
+                    "width": 43,
+                    "height": 39
+                }
+            },
+            "azak_baby_ler_r": {
+                "azak_baby_ler_r": {
+                    "x": 15.56,
+                    "y": 4.15,
+                    "rotation": 65.43,
+                    "width": 42,
+                    "height": 41
+                }
+            },
+            "azak_baby_tail": {
+                "azak_baby_tail": {
+                    "x": 16.5,
+                    "y": -11.09,
+                    "rotation": -5.64,
+                    "width": 55,
+                    "height": 55
+                }
+            },
+            "azak_baby_tail2": {
+                "azak_baby_tail2": {
+                    "x": 16.5,
+                    "y": -11.09,
+                    "rotation": -5.64,
+                    "width": 55,
+                    "height": 55
+                }
+            }
+        }
+    },
+    "animations": {
+        "wait": {
+            "slots": {
+                "azak_baby_arm_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_arm_l1"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_arm_l1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_arm_l1"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_arm_l1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_arm_l1"
+                        }
+                    ]
+                },
+                "azak_baby_arm_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_arm_l2"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_arm_l2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_arm_l2"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_arm_l2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_arm_l2"
+                        }
+                    ]
+                },
+                "azak_baby_arm_l3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_arm_l3"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_arm_l3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_arm_l3"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_arm_l3"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_arm_l3"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "azak_baby_arm_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_arm_r1"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_arm_r1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_arm_r1"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_arm_r1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_arm_r1"
+                        }
+                    ]
+                },
+                "azak_baby_arm_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_arm_r2"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_arm_r2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_arm_r2"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_arm_r2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_arm_r2"
+                        }
+                    ]
+                },
+                "azak_baby_arm_r3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_arm_r3"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_arm_r3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_arm_r3"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_arm_r3"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_arm_r3"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "azak_baby_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_body"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_body"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_body"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_body"
+                        }
+                    ]
+                },
+                "azak_baby_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.9,
+                            "name": "azak_baby_eye"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_eye"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": null
+                        },
+                        {
+                            "time": 2,
+                            "name": null
+                        },
+                        {
+                            "time": 4,
+                            "name": null
+                        }
+                    ]
+                },
+                "azak_baby_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_head"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_head"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_head"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_head"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_head"
+                        }
+                    ]
+                },
+                "azak_baby_head1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_head1"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_head1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_head1"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_head1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_head1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "azak_baby_head2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_head2"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_head2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_head2"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_head2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_head2"
+                        }
+                    ]
+                },
+                "azak_baby_ler_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_ler_l"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_ler_l"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_ler_l"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_ler_l"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_ler_l"
+                        }
+                    ]
+                },
+                "azak_baby_ler_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_ler_r"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_ler_r"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_ler_r"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_ler_r"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_ler_r"
+                        }
+                    ]
+                },
+                "azak_baby_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_tail"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_tail"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_tail"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_tail"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_tail"
+                        }
+                    ]
+                },
+                "azak_baby_tail2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "azak_baby_tail2"
+                        },
+                        {
+                            "time": 1,
+                            "name": "azak_baby_tail2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "azak_baby_tail2"
+                        },
+                        {
+                            "time": 3,
+                            "name": "azak_baby_tail2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "azak_baby_tail2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 3,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 6.44,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": 6.44,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_head2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_arm_r1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 3.66,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": 3.66,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_arm_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -6.84,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": -6.84,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_arm_l1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 3.29,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": 3.29,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_arm_l2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -3.61,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": -3.61,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_ler_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": -3.43,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": -3.43,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_ler_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "angle": 4.27,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 3,
+                            "angle": 4.27,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "azak_baby_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "angle": 0,
+                            "curve": [
+                                0.231,
+                                0.58,
+                                0.198,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 14.89,
+                            "curve": [
+                                0.231,
+                                0.58,
+                                0.198,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2
+                },
+                {
+                    "time": 4
+                }
+            ]
+        }
+    }
 }

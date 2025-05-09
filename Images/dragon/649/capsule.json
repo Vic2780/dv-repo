@@ -1,709 +1,1612 @@
 {
-"skeleton": { "hash": "qq+Z7Fvjwy3WqA7QruvlXsf+8+M", "spine": "3.0.09", "width": 136.01, "height": 182.01, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "center", "parent": "root" },
-	{ "name": "slayer_cap_l_leg2", "parent": "center", "length": 16.04, "x": -10.7, "y": -130.39, "rotation": 88.26 },
-	{ "name": "slayer_cap_r_body", "parent": "center", "length": 57.82, "x": 6.17, "y": -117.31, "rotation": 90.83 },
-	{ "name": "slayer_cap_r_arm", "parent": "slayer_cap_r_body", "length": 39.64, "x": 50.38, "y": -17.62, "rotation": -155.47 },
-	{ "name": "slayer_cap_l_leg1", "parent": "slayer_cap_r_body", "length": 24.13, "x": 14.54, "y": 13.29, "rotation": 125.89 },
-	{ "name": "slayer_cap_l_arm", "parent": "slayer_cap_r_body", "length": 41.33, "x": 45.05, "y": 21.28, "rotation": 152.89 },
-	{ "name": "slayer_cap_head", "parent": "slayer_cap_r_body", "length": 96.84, "x": 47.24, "y": -1.96, "rotation": 2.9 },
-	{ "name": "slayer_cap_eye", "parent": "slayer_cap_head", "x": 38.38, "y": 43.57 },
-	{ "name": "head_att", "parent": "slayer_cap_head", "x": 57.68, "y": 54.15 },
-	{ "name": "slayer_cap_r_leg1", "parent": "slayer_cap_r_body", "length": 18.99, "x": 7.2, "y": -26.69, "rotation": 87.88 },
-	{ "name": "slayer_cap_r_leg2", "parent": "center", "length": 15.63, "x": 25.16, "y": -129.97, "rotation": 86.9 },
-	{ "name": "slayer_cap_tail", "parent": "slayer_cap_r_body", "length": 62.91, "x": 22.64, "y": -9.61, "rotation": -92.76 },
-	{ "name": "slayer_cap_teeth", "parent": "slayer_cap_head", "x": 11.24, "y": 10.25 }
-],
-"slots": [
-	{ "name": "slayer_cap_l_arm", "bone": "slayer_cap_l_arm", "attachment": "slayer_cap_l_arm" },
-	{ "name": "slayer_cap_l_leg2", "bone": "slayer_cap_l_leg2", "attachment": "slayer_cap_l_leg2" },
-	{ "name": "slayer_cap_l_leg1", "bone": "slayer_cap_l_leg1", "attachment": "slayer_cap_l_leg1" },
-	{ "name": "slayer_cap_tail", "bone": "slayer_cap_tail", "attachment": "slayer_cap_tail" },
-	{ "name": "slayer_cap_r_body", "bone": "slayer_cap_r_body", "attachment": "slayer_cap_r_body" },
-	{ "name": "slayer_cap_r_leg2", "bone": "slayer_cap_r_leg2", "attachment": "slayer_cap_r_leg2" },
-	{ "name": "slayer_cap_r_leg1", "bone": "slayer_cap_r_leg1", "attachment": "slayer_cap_r_leg1" },
-	{ "name": "slayer_cap_r_arm", "bone": "slayer_cap_r_arm", "attachment": "slayer_cap_r_arm" },
-	{ "name": "slayer_cap_head", "bone": "slayer_cap_head", "attachment": "slayer_cap_head" },
-	{ "name": "slayer_cap_eye", "bone": "slayer_cap_eye", "attachment": "slayer_cap_eye" },
-	{ "name": "slayer_cap_teeth", "bone": "slayer_cap_teeth", "attachment": "slayer_cap_teeth" },
-	{ "name": "slayer_cap_att", "bone": "head_att" }
-],
-"skins": {
-	"default": {
-		"slayer_cap_att": {
-			"slayer_cap_att": { "x": -4.05, "y": -54.09, "rotation": -93.75, "width": 116, "height": 128 }
-		},
-		"slayer_cap_eye": {
-			"slayer_cap_eye": { "x": -1.56, "y": -24.87, "rotation": -93.75, "width": 69, "height": 28 }
-		},
-		"slayer_cap_head": {
-			"slayer_cap_head": { "x": 55.63, "y": -0.07, "rotation": -93.75, "width": 116, "height": 124 }
-		},
-		"slayer_cap_l_arm": {
-			"slayer_cap_l_arm": { "x": 21.35, "y": -1.57, "rotation": 116.25, "width": 31, "height": 45 }
-		},
-		"slayer_cap_l_leg1": {
-			"slayer_cap_l_leg1": { "x": 9.68, "y": -0.9, "rotation": 143.26, "width": 35, "height": 31 }
-		},
-		"slayer_cap_l_leg2": {
-			"slayer_cap_l_leg2": { "x": 7.22, "y": 4.64, "rotation": -88.29, "width": 30, "height": 21 }
-		},
-		"slayer_cap_r_arm": {
-			"slayer_cap_r_arm": { "x": 20.15, "y": -0.36, "rotation": 64.59, "width": 35, "height": 49 }
-		},
-		"slayer_cap_r_body": {
-			"slayer_cap_r_body": { "x": 28.81, "y": 2.37, "rotation": -90.84, "width": 63, "height": 64 }
-		},
-		"slayer_cap_r_leg1": {
-			"slayer_cap_r_leg1": { "x": 10.41, "y": -0.95, "rotation": -178.72, "width": 35, "height": 30 }
-		},
-		"slayer_cap_r_leg2": {
-			"slayer_cap_r_leg2": { "x": 6.86, "y": 1.66, "rotation": -86.93, "width": 30, "height": 23 }
-		},
-		"slayer_cap_tail": {
-			"slayer_cap_tail": { "x": 29.52, "y": -3.03, "rotation": 1.88, "width": 74, "height": 36 }
-		},
-		"slayer_cap_teeth": {
-			"slayer_cap_teeth": { "x": 0.93, "y": -0.46, "rotation": -93.75, "width": 14, "height": 12 }
-		}
-	}
-},
-"animations": {
-	"att": {
-		"slots": {
-			"slayer_cap_att": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_att" }
-				]
-			},
-			"slayer_cap_eye": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_eye" }
-				]
-			},
-			"slayer_cap_head": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_head" }
-				]
-			},
-			"slayer_cap_l_arm": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_l_arm" }
-				]
-			},
-			"slayer_cap_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_l_leg1" }
-				]
-			},
-			"slayer_cap_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_l_leg2" }
-				]
-			},
-			"slayer_cap_r_arm": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_r_arm" }
-				]
-			},
-			"slayer_cap_r_body": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_r_body" }
-				]
-			},
-			"slayer_cap_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_r_leg1" }
-				]
-			},
-			"slayer_cap_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_r_leg2" }
-				]
-			},
-			"slayer_cap_tail": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_tail" }
-				]
-			},
-			"slayer_cap_teeth": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_teeth" }
-				]
-			}
-		},
-		"bones": {
-			"slayer_cap_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": -3.37, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_r_body": {
-				"rotate": [
-					{ "time": 0, "angle": -6.19 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0.81 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_head": {
-				"rotate": [
-					{ "time": 0, "angle": -10.09 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"head_att": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_teeth": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_l_arm": {
-				"rotate": [
-					{ "time": 0, "angle": -54.73 }
-				],
-				"translate": [
-					{ "time": 0, "x": -3, "y": -3.75 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 4.16 }
-				],
-				"translate": [
-					{ "time": 0, "x": -0.07, "y": 0.84 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_r_arm": {
-				"rotate": [
-					{ "time": 0, "angle": 265.37 }
-				],
-				"translate": [
-					{ "time": 0, "x": -11.83, "y": -1.51 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 25.59 }
-				],
-				"translate": [
-					{ "time": 0, "x": 6.3, "y": 0.59 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_tail": {
-				"rotate": [
-					{ "time": 0, "angle": -16.94 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 8.28 }
-				],
-				"translate": [
-					{ "time": 0, "x": 5.48, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"center": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"wait": {
-		"slots": {
-			"slayer_cap_att": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 2.3333, "name": null }
-				]
-			},
-			"slayer_cap_eye": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_eye" },
-					{ "time": 1.3333, "name": null },
-					{ "time": 1.5333, "name": "slayer_cap_eye" },
-					{ "time": 2.3333, "name": "slayer_cap_eye" }
-				]
-			},
-			"slayer_cap_head": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_head" },
-					{ "time": 2.3333, "name": "slayer_cap_head" }
-				]
-			},
-			"slayer_cap_l_arm": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_l_arm" },
-					{ "time": 2.3333, "name": "slayer_cap_l_arm" }
-				]
-			},
-			"slayer_cap_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_l_leg1" },
-					{ "time": 2.3333, "name": "slayer_cap_l_leg1" }
-				]
-			},
-			"slayer_cap_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_l_leg2" },
-					{ "time": 2.3333, "name": "slayer_cap_l_leg2" }
-				]
-			},
-			"slayer_cap_r_arm": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_r_arm" },
-					{ "time": 2.3333, "name": "slayer_cap_r_arm" }
-				]
-			},
-			"slayer_cap_r_body": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_r_body" },
-					{ "time": 2.3333, "name": "slayer_cap_r_body" }
-				]
-			},
-			"slayer_cap_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_r_leg1" },
-					{ "time": 2.3333, "name": "slayer_cap_r_leg1" }
-				]
-			},
-			"slayer_cap_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_r_leg2" },
-					{ "time": 2.3333, "name": "slayer_cap_r_leg2" }
-				]
-			},
-			"slayer_cap_tail": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_tail" },
-					{ "time": 2.3333, "name": "slayer_cap_tail" }
-				]
-			},
-			"slayer_cap_teeth": {
-				"attachment": [
-					{ "time": 0, "name": "slayer_cap_teeth" },
-					{ "time": 2.3333, "name": "slayer_cap_teeth" }
-				]
-			}
-		},
-		"bones": {
-			"slayer_cap_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_r_body": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": 0.65,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0.81,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"x": 0,
-						"y": -0.84,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "x": 0, "y": 0.81 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_head": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": -1.39,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"x": -1.26,
-						"y": 0.03,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"head_att": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_teeth": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_l_arm": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3,
-						"angle": 5.82,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3,
-						"x": 2.1,
-						"y": -0.05,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"x": 0.961,
-						"y": 0.944,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_r_arm": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3,
-						"angle": -1.71,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3,
-						"x": -0.38,
-						"y": 1.27,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_r_leg1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"angle": 2.97,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.1666,
-						"x": 0.983,
-						"y": 0.92,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_tail": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": -9.35,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3,
-						"angle": -17.31,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "angle": -9.35 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3,
-						"x": 0.893,
-						"y": 0.991,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"slayer_cap_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			},
-			"center": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.3333, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.3333, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.3333, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2.3333 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "qq+Z7Fvjwy3WqA7QruvlXsf+8+M",
+        "spine": "3.0.09",
+        "width": 136.01,
+        "height": 182.01,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "center",
+            "parent": "root"
+        },
+        {
+            "name": "slayer_cap_l_leg2",
+            "parent": "center",
+            "length": 16.04,
+            "x": -10.7,
+            "y": -130.39,
+            "rotation": 88.26
+        },
+        {
+            "name": "slayer_cap_r_body",
+            "parent": "center",
+            "length": 57.82,
+            "x": 6.17,
+            "y": -117.31,
+            "rotation": 90.83
+        },
+        {
+            "name": "slayer_cap_r_arm",
+            "parent": "slayer_cap_r_body",
+            "length": 39.64,
+            "x": 50.38,
+            "y": -17.62,
+            "rotation": -155.47
+        },
+        {
+            "name": "slayer_cap_l_leg1",
+            "parent": "slayer_cap_r_body",
+            "length": 24.13,
+            "x": 14.54,
+            "y": 13.29,
+            "rotation": 125.89
+        },
+        {
+            "name": "slayer_cap_l_arm",
+            "parent": "slayer_cap_r_body",
+            "length": 41.33,
+            "x": 45.05,
+            "y": 21.28,
+            "rotation": 152.89
+        },
+        {
+            "name": "slayer_cap_head",
+            "parent": "slayer_cap_r_body",
+            "length": 96.84,
+            "x": 47.24,
+            "y": -1.96,
+            "rotation": 2.9
+        },
+        {
+            "name": "slayer_cap_eye",
+            "parent": "slayer_cap_head",
+            "x": 38.38,
+            "y": 43.57
+        },
+        {
+            "name": "head_att",
+            "parent": "slayer_cap_head",
+            "x": 57.68,
+            "y": 54.15
+        },
+        {
+            "name": "slayer_cap_r_leg1",
+            "parent": "slayer_cap_r_body",
+            "length": 18.99,
+            "x": 7.2,
+            "y": -26.69,
+            "rotation": 87.88
+        },
+        {
+            "name": "slayer_cap_r_leg2",
+            "parent": "center",
+            "length": 15.63,
+            "x": 25.16,
+            "y": -129.97,
+            "rotation": 86.9
+        },
+        {
+            "name": "slayer_cap_tail",
+            "parent": "slayer_cap_r_body",
+            "length": 62.91,
+            "x": 22.64,
+            "y": -9.61,
+            "rotation": -92.76
+        },
+        {
+            "name": "slayer_cap_teeth",
+            "parent": "slayer_cap_head",
+            "x": 11.24,
+            "y": 10.25
+        }
+    ],
+    "slots": [
+        {
+            "name": "slayer_cap_l_arm",
+            "bone": "slayer_cap_l_arm",
+            "attachment": "slayer_cap_l_arm"
+        },
+        {
+            "name": "slayer_cap_l_leg2",
+            "bone": "slayer_cap_l_leg2",
+            "attachment": "slayer_cap_l_leg2"
+        },
+        {
+            "name": "slayer_cap_l_leg1",
+            "bone": "slayer_cap_l_leg1",
+            "attachment": "slayer_cap_l_leg1"
+        },
+        {
+            "name": "slayer_cap_tail",
+            "bone": "slayer_cap_tail",
+            "attachment": "slayer_cap_tail"
+        },
+        {
+            "name": "slayer_cap_r_body",
+            "bone": "slayer_cap_r_body",
+            "attachment": "slayer_cap_r_body"
+        },
+        {
+            "name": "slayer_cap_r_leg2",
+            "bone": "slayer_cap_r_leg2",
+            "attachment": "slayer_cap_r_leg2"
+        },
+        {
+            "name": "slayer_cap_r_leg1",
+            "bone": "slayer_cap_r_leg1",
+            "attachment": "slayer_cap_r_leg1"
+        },
+        {
+            "name": "slayer_cap_r_arm",
+            "bone": "slayer_cap_r_arm",
+            "attachment": "slayer_cap_r_arm"
+        },
+        {
+            "name": "slayer_cap_head",
+            "bone": "slayer_cap_head",
+            "attachment": "slayer_cap_head"
+        },
+        {
+            "name": "slayer_cap_eye",
+            "bone": "slayer_cap_eye",
+            "attachment": "slayer_cap_eye"
+        },
+        {
+            "name": "slayer_cap_teeth",
+            "bone": "slayer_cap_teeth",
+            "attachment": "slayer_cap_teeth"
+        },
+        {
+            "name": "slayer_cap_att",
+            "bone": "head_att"
+        }
+    ],
+    "skins": {
+        "default": {
+            "slayer_cap_att": {
+                "slayer_cap_att": {
+                    "x": -4.05,
+                    "y": -54.09,
+                    "rotation": -93.75,
+                    "width": 116,
+                    "height": 128
+                }
+            },
+            "slayer_cap_eye": {
+                "slayer_cap_eye": {
+                    "x": -1.56,
+                    "y": -24.87,
+                    "rotation": -93.75,
+                    "width": 69,
+                    "height": 28
+                }
+            },
+            "slayer_cap_head": {
+                "slayer_cap_head": {
+                    "x": 55.63,
+                    "y": -0.07,
+                    "rotation": -93.75,
+                    "width": 116,
+                    "height": 124
+                }
+            },
+            "slayer_cap_l_arm": {
+                "slayer_cap_l_arm": {
+                    "x": 21.35,
+                    "y": -1.57,
+                    "rotation": 116.25,
+                    "width": 31,
+                    "height": 45
+                }
+            },
+            "slayer_cap_l_leg1": {
+                "slayer_cap_l_leg1": {
+                    "x": 9.68,
+                    "y": -0.9,
+                    "rotation": 143.26,
+                    "width": 35,
+                    "height": 31
+                }
+            },
+            "slayer_cap_l_leg2": {
+                "slayer_cap_l_leg2": {
+                    "x": 7.22,
+                    "y": 4.64,
+                    "rotation": -88.29,
+                    "width": 30,
+                    "height": 21
+                }
+            },
+            "slayer_cap_r_arm": {
+                "slayer_cap_r_arm": {
+                    "x": 20.15,
+                    "y": -0.36,
+                    "rotation": 64.59,
+                    "width": 35,
+                    "height": 49
+                }
+            },
+            "slayer_cap_r_body": {
+                "slayer_cap_r_body": {
+                    "x": 28.81,
+                    "y": 2.37,
+                    "rotation": -90.84,
+                    "width": 63,
+                    "height": 64
+                }
+            },
+            "slayer_cap_r_leg1": {
+                "slayer_cap_r_leg1": {
+                    "x": 10.41,
+                    "y": -0.95,
+                    "rotation": -178.72,
+                    "width": 35,
+                    "height": 30
+                }
+            },
+            "slayer_cap_r_leg2": {
+                "slayer_cap_r_leg2": {
+                    "x": 6.86,
+                    "y": 1.66,
+                    "rotation": -86.93,
+                    "width": 30,
+                    "height": 23
+                }
+            },
+            "slayer_cap_tail": {
+                "slayer_cap_tail": {
+                    "x": 29.52,
+                    "y": -3.03,
+                    "rotation": 1.88,
+                    "width": 74,
+                    "height": 36
+                }
+            },
+            "slayer_cap_teeth": {
+                "slayer_cap_teeth": {
+                    "x": 0.93,
+                    "y": -0.46,
+                    "rotation": -93.75,
+                    "width": 14,
+                    "height": 12
+                }
+            }
+        }
+    },
+    "animations": {
+        "att": {
+            "slots": {
+                "slayer_cap_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_att"
+                        }
+                    ]
+                },
+                "slayer_cap_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_eye"
+                        }
+                    ]
+                },
+                "slayer_cap_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_head"
+                        }
+                    ]
+                },
+                "slayer_cap_l_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_l_arm"
+                        }
+                    ]
+                },
+                "slayer_cap_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_l_leg1"
+                        }
+                    ]
+                },
+                "slayer_cap_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_l_leg2"
+                        }
+                    ]
+                },
+                "slayer_cap_r_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_r_arm"
+                        }
+                    ]
+                },
+                "slayer_cap_r_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_r_body"
+                        }
+                    ]
+                },
+                "slayer_cap_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_r_leg1"
+                        }
+                    ]
+                },
+                "slayer_cap_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_r_leg2"
+                        }
+                    ]
+                },
+                "slayer_cap_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_tail"
+                        }
+                    ]
+                },
+                "slayer_cap_teeth": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_teeth"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "slayer_cap_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -3.37,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_r_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -6.19
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0.81
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -10.09
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "head_att": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_teeth": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_l_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -54.73
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -3,
+                            "y": -3.75
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 4.16
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -0.07,
+                            "y": 0.84
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_r_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 265.37
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -11.83,
+                            "y": -1.51
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 25.59
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 6.3,
+                            "y": 0.59
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -16.94
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 8.28
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 5.48,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "wait": {
+            "slots": {
+                "slayer_cap_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": null
+                        }
+                    ]
+                },
+                "slayer_cap_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_eye"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 1.5333,
+                            "name": "slayer_cap_eye"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_eye"
+                        }
+                    ]
+                },
+                "slayer_cap_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_head"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_head"
+                        }
+                    ]
+                },
+                "slayer_cap_l_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_l_arm"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_l_arm"
+                        }
+                    ]
+                },
+                "slayer_cap_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_l_leg1"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_l_leg1"
+                        }
+                    ]
+                },
+                "slayer_cap_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_l_leg2"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_l_leg2"
+                        }
+                    ]
+                },
+                "slayer_cap_r_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_r_arm"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_r_arm"
+                        }
+                    ]
+                },
+                "slayer_cap_r_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_r_body"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_r_body"
+                        }
+                    ]
+                },
+                "slayer_cap_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_r_leg1"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_r_leg1"
+                        }
+                    ]
+                },
+                "slayer_cap_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_r_leg2"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_r_leg2"
+                        }
+                    ]
+                },
+                "slayer_cap_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_tail"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_tail"
+                        }
+                    ]
+                },
+                "slayer_cap_teeth": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "slayer_cap_teeth"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "slayer_cap_teeth"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "slayer_cap_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_r_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 0.65,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0.81,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0,
+                            "y": -0.84,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0.81
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": -1.39,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": -1.26,
+                            "y": 0.03,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "head_att": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_teeth": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_l_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "angle": 5.82,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 2.1,
+                            "y": -0.05,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0.961,
+                            "y": 0.944,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_r_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "angle": -1.71,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "x": -0.38,
+                            "y": 1.27,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 2.97,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0.983,
+                            "y": 0.92,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -9.35,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "angle": -17.31,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": -9.35
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "x": 0.893,
+                            "y": 0.991,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "slayer_cap_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2.3333
+                }
+            ]
+        }
+    }
 }

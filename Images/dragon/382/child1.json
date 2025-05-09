@@ -1,1 +1,564 @@
-{"skeleton":{"hash":"GBCoYqf2dTxojQDTFX9n6ZuY7UM","spine":"2.1.27","width":187.59,"height":144.98,"images":""},"bones":[{"name":"root","x":-11.76,"y":30.14},{"name":"body","parent":"root","length":126.26,"x":12.89,"y":-156.09,"rotation":90},{"name":"head","parent":"root","x":-5.29,"y":-109.54,"rotation":90},{"name":"light1","parent":"root","x":5.93,"y":-71.56,"rotation":-44.31},{"name":"light2","parent":"root","x":1.65,"y":-82.79,"rotation":-44.31},{"name":"tail","parent":"root","length":32.15,"x":35.89,"y":-123.99,"rotation":-44.31},{"name":"tree","parent":"root","x":15.56,"y":-104.19,"rotation":-44.31},{"name":"wool","parent":"root","x":0.58,"y":-117.57,"rotation":90}],"slots":[{"name":"tail","bone":"tail","attachment":"tail"},{"name":"body","bone":"body","attachment":"body"},{"name":"light1","bone":"light1","attachment":"light1"},{"name":"light2","bone":"light2","attachment":"light2"},{"name":"tree","bone":"tree","attachment":"tree"},{"name":"wool","bone":"wool","attachment":"wool"},{"name":"head","bone":"head","attachment":"head"},{"name":"eye","bone":"head","attachment":"eye"}],"skins":{"default":{"body":{"body":{"x":26.43,"y":9.49,"rotation":-90,"width":97,"height":61}},"eye":{"eye":{"x":19.26,"y":-0.41,"rotation":-90,"width":28,"height":17}},"head":{"head":{"x":24.25,"y":4.96,"rotation":-90,"width":90,"height":75}},"light1":{"light1":{"x":7.92,"y":-4.29,"rotation":44.31,"width":171,"height":130}},"light2":{"light2":{"x":-6.09,"y":33.55,"rotation":44.31,"width":180,"height":47}},"tail":{"tail":{"x":16.07,"y":2.15,"rotation":44.31,"width":29,"height":48}},"tree":{"tree":{"x":-8.39,"y":26.27,"rotation":44.31,"width":57,"height":65}},"wool":{"wool":{"x":-1.93,"y":-3.75,"rotation":-90,"width":79,"height":43}}}},"animations":{"wait":{"slots":{"body":{"attachment":[{"time":0,"name":"body"},{"time":2.3333,"name":"body"}]},"eye":{"attachment":[{"time":0,"name":"eye"},{"time":1.0666,"name":null},{"time":1.2666,"name":"eye"}]},"head":{"attachment":[{"time":0,"name":"head"},{"time":2.3333,"name":"head"}]},"light1":{"attachment":[{"time":0,"name":"light1"},{"time":2.3333,"name":"light1"}],"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.1666,"color":"ffffff56","curve":[0.25,0,0.75,1]},{"time":2.3333,"color":"ffffffff"}]},"light2":{"attachment":[{"time":0,"name":"light2"},{"time":2.3333,"name":"light2"}],"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.1666,"color":"ffffff56","curve":[0.25,0,0.75,1]},{"time":2.3333,"color":"ffffffff"}]},"tail":{"attachment":[{"time":0,"name":"tail"},{"time":2.3333,"name":"tail"}]},"tree":{"attachment":[{"time":0,"name":"tree"},{"time":2.3333,"name":"tree"}]},"wool":{"attachment":[{"time":0,"name":"wool"},{"time":2.3333,"name":"wool"}]}},"bones":{"wool":{"translate":[{"time":0,"x":0,"y":0},{"time":1.1666,"x":0,"y":-0.76},{"time":2.3333,"x":0,"y":0}]},"tree":{"translate":[{"time":0,"x":0,"y":0},{"time":1.1666,"x":0,"y":-0.76},{"time":2.3333,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1},{"time":1.1666,"x":1,"y":0.983},{"time":2.3333,"x":1,"y":1}]},"tail":{"rotate":[{"time":0,"angle":0},{"time":1.1666,"angle":9.59},{"time":2.3333,"angle":0}],"translate":[{"time":0,"x":0,"y":0},{"time":1.1666,"x":0,"y":-1.6},{"time":2.3333,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1},{"time":1.1666,"x":0.949,"y":1},{"time":2.3333,"x":1,"y":1}]},"light2":{"translate":[{"time":0,"x":0,"y":-2.68,"curve":[0.25,0,0.75,1]},{"time":1.1666,"x":0,"y":4.97,"curve":[0.25,0,0.75,1]},{"time":2.3333,"x":0,"y":-2.68}]},"light1":{"translate":[{"time":0,"x":0,"y":-3.83,"curve":[0.25,0,0.75,1]},{"time":1.1666,"x":0,"y":-1.53,"curve":[0.25,0,0.75,1]},{"time":2.3333,"x":0,"y":-3.83}]},"head":{"rotate":[{"time":0,"angle":0},{"time":1.1666,"angle":3.58},{"time":2.3333,"angle":0}],"translate":[{"time":0,"x":0,"y":0},{"time":1.1666,"x":0,"y":-1.53},{"time":2.3333,"x":0,"y":0}]},"body":{"scale":[{"time":0,"x":1,"y":1},{"time":1.1666,"x":0.96,"y":1},{"time":2.3333,"x":1,"y":1}]}}}}}
+{
+    "skeleton": {
+        "hash": "GBCoYqf2dTxojQDTFX9n6ZuY7UM",
+        "spine": "2.1.27",
+        "width": 187.59,
+        "height": 144.98,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root",
+            "x": -11.76,
+            "y": 30.14
+        },
+        {
+            "name": "body",
+            "parent": "root",
+            "length": 126.26,
+            "x": 12.89,
+            "y": -156.09,
+            "rotation": 90
+        },
+        {
+            "name": "head",
+            "parent": "root",
+            "x": -5.29,
+            "y": -109.54,
+            "rotation": 90
+        },
+        {
+            "name": "light1",
+            "parent": "root",
+            "x": 5.93,
+            "y": -71.56,
+            "rotation": -44.31
+        },
+        {
+            "name": "light2",
+            "parent": "root",
+            "x": 1.65,
+            "y": -82.79,
+            "rotation": -44.31
+        },
+        {
+            "name": "tail",
+            "parent": "root",
+            "length": 32.15,
+            "x": 35.89,
+            "y": -123.99,
+            "rotation": -44.31
+        },
+        {
+            "name": "tree",
+            "parent": "root",
+            "x": 15.56,
+            "y": -104.19,
+            "rotation": -44.31
+        },
+        {
+            "name": "wool",
+            "parent": "root",
+            "x": 0.58,
+            "y": -117.57,
+            "rotation": 90
+        }
+    ],
+    "slots": [
+        {
+            "name": "tail",
+            "bone": "tail",
+            "attachment": "tail"
+        },
+        {
+            "name": "body",
+            "bone": "body",
+            "attachment": "body"
+        },
+        {
+            "name": "light1",
+            "bone": "light1",
+            "attachment": "light1"
+        },
+        {
+            "name": "light2",
+            "bone": "light2",
+            "attachment": "light2"
+        },
+        {
+            "name": "tree",
+            "bone": "tree",
+            "attachment": "tree"
+        },
+        {
+            "name": "wool",
+            "bone": "wool",
+            "attachment": "wool"
+        },
+        {
+            "name": "head",
+            "bone": "head",
+            "attachment": "head"
+        },
+        {
+            "name": "eye",
+            "bone": "head",
+            "attachment": "eye"
+        }
+    ],
+    "skins": {
+        "default": {
+            "body": {
+                "body": {
+                    "x": 26.43,
+                    "y": 9.49,
+                    "rotation": -90,
+                    "width": 97,
+                    "height": 61
+                }
+            },
+            "eye": {
+                "eye": {
+                    "x": 19.26,
+                    "y": -0.41,
+                    "rotation": -90,
+                    "width": 28,
+                    "height": 17
+                }
+            },
+            "head": {
+                "head": {
+                    "x": 24.25,
+                    "y": 4.96,
+                    "rotation": -90,
+                    "width": 90,
+                    "height": 75
+                }
+            },
+            "light1": {
+                "light1": {
+                    "x": 7.92,
+                    "y": -4.29,
+                    "rotation": 44.31,
+                    "width": 171,
+                    "height": 130
+                }
+            },
+            "light2": {
+                "light2": {
+                    "x": -6.09,
+                    "y": 33.55,
+                    "rotation": 44.31,
+                    "width": 180,
+                    "height": 47
+                }
+            },
+            "tail": {
+                "tail": {
+                    "x": 16.07,
+                    "y": 2.15,
+                    "rotation": 44.31,
+                    "width": 29,
+                    "height": 48
+                }
+            },
+            "tree": {
+                "tree": {
+                    "x": -8.39,
+                    "y": 26.27,
+                    "rotation": 44.31,
+                    "width": 57,
+                    "height": 65
+                }
+            },
+            "wool": {
+                "wool": {
+                    "x": -1.93,
+                    "y": -3.75,
+                    "rotation": -90,
+                    "width": 79,
+                    "height": 43
+                }
+            }
+        }
+    },
+    "animations": {
+        "wait": {
+            "slots": {
+                "body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "body"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "body"
+                        }
+                    ]
+                },
+                "eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "eye"
+                        },
+                        {
+                            "time": 1.0666,
+                            "name": null
+                        },
+                        {
+                            "time": 1.2666,
+                            "name": "eye"
+                        }
+                    ]
+                },
+                "head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "head"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "head"
+                        }
+                    ]
+                },
+                "light1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "light1"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "light1"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "color": "ffffff56",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "light2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "light2"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "light2"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "color": "ffffff56",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "tail"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "tail"
+                        }
+                    ]
+                },
+                "tree": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "tree"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "tree"
+                        }
+                    ]
+                },
+                "wool": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "wool"
+                        },
+                        {
+                            "time": 2.3333,
+                            "name": "wool"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "wool": {
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0,
+                            "y": -0.76
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "tree": {
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0,
+                            "y": -0.76
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 1,
+                            "y": 0.983
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 9.59
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0,
+                            "y": -1.6
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0.949,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "light2": {
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": -2.68,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0,
+                            "y": 4.97,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": -2.68
+                        }
+                    ]
+                },
+                "light1": {
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": -3.83,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0,
+                            "y": -1.53,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": -3.83
+                        }
+                    ]
+                },
+                "head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "angle": 3.58
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0,
+                            "y": -1.53
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "body": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.1666,
+                            "x": 0.96,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

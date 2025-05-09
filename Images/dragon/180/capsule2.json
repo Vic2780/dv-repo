@@ -1,1148 +1,3029 @@
 {
-"skeleton": { "hash": "319a/RkYsOuUv+pMShLn0mnDp8g", "spine": "3.0.09", "width": 153.01, "height": 168.01, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "bunnes_cap2_r_leg", "parent": "root", "length": 29.72, "x": 16.63, "y": -128.33, "rotation": 85.76 },
-	{ "name": "bunnes_cap2_l_leg", "parent": "root", "length": 24.15, "x": -16.85, "y": -127.24, "rotation": 88.69 },
-	{ "name": "bunnes_cap2_body", "parent": "root", "length": 45.56, "x": -2.57, "y": -113.51, "rotation": 90.69 },
-	{ "name": "cape_acc", "parent": "bunnes_cap2_body", "length": 60.04, "x": 40.23, "y": 11.23, "rotation": 142.51 },
-	{ "name": "bunnes_cap2_tail", "parent": "bunnes_cap2_body", "length": 37.07, "x": 1.02, "y": -6.05, "rotation": -63.15 },
-	{ "name": "bunnes_cap2_r_arm1", "parent": "bunnes_cap2_body", "length": 22.45, "x": 45.37, "y": -15.09, "rotation": -130.14 },
-	{ "name": "bunnes_cap2_r_arm2", "parent": "bunnes_cap2_r_arm1", "length": 18.83, "x": 30.63, "y": -2.43, "rotation": 138.96 },
-	{ "name": "bunnes_cap2_l_arm1", "parent": "bunnes_cap2_body", "length": 21.81, "x": 45.72, "y": 14.12, "rotation": 147.35 },
-	{ "name": "bunnes_cap2_l_arm2", "parent": "bunnes_cap2_l_arm1", "length": 21.73, "x": 18.71, "y": -0.89, "rotation": 7.25 },
-	{ "name": "bunnes_cap2_head", "parent": "bunnes_cap2_body", "length": 72.69, "x": 45.17, "y": 1.09, "rotation": -1.93 },
-	{ "name": "bunnes_cap2_eye", "parent": "bunnes_cap2_head", "x": 31.99, "y": 18.86 }
-],
-"slots": [
-	{ "name": "cape_acc", "bone": "cape_acc" },
-	{ "name": "bunnes_cap2_tail", "bone": "bunnes_cap2_tail", "attachment": "bunnes_cap2_tail" },
-	{ "name": "bunnes_cap2_l_leg", "bone": "bunnes_cap2_l_leg", "attachment": "bunnes_cap2_l_leg" },
-	{ "name": "bunnes_cap2_r_leg", "bone": "bunnes_cap2_r_leg", "attachment": "bunnes_cap2_r_leg" },
-	{ "name": "bunnes_cap2_l_arm1", "bone": "bunnes_cap2_l_arm1", "attachment": "bunnes_cap2_l_arm1" },
-	{ "name": "bunnes_cap2_l_arm2", "bone": "bunnes_cap2_l_arm2", "attachment": "bunnes_cap2_l_arm2" },
-	{ "name": "neck_back_acc", "bone": "bunnes_cap2_body" },
-	{ "name": "bunnes_cap2_body", "bone": "bunnes_cap2_body", "attachment": "bunnes_cap2_body" },
-	{ "name": "bunnes_cap2_r_arm1", "bone": "bunnes_cap2_r_arm1", "attachment": "bunnes_cap2_r_arm1" },
-	{ "name": "bunnes_cap2_head", "bone": "bunnes_cap2_head", "attachment": "bunnes_cap2_head" },
-	{ "name": "bunnes_cap2_eye", "bone": "bunnes_cap2_eye" },
-	{ "name": "bunnes_cap2_att", "bone": "bunnes_cap2_body" },
-	{ "name": "neck_acc", "bone": "bunnes_cap2_body" },
-	{ "name": "bunnes_cap2_r_arm2", "bone": "bunnes_cap2_r_arm2", "attachment": "bunnes_cap2_r_arm2" }
-],
-"skins": {
-	"default": {
-		"bunnes_cap2_att": {
-			"bunnes_cap2_att": { "x": 66.32, "y": -16.13, "rotation": -90.69, "width": 153, "height": 170 },
-			"bunnes_cap2_att_acc": { "x": 77.2, "y": 5.61, "rotation": -90.69, "width": 197, "height": 192 }
-		},
-		"bunnes_cap2_body": {
-			"bunnes_cap2_body": { "x": 24.99, "y": -2.13, "rotation": -90.69, "width": 55, "height": 55 }
-		},
-		"bunnes_cap2_eye": {
-			"bunnes_cap2_eye": { "x": 3.19, "y": -10.58, "rotation": -88.76, "width": 58, "height": 23 },
-			"eye_acc": { "x": 2.9, "y": -24.4, "rotation": -88.76, "width": 30, "height": 23 }
-		},
-		"bunnes_cap2_head": {
-			"bunnes_cap2_head": { "x": 51.43, "y": -26.38, "rotation": -88.76, "width": 153, "height": 107 },
-			"hat_acc": { "x": 63.11, "y": -5.37, "rotation": -88.76, "width": 194, "height": 132 }
-		},
-		"bunnes_cap2_l_arm1": {
-			"bunnes_cap2_l_arm1": { "x": 9.24, "y": 2.24, "rotation": 121.94, "width": 26, "height": 28 }
-		},
-		"bunnes_cap2_l_arm2": {
-			"bunnes_cap2_l_arm2": { "x": 10.07, "y": 5.92, "rotation": 114.68, "width": 27, "height": 30 }
-		},
-		"bunnes_cap2_l_leg": {
-			"bunnes_cap2_l_leg": { "x": 13.7, "y": 1.7, "rotation": -88.69, "width": 34, "height": 35 }
-		},
-		"bunnes_cap2_r_arm1": {
-			"bunnes_cap2_r_arm1": { "x": 12.09, "y": 1.48, "rotation": 39.41, "width": 33, "height": 31 }
-		},
-		"bunnes_cap2_r_arm2": {
-			"bunnes_cap2_r_arm2": { "x": 7.17, "y": 1.67, "rotation": -99.54, "width": 25, "height": 29 }
-		},
-		"bunnes_cap2_r_leg": {
-			"bunnes_cap2_r_leg": { "x": 15.06, "y": -2.51, "rotation": -85.77, "width": 35, "height": 37 }
-		},
-		"bunnes_cap2_tail": {
-			"bunnes_cap2_tail": { "x": 22.81, "y": -0.14, "rotation": -27.53, "width": 66, "height": 34 }
-		},
-		"cape_acc": {
-			"cape_acc": { "x": 23.61, "y": 5.82, "rotation": 126.78, "width": 66, "height": 57 }
-		},
-		"neck_acc": {
-			"neck_acc": { "x": 42.21, "y": -3, "rotation": -90.69, "width": 73, "height": 34 }
-		},
-		"neck_back_acc": {
-			"neck_back_acc": { "x": 46.75, "y": 16.75, "rotation": -90.69, "width": 32, "height": 24 }
-		}
-	}
-},
-"animations": {
-	"acc": {
-		"slots": {
-			"bunnes_cap2_att": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.3333, "name": null },
-					{ "time": 2.6666, "name": null }
-				]
-			},
-			"bunnes_cap2_body": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_body" },
-					{ "time": 1.3333, "name": "bunnes_cap2_body" },
-					{ "time": 2.6666, "name": "bunnes_cap2_body" }
-				]
-			},
-			"bunnes_cap2_eye": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.3333, "name": null },
-					{ "time": 1.4666, "name": "eye_acc" },
-					{ "time": 1.6, "name": null },
-					{ "time": 2.6666, "name": null }
-				]
-			},
-			"bunnes_cap2_head": {
-				"attachment": [
-					{ "time": 0, "name": "hat_acc" },
-					{ "time": 1.3333, "name": "hat_acc" },
-					{ "time": 2.6666, "name": "hat_acc" }
-				]
-			},
-			"bunnes_cap2_l_arm1": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_l_arm1" },
-					{ "time": 1.3333, "name": "bunnes_cap2_l_arm1" },
-					{ "time": 2.6666, "name": "bunnes_cap2_l_arm1" }
-				]
-			},
-			"bunnes_cap2_l_arm2": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_l_arm2" },
-					{ "time": 1.3333, "name": "bunnes_cap2_l_arm2" },
-					{ "time": 2.6666, "name": "bunnes_cap2_l_arm2" }
-				]
-			},
-			"bunnes_cap2_l_leg": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_l_leg" },
-					{ "time": 1.3333, "name": "bunnes_cap2_l_leg" },
-					{ "time": 2.6666, "name": "bunnes_cap2_l_leg" }
-				]
-			},
-			"bunnes_cap2_r_arm1": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_r_arm1" },
-					{ "time": 1.3333, "name": "bunnes_cap2_r_arm1" },
-					{ "time": 2.6666, "name": "bunnes_cap2_r_arm1" }
-				]
-			},
-			"bunnes_cap2_r_arm2": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_r_arm2" },
-					{ "time": 1.3333, "name": "bunnes_cap2_r_arm2" },
-					{ "time": 2.6666, "name": "bunnes_cap2_r_arm2" }
-				]
-			},
-			"bunnes_cap2_r_leg": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_r_leg" },
-					{ "time": 1.3333, "name": "bunnes_cap2_r_leg" },
-					{ "time": 2.6666, "name": "bunnes_cap2_r_leg" }
-				]
-			},
-			"bunnes_cap2_tail": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_tail" },
-					{ "time": 1.3333, "name": "bunnes_cap2_tail" },
-					{ "time": 2.6666, "name": "bunnes_cap2_tail" }
-				]
-			},
-			"cape_acc": {
-				"attachment": [
-					{ "time": 0, "name": "cape_acc" },
-					{ "time": 1.3333, "name": "cape_acc" },
-					{ "time": 2.6666, "name": "cape_acc" }
-				]
-			},
-			"neck_acc": {
-				"attachment": [
-					{ "time": 0, "name": "neck_acc" },
-					{ "time": 1.3333, "name": "neck_acc" },
-					{ "time": 2.6666, "name": "neck_acc" }
-				]
-			},
-			"neck_back_acc": {
-				"attachment": [
-					{ "time": 0, "name": "neck_back_acc" },
-					{ "time": 1.3333, "name": "neck_back_acc" },
-					{ "time": 2.6666, "name": "neck_back_acc" }
-				]
-			}
-		},
-		"bones": {
-			"bunnes_cap2_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.6666, "x": -0.01, "y": 1.56 },
-					{ "time": 1.3333, "x": 0, "y": 0 },
-					{ "time": 2, "x": -0.01, "y": 1.56 },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.3333, "angle": 2.52 },
-					{ "time": 0.7333, "angle": -2.55 },
-					{ "time": 1.3333, "angle": -4.97 },
-					{ "time": 1.8, "angle": 0.48 },
-					{ "time": 2.1333, "angle": 2.52 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.3333, "angle": 6.22 },
-					{ "time": 0.6666, "angle": 9.17, "curve": "stepped" },
-					{ "time": 1.6666, "angle": 9.17 },
-					{ "time": 2, "angle": -1.09 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.6666, "x": 0, "y": 0 },
-					{ "time": 1.3333, "x": -1.02, "y": 0.01 },
-					{ "time": 1.6666, "x": 0, "y": 0 },
-					{ "time": 2, "x": -1.44, "y": 0.01 },
-					{ "time": 2.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.2333, "angle": 1.01 },
-					{ "time": 0.6666, "angle": -0.03 },
-					{ "time": 1.0666, "angle": -1.09 },
-					{ "time": 1.3333, "angle": 0 },
-					{ "time": 2, "angle": -0.03 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.6666, "x": 0.48, "y": -0.01 },
-					{ "time": 1.3333, "x": 0, "y": 0 },
-					{ "time": 2, "x": 0.48, "y": -0.01 },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.2, "angle": -1.5 },
-					{ "time": 0.6666, "angle": 3.4 },
-					{ "time": 1.3333, "angle": 2.06 },
-					{ "time": 2, "angle": -4.31 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"cape_acc": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_leg": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.3333, "angle": -9.57, "curve": "stepped" },
-					{ "time": 1.3333, "angle": -9.57 },
-					{ "time": 2.1333, "angle": 17.37 },
-					{ "time": 2.4, "angle": 16.44 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.3333, "x": -0.87, "y": 1.06 },
-					{ "time": 1.3333, "x": -1.48, "y": 1.81 },
-					{ "time": 2.1333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_leg": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 1.3333 },
-			{ "time": 2.6666 }
-		]
-	},
-	"acc_att": {
-		"slots": {
-			"bunnes_cap2_att": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_att_acc" }
-				]
-			},
-			"bunnes_cap2_body": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_eye": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_head": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_l_arm1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_l_arm2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_l_leg": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_r_arm1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_r_arm2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_r_leg": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_tail": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"cape_acc": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"neck_acc": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"neck_back_acc": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			}
-		},
-		"bones": {
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_leg": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_leg": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"att": {
-		"slots": {
-			"bunnes_cap2_att": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_att" }
-				]
-			},
-			"bunnes_cap2_body": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_eye": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_head": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_l_arm1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_l_arm2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_l_leg": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_r_arm1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_r_arm2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_r_leg": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"bunnes_cap2_tail": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"cape_acc": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"neck_acc": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"neck_back_acc": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			}
-		},
-		"bones": {
-			"bunnes_cap2_l_leg": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_leg": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"wait": {
-		"slots": {
-			"bunnes_cap2_att": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.3333, "name": null },
-					{ "time": 2.6666, "name": null }
-				]
-			},
-			"bunnes_cap2_body": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_body" },
-					{ "time": 1.3333, "name": "bunnes_cap2_body" },
-					{ "time": 2.6666, "name": "bunnes_cap2_body" }
-				]
-			},
-			"bunnes_cap2_eye": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.3333, "name": null },
-					{ "time": 1.4666, "name": "bunnes_cap2_eye" },
-					{ "time": 1.6, "name": null },
-					{ "time": 2.6666, "name": null }
-				]
-			},
-			"bunnes_cap2_head": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_head" },
-					{ "time": 1.3333, "name": "bunnes_cap2_head" },
-					{ "time": 2.6666, "name": "bunnes_cap2_head" }
-				]
-			},
-			"bunnes_cap2_l_arm1": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_l_arm1" },
-					{ "time": 1.3333, "name": "bunnes_cap2_l_arm1" },
-					{ "time": 2.6666, "name": "bunnes_cap2_l_arm1" }
-				]
-			},
-			"bunnes_cap2_l_arm2": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_l_arm2" },
-					{ "time": 1.3333, "name": "bunnes_cap2_l_arm2" },
-					{ "time": 2.6666, "name": "bunnes_cap2_l_arm2" }
-				]
-			},
-			"bunnes_cap2_l_leg": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_l_leg" },
-					{ "time": 1.3333, "name": "bunnes_cap2_l_leg" },
-					{ "time": 2.6666, "name": "bunnes_cap2_l_leg" }
-				]
-			},
-			"bunnes_cap2_r_arm1": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_r_arm1" },
-					{ "time": 1.3333, "name": "bunnes_cap2_r_arm1" },
-					{ "time": 2.6666, "name": "bunnes_cap2_r_arm1" }
-				]
-			},
-			"bunnes_cap2_r_arm2": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_r_arm2" },
-					{ "time": 1.3333, "name": "bunnes_cap2_r_arm2" },
-					{ "time": 2.6666, "name": "bunnes_cap2_r_arm2" }
-				]
-			},
-			"bunnes_cap2_r_leg": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_r_leg" },
-					{ "time": 1.3333, "name": "bunnes_cap2_r_leg" },
-					{ "time": 2.6666, "name": "bunnes_cap2_r_leg" }
-				]
-			},
-			"bunnes_cap2_tail": {
-				"attachment": [
-					{ "time": 0, "name": "bunnes_cap2_tail" },
-					{ "time": 1.3333, "name": "bunnes_cap2_tail" },
-					{ "time": 2.6666, "name": "bunnes_cap2_tail" }
-				]
-			},
-			"cape_acc": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.3333, "name": null },
-					{ "time": 2.6666, "name": null }
-				]
-			},
-			"neck_acc": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.3333, "name": null },
-					{ "time": 2.6666, "name": null }
-				]
-			},
-			"neck_back_acc": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 1.3333, "name": null },
-					{ "time": 2.6666, "name": null }
-				]
-			}
-		},
-		"bones": {
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_leg": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_leg": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.2, "angle": -1.5 },
-					{ "time": 0.6666, "angle": 3.4 },
-					{ "time": 1.3333, "angle": 2.06 },
-					{ "time": 2, "angle": -4.31 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.3333, "angle": -9.57, "curve": "stepped" },
-					{ "time": 1.3333, "angle": -9.57 },
-					{ "time": 2.1333, "angle": 17.37 },
-					{ "time": 2.4, "angle": 16.44 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.3333, "x": -0.87, "y": 1.06 },
-					{ "time": 1.3333, "x": -1.48, "y": 1.81 },
-					{ "time": 2.1333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_r_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.3333, "angle": 6.22 },
-					{ "time": 0.6666, "angle": 9.17, "curve": "stepped" },
-					{ "time": 1.6666, "angle": 9.17 },
-					{ "time": 2, "angle": -1.09 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 0.6666, "x": 0, "y": 0 },
-					{ "time": 1.3333, "x": -1.02, "y": 0.01 },
-					{ "time": 1.6666, "x": 0, "y": 0 },
-					{ "time": 2, "x": -1.44, "y": 0.01 },
-					{ "time": 2.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_l_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.3333, "angle": 2.52 },
-					{ "time": 0.7333, "angle": -2.55 },
-					{ "time": 1.3333, "angle": -4.97 },
-					{ "time": 1.8, "angle": 0.48 },
-					{ "time": 2.1333, "angle": 2.52 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.2333, "angle": 1.01 },
-					{ "time": 0.6666, "angle": -0.03 },
-					{ "time": 1.0666, "angle": -1.09 },
-					{ "time": 1.3333, "angle": 0 },
-					{ "time": 2, "angle": -0.03 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.6666, "x": 0.48, "y": -0.01 },
-					{ "time": 1.3333, "x": 0, "y": 0 },
-					{ "time": 2, "x": 0.48, "y": -0.01 },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"bunnes_cap2_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.6666, "x": -0.01, "y": 1.56 },
-					{ "time": 1.3333, "x": 0, "y": 0 },
-					{ "time": 2, "x": -0.01, "y": 1.56 },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 1.3333 },
-			{ "time": 2.6666 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "319a/RkYsOuUv+pMShLn0mnDp8g",
+        "spine": "3.0.09",
+        "width": 153.01,
+        "height": 168.01,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "bunnes_cap2_r_leg",
+            "parent": "root",
+            "length": 29.72,
+            "x": 16.63,
+            "y": -128.33,
+            "rotation": 85.76
+        },
+        {
+            "name": "bunnes_cap2_l_leg",
+            "parent": "root",
+            "length": 24.15,
+            "x": -16.85,
+            "y": -127.24,
+            "rotation": 88.69
+        },
+        {
+            "name": "bunnes_cap2_body",
+            "parent": "root",
+            "length": 45.56,
+            "x": -2.57,
+            "y": -113.51,
+            "rotation": 90.69
+        },
+        {
+            "name": "cape_acc",
+            "parent": "bunnes_cap2_body",
+            "length": 60.04,
+            "x": 40.23,
+            "y": 11.23,
+            "rotation": 142.51
+        },
+        {
+            "name": "bunnes_cap2_tail",
+            "parent": "bunnes_cap2_body",
+            "length": 37.07,
+            "x": 1.02,
+            "y": -6.05,
+            "rotation": -63.15
+        },
+        {
+            "name": "bunnes_cap2_r_arm1",
+            "parent": "bunnes_cap2_body",
+            "length": 22.45,
+            "x": 45.37,
+            "y": -15.09,
+            "rotation": -130.14
+        },
+        {
+            "name": "bunnes_cap2_r_arm2",
+            "parent": "bunnes_cap2_r_arm1",
+            "length": 18.83,
+            "x": 30.63,
+            "y": -2.43,
+            "rotation": 138.96
+        },
+        {
+            "name": "bunnes_cap2_l_arm1",
+            "parent": "bunnes_cap2_body",
+            "length": 21.81,
+            "x": 45.72,
+            "y": 14.12,
+            "rotation": 147.35
+        },
+        {
+            "name": "bunnes_cap2_l_arm2",
+            "parent": "bunnes_cap2_l_arm1",
+            "length": 21.73,
+            "x": 18.71,
+            "y": -0.89,
+            "rotation": 7.25
+        },
+        {
+            "name": "bunnes_cap2_head",
+            "parent": "bunnes_cap2_body",
+            "length": 72.69,
+            "x": 45.17,
+            "y": 1.09,
+            "rotation": -1.93
+        },
+        {
+            "name": "bunnes_cap2_eye",
+            "parent": "bunnes_cap2_head",
+            "x": 31.99,
+            "y": 18.86
+        }
+    ],
+    "slots": [
+        {
+            "name": "cape_acc",
+            "bone": "cape_acc"
+        },
+        {
+            "name": "bunnes_cap2_tail",
+            "bone": "bunnes_cap2_tail",
+            "attachment": "bunnes_cap2_tail"
+        },
+        {
+            "name": "bunnes_cap2_l_leg",
+            "bone": "bunnes_cap2_l_leg",
+            "attachment": "bunnes_cap2_l_leg"
+        },
+        {
+            "name": "bunnes_cap2_r_leg",
+            "bone": "bunnes_cap2_r_leg",
+            "attachment": "bunnes_cap2_r_leg"
+        },
+        {
+            "name": "bunnes_cap2_l_arm1",
+            "bone": "bunnes_cap2_l_arm1",
+            "attachment": "bunnes_cap2_l_arm1"
+        },
+        {
+            "name": "bunnes_cap2_l_arm2",
+            "bone": "bunnes_cap2_l_arm2",
+            "attachment": "bunnes_cap2_l_arm2"
+        },
+        {
+            "name": "neck_back_acc",
+            "bone": "bunnes_cap2_body"
+        },
+        {
+            "name": "bunnes_cap2_body",
+            "bone": "bunnes_cap2_body",
+            "attachment": "bunnes_cap2_body"
+        },
+        {
+            "name": "bunnes_cap2_r_arm1",
+            "bone": "bunnes_cap2_r_arm1",
+            "attachment": "bunnes_cap2_r_arm1"
+        },
+        {
+            "name": "bunnes_cap2_head",
+            "bone": "bunnes_cap2_head",
+            "attachment": "bunnes_cap2_head"
+        },
+        {
+            "name": "bunnes_cap2_eye",
+            "bone": "bunnes_cap2_eye"
+        },
+        {
+            "name": "bunnes_cap2_att",
+            "bone": "bunnes_cap2_body"
+        },
+        {
+            "name": "neck_acc",
+            "bone": "bunnes_cap2_body"
+        },
+        {
+            "name": "bunnes_cap2_r_arm2",
+            "bone": "bunnes_cap2_r_arm2",
+            "attachment": "bunnes_cap2_r_arm2"
+        }
+    ],
+    "skins": {
+        "default": {
+            "bunnes_cap2_att": {
+                "bunnes_cap2_att": {
+                    "x": 66.32,
+                    "y": -16.13,
+                    "rotation": -90.69,
+                    "width": 153,
+                    "height": 170
+                },
+                "bunnes_cap2_att_acc": {
+                    "x": 77.2,
+                    "y": 5.61,
+                    "rotation": -90.69,
+                    "width": 197,
+                    "height": 192
+                }
+            },
+            "bunnes_cap2_body": {
+                "bunnes_cap2_body": {
+                    "x": 24.99,
+                    "y": -2.13,
+                    "rotation": -90.69,
+                    "width": 55,
+                    "height": 55
+                }
+            },
+            "bunnes_cap2_eye": {
+                "bunnes_cap2_eye": {
+                    "x": 3.19,
+                    "y": -10.58,
+                    "rotation": -88.76,
+                    "width": 58,
+                    "height": 23
+                },
+                "eye_acc": {
+                    "x": 2.9,
+                    "y": -24.4,
+                    "rotation": -88.76,
+                    "width": 30,
+                    "height": 23
+                }
+            },
+            "bunnes_cap2_head": {
+                "bunnes_cap2_head": {
+                    "x": 51.43,
+                    "y": -26.38,
+                    "rotation": -88.76,
+                    "width": 153,
+                    "height": 107
+                },
+                "hat_acc": {
+                    "x": 63.11,
+                    "y": -5.37,
+                    "rotation": -88.76,
+                    "width": 194,
+                    "height": 132
+                }
+            },
+            "bunnes_cap2_l_arm1": {
+                "bunnes_cap2_l_arm1": {
+                    "x": 9.24,
+                    "y": 2.24,
+                    "rotation": 121.94,
+                    "width": 26,
+                    "height": 28
+                }
+            },
+            "bunnes_cap2_l_arm2": {
+                "bunnes_cap2_l_arm2": {
+                    "x": 10.07,
+                    "y": 5.92,
+                    "rotation": 114.68,
+                    "width": 27,
+                    "height": 30
+                }
+            },
+            "bunnes_cap2_l_leg": {
+                "bunnes_cap2_l_leg": {
+                    "x": 13.7,
+                    "y": 1.7,
+                    "rotation": -88.69,
+                    "width": 34,
+                    "height": 35
+                }
+            },
+            "bunnes_cap2_r_arm1": {
+                "bunnes_cap2_r_arm1": {
+                    "x": 12.09,
+                    "y": 1.48,
+                    "rotation": 39.41,
+                    "width": 33,
+                    "height": 31
+                }
+            },
+            "bunnes_cap2_r_arm2": {
+                "bunnes_cap2_r_arm2": {
+                    "x": 7.17,
+                    "y": 1.67,
+                    "rotation": -99.54,
+                    "width": 25,
+                    "height": 29
+                }
+            },
+            "bunnes_cap2_r_leg": {
+                "bunnes_cap2_r_leg": {
+                    "x": 15.06,
+                    "y": -2.51,
+                    "rotation": -85.77,
+                    "width": 35,
+                    "height": 37
+                }
+            },
+            "bunnes_cap2_tail": {
+                "bunnes_cap2_tail": {
+                    "x": 22.81,
+                    "y": -0.14,
+                    "rotation": -27.53,
+                    "width": 66,
+                    "height": 34
+                }
+            },
+            "cape_acc": {
+                "cape_acc": {
+                    "x": 23.61,
+                    "y": 5.82,
+                    "rotation": 126.78,
+                    "width": 66,
+                    "height": 57
+                }
+            },
+            "neck_acc": {
+                "neck_acc": {
+                    "x": 42.21,
+                    "y": -3,
+                    "rotation": -90.69,
+                    "width": 73,
+                    "height": 34
+                }
+            },
+            "neck_back_acc": {
+                "neck_back_acc": {
+                    "x": 46.75,
+                    "y": 16.75,
+                    "rotation": -90.69,
+                    "width": 32,
+                    "height": 24
+                }
+            }
+        }
+    },
+    "animations": {
+        "acc": {
+            "slots": {
+                "bunnes_cap2_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_body"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_body"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_body"
+                        }
+                    ]
+                },
+                "bunnes_cap2_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 1.4666,
+                            "name": "eye_acc"
+                        },
+                        {
+                            "time": 1.6,
+                            "name": null
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hat_acc"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "hat_acc"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "hat_acc"
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_l_arm1"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_l_arm1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_l_arm1"
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_l_arm2"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_l_arm2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_l_arm2"
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_leg": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_l_leg"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_l_leg"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_l_leg"
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_r_arm1"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_r_arm1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_r_arm1"
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_r_arm2"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_r_arm2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_r_arm2"
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_leg": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_r_leg"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_r_leg"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_r_leg"
+                        }
+                    ]
+                },
+                "bunnes_cap2_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_tail"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_tail"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_tail"
+                        }
+                    ]
+                },
+                "cape_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "cape_acc"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "cape_acc"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "cape_acc"
+                        }
+                    ]
+                },
+                "neck_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "neck_acc"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "neck_acc"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "neck_acc"
+                        }
+                    ]
+                },
+                "neck_back_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "neck_back_acc"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "neck_back_acc"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "neck_back_acc"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bunnes_cap2_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": -0.01,
+                            "y": 1.56
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 2,
+                            "x": -0.01,
+                            "y": 1.56
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 2.52
+                        },
+                        {
+                            "time": 0.7333,
+                            "angle": -2.55
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -4.97
+                        },
+                        {
+                            "time": 1.8,
+                            "angle": 0.48
+                        },
+                        {
+                            "time": 2.1333,
+                            "angle": 2.52
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 6.22
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": 9.17,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 9.17
+                        },
+                        {
+                            "time": 2,
+                            "angle": -1.09
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": -1.02,
+                            "y": 0.01
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 2,
+                            "x": -1.44,
+                            "y": 0.01
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.2333,
+                            "angle": 1.01
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": -0.03
+                        },
+                        {
+                            "time": 1.0666,
+                            "angle": -1.09
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 2,
+                            "angle": -0.03
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": 0.48,
+                            "y": -0.01
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.48,
+                            "y": -0.01
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.2,
+                            "angle": -1.5
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": 3.4
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 2.06
+                        },
+                        {
+                            "time": 2,
+                            "angle": -4.31
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "cape_acc": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_leg": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": -9.57,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -9.57
+                        },
+                        {
+                            "time": 2.1333,
+                            "angle": 17.37
+                        },
+                        {
+                            "time": 2.4,
+                            "angle": 16.44
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -0.87,
+                            "y": 1.06
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": -1.48,
+                            "y": 1.81
+                        },
+                        {
+                            "time": 2.1333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_leg": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 1.3333
+                },
+                {
+                    "time": 2.6666
+                }
+            ]
+        },
+        "acc_att": {
+            "slots": {
+                "bunnes_cap2_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_att_acc"
+                        }
+                    ]
+                },
+                "bunnes_cap2_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_leg": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_leg": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "cape_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "neck_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "neck_back_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_leg": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_leg": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "att": {
+            "slots": {
+                "bunnes_cap2_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_att"
+                        }
+                    ]
+                },
+                "bunnes_cap2_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_leg": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_leg": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "cape_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "neck_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "neck_back_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bunnes_cap2_l_leg": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_leg": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "wait": {
+            "slots": {
+                "bunnes_cap2_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_body"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_body"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_body"
+                        }
+                    ]
+                },
+                "bunnes_cap2_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 1.4666,
+                            "name": "bunnes_cap2_eye"
+                        },
+                        {
+                            "time": 1.6,
+                            "name": null
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "bunnes_cap2_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_head"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_head"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_head"
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_l_arm1"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_l_arm1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_l_arm1"
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_l_arm2"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_l_arm2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_l_arm2"
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_leg": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_l_leg"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_l_leg"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_l_leg"
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_r_arm1"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_r_arm1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_r_arm1"
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_r_arm2"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_r_arm2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_r_arm2"
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_leg": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_r_leg"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_r_leg"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_r_leg"
+                        }
+                    ]
+                },
+                "bunnes_cap2_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bunnes_cap2_tail"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "bunnes_cap2_tail"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "bunnes_cap2_tail"
+                        }
+                    ]
+                },
+                "cape_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "neck_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": null
+                        }
+                    ]
+                },
+                "neck_back_acc": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_leg": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_leg": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.2,
+                            "angle": -1.5
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": 3.4
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 2.06
+                        },
+                        {
+                            "time": 2,
+                            "angle": -4.31
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": -9.57,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -9.57
+                        },
+                        {
+                            "time": 2.1333,
+                            "angle": 17.37
+                        },
+                        {
+                            "time": 2.4,
+                            "angle": 16.44
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -0.87,
+                            "y": 1.06
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": -1.48,
+                            "y": 1.81
+                        },
+                        {
+                            "time": 2.1333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_r_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 6.22
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": 9.17,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 9.17
+                        },
+                        {
+                            "time": 2,
+                            "angle": -1.09
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": -1.02,
+                            "y": 0.01
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 2,
+                            "x": -1.44,
+                            "y": 0.01
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_l_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 2.52
+                        },
+                        {
+                            "time": 0.7333,
+                            "angle": -2.55
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -4.97
+                        },
+                        {
+                            "time": 1.8,
+                            "angle": 0.48
+                        },
+                        {
+                            "time": 2.1333,
+                            "angle": 2.52
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.2333,
+                            "angle": 1.01
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": -0.03
+                        },
+                        {
+                            "time": 1.0666,
+                            "angle": -1.09
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0
+                        },
+                        {
+                            "time": 2,
+                            "angle": -0.03
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": 0.48,
+                            "y": -0.01
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 2,
+                            "x": 0.48,
+                            "y": -0.01
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "bunnes_cap2_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": -0.01,
+                            "y": 1.56
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 2,
+                            "x": -0.01,
+                            "y": 1.56
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 1.3333
+                },
+                {
+                    "time": 2.6666
+                }
+            ]
+        }
+    }
 }

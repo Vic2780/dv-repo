@@ -1,1125 +1,3140 @@
 {
-"skeleton": { "hash": "ThQSvOQ9gNCEldyyy6q5XX5g2VU", "spine": "3.0.09", "width": 267.02, "height": 259.01, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "hedgebat_ev_r_leg2", "parent": "root", "length": 32.55, "x": 51.21, "y": -128.78, "rotation": 88.99 },
-	{ "name": "hedgebat_ev_l_leg2", "parent": "root", "length": 35.99, "x": -22.45, "y": -128.21, "rotation": 88.18 },
-	{ "name": "hedgebat_ev_body1", "parent": "root", "length": 69.38, "x": 6.09, "y": -95.66, "rotation": 84.8 },
-	{ "name": "hedgebat_ev_tail1", "parent": "hedgebat_ev_body1", "length": 104.76, "x": 1.29, "y": -1.6, "rotation": 85.78 },
-	{ "name": "hedgebat_ev_r_leg1", "parent": "hedgebat_ev_body1", "length": 57.66, "x": 43.73, "y": -26.98, "rotation": -166.79 },
-	{ "name": "hedgebat_ev_neck", "parent": "hedgebat_ev_body1", "length": 62.82, "x": 67.77, "y": -1.29, "rotation": -2.63 },
-	{ "name": "hedgebat_ev_r_wing1", "parent": "hedgebat_ev_neck", "length": 87.59, "x": 6.49, "y": -38.88, "rotation": -14.43 },
-	{ "name": "hedgebat_ev_r_wing2", "parent": "hedgebat_ev_r_wing1", "length": 131.25, "x": 93.63, "y": 1.89, "rotation": -148.47 },
-	{ "name": "hedgebat_ev_r_arm1", "parent": "hedgebat_ev_neck", "length": 42.39, "x": 35.27, "y": -17.63, "rotation": -167.51 },
-	{ "name": "hedgebat_ev_r_arm2", "parent": "hedgebat_ev_r_arm1", "length": 37.76, "x": 43.1, "y": 1.61, "rotation": 154.77 },
-	{ "name": "hedgebat_ev_r_hand", "parent": "hedgebat_ev_r_arm2", "length": 41.02, "x": 37.02, "y": 0.46, "rotation": -150.4 },
-	{ "name": "hedgebat_ev_l_wing1", "parent": "hedgebat_ev_neck", "length": 86.01, "x": -1.92, "y": 18.18, "rotation": 18.62 },
-	{ "name": "hedgebat_ev_l_wing2", "parent": "hedgebat_ev_l_wing1", "length": 115.23, "x": 91.3, "y": -2.88, "rotation": 149.24 },
-	{ "name": "hedgebat_ev_l_arm1", "parent": "hedgebat_ev_neck", "length": 32.32, "x": 16.8, "y": 16.14, "rotation": 129.99 },
-	{ "name": "hedgebat_ev_l_hand", "parent": "hedgebat_ev_l_arm1", "length": 41.68, "x": 14.36, "y": -34, "rotation": 98.94 },
-	{ "name": "hedgebat_ev_head", "parent": "hedgebat_ev_neck", "length": 53.57, "x": 75.02, "y": -0.64, "rotation": 156.17 },
-	{ "name": "hedgebat_ev_hair2", "parent": "hedgebat_ev_head", "length": 72.18, "x": -29.57, "y": -16.22, "rotation": 68.48 },
-	{ "name": "hedgebat_ev_hair1", "parent": "hedgebat_ev_head", "length": 74.06, "x": -2.24, "y": -0.71, "rotation": 48.59 },
-	{ "name": "hedgebat_ev_eye", "parent": "hedgebat_ev_head", "x": 41.63, "y": -1.16 },
-	{ "name": "hedgebat_ev_l_leg1", "parent": "hedgebat_ev_body1", "length": 56.94, "x": 44.51, "y": 27.55, "rotation": 163.97 },
-	{ "name": "hedgebat_ev_hair3", "parent": "hedgebat_ev_body1", "length": 73.18, "x": 57.85, "y": -30.86, "rotation": 164.58 }
-],
-"slots": [
-	{ "name": "hedgebat_ev_hair3", "bone": "hedgebat_ev_hair3", "attachment": "hedgebat_ev_hair3" },
-	{ "name": "hedgebat_ev_tail1", "bone": "hedgebat_ev_tail1", "attachment": "hedgebat_ev_tail1" },
-	{ "name": "hedgebat_ev_l_leg2", "bone": "hedgebat_ev_l_leg2", "attachment": "hedgebat_ev_l_leg2" },
-	{ "name": "hedgebat_ev_r_leg2", "bone": "hedgebat_ev_r_leg2", "attachment": "hedgebat_ev_r_leg2" },
-	{ "name": "hedgebat_ev_l_wing1", "bone": "hedgebat_ev_l_wing1", "attachment": "hedgebat_ev_l_wing1" },
-	{ "name": "hedgebat_ev_l_wing2", "bone": "hedgebat_ev_l_wing2", "attachment": "hedgebat_ev_l_wing2" },
-	{ "name": "hedgebat_ev_r_wing1", "bone": "hedgebat_ev_r_wing1", "attachment": "hedgebat_ev_r_wing1" },
-	{ "name": "hedgebat_ev_r_wing2", "bone": "hedgebat_ev_r_wing2", "attachment": "hedgebat_ev_r_wing2" },
-	{ "name": "hedgebat_ev_hair2", "bone": "hedgebat_ev_hair2", "attachment": "hedgebat_ev_hair2" },
-	{ "name": "hedgebat_ev_hair1", "bone": "hedgebat_ev_hair1", "attachment": "hedgebat_ev_hair1" },
-	{ "name": "hedgebat_ev_l_leg1", "bone": "hedgebat_ev_l_leg1", "attachment": "hedgebat_ev_l_leg1" },
-	{ "name": "hedgebat_ev_l_arm1", "bone": "hedgebat_ev_l_arm1", "attachment": "hedgebat_ev_l_arm1" },
-	{ "name": "hedgebat_ev_body1", "bone": "hedgebat_ev_body1", "attachment": "hedgebat_ev_body1" },
-	{ "name": "hedgebat_ev_r_leg1", "bone": "hedgebat_ev_r_leg1", "attachment": "hedgebat_ev_r_leg1" },
-	{ "name": "hedgebat_ev_neck", "bone": "hedgebat_ev_neck", "attachment": "hedgebat_ev_neck" },
-	{ "name": "hedgebat_ev_r_arm1", "bone": "hedgebat_ev_r_arm1", "attachment": "hedgebat_ev_r_arm1" },
-	{ "name": "hedgebat_ev_r_arm2", "bone": "hedgebat_ev_r_arm2", "attachment": "hedgebat_ev_r_arm2" },
-	{ "name": "hedgebat_ev_r_hand", "bone": "hedgebat_ev_r_hand", "attachment": "hedgebat_ev_r_hand" },
-	{ "name": "hedgebat_ev_head", "bone": "hedgebat_ev_head", "attachment": "hedgebat_ev_head" },
-	{ "name": "hedgebat_ev_eye", "bone": "hedgebat_ev_eye" },
-	{ "name": "hedgebat_ev_l_hand", "bone": "hedgebat_ev_l_hand", "attachment": "hedgebat_ev_l_hand" },
-	{ "name": "hedgebat_ev_att", "bone": "hedgebat_ev_body1" }
-],
-"skins": {
-	"default": {
-		"hedgebat_ev_att": {
-			"hedgebat_ev_att": { "x": 91.13, "y": 11.62, "rotation": -84.8, "width": 274, "height": 263 }
-		},
-		"hedgebat_ev_body1": {
-			"hedgebat_ev_body1": { "x": 41.79, "y": 2.11, "rotation": -84.8, "width": 66, "height": 93 }
-		},
-		"hedgebat_ev_eye": {
-			"hedgebat_ev_eye": { "x": -0.84, "y": 0.35, "rotation": 121.65, "width": 11, "height": 12 }
-		},
-		"hedgebat_ev_hair1": {
-			"hedgebat_ev_hair1": { "x": 45.45, "y": 4.79, "rotation": 73.05, "width": 76, "height": 149 }
-		},
-		"hedgebat_ev_hair2": {
-			"hedgebat_ev_hair2": { "x": 58.11, "y": -5.79, "rotation": 53.17, "width": 75, "height": 136 }
-		},
-		"hedgebat_ev_hair3": {
-			"hedgebat_ev_hair3": { "x": 36.85, "y": -1.41, "rotation": 110.61, "width": 44, "height": 91 }
-		},
-		"hedgebat_ev_head": {
-			"hedgebat_ev_head": { "x": -7.64, "y": -8.93, "rotation": 121.65, "width": 114, "height": 129 }
-		},
-		"hedgebat_ev_l_arm1": {
-			"hedgebat_ev_l_arm1": { "x": 15.55, "y": -6.34, "rotation": 147.82, "width": 39, "height": 58 }
-		},
-		"hedgebat_ev_l_hand": {
-			"hedgebat_ev_l_hand": { "x": 26.18, "y": -1.99, "rotation": 48.86, "width": 37, "height": 52 }
-		},
-		"hedgebat_ev_l_leg1": {
-			"hedgebat_ev_l_leg1": { "x": 27.65, "y": 0.64, "rotation": 111.22, "width": 41, "height": 63 }
-		},
-		"hedgebat_ev_l_leg2": {
-			"hedgebat_ev_l_leg2": { "x": 18.8, "y": 2.36, "rotation": -88.18, "width": 34, "height": 44 }
-		},
-		"hedgebat_ev_l_wing1": {
-			"hedgebat_ev_l_wing1": { "x": 42.27, "y": 16.85, "rotation": -100.79, "width": 52, "height": 118 }
-		},
-		"hedgebat_ev_l_wing2": {
-			"hedgebat_ev_l_wing2": { "x": 71.49, "y": 3.4, "rotation": 109.95, "width": 58, "height": 155 }
-		},
-		"hedgebat_ev_neck": {
-			"hedgebat_ev_neck": { "x": 31.7, "y": -3.47, "rotation": -82.17, "width": 63, "height": 82 }
-		},
-		"hedgebat_ev_r_arm1": {
-			"hedgebat_ev_r_arm1": { "x": 17.62, "y": 5.55, "rotation": 85.3, "width": 30, "height": 57 }
-		},
-		"hedgebat_ev_r_arm2": {
-			"hedgebat_ev_r_arm2": { "x": 16.23, "y": 1.44, "rotation": -69.45, "width": 31, "height": 47 }
-		},
-		"hedgebat_ev_r_hand": {
-			"hedgebat_ev_r_hand": { "x": 22.99, "y": 3.69, "rotation": 80.91, "width": 24, "height": 53 }
-		},
-		"hedgebat_ev_r_leg1": {
-			"hedgebat_ev_r_leg1": { "x": 28.7, "y": -2.69, "rotation": 81.97, "width": 43, "height": 64 }
-		},
-		"hedgebat_ev_r_leg2": {
-			"hedgebat_ev_r_leg2": { "x": 15.89, "y": 2.71, "rotation": -89, "width": 36, "height": 45 }
-		},
-		"hedgebat_ev_r_wing1": {
-			"hedgebat_ev_r_wing1": { "x": 33.49, "y": -16.39, "rotation": -67.75, "width": 58, "height": 152 }
-		},
-		"hedgebat_ev_r_wing2": {
-			"hedgebat_ev_r_wing2": { "x": 85.76, "y": 0.31, "rotation": 80.7, "width": 52, "height": 202 }
-		},
-		"hedgebat_ev_tail1": {
-			"hedgebat_ev_tail1": { "x": 63.6, "y": 4.78, "rotation": -170.59, "width": 169, "height": 97 }
-		}
-	}
-},
-"animations": {
-	"att": {
-		"slots": {
-			"hedgebat_ev_att": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_att" }
-				]
-			},
-			"hedgebat_ev_body1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_eye": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_hair1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_hair2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_hair3": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_head": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_l_arm1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_l_hand": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_l_wing1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_l_wing2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_neck": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_r_arm1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_r_arm2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_r_hand": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_r_wing1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_r_wing2": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			},
-			"hedgebat_ev_tail1": {
-				"attachment": [
-					{ "time": 0, "name": null }
-				]
-			}
-		},
-		"bones": {
-			"hedgebat_ev_l_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_hair2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_body1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_hair1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_hair3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_neck": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_tail1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"wait": {
-		"slots": {
-			"hedgebat_ev_att": {
-				"attachment": [
-					{ "time": 0, "name": null },
-					{ "time": 2, "name": null },
-					{ "time": 4, "name": null }
-				]
-			},
-			"hedgebat_ev_body1": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_body1" },
-					{ "time": 2, "name": "hedgebat_ev_body1" },
-					{ "time": 4, "name": "hedgebat_ev_body1" }
-				]
-			},
-			"hedgebat_ev_eye": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_eye" },
-					{ "time": 0.2333, "name": null },
-					{ "time": 2, "name": null },
-					{ "time": 2.1666, "name": "hedgebat_ev_eye" },
-					{ "time": 3.3333, "name": null },
-					{ "time": 4, "name": "hedgebat_ev_eye" }
-				]
-			},
-			"hedgebat_ev_hair1": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_hair1" },
-					{ "time": 2, "name": "hedgebat_ev_hair1" },
-					{ "time": 4, "name": "hedgebat_ev_hair1" }
-				]
-			},
-			"hedgebat_ev_hair2": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_hair2" },
-					{ "time": 2, "name": "hedgebat_ev_hair2" },
-					{ "time": 4, "name": "hedgebat_ev_hair2" }
-				]
-			},
-			"hedgebat_ev_hair3": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_hair3" },
-					{ "time": 2, "name": "hedgebat_ev_hair3" },
-					{ "time": 4, "name": "hedgebat_ev_hair3" }
-				]
-			},
-			"hedgebat_ev_head": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_head" },
-					{ "time": 2, "name": "hedgebat_ev_head" },
-					{ "time": 4, "name": "hedgebat_ev_head" }
-				]
-			},
-			"hedgebat_ev_l_arm1": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_l_arm1" },
-					{ "time": 2, "name": "hedgebat_ev_l_arm1" },
-					{ "time": 4, "name": "hedgebat_ev_l_arm1" }
-				]
-			},
-			"hedgebat_ev_l_hand": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_l_hand" },
-					{ "time": 2, "name": "hedgebat_ev_l_hand" },
-					{ "time": 4, "name": "hedgebat_ev_l_hand" }
-				]
-			},
-			"hedgebat_ev_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_l_leg1" },
-					{ "time": 2, "name": "hedgebat_ev_l_leg1" },
-					{ "time": 4, "name": "hedgebat_ev_l_leg1" }
-				]
-			},
-			"hedgebat_ev_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_l_leg2" },
-					{ "time": 2, "name": "hedgebat_ev_l_leg2" },
-					{ "time": 4, "name": "hedgebat_ev_l_leg2" }
-				]
-			},
-			"hedgebat_ev_l_wing1": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_l_wing1" },
-					{ "time": 2, "name": "hedgebat_ev_l_wing1" },
-					{ "time": 4, "name": "hedgebat_ev_l_wing1" }
-				]
-			},
-			"hedgebat_ev_l_wing2": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_l_wing2" },
-					{ "time": 2, "name": "hedgebat_ev_l_wing2" },
-					{ "time": 4, "name": "hedgebat_ev_l_wing2" }
-				]
-			},
-			"hedgebat_ev_neck": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_neck" },
-					{ "time": 2, "name": "hedgebat_ev_neck" },
-					{ "time": 4, "name": "hedgebat_ev_neck" }
-				]
-			},
-			"hedgebat_ev_r_arm1": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_r_arm1" },
-					{ "time": 2, "name": "hedgebat_ev_r_arm1" },
-					{ "time": 4, "name": "hedgebat_ev_r_arm1" }
-				]
-			},
-			"hedgebat_ev_r_arm2": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_r_arm2" },
-					{ "time": 2, "name": "hedgebat_ev_r_arm2" },
-					{ "time": 4, "name": "hedgebat_ev_r_arm2" }
-				]
-			},
-			"hedgebat_ev_r_hand": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_r_hand" },
-					{ "time": 2, "name": "hedgebat_ev_r_hand" },
-					{ "time": 4, "name": "hedgebat_ev_r_hand" }
-				]
-			},
-			"hedgebat_ev_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_r_leg1" },
-					{ "time": 2, "name": "hedgebat_ev_r_leg1" },
-					{ "time": 4, "name": "hedgebat_ev_r_leg1" }
-				]
-			},
-			"hedgebat_ev_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_r_leg2" },
-					{ "time": 2, "name": "hedgebat_ev_r_leg2" },
-					{ "time": 4, "name": "hedgebat_ev_r_leg2" }
-				]
-			},
-			"hedgebat_ev_r_wing1": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_r_wing1" },
-					{ "time": 2, "name": "hedgebat_ev_r_wing1" },
-					{ "time": 4, "name": "hedgebat_ev_r_wing1" }
-				]
-			},
-			"hedgebat_ev_r_wing2": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_r_wing2" },
-					{ "time": 2, "name": "hedgebat_ev_r_wing2" },
-					{ "time": 4, "name": "hedgebat_ev_r_wing2" }
-				]
-			},
-			"hedgebat_ev_tail1": {
-				"attachment": [
-					{ "time": 0, "name": "hedgebat_ev_tail1" },
-					{ "time": 2, "name": "hedgebat_ev_tail1" },
-					{ "time": 4, "name": "hedgebat_ev_tail1" }
-				]
-			}
-		},
-		"bones": {
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_tail1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.1333, "angle": 1.82, "curve": "stepped" },
-					{ "time": 1.7, "angle": 1.82 },
-					{ "time": 2, "angle": 0 },
-					{ "time": 2.3333, "angle": -2.87 },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.1333, "x": 0.69, "y": -0.02, "curve": "stepped" },
-					{ "time": 1.7, "x": 0.69, "y": -0.02 },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.1333, "x": 1, "y": 0.988, "curve": "stepped" },
-					{ "time": 1.7, "x": 1, "y": 0.988 },
-					{ "time": 2, "x": 1, "y": 1 },
-					{ "time": 2.3333, "x": 1, "y": 1.041 },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.6666, "angle": 1.68 },
-					{ "time": 1.6666, "angle": -1.49 },
-					{ "time": 2, "angle": 0 },
-					{ "time": 3, "angle": 2.03 },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.6666, "angle": 4.03, "curve": "stepped" },
-					{ "time": 1.6666, "angle": 4.03 },
-					{ "time": 2, "angle": 0 },
-					{ "time": 3, "angle": 6.13 },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.4, "angle": 8.82 },
-					{ "time": 1.5333, "angle": 10 },
-					{ "time": 2, "angle": 0 },
-					{ "time": 2.3, "angle": 5.74 },
-					{ "time": 2.8, "angle": 1.01 },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_arm2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.4, "angle": -8.27 },
-					{ "time": 1.5333, "angle": -10.91 },
-					{ "time": 2, "angle": 0 },
-					{
-						"time": 2.2333,
-						"angle": 5.53,
-						"curve": [ 0.108, 1, 0.75, 1 ]
-					},
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.4, "x": 1.15, "y": -0.73 },
-					{ "time": 1.5333, "x": 1.76, "y": -0.81 },
-					{ "time": 2, "x": 0, "y": 0 },
-					{
-						"time": 2.2333,
-						"x": -2.35,
-						"y": 0.23,
-						"curve": [ 0.108, 1, 0.75, 1 ]
-					},
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_r_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.4, "angle": 1.66, "curve": "stepped" },
-					{ "time": 1.5333, "angle": 1.66 },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.4, "x": -1.82, "y": -0.24, "curve": "stepped" },
-					{ "time": 1.5333, "x": -1.82, "y": -0.24 },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_wing2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.6666, "angle": -2.45 },
-					{ "time": 1.6666, "angle": 1.02 },
-					{ "time": 2, "angle": 0 },
-					{ "time": 3, "angle": -2.28 },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_wing1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.6666, "angle": -4.25, "curve": "stepped" },
-					{ "time": 1.6666, "angle": -4.25 },
-					{ "time": 2, "angle": 0 },
-					{ "time": 3, "angle": -4.01 },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.6666, "x": 7.08, "y": -2.2, "curve": "stepped" },
-					{ "time": 1.6666, "x": 7.08, "y": -2.2 },
-					{ "time": 2, "x": 0, "y": 0 },
-					{ "time": 3, "x": 2, "y": -1.55 },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_hand": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.2, "angle": 11.29 },
-					{ "time": 0.4666, "angle": 7.46 },
-					{ "time": 0.6666, "angle": 11.29 },
-					{ "time": 0.9, "angle": 7.46 },
-					{ "time": 1.1, "angle": 11.29 },
-					{
-						"time": 1.3333,
-						"angle": 7.46,
-						"curve": [ 0.132, 0.84, 0.75, 1 ]
-					},
-					{ "time": 2, "angle": 0 },
-					{ "time": 2.3333, "angle": -1.68 },
-					{ "time": 2.6666, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_arm1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.2333, "angle": -6.05, "curve": "stepped" },
-					{ "time": 1.3333, "angle": -6.05 },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.2333, "x": 0.53, "y": -3.43 },
-					{ "time": 0.4666, "x": 0.68, "y": 0.79 },
-					{ "time": 0.6666, "x": 0.53, "y": -3.43 },
-					{ "time": 0.9, "x": 0.68, "y": 0.79 },
-					{ "time": 1.1, "x": 0.53, "y": -3.43 },
-					{ "time": 1.3333, "x": 0.68, "y": 0.79 },
-					{ "time": 2, "x": 0, "y": 0 },
-					{ "time": 2.1666, "x": -1.35, "y": -0.16 },
-					{ "time": 2.5, "x": -1.04, "y": -1.52 },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_hair2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.4, "angle": 3.59, "curve": "stepped" },
-					{ "time": 1.6, "angle": 3.59 },
-					{ "time": 2, "angle": 0 },
-					{ "time": 3, "angle": 2.65 },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.4, "x": -1.94, "y": -4.55, "curve": "stepped" },
-					{ "time": 1.6, "x": -1.94, "y": -4.55 },
-					{ "time": 2, "x": 0, "y": 0 },
-					{ "time": 3, "x": -0.39, "y": -3.78 },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_hair1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.2333, "angle": 2.66, "curve": "stepped" },
-					{ "time": 1.6, "angle": 2.66 },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.2333, "x": -3.97, "y": 0.74, "curve": "stepped" },
-					{ "time": 1.6, "x": -3.97, "y": 0.74 },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_neck": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.2, "angle": -1.19 },
-					{ "time": 0.6333, "angle": 1.2, "curve": "stepped" },
-					{ "time": 1.6666, "angle": 1.2, "curve": "stepped" },
-					{ "time": 2, "angle": 1.2 },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.2, "x": 0.07, "y": -0.84 },
-					{ "time": 0.6333, "x": -1.71, "y": 0.04 },
-					{ "time": 1.6666, "x": -3.83, "y": -0.14 },
-					{ "time": 2, "x": -1.71, "y": 0.04 },
-					{ "time": 2.6666, "x": -1.14, "y": 0.03 },
-					{ "time": 3.3333, "x": -2.69, "y": -0.17 },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_hair3": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.3333, "angle": -2.53, "curve": "stepped" },
-					{ "time": 1.6666, "angle": -2.53 },
-					{ "time": 2, "angle": 0 },
-					{ "time": 3, "angle": -1.2 },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.3333, "x": -2.34, "y": -0.2, "curve": "stepped" },
-					{ "time": 1.6666, "x": -2.34, "y": -0.2 },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			},
-			"hedgebat_ev_body1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2, "angle": 0, "curve": "stepped" },
-					{ "time": 4, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 4, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 0.3333, "x": 0.971, "y": 1, "curve": "stepped" },
-					{ "time": 1.6666, "x": 0.971, "y": 1 },
-					{ "time": 2, "x": 1, "y": 1 },
-					{ "time": 2.1333, "x": 1.017, "y": 1 },
-					{
-						"time": 2.5,
-						"x": 0.992,
-						"y": 1,
-						"curve": [ 0.1, 0.75, 0.75, 1 ]
-					},
-					{ "time": 4, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 4 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "ThQSvOQ9gNCEldyyy6q5XX5g2VU",
+        "spine": "3.0.09",
+        "width": 267.02,
+        "height": 259.01,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "hedgebat_ev_r_leg2",
+            "parent": "root",
+            "length": 32.55,
+            "x": 51.21,
+            "y": -128.78,
+            "rotation": 88.99
+        },
+        {
+            "name": "hedgebat_ev_l_leg2",
+            "parent": "root",
+            "length": 35.99,
+            "x": -22.45,
+            "y": -128.21,
+            "rotation": 88.18
+        },
+        {
+            "name": "hedgebat_ev_body1",
+            "parent": "root",
+            "length": 69.38,
+            "x": 6.09,
+            "y": -95.66,
+            "rotation": 84.8
+        },
+        {
+            "name": "hedgebat_ev_tail1",
+            "parent": "hedgebat_ev_body1",
+            "length": 104.76,
+            "x": 1.29,
+            "y": -1.6,
+            "rotation": 85.78
+        },
+        {
+            "name": "hedgebat_ev_r_leg1",
+            "parent": "hedgebat_ev_body1",
+            "length": 57.66,
+            "x": 43.73,
+            "y": -26.98,
+            "rotation": -166.79
+        },
+        {
+            "name": "hedgebat_ev_neck",
+            "parent": "hedgebat_ev_body1",
+            "length": 62.82,
+            "x": 67.77,
+            "y": -1.29,
+            "rotation": -2.63
+        },
+        {
+            "name": "hedgebat_ev_r_wing1",
+            "parent": "hedgebat_ev_neck",
+            "length": 87.59,
+            "x": 6.49,
+            "y": -38.88,
+            "rotation": -14.43
+        },
+        {
+            "name": "hedgebat_ev_r_wing2",
+            "parent": "hedgebat_ev_r_wing1",
+            "length": 131.25,
+            "x": 93.63,
+            "y": 1.89,
+            "rotation": -148.47
+        },
+        {
+            "name": "hedgebat_ev_r_arm1",
+            "parent": "hedgebat_ev_neck",
+            "length": 42.39,
+            "x": 35.27,
+            "y": -17.63,
+            "rotation": -167.51
+        },
+        {
+            "name": "hedgebat_ev_r_arm2",
+            "parent": "hedgebat_ev_r_arm1",
+            "length": 37.76,
+            "x": 43.1,
+            "y": 1.61,
+            "rotation": 154.77
+        },
+        {
+            "name": "hedgebat_ev_r_hand",
+            "parent": "hedgebat_ev_r_arm2",
+            "length": 41.02,
+            "x": 37.02,
+            "y": 0.46,
+            "rotation": -150.4
+        },
+        {
+            "name": "hedgebat_ev_l_wing1",
+            "parent": "hedgebat_ev_neck",
+            "length": 86.01,
+            "x": -1.92,
+            "y": 18.18,
+            "rotation": 18.62
+        },
+        {
+            "name": "hedgebat_ev_l_wing2",
+            "parent": "hedgebat_ev_l_wing1",
+            "length": 115.23,
+            "x": 91.3,
+            "y": -2.88,
+            "rotation": 149.24
+        },
+        {
+            "name": "hedgebat_ev_l_arm1",
+            "parent": "hedgebat_ev_neck",
+            "length": 32.32,
+            "x": 16.8,
+            "y": 16.14,
+            "rotation": 129.99
+        },
+        {
+            "name": "hedgebat_ev_l_hand",
+            "parent": "hedgebat_ev_l_arm1",
+            "length": 41.68,
+            "x": 14.36,
+            "y": -34,
+            "rotation": 98.94
+        },
+        {
+            "name": "hedgebat_ev_head",
+            "parent": "hedgebat_ev_neck",
+            "length": 53.57,
+            "x": 75.02,
+            "y": -0.64,
+            "rotation": 156.17
+        },
+        {
+            "name": "hedgebat_ev_hair2",
+            "parent": "hedgebat_ev_head",
+            "length": 72.18,
+            "x": -29.57,
+            "y": -16.22,
+            "rotation": 68.48
+        },
+        {
+            "name": "hedgebat_ev_hair1",
+            "parent": "hedgebat_ev_head",
+            "length": 74.06,
+            "x": -2.24,
+            "y": -0.71,
+            "rotation": 48.59
+        },
+        {
+            "name": "hedgebat_ev_eye",
+            "parent": "hedgebat_ev_head",
+            "x": 41.63,
+            "y": -1.16
+        },
+        {
+            "name": "hedgebat_ev_l_leg1",
+            "parent": "hedgebat_ev_body1",
+            "length": 56.94,
+            "x": 44.51,
+            "y": 27.55,
+            "rotation": 163.97
+        },
+        {
+            "name": "hedgebat_ev_hair3",
+            "parent": "hedgebat_ev_body1",
+            "length": 73.18,
+            "x": 57.85,
+            "y": -30.86,
+            "rotation": 164.58
+        }
+    ],
+    "slots": [
+        {
+            "name": "hedgebat_ev_hair3",
+            "bone": "hedgebat_ev_hair3",
+            "attachment": "hedgebat_ev_hair3"
+        },
+        {
+            "name": "hedgebat_ev_tail1",
+            "bone": "hedgebat_ev_tail1",
+            "attachment": "hedgebat_ev_tail1"
+        },
+        {
+            "name": "hedgebat_ev_l_leg2",
+            "bone": "hedgebat_ev_l_leg2",
+            "attachment": "hedgebat_ev_l_leg2"
+        },
+        {
+            "name": "hedgebat_ev_r_leg2",
+            "bone": "hedgebat_ev_r_leg2",
+            "attachment": "hedgebat_ev_r_leg2"
+        },
+        {
+            "name": "hedgebat_ev_l_wing1",
+            "bone": "hedgebat_ev_l_wing1",
+            "attachment": "hedgebat_ev_l_wing1"
+        },
+        {
+            "name": "hedgebat_ev_l_wing2",
+            "bone": "hedgebat_ev_l_wing2",
+            "attachment": "hedgebat_ev_l_wing2"
+        },
+        {
+            "name": "hedgebat_ev_r_wing1",
+            "bone": "hedgebat_ev_r_wing1",
+            "attachment": "hedgebat_ev_r_wing1"
+        },
+        {
+            "name": "hedgebat_ev_r_wing2",
+            "bone": "hedgebat_ev_r_wing2",
+            "attachment": "hedgebat_ev_r_wing2"
+        },
+        {
+            "name": "hedgebat_ev_hair2",
+            "bone": "hedgebat_ev_hair2",
+            "attachment": "hedgebat_ev_hair2"
+        },
+        {
+            "name": "hedgebat_ev_hair1",
+            "bone": "hedgebat_ev_hair1",
+            "attachment": "hedgebat_ev_hair1"
+        },
+        {
+            "name": "hedgebat_ev_l_leg1",
+            "bone": "hedgebat_ev_l_leg1",
+            "attachment": "hedgebat_ev_l_leg1"
+        },
+        {
+            "name": "hedgebat_ev_l_arm1",
+            "bone": "hedgebat_ev_l_arm1",
+            "attachment": "hedgebat_ev_l_arm1"
+        },
+        {
+            "name": "hedgebat_ev_body1",
+            "bone": "hedgebat_ev_body1",
+            "attachment": "hedgebat_ev_body1"
+        },
+        {
+            "name": "hedgebat_ev_r_leg1",
+            "bone": "hedgebat_ev_r_leg1",
+            "attachment": "hedgebat_ev_r_leg1"
+        },
+        {
+            "name": "hedgebat_ev_neck",
+            "bone": "hedgebat_ev_neck",
+            "attachment": "hedgebat_ev_neck"
+        },
+        {
+            "name": "hedgebat_ev_r_arm1",
+            "bone": "hedgebat_ev_r_arm1",
+            "attachment": "hedgebat_ev_r_arm1"
+        },
+        {
+            "name": "hedgebat_ev_r_arm2",
+            "bone": "hedgebat_ev_r_arm2",
+            "attachment": "hedgebat_ev_r_arm2"
+        },
+        {
+            "name": "hedgebat_ev_r_hand",
+            "bone": "hedgebat_ev_r_hand",
+            "attachment": "hedgebat_ev_r_hand"
+        },
+        {
+            "name": "hedgebat_ev_head",
+            "bone": "hedgebat_ev_head",
+            "attachment": "hedgebat_ev_head"
+        },
+        {
+            "name": "hedgebat_ev_eye",
+            "bone": "hedgebat_ev_eye"
+        },
+        {
+            "name": "hedgebat_ev_l_hand",
+            "bone": "hedgebat_ev_l_hand",
+            "attachment": "hedgebat_ev_l_hand"
+        },
+        {
+            "name": "hedgebat_ev_att",
+            "bone": "hedgebat_ev_body1"
+        }
+    ],
+    "skins": {
+        "default": {
+            "hedgebat_ev_att": {
+                "hedgebat_ev_att": {
+                    "x": 91.13,
+                    "y": 11.62,
+                    "rotation": -84.8,
+                    "width": 274,
+                    "height": 263
+                }
+            },
+            "hedgebat_ev_body1": {
+                "hedgebat_ev_body1": {
+                    "x": 41.79,
+                    "y": 2.11,
+                    "rotation": -84.8,
+                    "width": 66,
+                    "height": 93
+                }
+            },
+            "hedgebat_ev_eye": {
+                "hedgebat_ev_eye": {
+                    "x": -0.84,
+                    "y": 0.35,
+                    "rotation": 121.65,
+                    "width": 11,
+                    "height": 12
+                }
+            },
+            "hedgebat_ev_hair1": {
+                "hedgebat_ev_hair1": {
+                    "x": 45.45,
+                    "y": 4.79,
+                    "rotation": 73.05,
+                    "width": 76,
+                    "height": 149
+                }
+            },
+            "hedgebat_ev_hair2": {
+                "hedgebat_ev_hair2": {
+                    "x": 58.11,
+                    "y": -5.79,
+                    "rotation": 53.17,
+                    "width": 75,
+                    "height": 136
+                }
+            },
+            "hedgebat_ev_hair3": {
+                "hedgebat_ev_hair3": {
+                    "x": 36.85,
+                    "y": -1.41,
+                    "rotation": 110.61,
+                    "width": 44,
+                    "height": 91
+                }
+            },
+            "hedgebat_ev_head": {
+                "hedgebat_ev_head": {
+                    "x": -7.64,
+                    "y": -8.93,
+                    "rotation": 121.65,
+                    "width": 114,
+                    "height": 129
+                }
+            },
+            "hedgebat_ev_l_arm1": {
+                "hedgebat_ev_l_arm1": {
+                    "x": 15.55,
+                    "y": -6.34,
+                    "rotation": 147.82,
+                    "width": 39,
+                    "height": 58
+                }
+            },
+            "hedgebat_ev_l_hand": {
+                "hedgebat_ev_l_hand": {
+                    "x": 26.18,
+                    "y": -1.99,
+                    "rotation": 48.86,
+                    "width": 37,
+                    "height": 52
+                }
+            },
+            "hedgebat_ev_l_leg1": {
+                "hedgebat_ev_l_leg1": {
+                    "x": 27.65,
+                    "y": 0.64,
+                    "rotation": 111.22,
+                    "width": 41,
+                    "height": 63
+                }
+            },
+            "hedgebat_ev_l_leg2": {
+                "hedgebat_ev_l_leg2": {
+                    "x": 18.8,
+                    "y": 2.36,
+                    "rotation": -88.18,
+                    "width": 34,
+                    "height": 44
+                }
+            },
+            "hedgebat_ev_l_wing1": {
+                "hedgebat_ev_l_wing1": {
+                    "x": 42.27,
+                    "y": 16.85,
+                    "rotation": -100.79,
+                    "width": 52,
+                    "height": 118
+                }
+            },
+            "hedgebat_ev_l_wing2": {
+                "hedgebat_ev_l_wing2": {
+                    "x": 71.49,
+                    "y": 3.4,
+                    "rotation": 109.95,
+                    "width": 58,
+                    "height": 155
+                }
+            },
+            "hedgebat_ev_neck": {
+                "hedgebat_ev_neck": {
+                    "x": 31.7,
+                    "y": -3.47,
+                    "rotation": -82.17,
+                    "width": 63,
+                    "height": 82
+                }
+            },
+            "hedgebat_ev_r_arm1": {
+                "hedgebat_ev_r_arm1": {
+                    "x": 17.62,
+                    "y": 5.55,
+                    "rotation": 85.3,
+                    "width": 30,
+                    "height": 57
+                }
+            },
+            "hedgebat_ev_r_arm2": {
+                "hedgebat_ev_r_arm2": {
+                    "x": 16.23,
+                    "y": 1.44,
+                    "rotation": -69.45,
+                    "width": 31,
+                    "height": 47
+                }
+            },
+            "hedgebat_ev_r_hand": {
+                "hedgebat_ev_r_hand": {
+                    "x": 22.99,
+                    "y": 3.69,
+                    "rotation": 80.91,
+                    "width": 24,
+                    "height": 53
+                }
+            },
+            "hedgebat_ev_r_leg1": {
+                "hedgebat_ev_r_leg1": {
+                    "x": 28.7,
+                    "y": -2.69,
+                    "rotation": 81.97,
+                    "width": 43,
+                    "height": 64
+                }
+            },
+            "hedgebat_ev_r_leg2": {
+                "hedgebat_ev_r_leg2": {
+                    "x": 15.89,
+                    "y": 2.71,
+                    "rotation": -89,
+                    "width": 36,
+                    "height": 45
+                }
+            },
+            "hedgebat_ev_r_wing1": {
+                "hedgebat_ev_r_wing1": {
+                    "x": 33.49,
+                    "y": -16.39,
+                    "rotation": -67.75,
+                    "width": 58,
+                    "height": 152
+                }
+            },
+            "hedgebat_ev_r_wing2": {
+                "hedgebat_ev_r_wing2": {
+                    "x": 85.76,
+                    "y": 0.31,
+                    "rotation": 80.7,
+                    "width": 52,
+                    "height": 202
+                }
+            },
+            "hedgebat_ev_tail1": {
+                "hedgebat_ev_tail1": {
+                    "x": 63.6,
+                    "y": 4.78,
+                    "rotation": -170.59,
+                    "width": 169,
+                    "height": 97
+                }
+            }
+        }
+    },
+    "animations": {
+        "att": {
+            "slots": {
+                "hedgebat_ev_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_att"
+                        }
+                    ]
+                },
+                "hedgebat_ev_body1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_neck": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_tail1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "hedgebat_ev_l_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_body1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_neck": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_tail1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "wait": {
+            "slots": {
+                "hedgebat_ev_att": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 2,
+                            "name": null
+                        },
+                        {
+                            "time": 4,
+                            "name": null
+                        }
+                    ]
+                },
+                "hedgebat_ev_body1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_body1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_body1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_body1"
+                        }
+                    ]
+                },
+                "hedgebat_ev_eye": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_eye"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": null
+                        },
+                        {
+                            "time": 2,
+                            "name": null
+                        },
+                        {
+                            "time": 2.1666,
+                            "name": "hedgebat_ev_eye"
+                        },
+                        {
+                            "time": 3.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_eye"
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_hair1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_hair1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_hair1"
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_hair2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_hair2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_hair2"
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_hair3"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_hair3"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_hair3"
+                        }
+                    ]
+                },
+                "hedgebat_ev_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_head"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_head"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_head"
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_l_arm1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_l_arm1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_l_arm1"
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_l_hand"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_l_hand"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_l_hand"
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_l_leg1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_l_leg1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_l_leg1"
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_l_leg2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_l_leg2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_l_leg2"
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_l_wing1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_l_wing1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_l_wing1"
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_l_wing2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_l_wing2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_l_wing2"
+                        }
+                    ]
+                },
+                "hedgebat_ev_neck": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_neck"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_neck"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_neck"
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_arm1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_r_arm1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_r_arm1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_r_arm1"
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_arm2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_r_arm2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_r_arm2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_r_arm2"
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_hand": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_r_hand"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_r_hand"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_r_hand"
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_r_leg1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_r_leg1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_r_leg1"
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_r_leg2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_r_leg2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_r_leg2"
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_wing1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_r_wing1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_r_wing1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_r_wing1"
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_wing2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_r_wing2"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_r_wing2"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_r_wing2"
+                        }
+                    ]
+                },
+                "hedgebat_ev_tail1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "hedgebat_ev_tail1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "hedgebat_ev_tail1"
+                        },
+                        {
+                            "time": 4,
+                            "name": "hedgebat_ev_tail1"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_tail1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.1333,
+                            "angle": 1.82,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7,
+                            "angle": 1.82
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": -2.87
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.69,
+                            "y": -0.02,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7,
+                            "x": 0.69,
+                            "y": -0.02
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 1,
+                            "y": 0.988,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7,
+                            "x": 1,
+                            "y": 0.988
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.3333,
+                            "x": 1,
+                            "y": 1.041
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": 1.68
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": -1.49
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 3,
+                            "angle": 2.03
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": 4.03,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 4.03
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 3,
+                            "angle": 6.13
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.4,
+                            "angle": 8.82
+                        },
+                        {
+                            "time": 1.5333,
+                            "angle": 10
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 2.3,
+                            "angle": 5.74
+                        },
+                        {
+                            "time": 2.8,
+                            "angle": 1.01
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_arm2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.4,
+                            "angle": -8.27
+                        },
+                        {
+                            "time": 1.5333,
+                            "angle": -10.91
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 2.2333,
+                            "angle": 5.53,
+                            "curve": [
+                                0.108,
+                                1,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 1.15,
+                            "y": -0.73
+                        },
+                        {
+                            "time": 1.5333,
+                            "x": 1.76,
+                            "y": -0.81
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 2.2333,
+                            "x": -2.35,
+                            "y": 0.23,
+                            "curve": [
+                                0.108,
+                                1,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_r_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.4,
+                            "angle": 1.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5333,
+                            "angle": 1.66
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.4,
+                            "x": -1.82,
+                            "y": -0.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5333,
+                            "x": -1.82,
+                            "y": -0.24
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_wing2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": -2.45
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 1.02
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 3,
+                            "angle": -2.28
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_wing1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": -4.25,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": -4.25
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 3,
+                            "angle": -4.01
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": 7.08,
+                            "y": -2.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 7.08,
+                            "y": -2.2
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 3,
+                            "x": 2,
+                            "y": -1.55
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_hand": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.2,
+                            "angle": 11.29
+                        },
+                        {
+                            "time": 0.4666,
+                            "angle": 7.46
+                        },
+                        {
+                            "time": 0.6666,
+                            "angle": 11.29
+                        },
+                        {
+                            "time": 0.9,
+                            "angle": 7.46
+                        },
+                        {
+                            "time": 1.1,
+                            "angle": 11.29
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 7.46,
+                            "curve": [
+                                0.132,
+                                0.84,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": -1.68
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_arm1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.2333,
+                            "angle": -6.05,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -6.05
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": 0.53,
+                            "y": -3.43
+                        },
+                        {
+                            "time": 0.4666,
+                            "x": 0.68,
+                            "y": 0.79
+                        },
+                        {
+                            "time": 0.6666,
+                            "x": 0.53,
+                            "y": -3.43
+                        },
+                        {
+                            "time": 0.9,
+                            "x": 0.68,
+                            "y": 0.79
+                        },
+                        {
+                            "time": 1.1,
+                            "x": 0.53,
+                            "y": -3.43
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0.68,
+                            "y": 0.79
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 2.1666,
+                            "x": -1.35,
+                            "y": -0.16
+                        },
+                        {
+                            "time": 2.5,
+                            "x": -1.04,
+                            "y": -1.52
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.4,
+                            "angle": 3.59,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6,
+                            "angle": 3.59
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 3,
+                            "angle": 2.65
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.4,
+                            "x": -1.94,
+                            "y": -4.55,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6,
+                            "x": -1.94,
+                            "y": -4.55
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 3,
+                            "x": -0.39,
+                            "y": -3.78
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.2333,
+                            "angle": 2.66,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6,
+                            "angle": 2.66
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": -3.97,
+                            "y": 0.74,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6,
+                            "x": -3.97,
+                            "y": 0.74
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_neck": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.2,
+                            "angle": -1.19
+                        },
+                        {
+                            "time": 0.6333,
+                            "angle": 1.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": 1.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 1.2
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 0.07,
+                            "y": -0.84
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": -1.71,
+                            "y": 0.04
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": -3.83,
+                            "y": -0.14
+                        },
+                        {
+                            "time": 2,
+                            "x": -1.71,
+                            "y": 0.04
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": -1.14,
+                            "y": 0.03
+                        },
+                        {
+                            "time": 3.3333,
+                            "x": -2.69,
+                            "y": -0.17
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_hair3": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": -2.53,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "angle": -2.53
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        },
+                        {
+                            "time": 3,
+                            "angle": -1.2
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": -2.34,
+                            "y": -0.2,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": -2.34,
+                            "y": -0.2
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "hedgebat_ev_body1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 4,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0.971,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6666,
+                            "x": 0.971,
+                            "y": 1
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.1333,
+                            "x": 1.017,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.5,
+                            "x": 0.992,
+                            "y": 1,
+                            "curve": [
+                                0.1,
+                                0.75,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 4,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 4
+                }
+            ]
+        }
+    }
 }

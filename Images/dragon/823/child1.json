@@ -1,1 +1,504 @@
-{"skeleton":{"hash":"A8Wf2DXkyyrZo7+MntKZLuR2t1c","spine":"3.0.09","width":107.01,"height":142.01,"images":""},"bones":[{"name":"root"},{"name":"taros_baby_body","parent":"root","length":46.58,"x":12.83,"y":-82.68,"rotation":81.72},{"name":"taros_baby_head","parent":"taros_baby_body","length":30.05,"x":37.32,"y":3.43,"rotation":63.75},{"name":"taros_baby_l_arm","parent":"taros_baby_body","length":39.05,"x":6.91,"y":-25.66,"rotation":-174.61},{"name":"taros_baby_r_arm","parent":"taros_baby_body","length":37.16,"x":-2.58,"y":9.57,"rotation":-150.35},{"name":"taros_baby_tail","parent":"taros_baby_body","length":30.66,"x":-21.15,"y":38.72,"rotation":34.45}],"slots":[{"name":"taros_baby_tail","bone":"taros_baby_tail","attachment":"taros_baby_tail"},{"name":"taros_baby_l_arm","bone":"taros_baby_l_arm","attachment":"taros_baby_l_arm"},{"name":"taros_baby_body","bone":"taros_baby_body","attachment":"taros_baby_body"},{"name":"taros_baby_r_arm","bone":"taros_baby_r_arm","attachment":"taros_baby_r_arm"},{"name":"taros_baby_head","bone":"taros_baby_head","attachment":"taros_baby_head"},{"name":"taros_baby_eye1","bone":"taros_baby_head","attachment":"taros_baby_eye1"},{"name":"taros_baby_eye2","bone":"taros_baby_head","attachment":"taros_baby_eye2"}],"skins":{"default":{"taros_baby_body":{"taros_baby_body":{"x":16.94,"y":12.04,"rotation":-81.72,"width":95,"height":110}},"taros_baby_eye1":{"taros_baby_eye1":{"x":20.55,"y":-1.73,"rotation":-145.48,"width":20,"height":22}},"taros_baby_eye2":{"taros_baby_eye2":{"x":20.55,"y":-1.73,"rotation":-145.48,"width":20,"height":22}},"taros_baby_head":{"taros_baby_head":{"x":17.69,"y":-5.51,"rotation":-145.48,"width":63,"height":85}},"taros_baby_l_arm":{"taros_baby_l_arm":{"x":21.64,"y":0.69,"rotation":92.85,"width":20,"height":54}},"taros_baby_r_arm":{"taros_baby_r_arm":{"x":23.34,"y":2.52,"rotation":68.59,"width":38,"height":51}},"taros_baby_tail":{"taros_baby_tail":{"x":24.97,"y":0.09,"rotation":-116.19,"width":33,"height":73}}}},"animations":{"wait":{"slots":{"taros_baby_body":{"attachment":[{"time":0,"name":"taros_baby_body"},{"time":2,"name":"taros_baby_body"}]},"taros_baby_eye1":{"attachment":[{"time":0,"name":"taros_baby_eye1"},{"time":0.3333,"name":null},{"time":0.4,"name":"taros_baby_eye1"},{"time":2,"name":"taros_baby_eye1"}]},"taros_baby_eye2":{"attachment":[{"time":0,"name":null},{"time":0.3333,"name":"taros_baby_eye2"},{"time":0.4,"name":null},{"time":2,"name":null}]},"taros_baby_head":{"attachment":[{"time":0,"name":"taros_baby_head"},{"time":2,"name":"taros_baby_head"}]},"taros_baby_l_arm":{"attachment":[{"time":0,"name":"taros_baby_l_arm"},{"time":2,"name":"taros_baby_l_arm"}]},"taros_baby_r_arm":{"attachment":[{"time":0,"name":"taros_baby_r_arm"},{"time":2,"name":"taros_baby_r_arm"}]},"taros_baby_tail":{"attachment":[{"time":0,"name":"taros_baby_tail"},{"time":2,"name":"taros_baby_tail"}]}},"bones":{"taros_baby_body":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":-4.82},{"time":2,"angle":0}],"translate":[{"time":0,"x":0,"y":0},{"time":1,"x":0,"y":-2.75},{"time":2,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":2,"x":1,"y":1}]},"taros_baby_head":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":-8.1},{"time":2,"angle":0}],"translate":[{"time":0,"x":0,"y":0},{"time":1,"x":0.54,"y":1.37},{"time":2,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":2,"x":1,"y":1}]},"taros_baby_l_arm":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":1.73},{"time":2,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":2,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1},{"time":1,"x":0.94,"y":1},{"time":2,"x":1,"y":1}]},"taros_baby_r_arm":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":2.34},{"time":2,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":2,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1},{"time":1,"x":0.944,"y":1},{"time":2,"x":1,"y":1}]},"taros_baby_tail":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":18.93},{"time":2,"angle":0}],"translate":[{"time":0,"x":0,"y":0},{"time":1,"x":1.16,"y":0.21},{"time":2,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":2,"x":1,"y":1}]}},"drawOrder":[{"time":0},{"time":2}]}}}
+{
+    "skeleton": {
+        "hash": "A8Wf2DXkyyrZo7+MntKZLuR2t1c",
+        "spine": "3.0.09",
+        "width": 107.01,
+        "height": 142.01,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "taros_baby_body",
+            "parent": "root",
+            "length": 46.58,
+            "x": 12.83,
+            "y": -82.68,
+            "rotation": 81.72
+        },
+        {
+            "name": "taros_baby_head",
+            "parent": "taros_baby_body",
+            "length": 30.05,
+            "x": 37.32,
+            "y": 3.43,
+            "rotation": 63.75
+        },
+        {
+            "name": "taros_baby_l_arm",
+            "parent": "taros_baby_body",
+            "length": 39.05,
+            "x": 6.91,
+            "y": -25.66,
+            "rotation": -174.61
+        },
+        {
+            "name": "taros_baby_r_arm",
+            "parent": "taros_baby_body",
+            "length": 37.16,
+            "x": -2.58,
+            "y": 9.57,
+            "rotation": -150.35
+        },
+        {
+            "name": "taros_baby_tail",
+            "parent": "taros_baby_body",
+            "length": 30.66,
+            "x": -21.15,
+            "y": 38.72,
+            "rotation": 34.45
+        }
+    ],
+    "slots": [
+        {
+            "name": "taros_baby_tail",
+            "bone": "taros_baby_tail",
+            "attachment": "taros_baby_tail"
+        },
+        {
+            "name": "taros_baby_l_arm",
+            "bone": "taros_baby_l_arm",
+            "attachment": "taros_baby_l_arm"
+        },
+        {
+            "name": "taros_baby_body",
+            "bone": "taros_baby_body",
+            "attachment": "taros_baby_body"
+        },
+        {
+            "name": "taros_baby_r_arm",
+            "bone": "taros_baby_r_arm",
+            "attachment": "taros_baby_r_arm"
+        },
+        {
+            "name": "taros_baby_head",
+            "bone": "taros_baby_head",
+            "attachment": "taros_baby_head"
+        },
+        {
+            "name": "taros_baby_eye1",
+            "bone": "taros_baby_head",
+            "attachment": "taros_baby_eye1"
+        },
+        {
+            "name": "taros_baby_eye2",
+            "bone": "taros_baby_head",
+            "attachment": "taros_baby_eye2"
+        }
+    ],
+    "skins": {
+        "default": {
+            "taros_baby_body": {
+                "taros_baby_body": {
+                    "x": 16.94,
+                    "y": 12.04,
+                    "rotation": -81.72,
+                    "width": 95,
+                    "height": 110
+                }
+            },
+            "taros_baby_eye1": {
+                "taros_baby_eye1": {
+                    "x": 20.55,
+                    "y": -1.73,
+                    "rotation": -145.48,
+                    "width": 20,
+                    "height": 22
+                }
+            },
+            "taros_baby_eye2": {
+                "taros_baby_eye2": {
+                    "x": 20.55,
+                    "y": -1.73,
+                    "rotation": -145.48,
+                    "width": 20,
+                    "height": 22
+                }
+            },
+            "taros_baby_head": {
+                "taros_baby_head": {
+                    "x": 17.69,
+                    "y": -5.51,
+                    "rotation": -145.48,
+                    "width": 63,
+                    "height": 85
+                }
+            },
+            "taros_baby_l_arm": {
+                "taros_baby_l_arm": {
+                    "x": 21.64,
+                    "y": 0.69,
+                    "rotation": 92.85,
+                    "width": 20,
+                    "height": 54
+                }
+            },
+            "taros_baby_r_arm": {
+                "taros_baby_r_arm": {
+                    "x": 23.34,
+                    "y": 2.52,
+                    "rotation": 68.59,
+                    "width": 38,
+                    "height": 51
+                }
+            },
+            "taros_baby_tail": {
+                "taros_baby_tail": {
+                    "x": 24.97,
+                    "y": 0.09,
+                    "rotation": -116.19,
+                    "width": 33,
+                    "height": 73
+                }
+            }
+        }
+    },
+    "animations": {
+        "wait": {
+            "slots": {
+                "taros_baby_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "taros_baby_body"
+                        },
+                        {
+                            "time": 2,
+                            "name": "taros_baby_body"
+                        }
+                    ]
+                },
+                "taros_baby_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "taros_baby_eye1"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "taros_baby_eye1"
+                        },
+                        {
+                            "time": 2,
+                            "name": "taros_baby_eye1"
+                        }
+                    ]
+                },
+                "taros_baby_eye2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "taros_baby_eye2"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": null
+                        },
+                        {
+                            "time": 2,
+                            "name": null
+                        }
+                    ]
+                },
+                "taros_baby_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "taros_baby_head"
+                        },
+                        {
+                            "time": 2,
+                            "name": "taros_baby_head"
+                        }
+                    ]
+                },
+                "taros_baby_l_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "taros_baby_l_arm"
+                        },
+                        {
+                            "time": 2,
+                            "name": "taros_baby_l_arm"
+                        }
+                    ]
+                },
+                "taros_baby_r_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "taros_baby_r_arm"
+                        },
+                        {
+                            "time": 2,
+                            "name": "taros_baby_r_arm"
+                        }
+                    ]
+                },
+                "taros_baby_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "taros_baby_tail"
+                        },
+                        {
+                            "time": 2,
+                            "name": "taros_baby_tail"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "taros_baby_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": -4.82
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1,
+                            "x": 0,
+                            "y": -2.75
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "taros_baby_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": -8.1
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.54,
+                            "y": 1.37
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "taros_baby_l_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": 1.73
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.94,
+                            "y": 1
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "taros_baby_r_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": 2.34
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.944,
+                            "y": 1
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "taros_baby_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": 18.93
+                        },
+                        {
+                            "time": 2,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.16,
+                            "y": 0.21
+                        },
+                        {
+                            "time": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2
+                }
+            ]
+        }
+    }
+}

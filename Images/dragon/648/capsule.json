@@ -1,1104 +1,2498 @@
 {
-"skeleton": { "hash": "quOTvQhxoB8UoiyLB77o2IiaY6w", "spine": "3.0.09", "width": 132.01, "height": 153.03, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "center", "parent": "root" },
-	{ "name": "zephyros_cap_body", "parent": "center", "length": 44.91, "x": 13.51, "y": -51.04, "rotation": 101.33 },
-	{ "name": "zephyros_cap_body_white", "parent": "zephyros_cap_body", "x": 4.39, "y": 10.72 },
-	{ "name": "zephyros_cap_head", "parent": "zephyros_cap_body", "length": 82.96, "x": 32.17, "y": -1.95, "rotation": -5.74 },
-	{ "name": "zephyros_cap_eye1", "parent": "zephyros_cap_head", "x": 30.09, "y": 39.82 },
-	{ "name": "zephyros_cap_head_white", "parent": "zephyros_cap_head", "x": 72.24, "y": -4.13 },
-	{ "name": "zephyros_cap_l_arm", "parent": "zephyros_cap_body", "length": 29.22, "x": 35.27, "y": 21, "rotation": 133.31 },
-	{ "name": "zephyros_cap_l_leg1", "parent": "zephyros_cap_body", "length": 19.38, "x": 16.19, "y": 19.21, "rotation": 149.63 },
-	{ "name": "zephyros_cap_l_leg2", "parent": "zephyros_cap_l_leg1", "length": 16.59, "x": 12.22, "y": 7.32, "rotation": 37.31 },
-	{ "name": "zephyros_cap_l_wing", "parent": "zephyros_cap_body", "length": 33.93, "x": 29.29, "y": 19.2, "rotation": 56.82 },
-	{ "name": "zephyros_cap_l_wing_white", "parent": "zephyros_cap_l_wing", "x": 29.3, "y": 5.81 },
-	{ "name": "zephyros_cap_r_arm", "parent": "zephyros_cap_body", "length": 24.17, "x": 28.78, "y": -7.63, "rotation": -131.48 },
-	{ "name": "zephyros_cap_r_leg1", "parent": "zephyros_cap_body", "length": 14.54, "x": 7.91, "y": -3.45, "rotation": -144.01 },
-	{ "name": "zephyros_cap_r_leg2", "parent": "zephyros_cap_r_leg1", "length": 16.73, "x": 10.97, "y": 1.63, "rotation": -32.34 },
-	{ "name": "zephyros_cap_r_wing", "parent": "zephyros_cap_body", "length": 40.68, "x": 30.8, "y": -3.17, "rotation": -88.29 },
-	{ "name": "zephyros_cap_r_wing_white", "parent": "zephyros_cap_r_wing", "x": 38.01, "y": -5.02 },
-	{ "name": "zephyros_cap_tail", "parent": "zephyros_cap_body", "length": 50.55, "x": 12.59, "y": -4.39, "rotation": -128.3 },
-	{ "name": "zephyros_cap_tail_white", "parent": "zephyros_cap_tail", "x": 45.5, "y": -5.26 }
-],
-"slots": [
-	{ "name": "zephyros_cap_l_wing_white", "bone": "zephyros_cap_l_wing_white", "attachment": "zephyros_cap_l_wing_white" },
-	{ "name": "zephyros_cap_l_wing", "bone": "zephyros_cap_l_wing", "attachment": "zephyros_cap_l_wing" },
-	{ "name": "zephyros_cap_l_arm", "bone": "zephyros_cap_l_arm", "attachment": "zephyros_cap_l_arm" },
-	{ "name": "zephyros_cap_l_leg2", "bone": "zephyros_cap_l_leg2", "attachment": "zephyros_cap_l_leg2" },
-	{ "name": "zephyros_cap_l_leg1", "bone": "zephyros_cap_l_leg1", "attachment": "zephyros_cap_l_leg1" },
-	{ "name": "zephyros_cap_tail_white", "bone": "zephyros_cap_tail_white", "attachment": "zephyros_cap_tail_white" },
-	{ "name": "zephyros_cap_tail", "bone": "zephyros_cap_tail", "attachment": "zephyros_cap_tail" },
-	{ "name": "zephyros_cap_r_wing_white", "bone": "zephyros_cap_r_wing_white", "attachment": "zephyros_cap_r_wing_white" },
-	{ "name": "zephyros_cap_r_wing", "bone": "zephyros_cap_r_wing", "attachment": "zephyros_cap_r_wing" },
-	{ "name": "zephyros_cap_body_white", "bone": "zephyros_cap_body_white", "attachment": "zephyros_cap_body_white" },
-	{ "name": "zephyros_cap_body", "bone": "zephyros_cap_body", "attachment": "zephyros_cap_body" },
-	{ "name": "zephyros_cap_r_leg2", "bone": "zephyros_cap_r_leg2", "attachment": "zephyros_cap_r_leg2" },
-	{ "name": "zephyros_cap_r_leg1", "bone": "zephyros_cap_r_leg1", "attachment": "zephyros_cap_r_leg1" },
-	{ "name": "zephyros_cap_r_arm", "bone": "zephyros_cap_r_arm", "attachment": "zephyros_cap_r_arm" },
-	{ "name": "zephyros_cap_head_white", "bone": "zephyros_cap_head_white", "attachment": "zephyros_cap_head_white" },
-	{ "name": "zephyros_cap_head", "bone": "zephyros_cap_head", "attachment": "zephyros_cap_head" },
-	{ "name": "zephyros_cap_eye1", "bone": "zephyros_cap_eye1", "attachment": "zephyros_cap_eye1" }
-],
-"skins": {
-	"default": {
-		"zephyros_cap_body": {
-			"zephyros_cap_body": { "x": 22.63, "y": 9.24, "rotation": -101.32, "width": 46, "height": 54 }
-		},
-		"zephyros_cap_body_white": {
-			"zephyros_cap_body_white": { "x": 12.35, "y": 4.8, "rotation": -101.32, "width": 34, "height": 38 }
-		},
-		"zephyros_cap_eye1": {
-			"zephyros_cap_att": { "x": -10.76, "y": -21.51, "rotation": -95.6, "width": 64, "height": 52 },
-			"zephyros_cap_eye1": { "x": 1.18, "y": -22.68, "rotation": -95.6, "width": 64, "height": 28 }
-		},
-		"zephyros_cap_head": {
-			"zephyros_cap_head": { "x": 45.94, "y": -7.41, "rotation": -95.6, "width": 118, "height": 104 }
-		},
-		"zephyros_cap_head_white": {
-			"zephyros_cap_head_white": { "x": -18.48, "y": -5.54, "rotation": -95.6, "width": 95, "height": 60 }
-		},
-		"zephyros_cap_l_arm": {
-			"zephyros_cap_l_arm": { "x": 13.95, "y": -0.5, "rotation": 125.35, "width": 27, "height": 30 }
-		},
-		"zephyros_cap_l_leg1": {
-			"zephyros_cap_l_leg1": { "x": 9.52, "y": 2.23, "rotation": 109.02, "width": 25, "height": 28 }
-		},
-		"zephyros_cap_l_leg2": {
-			"zephyros_cap_l_leg2": { "x": 8.98, "y": 0.78, "rotation": 71.7, "width": 18, "height": 25 }
-		},
-		"zephyros_cap_l_wing": {
-			"zephyros_cap_l_wing": { "x": 17.9, "y": 8.87, "rotation": -158.15, "width": 50, "height": 48 }
-		},
-		"zephyros_cap_l_wing_white": {
-			"zephyros_cap_l_wing_white": { "x": -15.66, "y": 5.66, "rotation": -158.15, "width": 42, "height": 24 }
-		},
-		"zephyros_cap_r_arm": {
-			"zephyros_cap_r_arm": { "x": 12.14, "y": 0.28, "rotation": 30.12, "width": 30, "height": 25 }
-		},
-		"zephyros_cap_r_leg1": {
-			"zephyros_cap_r_leg1": { "x": 6.11, "y": -1.24, "rotation": 42.67, "width": 24, "height": 26 }
-		},
-		"zephyros_cap_r_leg2": {
-			"zephyros_cap_r_leg2": { "x": 9.77, "y": 0.46, "rotation": 75, "width": 19, "height": 25 }
-		},
-		"zephyros_cap_r_wing": {
-			"zephyros_cap_r_wing": { "x": 28.63, "y": -11.19, "rotation": -13.02, "width": 70, "height": 48 }
-		},
-		"zephyros_cap_r_wing_white": {
-			"zephyros_cap_r_wing_white": { "x": -12.48, "y": -8.52, "rotation": -13.02, "width": 61, "height": 26 }
-		},
-		"zephyros_cap_tail": {
-			"zephyros_cap_tail": { "x": 27.35, "y": -1.6, "rotation": 26.96, "width": 68, "height": 42 }
-		},
-		"zephyros_cap_tail_white": {
-			"zephyros_cap_tail_white": { "x": -21.88, "y": -5.53, "rotation": 26.96, "width": 43, "height": 29 }
-		}
-	}
-},
-"animations": {
-	"att": {
-		"slots": {
-			"zephyros_cap_body": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_body" }
-				]
-			},
-			"zephyros_cap_body_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_body_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_att" }
-				]
-			},
-			"zephyros_cap_head": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_head" }
-				]
-			},
-			"zephyros_cap_head_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_head_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap_l_arm": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_arm" }
-				]
-			},
-			"zephyros_cap_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_leg1" }
-				]
-			},
-			"zephyros_cap_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_leg2" }
-				]
-			},
-			"zephyros_cap_l_wing": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_wing" }
-				]
-			},
-			"zephyros_cap_l_wing_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_wing_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap_r_arm": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_arm" }
-				]
-			},
-			"zephyros_cap_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_leg1" }
-				]
-			},
-			"zephyros_cap_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_leg2" }
-				]
-			},
-			"zephyros_cap_r_wing": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_wing" }
-				]
-			},
-			"zephyros_cap_r_wing_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_wing_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap_tail": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_tail" }
-				]
-			},
-			"zephyros_cap_tail_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_tail_white" }
-				],
-				"color": [
-					{ "time": 0, "color": "f0353eff" }
-				]
-			}
-		},
-		"bones": {
-			"zephyros_cap_body": {
-				"rotate": [
-					{ "time": 0, "angle": -1.64 }
-				],
-				"translate": [
-					{ "time": 0, "x": 14.78, "y": 4.03 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_body_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_head": {
-				"rotate": [
-					{ "time": 0, "angle": 9.04 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_eye1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_head_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_l_arm": {
-				"rotate": [
-					{ "time": 0, "angle": -7.38 }
-				],
-				"translate": [
-					{ "time": 0, "x": -1.25, "y": 3.17 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_l_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": -30.82 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_l_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_l_wing": {
-				"rotate": [
-					{ "time": 0, "angle": -14.55 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 0.962, "y": 1.102 }
-				]
-			},
-			"zephyros_cap_l_wing_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_r_arm": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 2.68, "y": -0.07 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_r_leg1": {
-				"rotate": [
-					{ "time": 0, "angle": 312 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_r_leg2": {
-				"rotate": [
-					{ "time": 0, "angle": 68.13 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_r_wing": {
-				"rotate": [
-					{ "time": 0, "angle": 23.97 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1.116 }
-				]
-			},
-			"zephyros_cap_r_wing_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_tail": {
-				"rotate": [
-					{ "time": 0, "angle": 304.55 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_tail_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			},
-			"center": {
-				"rotate": [
-					{ "time": 0, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 }
-		]
-	},
-	"wait": {
-		"slots": {
-			"zephyros_cap_body": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_body" },
-					{ "time": 2.6666, "name": "zephyros_cap_body" }
-				]
-			},
-			"zephyros_cap_body_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_body_white" },
-					{ "time": 2.6666, "name": "zephyros_cap_body_white" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "f0353eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"color": "ffb41eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"color": "4cbd4fff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"color": "2874d9ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "7e5997ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_eye1" },
-					{ "time": 1.5, "name": null },
-					{ "time": 1.6333, "name": "zephyros_cap_eye1" },
-					{ "time": 2.6666, "name": "zephyros_cap_eye1" }
-				]
-			},
-			"zephyros_cap_head": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_head" },
-					{ "time": 2.6666, "name": "zephyros_cap_head" }
-				]
-			},
-			"zephyros_cap_head_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_head_white" },
-					{ "time": 2.6666, "name": "zephyros_cap_head_white" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "f0353eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"color": "ffb41eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"color": "4cbd4fff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"color": "2874d9ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "7e5997ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap_l_arm": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_arm" },
-					{ "time": 2.6666, "name": "zephyros_cap_l_arm" }
-				]
-			},
-			"zephyros_cap_l_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_leg1" },
-					{ "time": 2.6666, "name": "zephyros_cap_l_leg1" }
-				]
-			},
-			"zephyros_cap_l_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_leg2" },
-					{ "time": 2.6666, "name": "zephyros_cap_l_leg2" }
-				]
-			},
-			"zephyros_cap_l_wing": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_wing" },
-					{ "time": 2.6666, "name": "zephyros_cap_l_wing" }
-				]
-			},
-			"zephyros_cap_l_wing_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_l_wing_white" },
-					{ "time": 2.6666, "name": "zephyros_cap_l_wing_white" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "f0353eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"color": "ffb41eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"color": "4cbd4fff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"color": "2874d9ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "7e5997ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap_r_arm": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_arm" },
-					{ "time": 2.6666, "name": "zephyros_cap_r_arm" }
-				]
-			},
-			"zephyros_cap_r_leg1": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_leg1" },
-					{ "time": 2.6666, "name": "zephyros_cap_r_leg1" }
-				]
-			},
-			"zephyros_cap_r_leg2": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_leg2" },
-					{ "time": 2.6666, "name": "zephyros_cap_r_leg2" }
-				]
-			},
-			"zephyros_cap_r_wing": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_wing" },
-					{ "time": 2.6666, "name": "zephyros_cap_r_wing" }
-				]
-			},
-			"zephyros_cap_r_wing_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_r_wing_white" },
-					{ "time": 2.6666, "name": "zephyros_cap_r_wing_white" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "f0353eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"color": "ffb41eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"color": "4cbd4fff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"color": "2874d9ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "7e5997ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			},
-			"zephyros_cap_tail": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_tail" },
-					{ "time": 2.6666, "name": "zephyros_cap_tail" }
-				]
-			},
-			"zephyros_cap_tail_white": {
-				"attachment": [
-					{ "time": 0, "name": "zephyros_cap_tail_white" },
-					{ "time": 2.6666, "name": "zephyros_cap_tail_white" }
-				],
-				"color": [
-					{
-						"time": 0,
-						"color": "f0353eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 0.5,
-						"color": "ffb41eff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1,
-						"color": "4cbd4fff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"color": "2874d9ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 2,
-						"color": "7e5997ff",
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "color": "f0353eff" }
-				]
-			}
-		},
-		"bones": {
-			"zephyros_cap_body": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": -0.93,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"x": 0,
-						"y": -9.4,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_body_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_head": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"angle": 5.61,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"x": -1.32,
-						"y": 0.24,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_eye1": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_head_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_l_arm": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": 7.67,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{
-						"time": 0,
-						"x": 0,
-						"y": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"x": -1.76,
-						"y": 0.32,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_l_leg1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": 8.34,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_l_leg2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": -8.45,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_l_wing": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": 31.15,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"x": 0.941,
-						"y": 0.564,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_l_wing_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_r_arm": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": -12.45,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_r_leg1": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": 6.81,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_r_leg2": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": -9.76,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_r_wing": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"angle": -14.91,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.3333,
-						"x": 0.973,
-						"y": 0.572,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_r_wing_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_tail": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"angle": 11.16,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{
-						"time": 0,
-						"x": 1,
-						"y": 1,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{
-						"time": 1.5,
-						"x": 0.949,
-						"y": 0.942,
-						"curve": [ 0.25, 0, 0.75, 1 ]
-					},
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"zephyros_cap_tail_white": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"center": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2.6666 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "quOTvQhxoB8UoiyLB77o2IiaY6w",
+        "spine": "3.0.09",
+        "width": 132.01,
+        "height": 153.03,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "center",
+            "parent": "root"
+        },
+        {
+            "name": "zephyros_cap_body",
+            "parent": "center",
+            "length": 44.91,
+            "x": 13.51,
+            "y": -51.04,
+            "rotation": 101.33
+        },
+        {
+            "name": "zephyros_cap_body_white",
+            "parent": "zephyros_cap_body",
+            "x": 4.39,
+            "y": 10.72
+        },
+        {
+            "name": "zephyros_cap_head",
+            "parent": "zephyros_cap_body",
+            "length": 82.96,
+            "x": 32.17,
+            "y": -1.95,
+            "rotation": -5.74
+        },
+        {
+            "name": "zephyros_cap_eye1",
+            "parent": "zephyros_cap_head",
+            "x": 30.09,
+            "y": 39.82
+        },
+        {
+            "name": "zephyros_cap_head_white",
+            "parent": "zephyros_cap_head",
+            "x": 72.24,
+            "y": -4.13
+        },
+        {
+            "name": "zephyros_cap_l_arm",
+            "parent": "zephyros_cap_body",
+            "length": 29.22,
+            "x": 35.27,
+            "y": 21,
+            "rotation": 133.31
+        },
+        {
+            "name": "zephyros_cap_l_leg1",
+            "parent": "zephyros_cap_body",
+            "length": 19.38,
+            "x": 16.19,
+            "y": 19.21,
+            "rotation": 149.63
+        },
+        {
+            "name": "zephyros_cap_l_leg2",
+            "parent": "zephyros_cap_l_leg1",
+            "length": 16.59,
+            "x": 12.22,
+            "y": 7.32,
+            "rotation": 37.31
+        },
+        {
+            "name": "zephyros_cap_l_wing",
+            "parent": "zephyros_cap_body",
+            "length": 33.93,
+            "x": 29.29,
+            "y": 19.2,
+            "rotation": 56.82
+        },
+        {
+            "name": "zephyros_cap_l_wing_white",
+            "parent": "zephyros_cap_l_wing",
+            "x": 29.3,
+            "y": 5.81
+        },
+        {
+            "name": "zephyros_cap_r_arm",
+            "parent": "zephyros_cap_body",
+            "length": 24.17,
+            "x": 28.78,
+            "y": -7.63,
+            "rotation": -131.48
+        },
+        {
+            "name": "zephyros_cap_r_leg1",
+            "parent": "zephyros_cap_body",
+            "length": 14.54,
+            "x": 7.91,
+            "y": -3.45,
+            "rotation": -144.01
+        },
+        {
+            "name": "zephyros_cap_r_leg2",
+            "parent": "zephyros_cap_r_leg1",
+            "length": 16.73,
+            "x": 10.97,
+            "y": 1.63,
+            "rotation": -32.34
+        },
+        {
+            "name": "zephyros_cap_r_wing",
+            "parent": "zephyros_cap_body",
+            "length": 40.68,
+            "x": 30.8,
+            "y": -3.17,
+            "rotation": -88.29
+        },
+        {
+            "name": "zephyros_cap_r_wing_white",
+            "parent": "zephyros_cap_r_wing",
+            "x": 38.01,
+            "y": -5.02
+        },
+        {
+            "name": "zephyros_cap_tail",
+            "parent": "zephyros_cap_body",
+            "length": 50.55,
+            "x": 12.59,
+            "y": -4.39,
+            "rotation": -128.3
+        },
+        {
+            "name": "zephyros_cap_tail_white",
+            "parent": "zephyros_cap_tail",
+            "x": 45.5,
+            "y": -5.26
+        }
+    ],
+    "slots": [
+        {
+            "name": "zephyros_cap_l_wing_white",
+            "bone": "zephyros_cap_l_wing_white",
+            "attachment": "zephyros_cap_l_wing_white"
+        },
+        {
+            "name": "zephyros_cap_l_wing",
+            "bone": "zephyros_cap_l_wing",
+            "attachment": "zephyros_cap_l_wing"
+        },
+        {
+            "name": "zephyros_cap_l_arm",
+            "bone": "zephyros_cap_l_arm",
+            "attachment": "zephyros_cap_l_arm"
+        },
+        {
+            "name": "zephyros_cap_l_leg2",
+            "bone": "zephyros_cap_l_leg2",
+            "attachment": "zephyros_cap_l_leg2"
+        },
+        {
+            "name": "zephyros_cap_l_leg1",
+            "bone": "zephyros_cap_l_leg1",
+            "attachment": "zephyros_cap_l_leg1"
+        },
+        {
+            "name": "zephyros_cap_tail_white",
+            "bone": "zephyros_cap_tail_white",
+            "attachment": "zephyros_cap_tail_white"
+        },
+        {
+            "name": "zephyros_cap_tail",
+            "bone": "zephyros_cap_tail",
+            "attachment": "zephyros_cap_tail"
+        },
+        {
+            "name": "zephyros_cap_r_wing_white",
+            "bone": "zephyros_cap_r_wing_white",
+            "attachment": "zephyros_cap_r_wing_white"
+        },
+        {
+            "name": "zephyros_cap_r_wing",
+            "bone": "zephyros_cap_r_wing",
+            "attachment": "zephyros_cap_r_wing"
+        },
+        {
+            "name": "zephyros_cap_body_white",
+            "bone": "zephyros_cap_body_white",
+            "attachment": "zephyros_cap_body_white"
+        },
+        {
+            "name": "zephyros_cap_body",
+            "bone": "zephyros_cap_body",
+            "attachment": "zephyros_cap_body"
+        },
+        {
+            "name": "zephyros_cap_r_leg2",
+            "bone": "zephyros_cap_r_leg2",
+            "attachment": "zephyros_cap_r_leg2"
+        },
+        {
+            "name": "zephyros_cap_r_leg1",
+            "bone": "zephyros_cap_r_leg1",
+            "attachment": "zephyros_cap_r_leg1"
+        },
+        {
+            "name": "zephyros_cap_r_arm",
+            "bone": "zephyros_cap_r_arm",
+            "attachment": "zephyros_cap_r_arm"
+        },
+        {
+            "name": "zephyros_cap_head_white",
+            "bone": "zephyros_cap_head_white",
+            "attachment": "zephyros_cap_head_white"
+        },
+        {
+            "name": "zephyros_cap_head",
+            "bone": "zephyros_cap_head",
+            "attachment": "zephyros_cap_head"
+        },
+        {
+            "name": "zephyros_cap_eye1",
+            "bone": "zephyros_cap_eye1",
+            "attachment": "zephyros_cap_eye1"
+        }
+    ],
+    "skins": {
+        "default": {
+            "zephyros_cap_body": {
+                "zephyros_cap_body": {
+                    "x": 22.63,
+                    "y": 9.24,
+                    "rotation": -101.32,
+                    "width": 46,
+                    "height": 54
+                }
+            },
+            "zephyros_cap_body_white": {
+                "zephyros_cap_body_white": {
+                    "x": 12.35,
+                    "y": 4.8,
+                    "rotation": -101.32,
+                    "width": 34,
+                    "height": 38
+                }
+            },
+            "zephyros_cap_eye1": {
+                "zephyros_cap_att": {
+                    "x": -10.76,
+                    "y": -21.51,
+                    "rotation": -95.6,
+                    "width": 64,
+                    "height": 52
+                },
+                "zephyros_cap_eye1": {
+                    "x": 1.18,
+                    "y": -22.68,
+                    "rotation": -95.6,
+                    "width": 64,
+                    "height": 28
+                }
+            },
+            "zephyros_cap_head": {
+                "zephyros_cap_head": {
+                    "x": 45.94,
+                    "y": -7.41,
+                    "rotation": -95.6,
+                    "width": 118,
+                    "height": 104
+                }
+            },
+            "zephyros_cap_head_white": {
+                "zephyros_cap_head_white": {
+                    "x": -18.48,
+                    "y": -5.54,
+                    "rotation": -95.6,
+                    "width": 95,
+                    "height": 60
+                }
+            },
+            "zephyros_cap_l_arm": {
+                "zephyros_cap_l_arm": {
+                    "x": 13.95,
+                    "y": -0.5,
+                    "rotation": 125.35,
+                    "width": 27,
+                    "height": 30
+                }
+            },
+            "zephyros_cap_l_leg1": {
+                "zephyros_cap_l_leg1": {
+                    "x": 9.52,
+                    "y": 2.23,
+                    "rotation": 109.02,
+                    "width": 25,
+                    "height": 28
+                }
+            },
+            "zephyros_cap_l_leg2": {
+                "zephyros_cap_l_leg2": {
+                    "x": 8.98,
+                    "y": 0.78,
+                    "rotation": 71.7,
+                    "width": 18,
+                    "height": 25
+                }
+            },
+            "zephyros_cap_l_wing": {
+                "zephyros_cap_l_wing": {
+                    "x": 17.9,
+                    "y": 8.87,
+                    "rotation": -158.15,
+                    "width": 50,
+                    "height": 48
+                }
+            },
+            "zephyros_cap_l_wing_white": {
+                "zephyros_cap_l_wing_white": {
+                    "x": -15.66,
+                    "y": 5.66,
+                    "rotation": -158.15,
+                    "width": 42,
+                    "height": 24
+                }
+            },
+            "zephyros_cap_r_arm": {
+                "zephyros_cap_r_arm": {
+                    "x": 12.14,
+                    "y": 0.28,
+                    "rotation": 30.12,
+                    "width": 30,
+                    "height": 25
+                }
+            },
+            "zephyros_cap_r_leg1": {
+                "zephyros_cap_r_leg1": {
+                    "x": 6.11,
+                    "y": -1.24,
+                    "rotation": 42.67,
+                    "width": 24,
+                    "height": 26
+                }
+            },
+            "zephyros_cap_r_leg2": {
+                "zephyros_cap_r_leg2": {
+                    "x": 9.77,
+                    "y": 0.46,
+                    "rotation": 75,
+                    "width": 19,
+                    "height": 25
+                }
+            },
+            "zephyros_cap_r_wing": {
+                "zephyros_cap_r_wing": {
+                    "x": 28.63,
+                    "y": -11.19,
+                    "rotation": -13.02,
+                    "width": 70,
+                    "height": 48
+                }
+            },
+            "zephyros_cap_r_wing_white": {
+                "zephyros_cap_r_wing_white": {
+                    "x": -12.48,
+                    "y": -8.52,
+                    "rotation": -13.02,
+                    "width": 61,
+                    "height": 26
+                }
+            },
+            "zephyros_cap_tail": {
+                "zephyros_cap_tail": {
+                    "x": 27.35,
+                    "y": -1.6,
+                    "rotation": 26.96,
+                    "width": 68,
+                    "height": 42
+                }
+            },
+            "zephyros_cap_tail_white": {
+                "zephyros_cap_tail_white": {
+                    "x": -21.88,
+                    "y": -5.53,
+                    "rotation": 26.96,
+                    "width": 43,
+                    "height": 29
+                }
+            }
+        }
+    },
+    "animations": {
+        "att": {
+            "slots": {
+                "zephyros_cap_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_body"
+                        }
+                    ]
+                },
+                "zephyros_cap_body_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_body_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_att"
+                        }
+                    ]
+                },
+                "zephyros_cap_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_head"
+                        }
+                    ]
+                },
+                "zephyros_cap_head_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_head_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_arm"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_leg1"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_leg2"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_wing": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_wing"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_wing_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_wing_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_arm"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_leg1"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_leg2"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_wing": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_wing"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_wing_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_wing_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_tail"
+                        }
+                    ]
+                },
+                "zephyros_cap_tail_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_tail_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "zephyros_cap_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -1.64
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 14.78,
+                            "y": 4.03
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_body_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 9.04
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_eye1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_head_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_l_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -7.38
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -1.25,
+                            "y": 3.17
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -30.82
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_l_wing": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": -14.55
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 0.962,
+                            "y": 1.102
+                        }
+                    ]
+                },
+                "zephyros_cap_l_wing_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_r_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 2.68,
+                            "y": -0.07
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 312
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 68.13
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_r_wing": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 23.97
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1.116
+                        }
+                    ]
+                },
+                "zephyros_cap_r_wing_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 304.55
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_tail_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "wait": {
+            "slots": {
+                "zephyros_cap_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_body"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_body"
+                        }
+                    ]
+                },
+                "zephyros_cap_body_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_body_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_body_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "7e5997ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_eye1"
+                        },
+                        {
+                            "time": 1.5,
+                            "name": null
+                        },
+                        {
+                            "time": 1.6333,
+                            "name": "zephyros_cap_eye1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_eye1"
+                        }
+                    ]
+                },
+                "zephyros_cap_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_head"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_head"
+                        }
+                    ]
+                },
+                "zephyros_cap_head_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_head_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_head_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "7e5997ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_arm"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_l_arm"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_leg1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_l_leg1"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_leg2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_l_leg2"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_wing": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_wing"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_l_wing"
+                        }
+                    ]
+                },
+                "zephyros_cap_l_wing_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_l_wing_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_l_wing_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "7e5997ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_arm": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_arm"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_r_arm"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_leg1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_leg1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_r_leg1"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_leg2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_leg2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_r_leg2"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_wing": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_wing"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_r_wing"
+                        }
+                    ]
+                },
+                "zephyros_cap_r_wing_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_r_wing_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_r_wing_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "7e5997ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                },
+                "zephyros_cap_tail": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_tail"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_tail"
+                        }
+                    ]
+                },
+                "zephyros_cap_tail_white": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "zephyros_cap_tail_white"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "zephyros_cap_tail_white"
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "f0353eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffb41eff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "4cbd4fff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "2874d9ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2,
+                            "color": "7e5997ff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "color": "f0353eff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "zephyros_cap_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -0.93,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0,
+                            "y": -9.4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_body_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "angle": 5.61,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "x": -1.32,
+                            "y": 0.24,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_eye1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_head_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_l_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 7.67,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": -1.76,
+                            "y": 0.32,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_l_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 8.34,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_l_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -8.45,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_l_wing": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 31.15,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0.941,
+                            "y": 0.564,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_l_wing_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_r_arm": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -12.45,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_r_leg1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": 6.81,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_r_leg2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -9.76,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_r_wing": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "angle": -14.91,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3333,
+                            "x": 0.973,
+                            "y": 0.572,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_r_wing_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_tail": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "angle": 11.16,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.5,
+                            "x": 0.949,
+                            "y": 0.942,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "zephyros_cap_tail_white": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "center": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2.6666
+                }
+            ]
+        }
+    }
 }

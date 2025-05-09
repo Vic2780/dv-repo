@@ -1,306 +1,857 @@
 {
-"skeleton": { "hash": "sSY5uSJld9No71zsb8aEuncpqFA", "spine": "3.0.09", "width": 86.29, "height": 171.99, "images": "" },
-"bones": [
-	{ "name": "root" },
-	{ "name": "scarlet_baby_body", "parent": "root", "length": 54.77, "x": -7.4, "y": -118.51, "rotation": 67.98 },
-	{ "name": "scarlet_baby_head", "parent": "scarlet_baby_body", "length": 28.61, "x": 60.5, "y": 10.37, "rotation": 170 },
-	{ "name": "scarlet_baby_eye", "parent": "scarlet_baby_head", "x": 19.29, "y": 4.1 },
-	{ "name": "scarlet_baby_ear_r2", "parent": "scarlet_baby_head", "length": 10.85, "x": 4.71, "y": -20.89, "rotation": -83.77 },
-	{ "name": "scarlet_baby_ear_r", "parent": "scarlet_baby_head", "length": 17.39, "x": 1.21, "y": -19.11, "rotation": -112.61 },
-	{ "name": "scarlet_baby_ear_l", "parent": "scarlet_baby_head", "length": 19.31, "x": -7.96, "y": -0.6, "rotation": 169.09 },
-	{ "name": "scarlet_baby_leg_l", "parent": "scarlet_baby_body", "length": 19.44, "x": 14.06, "y": -6.93, "rotation": 86.34 },
-	{ "name": "scarlet_baby_tail1", "parent": "scarlet_baby_body", "length": 34.44, "x": 1.51, "y": 4.34, "rotation": 81.43 },
-	{ "name": "scarlet_baby_tail2", "parent": "scarlet_baby_body", "x": 29.14, "y": 13.33, "rotation": -11.46 }
-],
-"slots": [
-	{ "name": "scarlet_baby_body", "bone": "scarlet_baby_body", "attachment": "scarlet_baby_body" },
-	{ "name": "scarlet_baby_tail2", "bone": "scarlet_baby_tail2", "attachment": "scarlet_baby_tail2" },
-	{ "name": "scarlet_baby_tail1", "bone": "scarlet_baby_tail1", "attachment": "scarlet_baby_tail1" },
-	{ "name": "scarlet_baby_ear_r2", "bone": "scarlet_baby_ear_r2", "attachment": "scarlet_baby_ear_r2" },
-	{ "name": "scarlet_baby_ear_r1", "bone": "scarlet_baby_ear_r", "attachment": "scarlet_baby_ear_r1" },
-	{ "name": "scarlet_baby_ear_l2", "bone": "scarlet_baby_ear_l", "attachment": "scarlet_baby_ear_l2" },
-	{ "name": "scarlet_baby_head", "bone": "scarlet_baby_head", "attachment": "scarlet_baby_head" },
-	{ "name": "scarlet_baby_eye1", "bone": "scarlet_baby_eye", "attachment": "scarlet_baby_eye1" },
-	{ "name": "scarlet_baby_ear_l1", "bone": "scarlet_baby_ear_l", "attachment": "scarlet_baby_ear_l1" },
-	{ "name": "scarlet_baby_leg_l", "bone": "scarlet_baby_leg_l", "attachment": "scarlet_baby_leg_l" }
-],
-"skins": {
-	"default": {
-		"scarlet_baby_body": {
-			"scarlet_baby_body": { "x": 23.22, "y": 6.36, "rotation": -67.99, "width": 68, "height": 64 }
-		},
-		"scarlet_baby_ear_l1": {
-			"scarlet_baby_ear_l1": { "x": 8.46, "y": 1.39, "rotation": -47.09, "width": 23, "height": 23 }
-		},
-		"scarlet_baby_ear_l2": {
-			"scarlet_baby_ear_l2": { "x": 7.17, "y": -1.03, "rotation": -47.09, "width": 24, "height": 27 }
-		},
-		"scarlet_baby_ear_r1": {
-			"scarlet_baby_ear_r1": { "x": 4.24, "y": 0.9, "rotation": -125.4, "width": 20, "height": 25 }
-		},
-		"scarlet_baby_ear_r2": {
-			"scarlet_baby_ear_r2": { "x": 3.6, "y": 1.79, "rotation": -154.23, "width": 16, "height": 15 }
-		},
-		"scarlet_baby_eye1": {
-			"scarlet_baby_eye1": { "x": 2, "y": -6.53, "rotation": 121.99, "width": 29, "height": 13 },
-			"scarlet_baby_eye2": { "x": 0.93, "y": -7.49, "scaleX": 0.975, "scaleY": 1.056, "rotation": 121.99, "width": 31, "height": 20 }
-		},
-		"scarlet_baby_head": {
-			"scarlet_baby_head": { "x": 5.14, "y": 2.09, "rotation": 121.99, "width": 59, "height": 50 }
-		},
-		"scarlet_baby_leg_l": {
-			"scarlet_baby_leg_l": { "x": 9.93, "y": -4.51, "rotation": -154.33, "width": 33, "height": 33 }
-		},
-		"scarlet_baby_tail1": {
-			"scarlet_baby_tail1": { "x": 24.38, "y": -6.59, "rotation": -149.41, "width": 45, "height": 58 }
-		},
-		"scarlet_baby_tail2": {
-			"scarlet_baby_tail2": { "x": -42.1, "y": -37.48, "rotation": -56.52, "width": 72, "height": 125 }
-		}
-	}
-},
-"animations": {
-	"wait": {
-		"slots": {
-			"scarlet_baby_body": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_body" },
-					{ "time": 2.6666, "name": "scarlet_baby_body" }
-				]
-			},
-			"scarlet_baby_ear_l1": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_ear_l1" },
-					{ "time": 2.6666, "name": "scarlet_baby_ear_l1" }
-				]
-			},
-			"scarlet_baby_ear_l2": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_ear_l2" },
-					{ "time": 2.6666, "name": "scarlet_baby_ear_l2" }
-				]
-			},
-			"scarlet_baby_ear_r1": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_ear_r1" },
-					{ "time": 2.6666, "name": "scarlet_baby_ear_r1" }
-				]
-			},
-			"scarlet_baby_ear_r2": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_ear_r2" },
-					{ "time": 2.6666, "name": "scarlet_baby_ear_r2" }
-				]
-			},
-			"scarlet_baby_eye1": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_eye1" },
-					{ "time": 1.6333, "name": "scarlet_baby_eye2" },
-					{ "time": 1.9666, "name": "scarlet_baby_eye1" },
-					{ "time": 2.6666, "name": "scarlet_baby_eye1" }
-				]
-			},
-			"scarlet_baby_head": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_head" },
-					{ "time": 2.6666, "name": "scarlet_baby_head" }
-				]
-			},
-			"scarlet_baby_leg_l": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_leg_l" },
-					{ "time": 2.6666, "name": "scarlet_baby_leg_l" }
-				]
-			},
-			"scarlet_baby_tail1": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_tail1" },
-					{ "time": 2.6666, "name": "scarlet_baby_tail1" }
-				]
-			},
-			"scarlet_baby_tail2": {
-				"attachment": [
-					{ "time": 0, "name": "scarlet_baby_tail2" },
-					{ "time": 2.6666, "name": "scarlet_baby_tail2" }
-				]
-			}
-		},
-		"bones": {
-			"scarlet_baby_body": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8, "angle": -13.32 },
-					{ "time": 1.8666, "angle": 9.56 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"scarlet_baby_head": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.2333, "angle": -5.02 },
-					{ "time": 2.0333, "angle": 1.79 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"scarlet_baby_ear_l": {
-				"rotate": [
-					{
-						"time": 0,
-						"angle": 0,
-						"curve": [ 0.25, 0, 0.537, 0.97 ]
-					},
-					{
-						"time": 1.1,
-						"angle": 3.71,
-						"curve": [ 0.25, 0, 0.537, 0.97 ]
-					},
-					{
-						"time": 2.3333,
-						"angle": -17.46,
-						"curve": [ 0.25, 0, 0.537, 0.97 ]
-					},
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"scarlet_baby_ear_r": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.1, "angle": -11.93 },
-					{ "time": 2.3333, "angle": 15.16 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"scarlet_baby_ear_r2": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"scarlet_baby_eye": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"scarlet_baby_leg_l": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 0.8, "angle": 22.78 },
-					{ "time": 1.8666, "angle": -11.27 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"scarlet_baby_tail1": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.0666, "angle": 8.29 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.0666, "x": 0.922, "y": 1 },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"scarlet_baby_tail2": {
-				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.0666, "angle": -2.54 },
-					{ "time": 1.5, "angle": 2.74 },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 1.0666, "x": -1.74, "y": 0.91 },
-					{ "time": 1.5, "x": -1.17, "y": -0.13 },
-					{ "time": 1.8666, "x": -0.43, "y": -0.61 },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1 },
-					{ "time": 1.5, "x": 0.863, "y": 1 },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			},
-			"root": {
-				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
-					{ "time": 2.6666, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
-					{ "time": 2.6666, "x": 0, "y": 0 }
-				],
-				"scale": [
-					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
-					{ "time": 2.6666, "x": 1, "y": 1 }
-				]
-			}
-		},
-		"drawOrder": [
-			{ "time": 0 },
-			{ "time": 2.6666 }
-		]
-	}
-}
+    "skeleton": {
+        "hash": "sSY5uSJld9No71zsb8aEuncpqFA",
+        "spine": "3.0.09",
+        "width": 86.29,
+        "height": 171.99,
+        "images": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "scarlet_baby_body",
+            "parent": "root",
+            "length": 54.77,
+            "x": -7.4,
+            "y": -118.51,
+            "rotation": 67.98
+        },
+        {
+            "name": "scarlet_baby_head",
+            "parent": "scarlet_baby_body",
+            "length": 28.61,
+            "x": 60.5,
+            "y": 10.37,
+            "rotation": 170
+        },
+        {
+            "name": "scarlet_baby_eye",
+            "parent": "scarlet_baby_head",
+            "x": 19.29,
+            "y": 4.1
+        },
+        {
+            "name": "scarlet_baby_ear_r2",
+            "parent": "scarlet_baby_head",
+            "length": 10.85,
+            "x": 4.71,
+            "y": -20.89,
+            "rotation": -83.77
+        },
+        {
+            "name": "scarlet_baby_ear_r",
+            "parent": "scarlet_baby_head",
+            "length": 17.39,
+            "x": 1.21,
+            "y": -19.11,
+            "rotation": -112.61
+        },
+        {
+            "name": "scarlet_baby_ear_l",
+            "parent": "scarlet_baby_head",
+            "length": 19.31,
+            "x": -7.96,
+            "y": -0.6,
+            "rotation": 169.09
+        },
+        {
+            "name": "scarlet_baby_leg_l",
+            "parent": "scarlet_baby_body",
+            "length": 19.44,
+            "x": 14.06,
+            "y": -6.93,
+            "rotation": 86.34
+        },
+        {
+            "name": "scarlet_baby_tail1",
+            "parent": "scarlet_baby_body",
+            "length": 34.44,
+            "x": 1.51,
+            "y": 4.34,
+            "rotation": 81.43
+        },
+        {
+            "name": "scarlet_baby_tail2",
+            "parent": "scarlet_baby_body",
+            "x": 29.14,
+            "y": 13.33,
+            "rotation": -11.46
+        }
+    ],
+    "slots": [
+        {
+            "name": "scarlet_baby_body",
+            "bone": "scarlet_baby_body",
+            "attachment": "scarlet_baby_body"
+        },
+        {
+            "name": "scarlet_baby_tail2",
+            "bone": "scarlet_baby_tail2",
+            "attachment": "scarlet_baby_tail2"
+        },
+        {
+            "name": "scarlet_baby_tail1",
+            "bone": "scarlet_baby_tail1",
+            "attachment": "scarlet_baby_tail1"
+        },
+        {
+            "name": "scarlet_baby_ear_r2",
+            "bone": "scarlet_baby_ear_r2",
+            "attachment": "scarlet_baby_ear_r2"
+        },
+        {
+            "name": "scarlet_baby_ear_r1",
+            "bone": "scarlet_baby_ear_r",
+            "attachment": "scarlet_baby_ear_r1"
+        },
+        {
+            "name": "scarlet_baby_ear_l2",
+            "bone": "scarlet_baby_ear_l",
+            "attachment": "scarlet_baby_ear_l2"
+        },
+        {
+            "name": "scarlet_baby_head",
+            "bone": "scarlet_baby_head",
+            "attachment": "scarlet_baby_head"
+        },
+        {
+            "name": "scarlet_baby_eye1",
+            "bone": "scarlet_baby_eye",
+            "attachment": "scarlet_baby_eye1"
+        },
+        {
+            "name": "scarlet_baby_ear_l1",
+            "bone": "scarlet_baby_ear_l",
+            "attachment": "scarlet_baby_ear_l1"
+        },
+        {
+            "name": "scarlet_baby_leg_l",
+            "bone": "scarlet_baby_leg_l",
+            "attachment": "scarlet_baby_leg_l"
+        }
+    ],
+    "skins": {
+        "default": {
+            "scarlet_baby_body": {
+                "scarlet_baby_body": {
+                    "x": 23.22,
+                    "y": 6.36,
+                    "rotation": -67.99,
+                    "width": 68,
+                    "height": 64
+                }
+            },
+            "scarlet_baby_ear_l1": {
+                "scarlet_baby_ear_l1": {
+                    "x": 8.46,
+                    "y": 1.39,
+                    "rotation": -47.09,
+                    "width": 23,
+                    "height": 23
+                }
+            },
+            "scarlet_baby_ear_l2": {
+                "scarlet_baby_ear_l2": {
+                    "x": 7.17,
+                    "y": -1.03,
+                    "rotation": -47.09,
+                    "width": 24,
+                    "height": 27
+                }
+            },
+            "scarlet_baby_ear_r1": {
+                "scarlet_baby_ear_r1": {
+                    "x": 4.24,
+                    "y": 0.9,
+                    "rotation": -125.4,
+                    "width": 20,
+                    "height": 25
+                }
+            },
+            "scarlet_baby_ear_r2": {
+                "scarlet_baby_ear_r2": {
+                    "x": 3.6,
+                    "y": 1.79,
+                    "rotation": -154.23,
+                    "width": 16,
+                    "height": 15
+                }
+            },
+            "scarlet_baby_eye1": {
+                "scarlet_baby_eye1": {
+                    "x": 2,
+                    "y": -6.53,
+                    "rotation": 121.99,
+                    "width": 29,
+                    "height": 13
+                },
+                "scarlet_baby_eye2": {
+                    "x": 0.93,
+                    "y": -7.49,
+                    "scaleX": 0.975,
+                    "scaleY": 1.056,
+                    "rotation": 121.99,
+                    "width": 31,
+                    "height": 20
+                }
+            },
+            "scarlet_baby_head": {
+                "scarlet_baby_head": {
+                    "x": 5.14,
+                    "y": 2.09,
+                    "rotation": 121.99,
+                    "width": 59,
+                    "height": 50
+                }
+            },
+            "scarlet_baby_leg_l": {
+                "scarlet_baby_leg_l": {
+                    "x": 9.93,
+                    "y": -4.51,
+                    "rotation": -154.33,
+                    "width": 33,
+                    "height": 33
+                }
+            },
+            "scarlet_baby_tail1": {
+                "scarlet_baby_tail1": {
+                    "x": 24.38,
+                    "y": -6.59,
+                    "rotation": -149.41,
+                    "width": 45,
+                    "height": 58
+                }
+            },
+            "scarlet_baby_tail2": {
+                "scarlet_baby_tail2": {
+                    "x": -42.1,
+                    "y": -37.48,
+                    "rotation": -56.52,
+                    "width": 72,
+                    "height": 125
+                }
+            }
+        }
+    },
+    "animations": {
+        "wait": {
+            "slots": {
+                "scarlet_baby_body": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_body"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_body"
+                        }
+                    ]
+                },
+                "scarlet_baby_ear_l1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_ear_l1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_ear_l1"
+                        }
+                    ]
+                },
+                "scarlet_baby_ear_l2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_ear_l2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_ear_l2"
+                        }
+                    ]
+                },
+                "scarlet_baby_ear_r1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_ear_r1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_ear_r1"
+                        }
+                    ]
+                },
+                "scarlet_baby_ear_r2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_ear_r2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_ear_r2"
+                        }
+                    ]
+                },
+                "scarlet_baby_eye1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_eye1"
+                        },
+                        {
+                            "time": 1.6333,
+                            "name": "scarlet_baby_eye2"
+                        },
+                        {
+                            "time": 1.9666,
+                            "name": "scarlet_baby_eye1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_eye1"
+                        }
+                    ]
+                },
+                "scarlet_baby_head": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_head"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_head"
+                        }
+                    ]
+                },
+                "scarlet_baby_leg_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_leg_l"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_leg_l"
+                        }
+                    ]
+                },
+                "scarlet_baby_tail1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_tail1"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_tail1"
+                        }
+                    ]
+                },
+                "scarlet_baby_tail2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "scarlet_baby_tail2"
+                        },
+                        {
+                            "time": 2.6666,
+                            "name": "scarlet_baby_tail2"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "scarlet_baby_body": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8,
+                            "angle": -13.32
+                        },
+                        {
+                            "time": 1.8666,
+                            "angle": 9.56
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scarlet_baby_head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.2333,
+                            "angle": -5.02
+                        },
+                        {
+                            "time": 2.0333,
+                            "angle": 1.79
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scarlet_baby_ear_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.537,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 1.1,
+                            "angle": 3.71,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.537,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": -17.46,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.537,
+                                0.97
+                            ]
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scarlet_baby_ear_r": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.1,
+                            "angle": -11.93
+                        },
+                        {
+                            "time": 2.3333,
+                            "angle": 15.16
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scarlet_baby_ear_r2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scarlet_baby_eye": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scarlet_baby_leg_l": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.8,
+                            "angle": 22.78
+                        },
+                        {
+                            "time": 1.8666,
+                            "angle": -11.27
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scarlet_baby_tail1": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.0666,
+                            "angle": 8.29
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.0666,
+                            "x": 0.922,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scarlet_baby_tail2": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1.0666,
+                            "angle": -2.54
+                        },
+                        {
+                            "time": 1.5,
+                            "angle": 2.74
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 1.0666,
+                            "x": -1.74,
+                            "y": 0.91
+                        },
+                        {
+                            "time": 1.5,
+                            "x": -1.17,
+                            "y": -0.13
+                        },
+                        {
+                            "time": 1.8666,
+                            "x": -0.43,
+                            "y": -0.61
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 1.5,
+                            "x": 0.863,
+                            "y": 1
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "root": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.6666,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                },
+                {
+                    "time": 2.6666
+                }
+            ]
+        }
+    }
 }
