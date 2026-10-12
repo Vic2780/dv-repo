@@ -1,0 +1,5749 @@
+{
+"skeleton": { "hash": "f4PkhFxVlNiQG3VUlIQpNrZDVk8", "spine": "2.1.08", "width": 800, "height": 480, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root", "y": 37 },
+	{ "name": "effect", "parent": "root", "x": 282, "y": 46 },
+	{ "name": "lightbot", "parent": "root", "y": -43 },
+	{ "name": "lighttop", "parent": "root", "x": -66.99, "y": 277 },
+	{ "name": "slot1", "parent": "root", "x": -280, "y": 45 },
+	{ "name": "slot2", "parent": "root", "x": -200, "y": 45 },
+	{ "name": "slot3", "parent": "root", "x": -120, "y": 45 },
+	{ "name": "slot4", "parent": "root", "x": -40, "y": 45 },
+	{ "name": "slot5", "parent": "root", "x": 40, "y": 45 },
+	{ "name": "slot6", "parent": "root", "x": 120, "y": 45 },
+	{ "name": "slot7", "parent": "root", "x": 200, "y": 45 },
+	{ "name": "slot8", "parent": "root", "x": 280, "y": 45 },
+	{ "name": "ticket", "parent": "root", "y": -189.29 }
+],
+"slots": [
+	{ "name": "bg2", "bone": "bg", "attachment": "bg2" },
+	{ "name": "ticket2", "bone": "ticket", "attachment": "ticket2" },
+	{ "name": "bg", "bone": "bg", "attachment": "bg1" },
+	{ "name": "light1", "bone": "lightbot" },
+	{ "name": "light2", "bone": "lightbot" },
+	{ "name": "lightoff", "bone": "lightbot" },
+	{ "name": "lighton", "bone": "lightbot" },
+	{ "name": "light3", "bone": "lighttop" },
+	{ "name": "light4", "bone": "lighttop" },
+	{ "name": "lightoff2", "bone": "lighttop" },
+	{ "name": "lighton2", "bone": "lighttop" },
+	{ "name": "roll3", "bone": "slot1" },
+	{ "name": "rollblur1", "bone": "slot1" },
+	{ "name": "rollblur2", "bone": "slot1" },
+	{ "name": "rollface", "bone": "slot1", "attachment": "rollface" },
+	{ "name": "rollstar", "bone": "slot1" },
+	{ "name": "roll4", "bone": "slot2" },
+	{ "name": "rollblur3", "bone": "slot2" },
+	{ "name": "rollblur4", "bone": "slot2" },
+	{ "name": "rollface2", "bone": "slot2", "attachment": "rollface" },
+	{ "name": "rollstar2", "bone": "slot2" },
+	{ "name": "roll5", "bone": "slot3" },
+	{ "name": "rollblur5", "bone": "slot3" },
+	{ "name": "rollblur6", "bone": "slot3" },
+	{ "name": "rollface3", "bone": "slot3", "attachment": "rollface" },
+	{ "name": "rollstar3", "bone": "slot3" },
+	{ "name": "roll6", "bone": "slot4" },
+	{ "name": "rollblur7", "bone": "slot4" },
+	{ "name": "rollblur8", "bone": "slot4", "attachment": "rollblur2" },
+	{ "name": "rollface4", "bone": "slot4", "attachment": "rollface" },
+	{ "name": "rollstar4", "bone": "slot4" },
+	{ "name": "roll7", "bone": "slot5" },
+	{ "name": "rollblur9", "bone": "slot5" },
+	{ "name": "rollblur10", "bone": "slot5" },
+	{ "name": "rollface5", "bone": "slot5", "attachment": "rollface" },
+	{ "name": "rollstar5", "bone": "slot5" },
+	{ "name": "roll8", "bone": "slot6" },
+	{ "name": "rollblur11", "bone": "slot6" },
+	{ "name": "rollblur12", "bone": "slot6" },
+	{ "name": "rollface6", "bone": "slot6", "attachment": "rollface" },
+	{ "name": "rollstar6", "bone": "slot6" },
+	{ "name": "roll9", "bone": "slot7" },
+	{ "name": "rollblur13", "bone": "slot7" },
+	{ "name": "rollblur14", "bone": "slot7" },
+	{ "name": "rollface7", "bone": "slot7", "attachment": "rollface" },
+	{ "name": "rollstar7", "bone": "slot7" },
+	{ "name": "roll10", "bone": "slot8" },
+	{ "name": "rollblur15", "bone": "slot8" },
+	{ "name": "rollblur16", "bone": "slot8" },
+	{ "name": "rollface8", "bone": "slot8", "attachment": "rollface" },
+	{ "name": "rollstar8", "bone": "slot8" },
+	{ "name": "effect", "bone": "effect" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg1": { "y": 4, "width": 800, "height": 391 }
+		},
+		"bg2": {
+			"bg2": { "y": -236, "width": 800, "height": 89 }
+		},
+		"effect": {
+			"number3": { "width": 64, "height": 66 }
+		},
+		"light1": {
+			"light1": { "width": 670, "height": 30 }
+		},
+		"light2": {
+			"light2": { "width": 670, "height": 30 }
+		},
+		"light3": {
+			"light1": { "x": 66.99, "y": -146, "width": 670, "height": 30 }
+		},
+		"light4": {
+			"light2": { "x": 66.99, "y": -146, "width": 670, "height": 30 }
+		},
+		"lightoff": {
+			"lightoff": { "width": 670, "height": 30 }
+		},
+		"lightoff2": {
+			"lightoff": { "x": 66.99, "y": -146, "width": 670, "height": 30 }
+		},
+		"lighton": {
+			"lighton": { "width": 670, "height": 30 }
+		},
+		"lighton2": {
+			"lighton": { "x": 66.99, "y": -146, "width": 670, "height": 30 }
+		},
+		"roll10": {
+			"roll3": { "width": 81, "height": 132 }
+		},
+		"roll3": {
+			"roll3": { "width": 81, "height": 132 }
+		},
+		"roll4": {
+			"roll3": { "width": 81, "height": 132 }
+		},
+		"roll5": {
+			"roll3": { "width": 81, "height": 132 }
+		},
+		"roll6": {
+			"roll3": { "width": 81, "height": 132 }
+		},
+		"roll7": {
+			"roll3": { "width": 81, "height": 132 }
+		},
+		"roll8": {
+			"roll3": { "width": 81, "height": 132 }
+		},
+		"roll9": {
+			"roll3": { "width": 81, "height": 132 }
+		},
+		"rollblur1": {
+			"rollblur1": { "width": 81, "height": 132 }
+		},
+		"rollblur10": {
+			"rollblur2": { "width": 81, "height": 132 }
+		},
+		"rollblur11": {
+			"rollblur1": { "width": 81, "height": 132 }
+		},
+		"rollblur12": {
+			"rollblur2": { "width": 81, "height": 132 }
+		},
+		"rollblur13": {
+			"rollblur1": { "width": 81, "height": 132 }
+		},
+		"rollblur14": {
+			"rollblur2": { "width": 81, "height": 132 }
+		},
+		"rollblur15": {
+			"rollblur1": { "width": 81, "height": 132 }
+		},
+		"rollblur16": {
+			"rollblur2": { "width": 81, "height": 132 }
+		},
+		"rollblur2": {
+			"rollblur2": { "width": 81, "height": 132 }
+		},
+		"rollblur3": {
+			"rollblur1": { "width": 81, "height": 132 }
+		},
+		"rollblur4": {
+			"rollblur2": { "width": 81, "height": 132 }
+		},
+		"rollblur5": {
+			"rollblur1": { "width": 81, "height": 132 }
+		},
+		"rollblur6": {
+			"rollblur2": { "width": 81, "height": 132 }
+		},
+		"rollblur7": {
+			"rollblur1": { "width": 81, "height": 132 }
+		},
+		"rollblur8": {
+			"rollblur2": { "width": 81, "height": 132 }
+		},
+		"rollblur9": {
+			"rollblur1": { "width": 81, "height": 132 }
+		},
+		"rollface": {
+			"rollface": { "width": 81, "height": 132 }
+		},
+		"rollface2": {
+			"rollface": { "width": 81, "height": 132 }
+		},
+		"rollface3": {
+			"rollface": { "width": 81, "height": 132 }
+		},
+		"rollface4": {
+			"rollface": { "width": 81, "height": 132 }
+		},
+		"rollface5": {
+			"rollface": { "width": 81, "height": 132 }
+		},
+		"rollface6": {
+			"rollface": { "width": 81, "height": 132 }
+		},
+		"rollface7": {
+			"rollface": { "width": 81, "height": 132 }
+		},
+		"rollface8": {
+			"rollface": { "width": 81, "height": 132 }
+		},
+		"rollstar": {
+			"rollstar": { "width": 81, "height": 132 }
+		},
+		"rollstar2": {
+			"rollstar": { "width": 81, "height": 132 }
+		},
+		"rollstar3": {
+			"rollstar": { "width": 81, "height": 132 }
+		},
+		"rollstar4": {
+			"rollstar": { "width": 81, "height": 132 }
+		},
+		"rollstar5": {
+			"rollstar": { "width": 81, "height": 132 }
+		},
+		"rollstar6": {
+			"rollstar": { "width": 81, "height": 132 }
+		},
+		"rollstar7": {
+			"rollstar": { "width": 81, "height": 132 }
+		},
+		"rollstar8": {
+			"rollstar": { "width": 81, "height": 132 }
+		},
+		"ticket2": {
+			"ticket2": { "width": 183, "height": 84 }
+		}
+	}
+},
+"animations": {
+	"33333": {
+		"slots": {
+			"bg": {
+				"attachment": [
+					{ "time": 0, "name": "bg1" }
+				]
+			},
+			"bg2": {
+				"attachment": [
+					{ "time": 0, "name": "bg2" }
+				]
+			},
+			"effect": {
+				"attachment": [
+					{ "time": 0, "name": "number3" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.6666, "name": "number3" },
+					{ "time": 1, "name": null },
+					{ "time": 1.3333, "name": "number3" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 2, "name": "number3" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.6666, "name": "number3" },
+					{ "time": 3, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffd9" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffd9" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffd9" },
+					{ "time": 1.6666, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffd9" },
+					{ "time": 2.3333, "color": "ffffff00" },
+					{ "time": 2.6666, "color": "ffffffd9" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"light1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "light1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "light1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "light1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "light1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "light1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "light1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "light1" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "light1" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "light1" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "light1" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "light1" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "light1" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "light1" },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light2": {
+				"attachment": [
+					{ "time": 0, "name": "light2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "light2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "light2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "light2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "light2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "light2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "light2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "light2" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "light2" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "light2" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "light2" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "light2" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "light2" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "light2" },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": "light1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "light1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "light1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "light1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "light1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "light1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "light1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "light1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "light1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "light1" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "light1" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "light1" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "light1" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "light1" },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "light2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "light2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "light2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "light2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "light2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "light2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "light2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "light2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "light2" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "light2" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "light2" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "light2" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "light2" },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lightoff": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": "lightoff" },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": "lightoff" },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": "lightoff" },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": "lightoff" },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lightoff2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": "lightoff" },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": "lightoff" },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": "lightoff" },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": "lightoff" },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lighton": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": "lighton" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": "lighton" },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": "lighton" },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": "lighton" }
+				]
+			},
+			"lighton2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": "lighton" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": "lighton" },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": "lighton" },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": "lighton" }
+				]
+			},
+			"roll3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"roll4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"roll5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"roll6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "roll3" }
+				]
+			},
+			"roll7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "roll3" }
+				]
+			},
+			"roll8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "roll3" }
+				]
+			},
+			"roll9": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "roll3" }
+				]
+			},
+			"roll10": {
+				"attachment": [
+					{ "time": 0, "name": "roll3" }
+				]
+			},
+			"rollblur1": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "rollblur1" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "rollblur1" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "rollblur1" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "rollblur1" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollblur2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur2" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "rollblur2" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "rollblur2" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "rollblur2" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "rollblur2" },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollblur3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur1" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur1" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur1" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "rollblur1" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "rollblur1" },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollblur4": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur2" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur2" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "rollblur2" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "rollblur2" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollblur5": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollblur6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur2" },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollblur7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur1" },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollblur8": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollblur9": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollblur10": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollblur11": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollblur12": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollblur13": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollblur14": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollblur15": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur16": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollface": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollface2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "rollface" }
+				]
+			},
+			"rollface3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollface4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollface5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollface6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollface7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollface8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "rollstar" }
+				]
+			},
+			"rollstar2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollstar3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "rollstar" }
+				]
+			},
+			"rollstar4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollstar5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollstar6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollstar7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollstar8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ticket2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 7.6666, "name": "ticket2" }
+				],
+				"color": [
+					{ "time": 7.6666, "color": "757575ff" },
+					{ "time": 7.8666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"effect": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": -80, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": -80, "y": 0 },
+					{ "time": 1.3333, "x": -160, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": -160, "y": 0 },
+					{ "time": 2, "x": -240, "y": 0, "curve": "stepped" },
+					{ "time": 2.3333, "x": -240, "y": 0 },
+					{ "time": 2.6666, "x": -320, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": -320, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 },
+					{ "time": 0.3333, "x": 2.5, "y": 2.5 },
+					{ "time": 0.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 1, "x": 2.5, "y": 2.5 },
+					{ "time": 1.3333, "x": 1.2, "y": 1.2 },
+					{ "time": 1.6666, "x": 2.5, "y": 2.5 },
+					{ "time": 2, "x": 1.2, "y": 1.2 },
+					{ "time": 2.3333, "x": 2.5, "y": 2.5 },
+					{ "time": 2.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 3, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"ticket": {
+				"rotate": [
+					{ "time": 7.6666, "angle": -6.74, "curve": "stepped" },
+					{ "time": 7.7333, "angle": -6.74 },
+					{ "time": 7.8666, "angle": 0, "curve": "stepped" },
+					{ "time": 8.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 7.6666, "x": 0, "y": 47 },
+					{ "time": 7.7333, "x": 0, "y": 27 },
+					{ "time": 7.8666, "x": 0, "y": -6, "curve": "stepped" },
+					{ "time": 8.3333, "x": 0, "y": -6 }
+				],
+				"scale": [
+					{ "time": 7.6666, "x": 1, "y": 0.573 },
+					{ "time": 7.8666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.3333 },
+			{ "time": 0.6666 },
+			{ "time": 1 },
+			{ "time": 1.3333 },
+			{ "time": 1.6666 },
+			{ "time": 2 },
+			{ "time": 2.3333 },
+			{ "time": 2.6666 },
+			{ "time": 3 },
+			{ "time": 3.3333 },
+			{ "time": 3.6666 },
+			{ "time": 4 },
+			{ "time": 4.3333 }
+		]
+	},
+	"333333": {
+		"slots": {
+			"bg": {
+				"attachment": [
+					{ "time": 0, "name": "bg1" }
+				]
+			},
+			"bg2": {
+				"attachment": [
+					{ "time": 0, "name": "bg2" }
+				]
+			},
+			"effect": {
+				"attachment": [
+					{ "time": 0, "name": "number3" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.6666, "name": "number3" },
+					{ "time": 1, "name": null },
+					{ "time": 1.3333, "name": "number3" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 2, "name": "number3" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.6666, "name": "number3" },
+					{ "time": 3, "name": null },
+					{ "time": 3.3333, "name": "number3" },
+					{ "time": 3.6666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffd9" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffd9" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffd9" },
+					{ "time": 1.6666, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffd9" },
+					{ "time": 2.3333, "color": "ffffff00" },
+					{ "time": 2.6666, "color": "ffffffd9" },
+					{ "time": 3, "color": "ffffff00" },
+					{ "time": 3.3333, "color": "ffffffd9" },
+					{ "time": 3.6666, "color": "ffffff00" }
+				]
+			},
+			"light1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "light1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "light1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "light1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "light1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "light1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "light1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "light1" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "light1" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "light1" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "light1" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "light1" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "light1" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "light1" },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light2": {
+				"attachment": [
+					{ "time": 0, "name": "light2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "light2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "light2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "light2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "light2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "light2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "light2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "light2" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "light2" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "light2" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "light2" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "light2" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "light2" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "light2" },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": "light1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "light1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "light1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "light1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "light1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "light1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "light1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "light1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "light1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "light1" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "light1" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "light1" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "light1" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "light1" },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "light2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "light2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "light2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "light2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "light2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "light2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "light2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "light2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "light2" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "light2" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "light2" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "light2" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "light2" },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lightoff": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": "lightoff" },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": "lightoff" },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": "lightoff" },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": "lightoff" },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lightoff2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": "lightoff" },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": "lightoff" },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": "lightoff" },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": "lightoff" },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lighton": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": "lighton" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": "lighton" },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": "lighton" },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": "lighton" }
+				]
+			},
+			"lighton2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": "lighton" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": "lighton" },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": "lighton" },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": "lighton" }
+				]
+			},
+			"roll3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"roll4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"roll5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "roll3" }
+				]
+			},
+			"roll6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "roll3" }
+				]
+			},
+			"roll7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "roll3" }
+				]
+			},
+			"roll8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "roll3" }
+				]
+			},
+			"roll9": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "roll3" }
+				]
+			},
+			"roll10": {
+				"attachment": [
+					{ "time": 0, "name": "roll3" }
+				]
+			},
+			"rollblur1": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "rollblur1" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "rollblur1" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "rollblur1" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "rollblur1" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollblur2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur2" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "rollblur2" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "rollblur2" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "rollblur2" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "rollblur2" },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollblur3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur1" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur1" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur1" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "rollblur1" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "rollblur1" },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollblur4": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur2" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur2" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "rollblur2" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "rollblur2" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollblur5": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollblur6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur2" },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollblur7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur1" },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollblur8": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollblur9": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollblur10": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollblur11": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollblur12": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollblur13": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollblur14": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollblur15": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur16": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollface": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollface2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "rollface" }
+				]
+			},
+			"rollface3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollface4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollface5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollface6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollface7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollface8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "rollstar" }
+				]
+			},
+			"rollstar2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollstar3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollstar4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollstar5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollstar6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollstar7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollstar8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ticket2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 7.6666, "name": "ticket2" }
+				],
+				"color": [
+					{ "time": 7.6666, "color": "757575ff" },
+					{ "time": 7.8666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"effect": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": -80, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": -80, "y": 0 },
+					{ "time": 1.3333, "x": -160, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": -160, "y": 0 },
+					{ "time": 2, "x": -240, "y": 0, "curve": "stepped" },
+					{ "time": 2.3333, "x": -240, "y": 0 },
+					{ "time": 2.6666, "x": -320, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": -320, "y": 0 },
+					{ "time": 3.3333, "x": -400, "y": 0, "curve": "stepped" },
+					{ "time": 3.6666, "x": -400, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 },
+					{ "time": 0.3333, "x": 2.5, "y": 2.5 },
+					{ "time": 0.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 1, "x": 2.5, "y": 2.5 },
+					{ "time": 1.3333, "x": 1.2, "y": 1.2 },
+					{ "time": 1.6666, "x": 2.5, "y": 2.5 },
+					{ "time": 2, "x": 1.2, "y": 1.2 },
+					{ "time": 2.3333, "x": 2.5, "y": 2.5 },
+					{ "time": 2.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 3, "x": 2.5, "y": 2.5 },
+					{ "time": 3.3333, "x": 1.2, "y": 1.2 },
+					{ "time": 3.6666, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"ticket": {
+				"rotate": [
+					{ "time": 7.6666, "angle": -6.74, "curve": "stepped" },
+					{ "time": 7.7333, "angle": -6.74 },
+					{ "time": 7.8666, "angle": 0, "curve": "stepped" },
+					{ "time": 8.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 7.6666, "x": 0, "y": 47 },
+					{ "time": 7.7333, "x": 0, "y": 27 },
+					{ "time": 7.8666, "x": 0, "y": -6, "curve": "stepped" },
+					{ "time": 8.3333, "x": 0, "y": -6 }
+				],
+				"scale": [
+					{ "time": 7.6666, "x": 1, "y": 0.573 },
+					{ "time": 7.8666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.3333 },
+			{ "time": 0.6666 },
+			{ "time": 1 },
+			{ "time": 1.3333 },
+			{ "time": 1.6666 },
+			{ "time": 2 },
+			{ "time": 2.3333 },
+			{ "time": 2.6666 },
+			{ "time": 3 },
+			{ "time": 3.3333 },
+			{ "time": 3.6666 },
+			{ "time": 4 },
+			{ "time": 4.3333 }
+		]
+	},
+	"3333333": {
+		"slots": {
+			"bg": {
+				"attachment": [
+					{ "time": 0, "name": "bg1" }
+				]
+			},
+			"bg2": {
+				"attachment": [
+					{ "time": 0, "name": "bg2" }
+				]
+			},
+			"effect": {
+				"attachment": [
+					{ "time": 0, "name": "number3" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.6666, "name": "number3" },
+					{ "time": 1, "name": null },
+					{ "time": 1.3333, "name": "number3" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 2, "name": "number3" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.6666, "name": "number3" },
+					{ "time": 3, "name": null },
+					{ "time": 3.3333, "name": "number3" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 4, "name": "number3" },
+					{ "time": 4.3333, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffd9" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffd9" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffd9" },
+					{ "time": 1.6666, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffd9" },
+					{ "time": 2.3333, "color": "ffffff00" },
+					{ "time": 2.6666, "color": "ffffffd9" },
+					{ "time": 3, "color": "ffffff00" },
+					{ "time": 3.3333, "color": "ffffffd9" },
+					{ "time": 3.6666, "color": "ffffff00" },
+					{ "time": 4, "color": "ffffffd9" },
+					{ "time": 4.3333, "color": "ffffff00" }
+				]
+			},
+			"light1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "light1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "light1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "light1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "light1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "light1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "light1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "light1" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "light1" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "light1" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "light1" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "light1" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "light1" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "light1" },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light2": {
+				"attachment": [
+					{ "time": 0, "name": "light2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "light2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "light2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "light2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "light2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "light2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "light2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "light2" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "light2" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "light2" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "light2" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "light2" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "light2" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "light2" },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": "light1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "light1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "light1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "light1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "light1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "light1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "light1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "light1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "light1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "light1" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "light1" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "light1" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "light1" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "light1" },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "light2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "light2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "light2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "light2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "light2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "light2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "light2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "light2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "light2" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "light2" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "light2" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "light2" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "light2" },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lightoff": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": "lightoff" },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": "lightoff" },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": "lightoff" },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": "lightoff" },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lightoff2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": "lightoff" },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": "lightoff" },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": "lightoff" },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": "lightoff" },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lighton": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": "lighton" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": "lighton" },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": "lighton" },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": "lighton" }
+				]
+			},
+			"lighton2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": "lighton" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": "lighton" },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": "lighton" },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": "lighton" }
+				]
+			},
+			"roll3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"roll4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "roll3" }
+				]
+			},
+			"roll5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "roll3" }
+				]
+			},
+			"roll6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "roll3" }
+				]
+			},
+			"roll7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "roll3" }
+				]
+			},
+			"roll8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "roll3" }
+				]
+			},
+			"roll9": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "roll3" }
+				]
+			},
+			"roll10": {
+				"attachment": [
+					{ "time": 0, "name": "roll3" }
+				]
+			},
+			"rollblur1": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "rollblur1" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "rollblur1" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "rollblur1" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "rollblur1" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollblur2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur2" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "rollblur2" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "rollblur2" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "rollblur2" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "rollblur2" },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollblur3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur1" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur1" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur1" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "rollblur1" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "rollblur1" },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollblur4": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur2" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur2" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "rollblur2" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "rollblur2" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollblur5": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollblur6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur2" },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollblur7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur1" },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollblur8": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollblur9": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollblur10": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollblur11": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollblur12": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollblur13": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollblur14": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollblur15": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur16": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollface": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollface2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollface3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollface4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollface5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollface6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollface7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollface8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "rollstar" }
+				]
+			},
+			"rollstar2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollstar3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollstar4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollstar5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollstar6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollstar7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollstar8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ticket2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 7.6666, "name": "ticket2" }
+				],
+				"color": [
+					{ "time": 7.6666, "color": "757575ff" },
+					{ "time": 7.8666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"effect": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": -80, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": -80, "y": 0 },
+					{ "time": 1.3333, "x": -160, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": -160, "y": 0 },
+					{ "time": 2, "x": -240, "y": 0, "curve": "stepped" },
+					{ "time": 2.3333, "x": -240, "y": 0 },
+					{ "time": 2.6666, "x": -320, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": -320, "y": 0 },
+					{ "time": 3.3333, "x": -400, "y": 0, "curve": "stepped" },
+					{ "time": 3.6666, "x": -400, "y": 0 },
+					{ "time": 4, "x": -480, "y": 0, "curve": "stepped" },
+					{ "time": 4.3333, "x": -480, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 },
+					{ "time": 0.3333, "x": 2.5, "y": 2.5 },
+					{ "time": 0.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 1, "x": 2.5, "y": 2.5 },
+					{ "time": 1.3333, "x": 1.2, "y": 1.2 },
+					{ "time": 1.6666, "x": 2.5, "y": 2.5 },
+					{ "time": 2, "x": 1.2, "y": 1.2 },
+					{ "time": 2.3333, "x": 2.5, "y": 2.5 },
+					{ "time": 2.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 3, "x": 2.5, "y": 2.5 },
+					{ "time": 3.3333, "x": 1.2, "y": 1.2 },
+					{ "time": 3.6666, "x": 2.5, "y": 2.5 },
+					{ "time": 4, "x": 1.2, "y": 1.2 },
+					{ "time": 4.3333, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"ticket": {
+				"rotate": [
+					{ "time": 7.6666, "angle": -6.74, "curve": "stepped" },
+					{ "time": 7.7333, "angle": -6.74 },
+					{ "time": 7.8666, "angle": 0, "curve": "stepped" },
+					{ "time": 8.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 7.6666, "x": 0, "y": 47 },
+					{ "time": 7.7333, "x": 0, "y": 27 },
+					{ "time": 7.8666, "x": 0, "y": -6, "curve": "stepped" },
+					{ "time": 8.3333, "x": 0, "y": -6 }
+				],
+				"scale": [
+					{ "time": 7.6666, "x": 1, "y": 0.573 },
+					{ "time": 7.8666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.3333 },
+			{ "time": 0.6666 },
+			{ "time": 1 },
+			{ "time": 1.3333 },
+			{ "time": 1.6666 },
+			{ "time": 2 },
+			{ "time": 2.3333 },
+			{ "time": 2.6666 },
+			{ "time": 3 },
+			{ "time": 3.3333 },
+			{ "time": 3.6666 },
+			{ "time": 4 },
+			{ "time": 4.3333 }
+		]
+	},
+	"33333333": {
+		"slots": {
+			"bg": {
+				"attachment": [
+					{ "time": 0, "name": "bg1" }
+				]
+			},
+			"bg2": {
+				"attachment": [
+					{ "time": 0, "name": "bg2" }
+				]
+			},
+			"effect": {
+				"attachment": [
+					{ "time": 0, "name": "number3" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.6666, "name": "number3" },
+					{ "time": 1, "name": null },
+					{ "time": 1.3333, "name": "number3" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 2, "name": "number3" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.6666, "name": "number3" },
+					{ "time": 3, "name": null },
+					{ "time": 3.3333, "name": "number3" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 4, "name": "number3" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.6666, "name": "number3" },
+					{ "time": 5, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffd9" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffd9" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffd9" },
+					{ "time": 1.6666, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffd9" },
+					{ "time": 2.3333, "color": "ffffff00" },
+					{ "time": 2.6666, "color": "ffffffd9" },
+					{ "time": 3, "color": "ffffff00" },
+					{ "time": 3.3333, "color": "ffffffd9" },
+					{ "time": 3.6666, "color": "ffffff00" },
+					{ "time": 4, "color": "ffffffd9" },
+					{ "time": 4.3333, "color": "ffffff00" },
+					{ "time": 4.6666, "color": "ffffffd9" },
+					{ "time": 5, "color": "ffffff00" }
+				]
+			},
+			"light1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "light1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "light1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "light1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "light1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "light1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "light1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "light1" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "light1" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "light1" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "light1" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "light1" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "light1" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "light1" },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light2": {
+				"attachment": [
+					{ "time": 0, "name": "light2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "light2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "light2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "light2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "light2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "light2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "light2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "light2" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "light2" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "light2" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "light2" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "light2" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "light2" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "light2" },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": "light1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "light1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "light1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "light1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "light1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "light1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "light1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "light1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "light1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "light1" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "light1" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "light1" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "light1" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "light1" },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"light4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "light2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "light2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "light2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "light2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "light2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "light2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "light2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "light2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "light2" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "light2" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "light2" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "light2" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "light2" },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lightoff": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": "lightoff" },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": "lightoff" },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": "lightoff" },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": "lightoff" },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lightoff2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": "lightoff" },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.6666, "name": "lightoff" },
+					{ "time": 6, "name": null },
+					{ "time": 6.3333, "name": "lightoff" },
+					{ "time": 6.6666, "name": null },
+					{ "time": 7, "name": "lightoff" },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"lighton": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": "lighton" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": "lighton" },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": "lighton" },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": "lighton" }
+				]
+			},
+			"lighton2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null },
+					{ "time": 5, "name": null },
+					{ "time": 5.3333, "name": "lighton" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 6, "name": "lighton" },
+					{ "time": 6.3333, "name": null },
+					{ "time": 6.6666, "name": "lighton" },
+					{ "time": 7, "name": null },
+					{ "time": 7.3333, "name": "lighton" }
+				]
+			},
+			"roll3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": "roll3" }
+				]
+			},
+			"roll4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "roll3" }
+				]
+			},
+			"roll5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "roll3" }
+				]
+			},
+			"roll6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "roll3" }
+				]
+			},
+			"roll7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "roll3" }
+				]
+			},
+			"roll8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "roll3" }
+				]
+			},
+			"roll9": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "roll3" }
+				]
+			},
+			"roll10": {
+				"attachment": [
+					{ "time": 0, "name": "roll3" }
+				]
+			},
+			"rollblur1": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "rollblur1" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "rollblur1" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": "rollblur1" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": "rollblur1" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollblur2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur2" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "rollblur2" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "rollblur2" },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": "rollblur2" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": "rollblur2" },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollblur3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur1" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur1" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur1" },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": "rollblur1" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": "rollblur1" },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollblur4": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur2" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur2" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": "rollblur2" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": "rollblur2" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollblur5": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur1" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": "rollblur1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": "rollblur1" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollblur6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur2" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur2" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": "rollblur2" },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": "rollblur2" },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollblur7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur1" },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": "rollblur1" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": "rollblur1" },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollblur8": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur2" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "rollblur2" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": "rollblur2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollblur9": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur1" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": "rollblur1" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": "rollblur1" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollblur10": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur2" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur2" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": "rollblur2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": "rollblur2" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollblur11": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur1" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": "rollblur1" },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": "rollblur1" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollblur12": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": "rollblur2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": "rollblur2" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollblur13": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollblur14": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": "rollblur2" },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollblur15": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur16": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollface": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollface2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollface3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollface4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollface5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollface6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollface7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollface8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.6666, "name": null }
+				]
+			},
+			"rollstar2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.8333, "name": null },
+					{ "time": 4, "name": null }
+				]
+			},
+			"rollstar3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.8333, "name": null },
+					{ "time": 3, "name": null },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"rollstar4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 2.1666, "name": null },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			},
+			"rollstar5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"rollstar6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"rollstar7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"rollstar8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ticket2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 7.6666, "name": "ticket2" }
+				],
+				"color": [
+					{ "time": 7.6666, "color": "757575ff" },
+					{ "time": 7.8666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"effect": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": -80, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": -80, "y": 0 },
+					{ "time": 1.3333, "x": -160, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": -160, "y": 0 },
+					{ "time": 2, "x": -240, "y": 0, "curve": "stepped" },
+					{ "time": 2.3333, "x": -240, "y": 0 },
+					{ "time": 2.6666, "x": -320, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": -320, "y": 0 },
+					{ "time": 3.3333, "x": -400, "y": 0, "curve": "stepped" },
+					{ "time": 3.6666, "x": -400, "y": 0 },
+					{ "time": 4, "x": -480, "y": 0, "curve": "stepped" },
+					{ "time": 4.3333, "x": -480, "y": 0 },
+					{ "time": 4.6666, "x": -560, "y": 0, "curve": "stepped" },
+					{ "time": 5, "x": -560, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 },
+					{ "time": 0.3333, "x": 2.5, "y": 2.5 },
+					{ "time": 0.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 1, "x": 2.5, "y": 2.5 },
+					{ "time": 1.3333, "x": 1.2, "y": 1.2 },
+					{ "time": 1.6666, "x": 2.5, "y": 2.5 },
+					{ "time": 2, "x": 1.2, "y": 1.2 },
+					{ "time": 2.3333, "x": 2.5, "y": 2.5 },
+					{ "time": 2.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 3, "x": 2.5, "y": 2.5 },
+					{ "time": 3.3333, "x": 1.2, "y": 1.2 },
+					{ "time": 3.6666, "x": 2.5, "y": 2.5 },
+					{ "time": 4, "x": 1.2, "y": 1.2 },
+					{ "time": 4.3333, "x": 2.5, "y": 2.5 },
+					{ "time": 4.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 5, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"ticket": {
+				"rotate": [
+					{ "time": 7.6666, "angle": -6.74, "curve": "stepped" },
+					{ "time": 7.7333, "angle": -6.74 },
+					{ "time": 7.8666, "angle": 0, "curve": "stepped" },
+					{ "time": 8.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 7.6666, "x": 0, "y": 47 },
+					{ "time": 7.7333, "x": 0, "y": 27 },
+					{ "time": 7.8666, "x": 0, "y": -6, "curve": "stepped" },
+					{ "time": 8.3333, "x": 0, "y": -6 }
+				],
+				"scale": [
+					{ "time": 7.6666, "x": 1, "y": 0.573 },
+					{ "time": 7.8666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.3333 },
+			{ "time": 0.6666 },
+			{ "time": 1 },
+			{ "time": 1.3333 },
+			{ "time": 1.6666 },
+			{ "time": 2 },
+			{ "time": 2.3333 },
+			{ "time": 2.6666 },
+			{ "time": 3 },
+			{ "time": 3.3333 },
+			{ "time": 3.6666 },
+			{ "time": 4 },
+			{ "time": 4.3333 },
+			{ "time": 4.6666 },
+			{ "time": 5 }
+		]
+	},
+	"roll": {
+		"slots": {
+			"bg": {
+				"attachment": [
+					{ "time": 0, "name": "bg1" }
+				]
+			},
+			"bg2": {
+				"attachment": [
+					{ "time": 0, "name": "bg2" }
+				]
+			},
+			"effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light1" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"light2": {
+				"attachment": [
+					{ "time": 0, "name": "light2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light2" }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": "light1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "light1" }
+				]
+			},
+			"light4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "light2" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"lightoff": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"lightoff2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"lighton": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"lighton2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"roll3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"roll4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"roll5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"roll6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"roll7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"roll8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"roll9": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"roll10": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollblur1": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" }
+				]
+			},
+			"rollblur2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollblur3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollblur4": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" }
+				]
+			},
+			"rollblur5": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" }
+				]
+			},
+			"rollblur6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollblur7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollblur8": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" }
+				]
+			},
+			"rollblur9": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" }
+				]
+			},
+			"rollblur10": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollblur11": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollblur12": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" }
+				]
+			},
+			"rollblur13": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur1" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur1" }
+				]
+			},
+			"rollblur14": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur2" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollblur15": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "rollblur1" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollblur16": {
+				"attachment": [
+					{ "time": 0, "name": "rollblur2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": "rollblur2" }
+				]
+			},
+			"rollface": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollface2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollface3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollface4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollface5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollface6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollface7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollface8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollstar": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollstar2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollstar3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollstar4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollstar5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollstar6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollstar7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"rollstar8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"ticket2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.1666 },
+			{ "time": 0.3333 }
+		]
+	},
+	"wait": {
+		"slots": {
+			"bg": {
+				"attachment": [
+					{ "time": 0, "name": "bg1" }
+				]
+			},
+			"bg2": {
+				"attachment": [
+					{ "time": 0, "name": "bg2" }
+				]
+			},
+			"effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "light1" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 2.5, "name": "light1" },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"light2": {
+				"attachment": [
+					{ "time": 0, "name": "light2" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.6666, "name": "light2" },
+					{ "time": 2.5, "name": null },
+					{ "time": 3.3333, "name": "light2" }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": "light1" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.6666, "name": "light1" },
+					{ "time": 2.5, "name": null },
+					{ "time": 3.3333, "name": "light1" }
+				]
+			},
+			"light4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "light2" },
+					{ "time": 1.6666, "name": null },
+					{ "time": 2.5, "name": "light2" },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"lightoff": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"lightoff2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"lighton": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.6666, "name": null },
+					{ "time": 2.5, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"lighton2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roll3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roll4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roll5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roll6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roll7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roll8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roll9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roll10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur13": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur14": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur15": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollblur16": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollface": {
+				"attachment": [
+					{ "time": 0, "name": "rollface" }
+				]
+			},
+			"rollface2": {
+				"attachment": [
+					{ "time": 0, "name": "rollface" }
+				]
+			},
+			"rollface3": {
+				"attachment": [
+					{ "time": 0, "name": "rollface" }
+				]
+			},
+			"rollface4": {
+				"attachment": [
+					{ "time": 0, "name": "rollface" }
+				]
+			},
+			"rollface5": {
+				"attachment": [
+					{ "time": 0, "name": "rollface" }
+				]
+			},
+			"rollface6": {
+				"attachment": [
+					{ "time": 0, "name": "rollface" }
+				]
+			},
+			"rollface7": {
+				"attachment": [
+					{ "time": 0, "name": "rollface" }
+				]
+			},
+			"rollface8": {
+				"attachment": [
+					{ "time": 0, "name": "rollface" }
+				]
+			},
+			"rollstar": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rollstar8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ticket2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}
